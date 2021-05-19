@@ -1,4 +1,3 @@
-import { FileHelper } from "./FileHelper";
 import * as PF from 'pathfinding'
 
 export class DungeonValidator {
@@ -9,7 +8,7 @@ export class DungeonValidator {
         this.middle = Math.floor(size / 2);
     }
 
-    public validateDungeons(dungeons: Dungeon[], type: string): ErrorRoom[] {
+    public validateDungeons(dungeons: Dungeon[]): ErrorRoom[] {
 
         const errors: ErrorRoom[] = [];
         const dungeonMap = new Map();
@@ -18,12 +17,11 @@ export class DungeonValidator {
 
         for (const dungeon of dungeons) {
             try {
-                const key = this.validateGenKey(dungeon);
+                const key = this.validateAndGenerateKey(dungeon);
                 if (dungeonMap.has(key)) {
                     errors.push({
-                        type: type, roomNumber: index,
-                        message: `Duplicate found! room number ${index} is a duplicate of room number ${dungeonMap.get(key)}!`,
-                        lineNumber: this.getLineNumberByIndex(index), dungeon
+                        roomNumber: index,
+                        message: `Duplicate found! room number ${index} is a duplicate of room number ${dungeonMap.get(key)}!`, dungeon: dungeon
                     });
                 }
                 else {
@@ -32,8 +30,7 @@ export class DungeonValidator {
             }
             catch (e) {
                 errors.push({
-                    type: type, roomNumber: index, message: e.message,
-                    lineNumber: this.getLineNumberByIndex(index), dungeon
+                    roomNumber: index, message: e.message, dungeon: dungeon
                 });
             }
 
@@ -42,10 +39,7 @@ export class DungeonValidator {
 
         return errors;
     }
-    private getLineNumberByIndex(index: number) {
-        return (index * 19) + 4
-    }
-    private validateGenKey(dungeon: Dungeon): string {
+    private validateAndGenerateKey(dungeon: Dungeon): string {
 
         if (!dungeon || !dungeon.tiles) {
             throw new Error(`Dungeon is not valid! Cannot find tiles!`);
@@ -60,16 +54,15 @@ export class DungeonValidator {
             layout.push([]);
         }
         for (let i = 0; i < dungeon.tiles.length; ++i) {
-            const column = [];
             if (dungeon.tiles[i] !== ' ' && dungeon.tiles[i] !== '#') {
                 throw new Error(`Tiles has a unkown character! possible character: " ", "#"`);
             }
             const x = i % this.size;
             const y = Math.floor(i / this.size);
             const value = dungeon.tiles[i] === '#';
-            // if (this.isBorder(x, y) && !value) {
-            //     throw new Error(`Border is not correct! (${x},${y})`);
-            // } I cant find where the problem is :( so i comment this out firsts
+            if (this.isBorder(x, y) && !value) {
+                throw new Error(`Border is not correct! (${x},${y})`);
+            }
             if (this.isDoor(x, y) && value) {
                 throw new Error(`Doors are not correct! (${x},${y})`);
             }
@@ -161,9 +154,7 @@ export interface Dungeon {
 }
 
 export interface ErrorRoom {
-    type: string,
     roomNumber: number,
     message: string,
-    lineNumber: number,
     dungeon: Dungeon
 }

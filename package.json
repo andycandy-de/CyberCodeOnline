@@ -6,7 +6,8 @@
 	"scripts": {
 		"watch": "nodemon --watch src src/ValidateJson.ts",
 		"start": "ts-node src/ValidateJson.ts",
-		"validate-dungeons": "ts-node src/ValidateDungeons.ts"
+		"normalize-structure-mask": "ts-node src/Normalize.ts",
+		"print-line-numbers": "ts-node src/LineNumbers.ts"
 	},
 	"repository": {
 		"type": "git",
