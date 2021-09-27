@@ -9,7 +9,7 @@
  	 	 	"eng": "Quest"
  	 	},
  	 	"chat": {
- 	 	 	"trans": "Chat",
+ 	 	 	"trans": "Chatten",
  	 	 	"eng": "Chat"
  	 	},
  	 	"profile": {
@@ -30,6 +30,10 @@
  	 	 	"tut": {
  	 	 	 	"trans": "Je kunt hier globale versterkende voorwerpen kopen",
  	 	 	 	"eng": "You can purchase global buff items here"
+ 	 	 	},
+ 	 	 	"canAccessError": {
+ 	 	 	 	"trans": "U hebt ten minste niveau 5 nodig om toegang te krijgen tot eenheidsuitwisseling",
+ 	 	 	 	"eng": "You need to be at least level 5 to access unit exchange"
  	 	 	}
  	 	},
  	 	"cosmetic": {
@@ -40,6 +44,10 @@
  	 	 	"tut": {
  	 	 	 	"trans": "Als je het spel leuk vindt, overweeg dan te doneren :)",
  	 	 	 	"eng": "If you liked the game, please consider donation :)"
+ 	 	 	},
+ 	 	 	"canAccessError": {
+ 	 	 	 	"trans": "Je hebt op zijn minst niveau 5 nodig om toegang te krijgen tot cosmetische handelaar",
+ 	 	 	 	"eng": "You need to be at least level 5 to access cosmetic merchant"
  	 	 	}
  	 	},
  	 	"printer": {
@@ -65,11 +73,15 @@
  	 	 	},
  	 	 	"tut": {
  	 	 	 	"trans": "Om verder te gaan naar het volgende gebied, moet je de Geheime Sleutel Fragmenten uit de kerkers halen, \r\n        en de Terminal gebruiken om de sleutel naar het volgende gebied te kraken",
- 	 	 	 	"eng": "To progress to next area, you need to use get Secret Key Fragments from dungeons, \r\n        and use Terminal to Brute Force the key for next area"
+ 	 	 	 	"eng": "To progress to the next area, you need to use get Secret Key Fragments from dungeons, \r\n        and use the Terminal to Brute Force the key for next area"
  	 	 	},
  	 	 	"description": {
  	 	 	 	"trans": "Je persoonlijke computer, hij is een beetje verouderd, maar met genoeg geduld zou hij de klus kunnen klaren",
- 	 	 	 	"eng": "Your personal computer, although its a little outdated, it could get the job done with enough patient"
+ 	 	 	 	"eng": "Your personal computer, although it's a little outdated, it can get the job done with enough patience"
+ 	 	 	},
+ 	 	 	"canAccessError": {
+ 	 	 	 	"trans": "U hebt ten minste niveau 5 nodig om toegang te krijgen tot terminal",
+ 	 	 	 	"eng": "You need to be at least level 5 to access terminal"
  	 	 	}
  	 	},
  	 	"store": {
@@ -82,6 +94,44 @@
  	 	 	"name": {
  	 	 	 	"trans": "Bank van Arasaka",
  	 	 	 	"eng": "Bank of Arasaka"
+ 	 	 	},
+ 	 	 	"canAccessError": {
+ 	 	 	 	"trans": "Je hebt op zijn minst niveau 5 nodig om toegang te krijgen tot een bank",
+ 	 	 	 	"eng": "You need to be at least level 5 to access bank"
+ 	 	 	}
+ 	 	},
+ 	 	"equipmentUpgrade": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Kalibratiestation",
+ 	 	 	 	"eng": "Calibration Station"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Met een werkbank met de nodige gereedschappen kunt u met uw apparatuur sleutelen.",
+ 	 	 	 	"eng": "A workbench with the necessary tools allows you to tinker with your equipment."
+ 	 	 	}
+ 	 	},
+ 	 	"storageMerchant": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Lee's Trading Post",
+ 	 	 	 	"eng": "Lee's Trading Post"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Een door een familie gerunde handelswinkel waarmee je kunt ruilen met wat ze hebben gevonden tijdens het sporen",
+ 	 	 	 	"eng": "A family run trading shop that lets you trade with what they have found while scavenging"
+ 	 	 	},
+ 	 	 	"canAccessError": {
+ 	 	 	 	"trans": "U hebt ten minste niveau 10 nodig om toegang te krijgen tot handelaar",
+ 	 	 	 	"eng": "You need to be at least level 10 to access merchant"
+ 	 	 	}
+ 	 	},
+ 	 	"recycleMachine": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Automatische recycler",
+ 	 	 	 	"eng": "Automatic Recycler"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Volledig geautomatiseerde recycler, geschikt voor recycling van items aan hun basisschroot",
+ 	 	 	 	"eng": "Fully automated recycler, capable of recycling items to their basic scrap form"
  	 	 	}
  	 	}
  	},
@@ -98,7 +148,7 @@
  	"levelType": {
  	 	"normal": {
  	 	 	"name": {
- 	 	 	 	"trans": "level",
+ 	 	 	 	"trans": "niveau",
  	 	 	 	"eng": "level"
  	 	 	}
  	 	},
@@ -141,7 +191,7 @@
  	 	 	},
  	 	 	"description": {
  	 	 	 	"trans": "[Centrale Hub]\r\n        Een van de meest drukke steden van het continent, hier kun je allerlei soorten mensen van over de wereld vinden.",
- 	 	 	 	"eng": "[Central Hub]\r\n        One of the busiest cities in the continent, here you can find all sorts of people from around the globe."
+ 	 	 	 	"eng": "[Central Hub]\r\n        One of the busiest cities in the continent. Here you can find all sorts of people from around the globe."
  	 	 	},
  	 	 	"toStation": {
  	 	 	 	"name": {
@@ -150,7 +200,7 @@
  	 	 	 	},
  	 	 	 	"tut": {
  	 	 	 	 	"trans": "Start hier je avontuur naar epische buit",
- 	 	 	 	 	"eng": "Start your adventure to epic loots here"
+ 	 	 	 	 	"eng": "Start your adventure for epic loot here"
  	 	 	 	},
  	 	 	 	"description": {
  	 	 	 	 	"trans": "Ga naar Hypertrein Centraal Station",
@@ -176,6 +226,12 @@
  	 	 	 	 	"trans": "Je kunt hier voorwerpen verkopen of kopen van andere spelers",
  	 	 	 	 	"eng": "You can sell or buy items from other players here"
  	 	 	 	}
+ 	 	 	},
+ 	 	 	"toGang": {
+ 	 	 	 	"name": {
+ 	 	 	 	 	"trans": "Ga naar het hoofdkantoor van de bende",
+ 	 	 	 	 	"eng": "Go to gang headquarters"
+ 	 	 	 	}
  	 	 	}
  	 	},
  	 	"job": {
@@ -185,7 +241,7 @@
  	 	 	},
  	 	 	"description": {
  	 	 	 	"trans": "[Taak Hub]\r\n        Veel winkels en Ondernemingen, een perfecte locatie om je vaardigheden op de proef te stellen.",
- 	 	 	 	"eng": "[Job Hub]\r\n        Many shops and Businesses, a perfect location to try out your skills."
+ 	 	 	 	"eng": "[Job Hub]\r\n        Here are many shops and businesses reside. The perfect location to hone and refine your skills."
  	 	 	},
  	 	 	"toMainHub": {
  	 	 	 	"name": {
@@ -217,7 +273,7 @@
  	 	 	},
  	 	 	"description": {
  	 	 	 	"trans": "[Avontuur]\r\n        Met gebruik van de hyperloop kun je met gemak heel snel door het continent reizen.",
- 	 	 	 	"eng": "[Adventure]\r\n        Using the hyperloop you can travel at super speed across the continent with ease."
+ 	 	 	 	"eng": "[Adventure]\r\n        Using the hyperloop, you can travel at supersonic speed across the continent with ease."
  	 	 	}
  	 	},
  	 	"zone": {
@@ -295,7 +351,7 @@
  	 	 	 	"vars": [
  	 	 	 	 	"segmentDisplayName"
  	 	 	 	],
- 	 	 	 	"trans": "${segmentDisplayName} station",
+ 	 	 	 	"trans": "Station van ${segmentDisplayName}",
  	 	 	 	"eng": "${segmentDisplayName} station"
  	 	 	},
  	 	 	"description": {
@@ -305,6 +361,27 @@
  	 	 	 	],
  	 	 	 	"trans": "Level ${segment} naar ${segmentMaxLevel}",
  	 	 	 	"eng": "Level ${segment} to ${segmentMaxLevel}"
+ 	 	 	},
+ 	 	 	"goTo": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"segmentStationName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Ga naar ${segmentStationName}",
+ 	 	 	 	"eng": "go to ${segmentStationName}"
+ 	 	 	}
+ 	 	},
+ 	 	"gang": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Gang-hoofdkwartier",
+ 	 	 	 	"eng": "Gang Headquarters"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "[Bende] \r\n         Het hoofdkwartier voor jou en je bende-leden om je volgende operatie te plannen en uit te voeren",
+ 	 	 	 	"eng": "[Gang]\r\n        The headquarters for you and your gang members to plan and execute your next operation"
+ 	 	 	},
+ 	 	 	"cantEnterError": {
+ 	 	 	 	"trans": "U moet deelnemen aan een winst om dit gebied binnen te komen",
+ 	 	 	 	"eng": "You need to join a gang to enter this area"
  	 	 	}
  	 	}
  	},
@@ -322,7 +399,7 @@
  	 	 	 	 	"levelName"
  	 	 	 	],
  	 	 	 	"trans": "Een scherf die iemands geheugens en ervaringen bevat. Wanneer gebruikt, kun je er ${levelName} ervaringspunten van krijgen",
- 	 	 	 	"eng": "A shard that contains someone's memory and experience, if used you may gain ${levelName} experience from this"
+ 	 	 	 	"eng": "A shard that contains someone's memory and experience. If used you may gain ${levelName} experience from this"
  	 	 	}
  	 	},
  	 	"keyFragment": {
@@ -339,7 +416,7 @@
  	 	 	 	 	"segmentDisplayName"
  	 	 	 	],
  	 	 	 	"trans": "Geheim Sleutel Fragment. Gebruikt voor het kraken van een geheime sleutel.\r\n                                Gebruik de Terminal in stad centrum [Hub] om een ${segmentDisplayName} geheime sleutel te kraken.\r\n                                Je kunt elk van de 3 benodigde sleutels in elke kerker verkrijgen (dus zowel normaal als uitdaging),\r\n                                wanneer je de 3 sleutels hebt verkregen, kun je de Terminal gebruiken om de sleutel naar het volgende gebied te forceren (Vervaardigen)",
- 	 	 	 	"eng": "Secret key Fragment Use to brute-force a secret key.\r\n                                Use the Terminal at city center [Hub] to brute-force a ${segmentDisplayName} secret key.\r\n                                You can acquire each of the 3 required keys in each dungeon (both normal or challenge),\r\n                                when you acquired 3 keys, you may use Terminal to brute-force (Craft) a key to the next area"
+ 	 	 	 	"eng": "A secret key Fragment used to brute-force a secret key.\r\n                                Use the Terminal at city center [Hub] to brute-force a ${segmentDisplayName} secret key.\r\n                                You can acquire each of the 3 required keys in each dungeon (both normal or challenge),\r\n                                when you acquired 3 keys, you may use Terminal to brute-force (Craft) a key to the next area"
  	 	 	}
  	 	},
  	 	"cache": {
@@ -396,7 +473,7 @@
  	 	 	},
  	 	 	"description": {
  	 	 	 	"trans": "Heeft u wel eens last van hoofdpijn? Gebruik Pijn-Ga-Weg™ om de pijn te verminderen!",
- 	 	 	 	"eng": "Do you have headache? use Pain Away™ to relief your pain!"
+ 	 	 	 	"eng": "Do you have headache? Use Pain Away™ to relieve your pain!"
  	 	 	}
  	 	},
  	 	"healing2": {
@@ -406,7 +483,7 @@
  	 	 	},
  	 	 	"description": {
  	 	 	 	"trans": "Een oude nano reparatie robot, meestal gebruikt om kleine technologische apparaten te repareren",
- 	 	 	 	"eng": "Old nano repair bot, usually used to repair small tech devices"
+ 	 	 	 	"eng": "An old nano repair bot, usually used to repair small tech devices."
  	 	 	}
  	 	},
  	 	"healing3": {
@@ -416,7 +493,7 @@
  	 	 	},
  	 	 	"description": {
  	 	 	 	"trans": "Een oude nano Medische robot, injecteer hem om elk (*voorwaarden van toepassing) letsel te genezen!",
- 	 	 	 	"eng": "Old nano Medic bot, inject it to cure any(*conditions apply) injury!"
+ 	 	 	 	"eng": "Old nano medic bot is used to cure any (*conditions apply) injury!"
  	 	 	}
  	 	},
  	 	"healing4": {
@@ -426,7 +503,7 @@
  	 	 	},
  	 	 	"description": {
  	 	 	 	"trans": "injecteer hem om elk (*voorwaarden van toepassing) letsel te genezen!",
- 	 	 	 	"eng": "inject it to cure any(*conditions apply) injury!"
+ 	 	 	 	"eng": "Inject it to cure any(*conditions apply) injury!"
  	 	 	}
  	 	},
  	 	"healing5": {
@@ -436,7 +513,7 @@
  	 	 	},
  	 	 	"description": {
  	 	 	 	"trans": "Injecteerbare nano machines die standaard voor voor militair gebruik zijn, in staat om letsels op te lappen tijdens het vechten.",
- 	 	 	 	"eng": "Injectable nano machines that are standard issue for military use, capable of patching injuries while in combat."
+ 	 	 	 	"eng": "Injectable nano machines that are standard issue for military use. They are capable of patching injuries while in combat."
  	 	 	}
  	 	},
  	 	"healing6": {
@@ -446,7 +523,7 @@
  	 	 	},
  	 	 	"description": {
  	 	 	 	"trans": "Injecteerbare nano machines die gebruikt worden in het leger. Ze zijn in staat om letsels op te lappen tijdens het vechten.",
- 	 	 	 	"eng": "Injectable nano machines that are used in the military. They are capable of patching injuries while in combat."
+ 	 	 	 	"eng": "Injectable nano machines that are standard issue for military use. They're capable of patching injuries while in combat."
  	 	 	}
  	 	},
  	 	"healing7": {
@@ -456,7 +533,7 @@
  	 	 	},
  	 	 	"description": {
  	 	 	 	"trans": "Injecteerbare nano machines voor geavanceerd militair gebruik, in staat om letsels op te lappen tijdens vechtsituaties",
- 	 	 	 	"eng": "injectable nano machines that is for advance military use, capable of patching injury in combat situation"
+ 	 	 	 	"eng": "Injectable nano machines that are standard issue for military use. They're capable of patching injuries while in combat."
  	 	 	}
  	 	},
  	 	"healing8": {
@@ -466,7 +543,7 @@
  	 	 	},
  	 	 	"description": {
  	 	 	 	"trans": "Injecteerbare nano machines voor geavanceerd militair gebruik, in staat om letsels op te lappen tijdens vechtsituaties",
- 	 	 	 	"eng": "injectable nano machines that is for advance military use, capable of patching injury in combat situation"
+ 	 	 	 	"eng": "Injectable nano machines that are standard issue for military use. They're capable of patching injuries while in combat."
  	 	 	}
  	 	},
  	 	"healingArea1": {
@@ -476,7 +553,7 @@
  	 	 	},
  	 	 	"description": {
  	 	 	 	"trans": "Hebben jij en je vrienden wel eens tegelijk last van hoofdpijn? Gebruik Pijn-Ga-Weg Spay™ om de pijn te verminderen!",
- 	 	 	 	"eng": "Do you and your friend have headache together? use Pain Away Spray™ to relief your pain!"
+ 	 	 	 	"eng": "Do you and your friends both have headaches? Use Pain Away Spray™ to relief your pain!"
  	 	 	}
  	 	},
  	 	"healingArea2": {
@@ -486,7 +563,7 @@
  	 	 	},
  	 	 	"description": {
  	 	 	 	"trans": "Een oude reparatie drone, in staat om dichtbijzijnde spelers te repareren of genezen",
- 	 	 	 	"eng": "Old repair drone, capable of repair or heal nearby players"
+ 	 	 	 	"eng": "Old repair drone, capable of repairing or heal nearby players"
  	 	 	}
  	 	},
  	 	"healingArea3": {
@@ -556,7 +633,7 @@
  	 	 	},
  	 	 	"description": {
  	 	 	 	"trans": "Stukjes en beetjes van gebruikte medische technoglogie, kan gebruikt worden om genezende voorwerpen van te maken als je weet hoe",
- 	 	 	 	"eng": "Bits and pieces of used medical tech, this can be used to craft healing items if you understand how"
+ 	 	 	 	"eng": "Bits and pieces of used medical tech. This can be used to craft healing items if you understand how"
  	 	 	}
  	 	},
  	 	"expMemory": {
@@ -566,12 +643,12 @@
  	 	 	},
  	 	 	"description": {
  	 	 	 	"trans": "Geheugenbank bevat iemands geheugen, wanneer je deze gebruikt kun je er ervaringspunten van krijgen",
- 	 	 	 	"eng": "Memory bank contains someone's memory, if used you may gain experience from this"
+ 	 	 	 	"eng": "Memory bank contains someone's memory. If used you may gain experience from this"
  	 	 	}
  	 	},
  	 	"hashProcessor": {
  	 	 	"name": {
- 	 	 	 	"trans": "Hash Processor",
+ 	 	 	 	"trans": "Hash-processor",
  	 	 	 	"eng": "Hash Processor"
  	 	 	},
  	 	 	"description": {
@@ -586,7 +663,7 @@
  	 	 	},
  	 	 	"description": {
  	 	 	 	"trans": "Zend exploits uit naar alle cybernetisch verbonden gebruikers, overclock hun synaptische processors en geef ze hiermee toegang tot een bovenmenselijke mentale capaciteit voor korte duur.\r\n        \r\n        Wanneer in gebruik, geeft een Globale Versterking aan alle online spelers, die ervoor zorgt dat hun AFK taken 5% sneller voltooien voor 10 minuten (stapelbaar)",
- 	 	 	 	"eng": "Broadcasts exploits to all cybernetically connected users, overclock their synaptic processors thus allowing super-human mental capacity for short period of time.\r\n        \r\n        When used, gives Global Buff to all players online, allowing them to complete AFK tasks in +5% speed for 10 minutes (stackable)"
+ 	 	 	 	"eng": "Broadcasts exploits to all cybernetically connected users, overclocking their synaptic processors thus allowing super-human mental capacity for short period of time.\r\n        \r\n        When used, gives Global Buff to all players online, allowing them to complete AFK tasks in +5% speed for 10 minutes (stackable)"
  	 	 	}
  	 	},
  	 	"afkAcceleration2": {
@@ -596,7 +673,7 @@
  	 	 	},
  	 	 	"description": {
  	 	 	 	"trans": "Zend exploits uit naar alle cybernetisch verbonden gebruikers, overclock hun synaptische processors en geef ze hiermee toegang tot een bovenmenselijke mentale capaciteit voor korte duur.\r\n        \r\n        Wanneer in gebruik, geeft een Globale Versterking aan alle online spelers, die ervoor zorgt dat hun AFK taken 40% sneller voltooien voor 20 minuten (stapelbaar)",
- 	 	 	 	"eng": "Broadcasts exploits to all cybernetically connected users, overclock their synaptic processors thus allowing super-human mental capacity for short period of time.\r\n        \r\n        When used, gives Global Buff to all players online, allowing them to complete AFK tasks in +40% speed for 20 minutes (stackable)"
+ 	 	 	 	"eng": "Broadcasts exploits to all cybernetically connected users, overclocking their synaptic processors thus allowing super-human mental capacity for short period of time.\r\n        \r\n        When used, gives Global Buff to all players online, allowing them to complete AFK tasks in +40% speed for 20 minutes (stackable)"
  	 	 	}
  	 	},
  	 	"expMultiplier": {
@@ -606,7 +683,7 @@
  	 	 	},
  	 	 	"description": {
  	 	 	 	"trans": "Zend exploits uit naar alle cybernetisch verbonden gebruikers, verbeter hun Frontale Cortex integratie met cyberwaren geïnstalleerd en verhoog hiermee de geheugen mogelijkheden van de gebruiker.\r\n\r\n        Wanneer in gebruik, geeft een Globale Versterking aan alle online spelers, die ervoor zorgt dat hun EXP verkregen naar 180% verhoogd voor 20 minuten\r\n        ",
- 	 	 	 	"eng": "Broadcasts exploits to all cybernetically connected users, enhance their Frontal Cortex integration with cyberwares installed, thus increase memory capability of the user.\r\n\r\n        When used, gives Global Buff to all players online, increase EXP gained to 180% for 20 minutes\r\n        "
+ 	 	 	 	"eng": "Broadcasts exploits to all cybernetically connected users, enhancing their Frontal Cortex integration with cyberwares installed, thus increasing memory capability of the user.\r\n\r\n        When used, gives Global Buff to all players online, increase EXP gained to 180% for 20 minutes\r\n        "
  	 	 	}
  	 	},
  	 	"btcMultiplier": {
@@ -713,8 +790,8 @@
  	 	 	 	"eng": "locked rare container"
  	 	 	},
  	 	 	"description": {
-				"trans": "Een versterkte container met een biometrisch encryptie slot, het ziet er naar uit dat er belangrijke voorwerpen in zitten.\r\n       Gelukkig gebruikt de micro computer aan boord verouderde firmware, dus een exploit is mogelijk. Ga naar [Terminal] om deze container te ontgrendelen",
-				"eng": "A reinforced container with biometric encryption lock, it seems to contain important items inside.\r\n        Luckily the on board micro computer is running on out-dated firmware, where an exploit is possible, go to [Terminal] to unlock this container"
+ 	 	 	 	"trans": "Een versterkte container met een biometrisch encryptie slot, het ziet er naar uit dat er belangrijke voorwerpen in zitten.\r\n       Gelukkig gebruikt de micro computer aan boord verouderde firmware, dus een exploit is mogelijk. Ga naar [Terminal] om deze container te ontgrendelen",
+ 	 	 	 	"eng": "A reinforced container with biometric encryption lock, it seems to contain important items inside.\r\n        Luckily the on board micro computer is running on out-dated firmware, where an exploit is possible, go to [Terminal] to unlock this container"
  	 	 	}
  	 	},
  	 	"lootBox3": {
@@ -723,8 +800,268 @@
  	 	 	 	"eng": "locked legendary container"
  	 	 	},
  	 	 	"description": {
-				"trans": "Een versterkte container met een biometrisch encryptie slot, het ziet er naar uit dat er belangrijke voorwerpen in zitten.\r\n       Gelukkig gebruikt de micro computer aan boord verouderde firmware, dus een exploit is mogelijk. Ga naar [Terminal] om deze container te ontgrendelen",
-				"eng": "A reinforced container with biometric encryption lock, it seems to contain important items inside.\r\n        Luckily the on board micro computer is running on out-dated firmware, where an exploit is possible, go to [Terminal] to unlock this container"
+ 	 	 	 	"trans": "Een versterkte container met een biometrisch encryptie slot, het ziet er naar uit dat er belangrijke voorwerpen in zitten.\r\n       Gelukkig gebruikt de micro computer aan boord verouderde firmware, dus een exploit is mogelijk. Ga naar [Terminal] om deze container te ontgrendelen",
+ 	 	 	 	"eng": "A reinforced container with biometric encryption lock, it seems to contain important items inside.\r\n        Luckily the on board micro computer is running on out-dated firmware, where an exploit is possible, go to [Terminal] to unlock this container"
+ 	 	 	}
+ 	 	},
+ 	 	"clanDungeonKey": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Gang Invasion Order-zender",
+ 	 	 	 	"eng": "Gang Invasion Order Transmitter"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Een eenvoudig zenderapparaat dat kan zijn aan uw bende gecodeerd kanaal en geef invasieorder. \r\n         Dit item is vereist om Gang Dungeons te activeren",
+ 	 	 	 	"eng": "A simple transmitter device that can be bind to your gang encrypted channel and give out invasion order.\r\n        This item is required to activate Gang Dungeons"
+ 	 	 	}
+ 	 	},
+ 	 	"clanResource": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Levering krat [bende]",
+ 	 	 	 	"eng": "Supply Crate [Gang]"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Bevat MISC-items en bronnen voor een bende om functioneel te blijven, \r\n         Klik op Gebruik om het naar je bende hoofdkwartier te sturen",
+ 	 	 	 	"eng": "Contains misc items and resources for a gang to stay functional,\r\n        Click use to send it to your gang headquarters"
+ 	 	 	}
+ 	 	},
+ 	 	"clanExp": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "gecodeerde bendemelding scherf",
+ 	 	 	 	"eng": "encrypted gang memory shard"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Een geheugenscherf bevat versleutelde bendegeheimen, \r\n         decoderen dit in je hoofdkwartier om nuttige intel te krijgen (vereist in een bende)",
+ 	 	 	 	"eng": "A memory shard contains encrypted gang secrets, \r\n        decrypt this in your gang headquarters to gain useful intel (requires to be in a gang)"
+ 	 	 	}
+ 	 	},
+ 	 	"upgradeActivator": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Apparatuur kalibratie kern",
+ 	 	 	 	"eng": "Equipment Calibration Core"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Een zwarte marktgeheugenscherf bevat zeer gecodeerd algoritme en schema dat cruciaal is in het proces van upgrading van apparatuur",
+ 	 	 	 	"eng": "A black market memory shard contains highly encrypted algorithm and schematic that is crucial in the process of upgrading equipments"
+ 	 	 	}
+ 	 	},
+ 	 	"upgradeChanceIncreaser0": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Kalibratie AI-scherf (5%)",
+ 	 	 	 	"eng": "Calibration AI Shard (5%)"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Bevat fragmenten van Advance AI die is ontworpen om te helpen bij het upgraden van apparatuur. \r\n         Wanneer gebruikt, vermindert de kans op destructieve mislukking met 5% (stapelbaar) gedurende 5 minuten.",
+ 	 	 	 	"eng": "Contains fragments of advance AI designed to assist with upgrading equipments.\r\n        When used, decreases the chance of destructive failure by 5% (stackable) for 5 minutes."
+ 	 	 	}
+ 	 	},
+ 	 	"upgradeChanceIncreaser1": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Kalibratie AI-scherf (10%)",
+ 	 	 	 	"eng": "Calibration AI Shard (10%)"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Bevat fragmenten van Advance AI die is ontworpen om te helpen bij het upgraden van apparatuur. \r\n         Wanneer gebruikt, vermindert de kans op destructieve mislukking met 10% (stapelbaar) gedurende 5 minuten.",
+ 	 	 	 	"eng": "Contains fragments of advance AI designed to assist with upgrading equipments.\r\n        When used, decreases the chance of destructive failure by 10% (stackable) for 5 minutes."
+ 	 	 	}
+ 	 	},
+ 	 	"upgradeChanceIncreaser2": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Kalibratie AI-scherf (50%)",
+ 	 	 	 	"eng": "Calibration AI Shard (50%)"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Bevat fragmenten van Advance AI die is ontworpen om te helpen bij het upgraden van apparatuur. \r\n         Wanneer gebruikt, vermindert de kans op destructieve mislukking met 50% (stapelbaar) gedurende 5 minuten. Dit effect is van toepassing op alle spelers online",
+ 	 	 	 	"eng": "Contains fragments of advance AI designed to assist with upgrading equipments.\r\n        When used, decreases the chance of destructive failure by 50% (stackable) for 5 minutes. This effect will apply to all players online"
+ 	 	 	}
+ 	 	},
+ 	 	"upgradeChanceIncreaser3": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Kalibratie AI-scherf (100%)",
+ 	 	 	 	"eng": "Calibration AI Shard (100%)"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Bevat fragmenten van Advance AI die is ontworpen om te helpen bij het upgraden van apparatuur. \r\n         Bij gebruik, vermindert de kans op destructieve mislukking met 100% (stapelbaar) gedurende 5 minuten. Dit effect is van toepassing op alle spelers online",
+ 	 	 	 	"eng": "Contains fragments of advance AI designed to assist with upgrading equipments.\r\n        When used, decreases the chance of destructive failure by 100% (stackable) for 5 minutes. This effect will apply to all players online"
+ 	 	 	}
+ 	 	},
+ 	 	"upgradeNoBreak": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Kalibratie Veiligheid Nano Bots",
+ 	 	 	 	"eng": "Calibration Safety Nano Bots"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Experimentele nano-machines die zijn ontworpen om het destructieve effect te vermindert en te negeren bij het falende kalibratie, \r\n         Wanneer dit is geactiveerd, vernietigt alle kalibratie het artikel niet gedurende 5 minuten",
+ 	 	 	 	"eng": "Experimental nano machines designed to reduces and negate the destructive effect when failing calibration, \r\n        when this is activated, all calibration fails will not destroy the item for 5 minutes"
+ 	 	 	}
+ 	 	},
+ 	 	"backpack1": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Oud buidel",
+ 	 	 	 	"eng": "Old Pouch"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Een vergeten oude buidel, \r\n         Er is een rare cartoonkikker met grote mond en rode lippen tekening aan de zijkant, \r\n         De betekenis van de oude onheilspellende tekening is onbekend, maar het is handig om er een klein voorwerp in te houden. \r\n         Verhoog de inventarisruimte wanneer deze is uitgerust.",
+ 	 	 	 	"eng": "A forgotten ancient pouch, \r\n        there is a weird cartoon frog with big mouth and red lips drawing at the side of it,\r\n        the meaning of the ancient ominous drawing is unknown, but it is handy for keep some small object in it.\r\n        increase inventory space when equipped."
+ 	 	 	}
+ 	 	},
+ 	 	"backpack2": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Fanny pack",
+ 	 	 	 	"eng": "Fanny Pack"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Cool en modieus Fanny Pack, ondertekend door een legende genaamd The Rock zelf van decennia geleden. \r\n         Verhoog de inventarisruimte wanneer deze is uitgerust.",
+ 	 	 	 	"eng": "Cool and fashionable Fanny Pack, signed by a legend called The Rock himself from decades ago.\r\n        increase inventory space when equipped."
+ 	 	 	}
+ 	 	},
+ 	 	"backpack3": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Explorer's rugzak",
+ 	 	 	 	"eng": "Explorer's Backpack"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Een oude kleuterschool op zoek paarse 'Explorer' Rugzak, het heeft een naamplaatje met de naam van de vorige eigenaar \"Dora\" erop geschreven, je ziet er fantastisch uit. \r\n         Vergroot de inventarisruimte wanneer deze is uitgerust",
+ 	 	 	 	"eng": "An old Kindergarten looking Purple 'Explorer' Backpack, it has a name tag with the previous owner's name \"Dora\" written on it, you look fabulous wearing it.\r\n        increase inventory space when equipped"
+ 	 	 	}
+ 	 	},
+ 	 	"backpack4": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Werknemer kantoorgeval",
+ 	 	 	 	"eng": "Employee Office Case"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Een standaard nummer Kantoffer, het heeft een label met Whit Print met \"Arasaka\" erop, \r\n         Hoewel het specious is en een high-tech compartiment en slots voor documentopslag heeft, is het niet erg geschikt voor het dragen van wapens \r\n         Vergroot de inventarisruimte wanneer deze is uitgerust",
+ 	 	 	 	"eng": "An standard issue office case, it has a label with whit print with \"Arasaka\" on it, \r\n        while it is specious and has some high tech compartment and slots for document storage, it is not not very suitable for carrying weapons\r\n        increase inventory space when equipped"
+ 	 	 	}
+ 	 	},
+ 	 	"backpack5": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Autonome opslageenheid",
+ 	 	 	 	"eng": "Autonomous Storage Unit"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Een militaire gebruikte Bot die is ontworpen om uw apparatuur te dragen en volgt u autonoom, \r\n         Met zijn zes sterke benen die de beweging van spinnen en een voorschot aan boord AI imiteert, \r\n         Het kan je snel en stil volgen terwijl het vermijdt in de weg van welke missie je uitvoert",
+ 	 	 	 	"eng": "An military used bot designed to carry your equipments and follows you autonomously,\r\n        with it's six strong legs that imitates the movement of spiders and a advance onboard AI, \r\n        it can follow you swiftly and quietly while it avoids get in the way of whatever mission you are performing"
+ 	 	 	}
+ 	 	},
+ 	 	"healing9": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Legendarische Nano Medic Bot",
+ 	 	 	 	"eng": "Legendary Nano Medic Bot"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Injecteerbare nano-machines die voor het militaire gebruik van het militair is, in staat om letsel in gevechtssituatie te patchen",
+ 	 	 	 	"eng": "injectable nano machines that is for advance military use, capable of patching injury in combat situation"
+ 	 	 	}
+ 	 	},
+ 	 	"healing10": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Epic Nano Medic Bot",
+ 	 	 	 	"eng": "Epic Nano Medic Bot"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Injecteerbare nano-machines die voor het militaire gebruik van het militair is, in staat om letsel in gevechtssituatie te patchen",
+ 	 	 	 	"eng": "injectable nano machines that is for advance military use, capable of patching injury in combat situation"
+ 	 	 	}
+ 	 	},
+ 	 	"healingArea9": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Legendarische Nano Medic Drone",
+ 	 	 	 	"eng": "Legendary Nano medic drone"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "In staat om duizenden geavanceerde nano-machines te verzenden om in de buurt van spelers te helen",
+ 	 	 	 	"eng": "capable of dispatching thousands of advanced nano machines to heal nearby players"
+ 	 	 	}
+ 	 	},
+ 	 	"healingArea10": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Epic Nano Medic Drone",
+ 	 	 	 	"eng": "Epic Nano medic drone"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "In staat om duizenden geavanceerde nano-machines te verzenden om in de buurt van spelers te helen",
+ 	 	 	 	"eng": "capable of dispatching thousands of advanced nano machines to heal nearby players"
+ 	 	 	}
+ 	 	},
+ 	 	"upgradeChanceIncreaser2personal": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Kalibratie AI-scherf (50%) [evenement]",
+ 	 	 	 	"eng": "Calibration AI Shard (50%) [EVENT]"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Bevat fragmenten van Advance AI die is ontworpen om te helpen bij het upgraden van apparatuur. \r\n         Bij gebruik, vermindert de kans op destructieve mislukking met 50% gedurende 5 minuten. Dit heeft alleen invloed op jezelf. \r\n         Je kunt items in je bende hoofdkwartier kalibreren, je moet eerst meedoen of een bende beginnen.",
+ 	 	 	 	"eng": "Contains fragments of advance AI designed to assist with upgrading equipments.\r\n        When used, decreases the chance of destructive failure by 50% for 5 minutes. this only affect yourself.\r\n        You can calibrate items in your Gang Headquarters, you must join or start a gang first."
+ 	 	 	}
+ 	 	},
+ 	 	"chatExploitPirate": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Chat Exploit-zender [PIRAAT]",
+ 	 	 	 	"eng": "Chat exploit transmitter [PIRATE]"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Een exploit-module die de wereldwijde chatpakketten onderschept en wijzigt, het uitvoeren van man-in-the-middle aanval. \r\n         Transformeert alle spraak bij Global Chat met Pirate Speak. Dit beïnvloedt alle spelers gedurende 10 minuten",
+ 	 	 	 	"eng": "A exploit module that intercepts global chat packages and modifies it, performing Man-In-The-Middle attack.\r\n        Transforms all speech at global chat to Pirate Speak. This effects all players for 10 minutes"
+ 	 	 	}
+ 	 	},
+ 	 	"chatExploitLeet": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Chat Exploit-zender [1337]",
+ 	 	 	 	"eng": "Chat exploit transmitter [1337]"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Een exploit-module die de wereldwijde chatpakketten onderschept en wijzigt, het uitvoeren van man-in-the-middle aanval. \r\n         Transformeert alle spraak bij Global Chat met L33T SP34K. Dit beïnvloedt alle spelers gedurende 10 minuten",
+ 	 	 	 	"eng": "A exploit module that intercepts global chat packages and modifies it, performing Man-In-The-Middle attack.\r\n        Transforms all speech at global chat to l33t Sp34k. This effects all players for 10 minutes"
+ 	 	 	}
+ 	 	},
+ 	 	"chatExploitUwU": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Chat Exploit-zender [UWU]",
+ 	 	 	 	"eng": "Chat exploit transmitter [UwU]"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "A EXPWOIT MODUWE DIE INTROUWTS GWOBAW CHAT PAKKETTEN EN AANPASSEN IT, PEWFOWMING MAN-IN-DE-MIDDWE AANVAL. \r\n          TWANSFOWMS AWW-toespraak bij Gwobaw Chat met UWU spreek. Deze effecten aww payews fow 10 minuten",
+ 	 	 	 	"eng": "A expwoit moduwe that intewcepts gwobaw chat packages and modifies it, pewfowming man-in-the-middwe attack.\r\n         twansfowms aww speech at gwobaw chat to uwu speak. This effects aww pwayews fow 10 minutes"
+ 	 	 	}
+ 	 	},
+ 	 	"upgradeResetShard": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Fabrieksreset scherf",
+ 	 	 	 	"eng": "Factory reset shard"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Een Shard slaat standaardinstellingen en algoritme voor apparatuur op, dit wordt gebruikt voor fabrieksinstellingen van uw apparatuur",
+ 	 	 	 	"eng": "A shard stores default settings and algorithm for equipments, this is used for factory-resetting your equipments"
+ 	 	 	}
+ 	 	},
+ 	 	"timeSkipPersonal": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Persoonlijke synaptische versneller",
+ 	 	 	 	"eng": "Personal Synaptic Accelerator"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Wanneer gebruikt, sla dan 60 minuten over op AFK-taken. \r\n         MOET WORDEN GEBRUIKT OP AFK-scherm",
+ 	 	 	 	"eng": "When used, skip 60 minutes on AFK tasks.\r\n        must be used at AFK screen"
+ 	 	 	}
+ 	 	},
+ 	 	"chatExploitLove": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Chat Exploit-zender [liefde]",
+ 	 	 	 	"eng": "Chat exploit transmitter [Love]"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Je krijgt wat liefde, en je krijgt wat liefde! Iedereen krijgt wat liefde!. \r\n         Wanneer gebruikt, iedereen houdt van elkaar \r\n         Deze effecten alle spelers fowen 10 minuten",
+ 	 	 	 	"eng": "You get some love, and you get some love! everyone gets some love!.\r\n        When used everyone loves each other\r\n        This effects all players fow 10 minutes"
+ 	 	 	}
+ 	 	},
+ 	 	"chatExploitProtect": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Cybertunnel VPN",
+ 	 	 	 	"eng": "CyberTunnel VPN"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Bezorgd de grote broer die je bespioneert terwijl je door de cyberspace browse? \r\n         Je intercoms worden altijd gehackt door kwaadwillende aanvallen? \r\n         Gebruik Cybertunnel VPN om uw Netrunning-ervaring te beschermen en te coderen! \r\n        \r\n         Eenmaal geactiveerd, negeert u een chat exploit voor 1 uur",
+ 	 	 	 	"eng": "Worried the Big Brother spying on you while you browse the cyberspace?\r\n        your intercoms always get hacked by malicious attacks? \r\n        use CyberTunnel VPN to protect and encrypt your netrunning experience! \r\n        \r\n        Once activated, ignores any chat exploit for 1 hour"
  	 	 	}
  	 	}
  	},
@@ -808,6 +1145,66 @@
  	 	 	 	"trans": "[AFK Materialen Verkrijgen]\r\n                    Kijk rond in ${zoneName} en zoek naar bruikbare materialen.\r\n                    Wie weet, misschien heb je geluk!",
  	 	 	 	"eng": "[AFK Resource Gather]\r\n                    Search around in ${zoneName} and scavenge for useful items.\r\n                    Who knows, maybe you'll get lucky!"
  	 	 	}
+ 	 	},
+ 	 	"clanResource": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Gather Clan Resource",
+ 	 	 	 	"eng": "Gather Gang Resource"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Help gather and manage needed resources for your clan",
+ 	 	 	 	"eng": "Help gather and manage needed resources for your gang"
+ 	 	 	}
+ 	 	},
+ 	 	"clanDecryptShard": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Decoderen geheugenscherf",
+ 	 	 	 	"eng": "Decrypt memory shard"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Decoderen geheugen scherf je gevonden om nuttige intel op te halen",
+ 	 	 	 	"eng": "Decrypt memory shard you found to retrieve useful intel"
+ 	 	 	}
+ 	 	},
+ 	 	"clanOccupation": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Versterking van bezetting bij Shangri-LA",
+ 	 	 	 	"eng": "Reinforce occupation at Shangri-la"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Help versterken en tot grotere controle van Shangri-La City.",
+ 	 	 	 	"eng": "Help reinforce and establish greater control of Shangri-la city."
+ 	 	 	}
+ 	 	},
+ 	 	"gambling1": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Speel Mega Pachinko-spel",
+ 	 	 	 	"eng": "Play MEGA Pachinko Game"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Konnichiwa!! ^___^\r\n        Come play the MEGA Pachinko! With chance to win HUGE EPIC rewards\r\n        only 10000 btc per session, LIMITED TIME OFFER!!! <3<3<3\r\n        ##Special thanks for Militech for sponsoring this event##",
+ 	 	 	 	"eng": "Konnichiwa!! ^___^\r\n        Come play the MEGA Pachinko! With chance to win HUGE EPIC rewards\r\n        only 5000 btc per session, LIMITED TIME OFFER!!! <3<3<3\r\n        ##Special thanks for Militech for sponsoring this event##"
+ 	 	 	}
+ 	 	},
+ 	 	"topClanExclusive": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Verzamel beveiligingskosten",
+ 	 	 	 	"eng": "Collect Protection Fees"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Bribe-overheidsfunctionarissen en SLPD-en verzamel beschermkosten van bedrijfseigenaar en burgers in Shangri-Lah. Misschien krijg je wat epische items van hen? (Top Twee Gang Exclusief)",
+ 	 	 	 	"eng": "Bribe Government officials and SLPD and Collect Protection Fees from business owner and citizens in Shangri-lah. maybe you will get some EPIC items from them? (Top Two Gang Exclusive)"
+ 	 	 	}
+ 	 	},
+ 	 	"globalQuest": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Hack SL Data Fort",
+ 	 	 	 	"eng": "Hack SL Data Fortress"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Lanceer een samenwerkingsaanval in cyberspace die gericht is op de SHANGRI-LA-gegevensfort \r\n         Als aanval zou moeten slagen, is het mogelijk om de datapress te forceren om exploits naar alle Cybernetically-gebruikers te verzenden",
+ 	 	 	 	"eng": "Launch a collaborated attack in cyberspace targeting the Shangri-La Data Fortress\r\n        if attack were to succeed its possible to force the Data Fortress to transmit exploits to all cybernetically connected users"
+ 	 	 	}
  	 	}
  	},
  	"tier": {
@@ -871,7 +1268,7 @@
  	 	 	 	 	"zoneName"
  	 	 	 	],
  	 	 	 	"trans": "Duik in een kerker om nog meer exp en buit te krijgen!\r\n                        vergeet niet wat genezende voorwerpen te kopen! Je geneest niet na een gevecht in een kerker!",
- 	 	 	 	"eng": "Dive into dungeon to get even more exp and loot!\r\n                        remember to buy some healing item! you won\"t regen after battle in dungeon"
+ 	 	 	 	"eng": "Are you ready? you can test your strength out with normal dungeon, the easiest one.\r\n                        Remember to bring healing item! you won't heal after fights in dungeon"
  	 	 	}
  	 	},
  	 	"challenge": {
@@ -895,6 +1292,28 @@
  	 	 	 	"trans": "val ${zoneName} aan",
  	 	 	 	"eng": "attack ${zoneName}"
  	 	 	}
+ 	 	},
+ 	 	"gang": {
+ 	 	 	"startName": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"zoneName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "binnenvallen ${zoneName}",
+ 	 	 	 	"eng": "invade ${zoneName}"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"maxLevel",
+ 	 	 	 	 	"keyFragmentDisplayName",
+ 	 	 	 	 	"expMultiplier"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Aanbevolen niveau: ${maxLevel} + met co-op \r\n                     ${expMultiplier} x meer exp! \r\n                     Gang-modus Dungeon, extra buit en exp. \r\n                     BOSS DROPS zijn zeldzaam + \r\n                     Niet geadviseerd om in te voeren als uw niveau te laag is",
+ 	 	 	 	"eng": "Recommended Level:　${maxLevel}+ with co-op\r\n                    ${2.3}x more EXP! and 4~5x stronger enemies!\r\n                    Gang mode dungeon, extra loot and exp.\r\n                    *Not for the faint of heart*"
+ 	 	 	}
+ 	 	},
+ 	 	"buttonTut": {
+ 	 	 	"trans": "Denk je dat je sterk genoeg bent? Krijg sterkere vijanden in Dungeon! \r\n                         Vergeet niet om wat helend item te kopen! Je zult na de strijd in Dungeon niet regenen",
+ 	 	 	"eng": "Do you think you are strong enough? take on stronger enemies in dungeon!\r\n                        remember to buy some healing item! you won't regen after battle in dungeon"
  	 	}
  	},
  	"secretKey": {
@@ -982,6 +1401,17 @@
  	 	 	"playerOnline": {
  	 	 	 	"trans": "spelers online",
  	 	 	 	"eng": "players online"
+ 	 	 	},
+ 	 	 	"online": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"skipCount"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Skippen ${skipCount}",
+ 	 	 	 	"eng": "Skipping ${skipCount}"
+ 	 	 	},
+ 	 	 	"skipAvailable": {
+ 	 	 	 	"trans": "Skip beschikbaar",
+ 	 	 	 	"eng": "Skip Available"
  	 	 	}
  	 	},
  	 	"mobileQuestPage": {
@@ -1034,7 +1464,7 @@
  	 	 	 	"eng": "Street Cred"
  	 	 	},
  	 	 	"status": {
- 	 	 	 	"trans": "Status",
+ 	 	 	 	"trans": "Toestand",
  	 	 	 	"eng": "Status"
  	 	 	},
  	 	 	"numOfMember": {
@@ -1084,7 +1514,7 @@
  	 	 	 	 	"trans": "Geef Straat Cred",
  	 	 	 	 	"eng": "Give Street Cred"
  	 	 	 	}
-			},
+ 	 	 	},
  	 	 	"bio": {
  	 	 	 	"trans": "Bio",
  	 	 	 	"eng": "Bio"
@@ -1092,6 +1522,14 @@
  	 	 	"bioNotFound": {
  	 	 	 	"trans": "GECENSUREERD",
  	 	 	 	"eng": "REDACTED"
+ 	 	 	},
+ 	 	 	"equipped": {
+ 	 	 	 	"trans": "Uitgerust",
+ 	 	 	 	"eng": "Equipped"
+ 	 	 	},
+ 	 	 	"inventory": {
+ 	 	 	 	"trans": "Voorraad",
+ 	 	 	 	"eng": "Inventory"
  	 	 	}
  	 	},
  	 	"market": {
@@ -1109,15 +1547,36 @@
  	 	 	 	],
  	 	 	 	"trans": "Verhoog aantal plekken naar ${nextSlotSize}",
  	 	 	 	"eng": "Increase slot to ${nextSlotSize}"
+ 	 	 	},
+ 	 	 	"stall": {
+ 	 	 	 	"sellItemButton": {
+ 	 	 	 	 	"trans": "Zet item te koop",
+ 	 	 	 	 	"eng": "Put Item On Sale"
+ 	 	 	 	},
+ 	 	 	 	"selectItemForSale": {
+ 	 	 	 	 	"trans": "Selecteer het item dat u wilt verkopen",
+ 	 	 	 	 	"eng": "Please select the item you want to sell"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"increaseSlotDescription": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"nextSlotSize"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Breng bitcoins door om te verhogen hoeveel items je tegelijkertijd in je kraam kunt plaatsen",
+ 	 	 	 	"eng": "Spend Bitcoins to increase how many items you can put in your stall at the same time"
+ 	 	 	},
+ 	 	 	"cantEnterError": {
+ 	 	 	 	"trans": "U hebt ten minste niveau 4 nodig om toegang te krijgen tot de markt",
+ 	 	 	 	"eng": "You need to be at least level 4 to access the market"
  	 	 	}
  	 	},
  	 	"chat": {
  	 	 	"chat": {
- 	 	 	 	"trans": "chat",
+ 	 	 	 	"trans": "chatten",
  	 	 	 	"eng": "chat"
  	 	 	},
  	 	 	"gang": {
- 	 	 	 	"trans": "gang",
+ 	 	 	 	"trans": "bende",
  	 	 	 	"eng": "gang"
  	 	 	},
  	 	 	"mail": {
@@ -1125,8 +1584,12 @@
  	 	 	 	"eng": "mail"
  	 	 	},
  	 	 	"noti": {
- 	 	 	 	"trans": "noti.",
+ 	 	 	 	"trans": "Bekend.",
  	 	 	 	"eng": "noti."
+ 	 	 	},
+ 	 	 	"reconnecting": {
+ 	 	 	 	"trans": "Reestablishing Connection",
+ 	 	 	 	"eng": "Reestablishing connection"
  	 	 	}
  	 	},
  	 	"profile": {
@@ -1145,6 +1608,12 @@
  	 	 	"credits": {
  	 	 	 	"trans": "credits",
  	 	 	 	"eng": "credits"
+ 	 	 	},
+ 	 	 	"deleteAccount": {
+ 	 	 	 	"button": {
+ 	 	 	 	 	"trans": "Account verwijderen",
+ 	 	 	 	 	"eng": "Delete Account"
+ 	 	 	 	}
  	 	 	}
  	 	},
  	 	"tutorial": {
@@ -1160,7 +1629,7 @@
  	 	 	},
  	 	 	"langWarning": {
  	 	 	 	"trans": "Dit taal pakket is open source en mede mogelijk gemaakt door onze spelers. De tekst kan mogelijk niet volledig vertaald zijn en kan fouten bevatten. Voel je vrij om het te bewerken en mee te werken vanaf onze Github pagina",
- 	 	 	 	"eng": "This language pack is open source and contributed by our players, the text may not be fully translated and could contain mistakes. Please feel free to edit and contribute from our Github page"
+ 	 	 	 	"eng": "This language pack is open source and contributed by our players, the text may not be fully translated and could contain mistakes. please feel free to edit and contribute from our Github page"
  	 	 	},
  	 	 	"playBackgroundMusic": {
  	 	 	 	"trans": "Demp achtergrond muziek",
@@ -1177,6 +1646,32 @@
  	 	 	"langGithub": {
  	 	 	 	"trans": "Help met het vertalen van het spel",
  	 	 	 	"eng": "Help with translating the game"
+ 	 	 	},
+ 	 	 	"receiveClanNotification": {
+ 	 	 	 	"trans": "Ontvang een bendemelding",
+ 	 	 	 	"eng": "Receive Gang Notification"
+ 	 	 	},
+ 	 	 	"receiveGlobalNotification": {
+ 	 	 	 	"trans": "Ontvang wereldwijde buffmelding",
+ 	 	 	 	"eng": "Receive Global Buff Notification"
+ 	 	 	},
+ 	 	 	"disableAttackBar": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Schakel Attack Timing Bar uit",
+ 	 	 	 	 	"eng": "Disable Attack Timing Bar"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "Het uitschakelen van Attack Timing Bar geeft geen extra schade toe",
+ 	 	 	 	 	"eng": "Disabling attack timing bar will not grant extra damage"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"forceMobileMode": {
+ 	 	 	 	"trans": "Schakel Cyberpunk-modus in",
+ 	 	 	 	"eng": "Enable Cyberpunk Mode"
+ 	 	 	},
+ 	 	 	"dangerZone": {
+ 	 	 	 	"trans": "Gevaar",
+ 	 	 	 	"eng": "Danger Zone"
  	 	 	}
  	 	},
  	 	"captcha": {
@@ -1211,7 +1706,784 @@
  	 	 	"title": {
  	 	 	 	"trans": "Voer je bio in",
  	 	 	 	"eng": "Enter your bio"
- 	 	 	}			
+ 	 	 	}
+ 	 	},
+ 	 	"clan": {
+ 	 	 	"selectDepositAmount": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Voer het bedrag in dat u wilt storten",
+ 	 	 	 	 	"eng": "Please enter amount you want to deposit"
+ 	 	 	 	},
+ 	 	 	 	"detail": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"amount"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "${amount} Bitcoin is een aanbetaling in uw bende-account, dit kan niet worden omgekeerd",
+ 	 	 	 	 	"eng": "${amount} bitcoin will be deposit into your gang account, this cannot be reversed"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"deposit": {
+ 	 	 	 	"trans": "Stort Bitcoin",
+ 	 	 	 	"eng": "Deposit Bitcoin"
+ 	 	 	},
+ 	 	 	"level": {
+ 	 	 	 	"trans": "Bendelniveau",
+ 	 	 	 	"eng": "Gang Level"
+ 	 	 	},
+ 	 	 	"resource": {
+ 	 	 	 	"trans": "Resource",
+ 	 	 	 	"eng": "Resource"
+ 	 	 	},
+ 	 	 	"funding": {
+ 	 	 	 	"trans": "financiering",
+ 	 	 	 	"eng": "funding"
+ 	 	 	},
+ 	 	 	"memberCount": {
+ 	 	 	 	"trans": "leden",
+ 	 	 	 	"eng": "members"
+ 	 	 	},
+ 	 	 	"nextUpkeepDate": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"nextUpkeepDate"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Volgende onderhoudsdatum: ${nextUpkeepDate}",
+ 	 	 	 	"eng": "Next upkeep Date: ${nextUpkeepDate}"
+ 	 	 	},
+ 	 	 	"insufficientError": {
+ 	 	 	 	"trans": "Resource Critical",
+ 	 	 	 	"eng": "resource critical"
+ 	 	 	},
+ 	 	 	"insufficientFound": {
+ 	 	 	 	"trans": "Onvoldoende gevonden",
+ 	 	 	 	"eng": "Insufficient Found"
+ 	 	 	},
+ 	 	 	"insufficientResource": {
+ 	 	 	 	"trans": "Onvoldoende hulpbron",
+ 	 	 	 	"eng": "Insufficient Resource"
+ 	 	 	},
+ 	 	 	"members": {
+ 	 	 	 	"trans": "Leden",
+ 	 	 	 	"eng": "Members"
+ 	 	 	},
+ 	 	 	"editMotto": {
+ 	 	 	 	"modal": {
+ 	 	 	 	 	"title": {
+ 	 	 	 	 	 	"trans": "Voer alstublieft uw gangmotto in",
+ 	 	 	 	 	 	"eng": "Please enter your gang motto"
+ 	 	 	 	 	}
+ 	 	 	 	},
+ 	 	 	 	"button": {
+ 	 	 	 	 	"trans": "Edit Gang Motto",
+ 	 	 	 	 	"eng": "Edit Gang Motto"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"updateImage": {
+ 	 	 	 	"button": {
+ 	 	 	 	 	"trans": "Update Gangafbeelding",
+ 	 	 	 	 	"eng": "Update Gang Image"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"occupationPoint": {
+ 	 	 	 	"trans": "Controle over Shangri-la",
+ 	 	 	 	"eng": "Control over Shangri-la"
+ 	 	 	},
+ 	 	 	"occupation": {
+ 	 	 	 	"noClan": {
+ 	 	 	 	 	"trans": "Geen bende heeft dit gebied al bezet",
+ 	 	 	 	 	"eng": "No gang has occupied this area yet"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"equipmentDisplay": {
+ 	 	 	"empty": {
+ 	 	 	 	"trans": "Leeg",
+ 	 	 	 	"eng": "Empty"
+ 	 	 	}
+ 	 	},
+ 	 	"fab": {
+ 	 	 	"dungeonList": {
+ 	 	 	 	"trans": "Dungeon-lijst",
+ 	 	 	 	"eng": "Dungeon List"
+ 	 	 	},
+ 	 	 	"links": {
+ 	 	 	 	"trans": "koppelingen",
+ 	 	 	 	"eng": "links"
+ 	 	 	},
+ 	 	 	"premiumShop": {
+ 	 	 	 	"trans": "Premiumwinkel",
+ 	 	 	 	"eng": "Premium Shop"
+ 	 	 	},
+ 	 	 	"friendList": {
+ 	 	 	 	"trans": "Vriendenlijst",
+ 	 	 	 	"eng": "Friend List"
+ 	 	 	},
+ 	 	 	"leaderBoard": {
+ 	 	 	 	"trans": "Scorebord",
+ 	 	 	 	"eng": "Leader Board"
+ 	 	 	},
+ 	 	 	"skipQueue": {
+ 	 	 	 	"trans": "Wachtrij",
+ 	 	 	 	"eng": "Skip Queue"
+ 	 	 	},
+ 	 	 	"settings": {
+ 	 	 	 	"trans": "Instellingen",
+ 	 	 	 	"eng": "Settings"
+ 	 	 	},
+ 	 	 	"apps": {
+ 	 	 	 	"trans": "Alle apps",
+ 	 	 	 	"eng": "All Apps"
+ 	 	 	}
+ 	 	},
+ 	 	"machineCrafting": {
+ 	 	 	"titleBox": {
+ 	 	 	 	"tile": {
+ 	 	 	 	 	"trans": "systeem in het systeem",
+ 	 	 	 	 	"eng": "system idle"
+ 	 	 	 	},
+ 	 	 	 	"subtitle": {
+ 	 	 	 	 	"trans": "Voer een item in",
+ 	 	 	 	 	"eng": "Please inset an item"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"selectItemButton": {
+ 	 	 	 	"trans": "Recyclen item",
+ 	 	 	 	"eng": "Recycle Item"
+ 	 	 	},
+ 	 	 	"selectAmount": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Selecteer bedrag",
+ 	 	 	 	 	"eng": "Please select amount"
+ 	 	 	 	},
+ 	 	 	 	"subtitle": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"timeStr"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "Dit kost ${timeStr}",
+ 	 	 	 	 	"eng": "This will take ${timeStr}"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"modal": {
+ 	 	 	"upgradeFailed": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Fout",
+ 	 	 	 	 	"eng": "Error"
+ 	 	 	 	},
+ 	 	 	 	"subtitle": {
+ 	 	 	 	 	"trans": "Destructieve falen opgebouwd",
+ 	 	 	 	 	"eng": "Destructive failure accrued"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"upgradeSuccess": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Kalibratie succes",
+ 	 	 	 	 	"eng": "Calibration Success"
+ 	 	 	 	},
+ 	 	 	 	"subtitle": {
+ 	 	 	 	 	"trans": "Geen fout gedetecteerd",
+ 	 	 	 	 	"eng": "No error detected"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"leaveDungeon": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Weet je zeker dat je deze kerkon wilt verlaten?",
+ 	 	 	 	 	"eng": "Are you sure you want to leave this dungeon?"
+ 	 	 	 	},
+ 	 	 	 	"subtitle": {
+ 	 	 	 	 	"trans": "U kunt deze Dungeon-instantie opnieuw invoeren",
+ 	 	 	 	 	"eng": "You will not be able to enter this dungeon instance again"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"equipmentUpgrade": {
+ 	 	 	"notActivated": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Kern niet gevonden",
+ 	 	 	 	 	"eng": "Core not found"
+ 	 	 	 	},
+ 	 	 	 	"subTitle": {
+ 	 	 	 	 	"trans": "Plaats de kalibrateur",
+ 	 	 	 	 	"eng": "Please insert Calibration Core"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"activate": {
+ 	 	 	 	"trans": "De kern invoegen",
+ 	 	 	 	"eng": "Insert Core"
+ 	 	 	},
+ 	 	 	"activating": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Verwerken",
+ 	 	 	 	 	"eng": "Processing"
+ 	 	 	 	},
+ 	 	 	 	"subTitle": {
+ 	 	 	 	 	"trans": "Het decoderen van scherf",
+ 	 	 	 	 	"eng": "Decrypting shard"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"noEquipment": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "apparatuur niet gevonden",
+ 	 	 	 	 	"eng": "equipment not found"
+ 	 	 	 	},
+ 	 	 	 	"subTitle": {
+ 	 	 	 	 	"trans": "Selecteer een apparatuur om door te gaan",
+ 	 	 	 	 	"eng": "Select an equipment to continue"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"haveEquipment": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Compatibel item geïdentificeerd",
+ 	 	 	 	 	"eng": "Compatible Item Identified"
+ 	 	 	 	},
+ 	 	 	 	"subTitle": {
+ 	 	 	 	 	"trans": "Alle systeem klaar",
+ 	 	 	 	 	"eng": "All system ready"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"failureRate": {
+ 	 	 	 	"trans": "Kans op destructieve mislukking",
+ 	 	 	 	"eng": "Chance of destructive failure"
+ 	 	 	},
+ 	 	 	"selectEquipmentTitle": {
+ 	 	 	 	"trans": "Selecteer een item om te kalibreren",
+ 	 	 	 	"eng": "Please select an item to calibrate"
+ 	 	 	},
+ 	 	 	"upgradeButton": {
+ 	 	 	 	"trans": "Ijken",
+ 	 	 	 	"eng": "Calibrate"
+ 	 	 	}
+ 	 	},
+ 	 	"itemInbox": {
+ 	 	 	"getAllItems": {
+ 	 	 	 	"trans": "Krijg alle items",
+ 	 	 	 	"eng": "Get All Items"
+ 	 	 	},
+ 	 	 	"expireDate": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"date"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Vervalt in ${date}",
+ 	 	 	 	"eng": "Expires in ${date}"
+ 	 	 	}
+ 	 	},
+ 	 	"linkPage": {
+ 	 	 	"forum": {
+ 	 	 	 	"trans": "Officieel forum",
+ 	 	 	 	"eng": "Official Forum"
+ 	 	 	}
+ 	 	},
+ 	 	"noPrintableCaches": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Apparatuur cache niet gevonden",
+ 	 	 	 	"eng": "Equipment Cache not found"
+ 	 	 	},
+ 	 	 	"subTitle": {
+ 	 	 	 	"trans": "Verzamel de caches van vijanden en kerkers om je nieuwe wapens en pantser af te drukken",
+ 	 	 	 	"eng": "gather the caches from enemies and dungeons to print your new weapons and armor"
+ 	 	 	}
+ 	 	},
+ 	 	"bank": {
+ 	 	 	"balance": {
+ 	 	 	 	"trans": "evenwicht",
+ 	 	 	 	"eng": "balance"
+ 	 	 	},
+ 	 	 	"deposit": {
+ 	 	 	 	"trans": "Borg",
+ 	 	 	 	"eng": "Deposit"
+ 	 	 	},
+ 	 	 	"withdraw": {
+ 	 	 	 	"trans": "Terugtrekken",
+ 	 	 	 	"eng": "Withdraw"
+ 	 	 	},
+ 	 	 	"upgradeSlot": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"upgradeToSlot"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Upgrade naar ${upgradeToSlot} slots",
+ 	 	 	 	"eng": "UPGRADE TO ${upgradeToSlot} SLOTS"
+ 	 	 	},
+ 	 	 	"takeItemFromVault": {
+ 	 	 	 	"trans": "Item opnemen",
+ 	 	 	 	"eng": "Withdraw Item"
+ 	 	 	},
+ 	 	 	"putItemToVault": {
+ 	 	 	 	"trans": "Stortingsitem",
+ 	 	 	 	"eng": "Deposit Item"
+ 	 	 	},
+ 	 	 	"modal": {
+ 	 	 	 	"selectDeposit": {
+ 	 	 	 	 	"trans": "Hoeveel wil je storten?",
+ 	 	 	 	 	"eng": "How much would you like to deposit?"
+ 	 	 	 	},
+ 	 	 	 	"selectWithdraw": {
+ 	 	 	 	 	"trans": "Hoeveel wil je terugtrekken?",
+ 	 	 	 	 	"eng": "How much would you like to withdraw?"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"noBalance": {
+ 	 	 	 	"trans": "Je kunt niet terugtrekken wanneer je geen balans hebt.",
+ 	 	 	 	"eng": "You can't withdraw when you have no balance."
+ 	 	 	},
+ 	 	 	"depositDesc": {
+ 	 	 	 	"trans": "Zet bitcoins in bank",
+ 	 	 	 	"eng": "Put Bitcoins into bank"
+ 	 	 	},
+ 	 	 	"withdrawDesc": {
+ 	 	 	 	"trans": "Neem bitcoins uit de bank",
+ 	 	 	 	"eng": "Take Bitcoins out of bank"
+ 	 	 	},
+ 	 	 	"putItemToVaultDesc": {
+ 	 	 	 	"trans": "Zet items in je kluis",
+ 	 	 	 	"eng": "Put items into your vault"
+ 	 	 	},
+ 	 	 	"takeItemFromVaultDesc": {
+ 	 	 	 	"trans": "Neem items uit je kluis",
+ 	 	 	 	"eng": "Take items out from your vault"
+ 	 	 	},
+ 	 	 	"upgradeSlotDesc": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"upgradeToSlot"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Verhoog het maximale aantal items dat u kunt opslaan in Vault tot ${upgradeToSlot}",
+ 	 	 	 	"eng": "Increase the max amount of items you can store in vault to ${upgradeToSlot}"
+ 	 	 	}
+ 	 	},
+ 	 	"generalCaptcha": {
+ 	 	 	"story": {
+ 	 	 	 	"trans": "Je hebt een oude vergrendelde kluis gevonden, er lijkt een post-it met wat tekst erop geschreven.",
+ 	 	 	 	"eng": "You found an old locked safe box, there seems like a post-it with some text written on it."
+ 	 	 	},
+ 	 	 	"title": {
+ 	 	 	 	"trans": "PIN-code vereist om te ontgrendelen",
+ 	 	 	 	"eng": "Pin code required to unlock"
+ 	 	 	},
+ 	 	 	"inputLabel": {
+ 	 	 	 	"trans": "Pincode",
+ 	 	 	 	"eng": "Pin Code"
+ 	 	 	},
+ 	 	 	"inputPlaceholder": {
+ 	 	 	 	"trans": "Voer PIN-code in",
+ 	 	 	 	"eng": "Enter pin code"
+ 	 	 	}
+ 	 	},
+ 	 	"list": {
+ 	 	 	"longPressToMultiSelect": {
+ 	 	 	 	"trans": "Lang indrukken om Multi-Select",
+ 	 	 	 	"eng": "Long press to multi-select"
+ 	 	 	}
+ 	 	},
+ 	 	"inventory": {
+ 	 	 	"items": {
+ 	 	 	 	"trans": "items",
+ 	 	 	 	"eng": "items"
+ 	 	 	},
+ 	 	 	"secretKeys": {
+ 	 	 	 	"trans": "geheime sleutels",
+ 	 	 	 	"eng": "secret keys"
+ 	 	 	},
+ 	 	 	"equipped": {
+ 	 	 	 	"trans": "Uitgerust",
+ 	 	 	 	"eng": "Equipped"
+ 	 	 	},
+ 	 	 	"inventory": {
+ 	 	 	 	"trans": "Voorraad",
+ 	 	 	 	"eng": "Inventory"
+ 	 	 	},
+ 	 	 	"itemInbox": {
+ 	 	 	 	"trans": "Item inbox",
+ 	 	 	 	"eng": "Item Inbox"
+ 	 	 	},
+ 	 	 	"crafting": {
+ 	 	 	 	"trans": "Bouwen",
+ 	 	 	 	"eng": "Crafting"
+ 	 	 	},
+ 	 	 	"autoScrap": {
+ 	 	 	 	"button": {
+ 	 	 	 	 	"trans": "Auto-schroot",
+ 	 	 	 	 	"eng": "Auto Scrap"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"itemDisplay": {
+ 	 	 	"broken": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Niet goed functioneerd",
+ 	 	 	 	 	"eng": "Malfunctioned"
+ 	 	 	 	},
+ 	 	 	 	"subtitle": {
+ 	 	 	 	 	"trans": "Uitgebreide reparatie vereist",
+ 	 	 	 	 	"eng": "Extensive repair required"
+ 	 	 	 	},
+ 	 	 	 	"instruction": {
+ 	 	 	 	 	"trans": "Dit item is kapot, breng het naar wapen Smith voor reparatie",
+ 	 	 	 	 	"eng": "This item is broken, bring it to Weapon Smith for repair"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"secretKey": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Geheime sleutels",
+ 	 	 	 	"eng": "Secret Keys"
+ 	 	 	},
+ 	 	 	"noKeysTitle": {
+ 	 	 	 	"trans": "Je hebt geen geheime sleutels",
+ 	 	 	 	"eng": "You don't have any secret keys"
+ 	 	 	},
+ 	 	 	"noKeysSubtitle": {
+ 	 	 	 	"trans": "Je kunt geheime sleutel van kerkers verkrijgen",
+ 	 	 	 	"eng": "You can obtain secret keys from Dungeons"
+ 	 	 	}
+ 	 	},
+ 	 	"npc": {
+ 	 	 	"notUnlocked": {
+ 	 	 	 	"trans": "Dit is nog niet ontgrendeld, probeer je karakter op",
+ 	 	 	 	"eng": "This is not unlocked yet, try leveling up your character"
+ 	 	 	},
+ 	 	 	"repairItems": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"repairFee"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Repareer alle items (${repairFee} bitcoin)",
+ 	 	 	 	"eng": " Repair all items for (${repairFee} Bitcoin)"
+ 	 	 	}
+ 	 	},
+ 	 	"travel": {
+ 	 	 	"notUnlocked": {
+ 	 	 	 	"trans": "Je hebt dit gebied nog niet ontgrendeld",
+ 	 	 	 	"eng": "You have not unlocked this area yet"
+ 	 	 	}
+ 	 	},
+ 	 	"itemDetails": {
+ 	 	 	"factoryReset": {
+ 	 	 	 	"confirmation": {
+ 	 	 	 	 	"trans": "Dit doen zal alle kalibratie op uw artikel resetten, maakt het ook weer verhandelijk. \n       Weet je zeker dat je verder wilt gaan?",
+ 	 	 	 	 	"eng": "Doing this will reset all calibration on your item. It will also make it tradable again. \n      Are you sure you want to proceed?"
+ 	 	 	 	},
+ 	 	 	 	"trans": "Fabrieksinstellingen",
+ 	 	 	 	"eng": "Factory Reset"
+ 	 	 	}
+ 	 	},
+ 	 	"apps": {
+ 	 	 	"dailyReward": {
+ 	 	 	 	"trans": "Dagelijkse beloning",
+ 	 	 	 	"eng": "Daily Reward"
+ 	 	 	},
+ 	 	 	"coupon": {
+ 	 	 	 	"trans": "Claimcoupon",
+ 	 	 	 	"eng": "Claim Coupon"
+ 	 	 	}
+ 	 	},
+ 	 	"gang": {
+ 	 	 	"confirmKickMember": {
+ 	 	 	 	"trans": "Weet je zeker dat je deze speler van je bende wilt schoppen?",
+ 	 	 	 	"eng": "are you sure you want to kick this player from your gang?"
+ 	 	 	},
+ 	 	 	"memberContribution": {
+ 	 	 	 	"resource": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"resourceContribution"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "${resourceContribution} resource",
+ 	 	 	 	 	"eng": "${resourceContribution} Resource"
+ 	 	 	 	},
+ 	 	 	 	"occupation": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"occupationContribution"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "${occupationContribution} bezetting punt",
+ 	 	 	 	 	"eng": "${occupationContribution} occupation point"
+ 	 	 	 	},
+ 	 	 	 	"fund": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"moneyContribution"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "${moneyContribution} Financiering",
+ 	 	 	 	 	"eng": "${moneyContribution} funding"
+ 	 	 	 	},
+ 	 	 	 	"exp": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"expContribution"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "${expContribution} exp",
+ 	 	 	 	 	"eng": "${expContribution} exp"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"coupon": {
+ 	 	 	"inputLabel": {
+ 	 	 	 	"trans": "Coupon",
+ 	 	 	 	"eng": "Coupon"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Als u een kortingsbon van een van onze evenementen hebt, kunt u het hier beweren.",
+ 	 	 	 	"eng": "If you have a coupon from one of our events, you can claim it here."
+ 	 	 	},
+ 	 	 	"placeholder": {
+ 	 	 	 	"trans": "Plakken of voer hier uw kortingsbon in",
+ 	 	 	 	"eng": "Paste or enter your coupon here"
+ 	 	 	},
+ 	 	 	"confirm": {
+ 	 	 	 	"trans": "Activeer coupon",
+ 	 	 	 	"eng": "Activate Coupon"
+ 	 	 	}
+ 	 	},
+ 	 	"dailyReward": {
+ 	 	 	"day": {
+ 	 	 	 	"trans": "Dag",
+ 	 	 	 	"eng": "Day"
+ 	 	 	},
+ 	 	 	"canClaim": {
+ 	 	 	 	"trans": "Beschikbaar",
+ 	 	 	 	"eng": "Available"
+ 	 	 	},
+ 	 	 	"claimed": {
+ 	 	 	 	"trans": "Geclaimd",
+ 	 	 	 	"eng": "Claimed"
+ 	 	 	},
+ 	 	 	"cantClaimYet": {
+ 	 	 	 	"trans": "Op slot",
+ 	 	 	 	"eng": "Locked"
+ 	 	 	}
+ 	 	},
+ 	 	"shop": {
+ 	 	 	"purchase": {
+ 	 	 	 	"trans": "aankoop",
+ 	 	 	 	"eng": "purchase"
+ 	 	 	},
+ 	 	 	"sell": {
+ 	 	 	 	"trans": "verkopen",
+ 	 	 	 	"eng": "sell"
+ 	 	 	}
+ 	 	},
+ 	 	"porofile": {
+ 	 	 	"deleteAccount": {
+ 	 	 	 	"modal": {
+ 	 	 	 	 	"title": {
+ 	 	 	 	 	 	"trans": "Weet u zeker dat u uw account wilt verwijderen? Dit is onomkeerbaar, alle informatie zal worden verwijderd.",
+ 	 	 	 	 	 	"eng": "Are you sure you want to delete your account? This is irreversible, all account information will be removed."
+ 	 	 	 	 	}
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"job": {
+ 	 	 	"cantEnterError": {
+ 	 	 	 	"trans": "Je hebt op zijn minst niveau 2 nodig om toegang te krijgen tot de jobhub",
+ 	 	 	 	"eng": "You need to be at least level 2 to access the job hub"
+ 	 	 	}
+ 	 	},
+ 	 	"landing": {
+ 	 	 	"subtile": {
+ 	 	 	 	"trans": "Cyberpunk Text-gebaseerd MMORPG",
+ 	 	 	 	"eng": "Cyberpunk Text-based MMORPG"
+ 	 	 	},
+ 	 	 	"description1": {
+ 	 	 	 	"trans": "Cybercode Online is een online game, er is een account nodig om game-gegevens op te slaan.",
+ 	 	 	 	"eng": "CyberCode Online is an online game, an account is needed to store game data."
+ 	 	 	},
+ 	 	 	"description2": {
+ 	 	 	 	"trans": "Registreer of log in met het bestaande account",
+ 	 	 	 	"eng": "please register or login with existing account"
+ 	 	 	}
+ 	 	},
+ 	 	"login": {
+ 	 	 	"loginButton": {
+ 	 	 	 	"trans": "Log in",
+ 	 	 	 	"eng": "Login"
+ 	 	 	},
+ 	 	 	"forgotPassword": {
+ 	 	 	 	"trans": "Wachtwoord vergeten?",
+ 	 	 	 	"eng": "Forgot Password?"
+ 	 	 	},
+ 	 	 	"registerPageButton": {
+ 	 	 	 	"trans": "Register?",
+ 	 	 	 	"eng": "Create Account?"
+ 	 	 	}
+ 	 	},
+ 	 	"register": {
+ 	 	 	"registerButton": {
+ 	 	 	 	"trans": "Register",
+ 	 	 	 	"eng": "Create Account"
+ 	 	 	},
+ 	 	 	"loginPageButton": {
+ 	 	 	 	"trans": "Account hebben?",
+ 	 	 	 	"eng": "Have account?"
+ 	 	 	}
+ 	 	},
+ 	 	"basicInfo": {
+ 	 	 	"emptyError": {
+ 	 	 	 	"trans": "Voer uw tekennaam in om door te gaan.",
+ 	 	 	 	"eng": "Please enter your character name to continue."
+ 	 	 	},
+ 	 	 	"playerNameInput": {
+ 	 	 	 	"label": {
+ 	 	 	 	 	"trans": "Karakter naam",
+ 	 	 	 	 	"eng": "Character Name"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "U wordt gedempt als u offensieve of ongepaste namen gebruikt.",
+ 	 	 	 	 	"eng": "you will be muted if you use an offensive or inappropriate name."
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"timeSkip": {
+ 	 	 	"unitTimeSkipButton": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"timeSkipMinutes",
+ 	 	 	 	 	 	"timeSkipCost"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "Global Skip (${timeSkipMinutes} min, kosten ${timeSkipCost} eenheden)",
+ 	 	 	 	 	"eng": "Global Skip (${timeSkipMinutes} Min, Cost ${timeSkipCost} Units)"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "Met Global Skip kunt u de wachttijd van de AFK overslaan en het onmiddellijk afmaken. \n     Dit effect wordt toegepast op alle spelers die AFK-taak uitvoeren",
+ 	 	 	 	 	"eng": "Global Skip allow you to skip the AFK waiting time, and finish it instantly.\n    this effect will be applied to all player performing AFK task"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"itemTimeSkipButton": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"itemSkipMinutes"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "Vrije tijd Skip (${itemSkipMinutes} min)",
+ 	 	 	 	 	"eng": "Free time skip (${itemSkipMinutes} Min)"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"timeSkipItemName",
+ 	 	 	 	 	 	"itemSkipMinutes"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "Gebruik een van uw ${timeSkipItemName} om ${itemSkipMinutes} minuten over te slaan",
+ 	 	 	 	 	"eng": "Use one of your ${timeSkipItemName} to skip ${itemSkipMinutes} minutes"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"inProgressBox": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Global Skip in uitvoering",
+ 	 	 	 	 	"eng": "Global Skip in progress"
+ 	 	 	 	},
+ 	 	 	 	"subtitle": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"skippingPlayerCount"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "Versnelleren van ${skippingPlayerCount} -gebruikers ..",
+ 	 	 	 	 	"eng": "Accelerating ${skippingPlayerCount} users.."
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Met Global Skip kunt u de wachttijd van de AFK overslaan en het onmiddellijk afmaken. \n     Dit effect wordt toegepast op alle spelers die AFK-taak uitvoeren",
+ 	 	 	 	"eng": "Global Skip allow you to skip the AFK waiting time, and finish it instantly.\n    this effect will be applied to all players performing an AFK task"
+ 	 	 	}
+ 	 	},
+ 	 	"afkTask": {
+ 	 	 	"abort": {
+ 	 	 	 	"trans": "Afbreken",
+ 	 	 	 	"eng": "Abort"
+ 	 	 	}
+ 	 	},
+ 	 	"quest": {
+ 	 	 	"globalQuest": {
+ 	 	 	 	"progressTitle": {
+ 	 	 	 	 	"trans": "SL-Data Fortress Breach",
+ 	 	 	 	 	"eng": "SL-Data Fortress Breach"
+ 	 	 	 	},
+ 	 	 	 	"infoBox": {
+ 	 	 	 	 	"title": {
+ 	 	 	 	 	 	"trans": "Cyberspace in uitvoering hacken",
+ 	 	 	 	 	 	"eng": "Cyberspace hacking in progress"
+ 	 	 	 	 	},
+ 	 	 	 	 	"subtitle": {
+ 	 	 	 	 	 	"trans": "Word lid van Force met andere netrunners om de SL-data-fort te schenken om alle spelers met buff te verlenen",
+ 	 	 	 	 	 	"eng": "Join forces with other Netrunners to breach the SL-Data Fortress to grant all players with buff"
+ 	 	 	 	 	}
+ 	 	 	 	},
+ 	 	 	 	"completeBox": {
+ 	 	 	 	 	"title": {
+ 	 	 	 	 	 	"trans": "Breach Operatie voltooid",
+ 	 	 	 	 	 	"eng": "Breach operation completed"
+ 	 	 	 	 	},
+ 	 	 	 	 	"subtitle": {
+ 	 	 	 	 	 	"trans": "Remote Exploit Implementation, Even geduld aub ...",
+ 	 	 	 	 	 	"eng": "Remote exploit deploying, please wait..."
+ 	 	 	 	 	}
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"battle": {
+ 	 	 	"attackButton": {
+ 	 	 	 	"primary": {
+ 	 	 	 	 	"title": {
+ 	 	 	 	 	 	"trans": "primair",
+ 	 	 	 	 	 	"eng": "primary"
+ 	 	 	 	 	}
+ 	 	 	 	},
+ 	 	 	 	"secondary": {
+ 	 	 	 	 	"title": {
+ 	 	 	 	 	 	"trans": "speciaal",
+ 	 	 	 	 	 	"eng": "special"
+ 	 	 	 	 	}
+ 	 	 	 	},
+ 	 	 	 	"tertiary": {
+ 	 	 	 	 	"title": {
+ 	 	 	 	 	 	"trans": "Vernietigen.",
+ 	 	 	 	 	 	"eng": "Destruct."
+ 	 	 	 	 	}
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"backToPreviusLoc": {
+ 	 	 	"longPressBackToCity": {
+ 	 	 	 	"trans": "Lang indrukken om terug naar de stad te gaan",
+ 	 	 	 	"eng": "Long press to go back to city"
+ 	 	 	}
+ 	 	},
+ 	 	"dungeon": {
+ 	 	 	"public": {
+ 	 	 	 	"trans": "Openbare kerker",
+ 	 	 	 	"eng": "Public dungeon"
+ 	 	 	},
+ 	 	 	"password": {
+ 	 	 	 	"trans": "Wachtwoord Beschermde Dungeon",
+ 	 	 	 	"eng": "Password protected dungeon"
+ 	 	 	},
+ 	 	 	"enterDungeon": {
+ 	 	 	 	"trans": "Voer Dungeon in",
+ 	 	 	 	"eng": "Enter Dungeon"
+ 	 	 	},
+ 	 	 	"listButton": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Kerker",
+ 	 	 	 	 	"eng": "Dungeons"
+ 	 	 	 	},
+ 	 	 	 	"des": {
+ 	 	 	 	 	"trans": "In Dungeons zul je niet genezen na elke strijd, en vijanden zijn sterker, maar er zijn meer EXP en Loots",
+ 	 	 	 	 	"eng": "In dungeons, you will not heal after each fight, and enemies are stronger, but there are more exp and loots"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"combat": {
+ 	 	 	"enemyIsDeadTitle": {
+ 	 	 	 	"trans": "Je hebt hier niets gevonden",
+ 	 	 	 	"eng": "You found nothing here"
+ 	 	 	}
+ 	 	},
+ 	 	"dungeonLobby": {
+ 	 	 	"noDungeon": {
+ 	 	 	 	"trans": "Er is momenteel geen openbare kerker",
+ 	 	 	 	"eng": "There is currently no public dungeon"
+ 	 	 	}
+ 	 	},
+ 	 	"localCombat": {
+ 	 	 	"nearByEnemiesButton": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "In de buurt vijanden",
+ 	 	 	 	 	"eng": "Nearby Enemies"
+ 	 	 	 	},
+ 	 	 	 	"desc": {
+ 	 	 	 	 	"trans": "Scant voor nabijgelegen vijanden op straat, vijanden buiten kerkers zijn zwakker en gemakkelijker te verslaan. Ze vallen echter ook minder exp",
+ 	 	 	 	 	"eng": "Scans for nearby enemies on the street, enemies outside dungeons are weaker and easier to defeat. However they also drop less exp"
+ 	 	 	 	}
+ 	 	 	}
  	 	}
  	},
  	"misc": {
@@ -1224,7 +2496,7 @@
  	 	 	"eng": "Name"
  	 	},
  	 	"tag": {
- 	 	 	"trans": "Tag",
+ 	 	 	"trans": "Label",
  	 	 	"eng": "Tag"
  	 	},
  	 	"donate": {
@@ -1256,16 +2528,52 @@
  	 	 	"eng": "Amount"
  	 	},
  	 	"shield": {
- 	 	 	"trans": "Shield",
+ 	 	 	"trans": "Schild",
  	 	 	"eng": "Shield"
  	 	},
  	 	"health": {
- 	 	 	"trans": "Health",
+ 	 	 	"trans": "Gezondheid",
  	 	 	"eng": "Health"
  	 	},
  	 	"statusEffect": {
- 	 	 	"trans": "Status Effects",
+ 	 	 	"trans": "Statuseffecten",
  	 	 	"eng": "Status Effects"
+ 	 	},
+ 	 	"notTradable": {
+ 	 	 	"trans": "niet verhandelbaar",
+ 	 	 	"eng": "not tradable"
+ 	 	},
+ 	 	"itemUpgradeCapacity": {
+ 	 	 	"trans": "Kalibratiecapaciteit",
+ 	 	 	"eng": "Collaboration Capacity"
+ 	 	},
+ 	 	"systemStandby": {
+ 	 	 	"trans": "Systeem standby",
+ 	 	 	"eng": "System standby"
+ 	 	},
+ 	 	"send": {
+ 	 	 	"trans": "versturen",
+ 	 	 	"eng": "send"
+ 	 	},
+ 	 	"password": {
+ 	 	 	"trans": "Wachtwoord",
+ 	 	 	"eng": "Password"
+ 	 	},
+ 	 	"close": {
+ 	 	 	"trans": "dichtbij",
+ 	 	 	"eng": "close"
+ 	 	},
+ 	 	"back": {
+ 	 	 	"trans": "rug",
+ 	 	 	"eng": "back"
+ 	 	},
+ 	 	"dungeons": {
+ 	 	 	"trans": "kerker",
+ 	 	 	"eng": "dungeons"
+ 	 	},
+ 	 	"enemies": {
+ 	 	 	"trans": "Vijanden",
+ 	 	 	"eng": "Enemies"
  	 	}
  	},
  	"statsType": {
@@ -1286,7 +2594,7 @@
  	 	 	},
  	 	 	"description": {
  	 	 	 	"trans": "Vermindert schade verkregen van vijand",
- 	 	 	 	"eng": "Decrease damage taken from enemy"
+ 	 	 	 	"eng": "Decreases damage taken from enemies"
  	 	 	}
  	 	},
  	 	"healthRegen": {
@@ -1296,7 +2604,7 @@
  	 	 	},
  	 	 	"description": {
  	 	 	 	"trans": "De hoeveelheid gezondheid die wordt hersteld aan het einde van een gevecht",
- 	 	 	 	"eng": "Amount of health regenerated after end of combat"
+ 	 	 	 	"eng": "Amount of health regenerated after the end of combat"
  	 	 	}
  	 	},
  	 	"damage": {
@@ -1306,7 +2614,7 @@
  	 	 	},
  	 	 	"description": {
  	 	 	 	"trans": "Beïnvloedt de hoeveelheid schade die je aanricht direct ",
- 	 	 	 	"eng": "Directly influences amount of damage dealt by you"
+ 	 	 	 	"eng": "Directly influences the amount of damage dealt by you"
  	 	 	}
  	 	},
  	 	"critChance": {
@@ -1352,7 +2660,7 @@
  	 	 	},
  	 	 	"description": {
  	 	 	 	"trans": "Kans dat je van een kerker vijand vlucht",
- 	 	 	 	"eng": "Chance of you escaping from a dungeon enemy"
+ 	 	 	 	"eng": "Chances of you escaping from a dungeon enemy"
  	 	 	}
  	 	},
  	 	"stunChance": {
@@ -1484,6 +2792,26 @@
  	 	 	 	"trans": "Maximale gezondheidscapaciteit",
  	 	 	 	"eng": "Maximum health capacity"
  	 	 	}
+ 	 	},
+ 	 	"upgradeChance": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Kalibratie Kans",
+ 	 	 	 	"eng": "Calibration Chance"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Vermindert de kans op destructieve mislukking bij het kalibreren van items",
+ 	 	 	 	"eng": "Reduces chance of destructive failure when calibrating items"
+ 	 	 	}
+ 	 	},
+ 	 	"upgradeNoBreak": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Kalibratieveiligheid",
+ 	 	 	 	"eng": "Calibration Safety"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Kalibratie mislukt, zal het item niet vernietigen",
+ 	 	 	 	"eng": "Calibration fails will not destroy the item"
+ 	 	 	}
  	 	}
  	},
  	"craft": {
@@ -1526,6 +2854,40 @@
  	 	 	 	"trans": "Ontgrendel Legendarische Container",
  	 	 	 	"eng": "Unlock Legendary Container"
  	 	 	}
+ 	 	},
+ 	 	"backpack1": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Oud buidel",
+ 	 	 	 	"eng": "Old Pouch"
+ 	 	 	}
+ 	 	},
+ 	 	"trade": {
+ 	 	 	"trans": "Handel",
+ 	 	 	"eng": "Trade"
+ 	 	},
+ 	 	"backpack2": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Fanny pack",
+ 	 	 	 	"eng": "Fanny Pack"
+ 	 	 	}
+ 	 	},
+ 	 	"backpack3": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Explorer's rugzak",
+ 	 	 	 	"eng": "Explorer's Backpack"
+ 	 	 	}
+ 	 	},
+ 	 	"backpack4": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Werknemer kantoorgeval",
+ 	 	 	 	"eng": "Employee Office Case"
+ 	 	 	}
+ 	 	},
+ 	 	"backpack5": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Autonome opslageenheid",
+ 	 	 	 	"eng": "Autonomous Storage Unit"
+ 	 	 	}
  	 	}
  	},
  	"market": {
@@ -1543,7 +2905,7 @@
  	 	 	 	"total"
  	 	 	],
  	 	 	"trans": "Als ze allemaal verkocht zijn, verdien je ${total} BitCoins",
- 	 	 	"eng": "If all of them are sold, you will earn ${total} BitCoins"
+ 	 	 	"eng": "If all items are sold, you will earn ${total} BitCoins"
  	 	},
  	 	"sellAmountModalTitle": {
  	 	 	"trans": "Hoeveel wil je er verkopen?",
@@ -1571,6 +2933,40 @@
  	 	 	 	"trans": "${from} => ${to}",
  	 	 	 	"eng": "${from} => ${to}"
  	 	 	}
+ 	 	},
+ 	 	"review": {
+ 	 	 	"title1": {
+ 	 	 	 	"trans": "Ik ben dexter, de ontwikkelaar van dit spel, en ik hoop tot nu toe uw ervaring te kennen.",
+ 	 	 	 	"eng": "I'm Dexter, the developer of this game, and I hope to know your experience so far."
+ 	 	 	},
+ 	 	 	"title2": {
+ 	 	 	 	"trans": "Hoeveel sterren zou je geven?",
+ 	 	 	 	"eng": "How many stars would you give?"
+ 	 	 	},
+ 	 	 	"badReview": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Het spijt me, laat het me weten waar ik kan verbeteren",
+ 	 	 	 	 	"eng": "I am so sorry, please let me know where I can improve"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"goodReview": {
+ 	 	 	 	"title1": {
+ 	 	 	 	 	"trans": "Wow heel erg bedankt! Im geëerd, maak het alsjeblieft officieel door ze op onze winkelpagina achter te laten :)",
+ 	 	 	 	 	"eng": "Wow, thanks so much! I'm honored, please make it official by leaving them on our store page :)"
+ 	 	 	 	},
+ 	 	 	 	"title2": {
+ 	 	 	 	 	"trans": "Je goede beoordeling gaat me heel erg helpen en meer spelers in onze gemeenschap brengen!",
+ 	 	 	 	 	"eng": "Your good review is going to help me much and bring more players into our community!"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"dontAskMeAgain": {
+ 	 	 	 	"trans": "Vraag me niet opnieuw",
+ 	 	 	 	"eng": "Don't ask me again"
+ 	 	 	},
+ 	 	 	"reviewLater": {
+ 	 	 	 	"trans": "Beoordeel later",
+ 	 	 	 	"eng": "review later"
+ 	 	 	}
  	 	}
  	},
  	"cosmetic": {
@@ -1579,7 +2975,96 @@
  	 	 	 	"tierName"
  	 	 	],
  	 	 	"trans": "Dit is een voorbeeld chat kader van ${tierName} Rang",
- 	 	 	"eng": "This is an example chat frame of ${tierName} Tier"
+ 	 	 	"eng": "example chat frame of ${tierName} Tier"
+ 	 	}
+ 	},
+ 	"reward": {
+ 	 	"gangResource": {
+ 	 	 	"vars": [
+ 	 	 	 	"clanResource"
+ 	 	 	],
+ 	 	 	"trans": "${clanResource} Gang Resource",
+ 	 	 	"eng": "${clanResource} gang resource"
+ 	 	},
+ 	 	"gangExp": {
+ 	 	 	"vars": [
+ 	 	 	 	"clanExp"
+ 	 	 	],
+ 	 	 	"trans": "${clanExp} Gang Exp",
+ 	 	 	"eng": "${clanExp} gang exp"
+ 	 	},
+ 	 	"gangFunding": {
+ 	 	 	"vars": [
+ 	 	 	 	"clanMoney"
+ 	 	 	],
+ 	 	 	"trans": "${clanMoney} Gang-financiering",
+ 	 	 	"eng": "${clanMoney} gang funding"
+ 	 	},
+ 	 	"unknown": {
+ 	 	 	"trans": "Onbekende items",
+ 	 	 	"eng": "Unknown Items"
+ 	 	},
+ 	 	"gangOccupationPoint": {
+ 	 	 	"vars": [
+ 	 	 	 	"clanOccupationPoint"
+ 	 	 	],
+ 	 	 	"trans": "${clanOccupationPoint} Beroepsregeling",
+ 	 	 	"eng": "${clanOccupationPoint} Occupation Control"
+ 	 	},
+ 	 	"globalQuestPoint": {
+ 	 	 	"vars": [
+ 	 	 	 	"globalQuestPoint"
+ 	 	 	],
+ 	 	 	"trans": "${globalQuestPoint} SL Data Fortress Breik Progress",
+ 	 	 	"eng": "${globalQuestPoint} SL Data Fortress breach progress"
+ 	 	}
+ 	},
+ 	"cost": {
+ 	 	"requireGang": {
+ 	 	 	"trans": "Vereist om in een bende te zijn",
+ 	 	 	"eng": "Requires you to be in a gang"
+ 	 	},
+ 	 	"requireTopGang": {
+ 	 	 	"trans": "Vereist om in de bovenste bende te zijn",
+ 	 	 	"eng": "Requires you to be in the top gang"
+ 	 	}
+ 	},
+ 	"statusEffect": {
+ 	 	"pirate": {
+ 	 	 	"trans": "Chat Exploit [Pirate]",
+ 	 	 	"eng": "Chat Exploit [PIRATE]"
+ 	 	},
+ 	 	"leet": {
+ 	 	 	"trans": "Chat Exploit [1337]",
+ 	 	 	"eng": "Chat Exploit [1337]"
+ 	 	},
+ 	 	"UwU": {
+ 	 	 	"trans": "Chat Exploit [UWU]",
+ 	 	 	"eng": "Chat Exploit [UwU]"
+ 	 	},
+ 	 	"love": {
+ 	 	 	"trans": "Chat Exploit [Love]",
+ 	 	 	"eng": "Chat Exploit [LOVE]"
+ 	 	},
+ 	 	"chatExploitProtect": {
+ 	 	 	"trans": "Chat-encryptie",
+ 	 	 	"eng": "Chat Encryption"
+ 	 	}
+ 	},
+ 	"inventory": {
+ 	 	"ui": {
+ 	 	 	"autoScrap": {
+ 	 	 	 	"noItem": {
+ 	 	 	 	 	"trans": "Geen item voor automatisch schroot",
+ 	 	 	 	 	"eng": "No item to auto scrap"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	}
+ 	},
+ 	"tutorial": {
+ 	 	"localCombatButton": {
+ 	 	 	"trans": "Klik hier om te scannen op straatvijanden",
+ 	 	 	"eng": "Click here to scan for street enemies"
  	 	}
  	}
 }

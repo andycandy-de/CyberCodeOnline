@@ -30,6 +30,10 @@
  	 	 	"tut": {
  	 	 	 	"trans": "Buradan global takviyeleri satın alabilirsin",
  	 	 	 	"eng": "You can purchase global buff items here"
+ 	 	 	},
+ 	 	 	"canAccessError": {
+ 	 	 	 	"trans": "Birim değişimine erişmek için en az 5. seviyede olmalısınız",
+ 	 	 	 	"eng": "You need to be at least level 5 to access unit exchange"
  	 	 	}
  	 	},
  	 	"cosmetic": {
@@ -40,6 +44,10 @@
  	 	 	"tut": {
  	 	 	 	"trans": "Eğer oyunu beğendiyseniz, lütfen bağış yapmayı düşünün :)",
  	 	 	 	"eng": "If you liked the game, please consider donation :)"
+ 	 	 	},
+ 	 	 	"canAccessError": {
+ 	 	 	 	"trans": "Kozmetik satıcısına erişmek için en az 5. seviyede olmalısınız",
+ 	 	 	 	"eng": "You need to be at least level 5 to access cosmetic merchant"
  	 	 	}
  	 	},
  	 	"printer": {
@@ -48,7 +56,7 @@
  	 	 	 	"eng": "Molecular 3d Printer"
  	 	 	},
  	 	 	"tut": {
- 	 	 	 	"trans": "Burada planları kullanarak yeni ekipmanlar üretebilirsiniz.",
+ 	 	 	 	"trans": "Burada taslakları kullanarak yeni ekipmanlar üretebilirsiniz.",
  	 	 	 	"eng": "You can use your Cache to print new equipment here"
  	 	 	}
  	 	},
@@ -60,16 +68,20 @@
  	 	},
  	 	"terminal": {
  	 	 	"name": {
- 	 	 	 	"trans": "Terminal",
+ 	 	 	 	"trans": "terminal",
  	 	 	 	"eng": "Terminal"
  	 	 	},
  	 	 	"tut": {
  	 	 	 	"trans": "Yeni bölgeye ilerleyebilmek için, Gizli Anahtar Parçaları'nı zindanlardan bulabilirsin, \r\n        ve Terminal'i kullanarak anahtarı oluşturabilirsin",
- 	 	 	 	"eng": "To progress to next area, you need to use get Secret Key Fragments from dungeons, \r\n        and use Terminal to Brute Force the key for next area"
+ 	 	 	 	"eng": "To progress to the next area, you need to use get Secret Key Fragments from dungeons, \r\n        and use the Terminal to Brute Force the key for next area"
  	 	 	},
  	 	 	"description": {
  	 	 	 	"trans": "Kişisel bilgisayarın artık demode olmuş, işlemi halledebilmek için biraz sabretmen gerekiyor",
- 	 	 	 	"eng": "Your personal computer, although its a little outdated, it could get the job done with enough patient"
+ 	 	 	 	"eng": "Your personal computer, although it's a little outdated, it can get the job done with enough patience"
+ 	 	 	},
+ 	 	 	"canAccessError": {
+ 	 	 	 	"trans": "Terminale erişmek için en az 5. seviyede olmalısınız",
+ 	 	 	 	"eng": "You need to be at least level 5 to access terminal"
  	 	 	}
  	 	},
  	 	"store": {
@@ -82,6 +94,44 @@
  	 	 	"name": {
  	 	 	 	"trans": "Arasaka Bankası",
  	 	 	 	"eng": "Bank of Arasaka"
+ 	 	 	},
+ 	 	 	"canAccessError": {
+ 	 	 	 	"trans": "Bankaya erişmek için en az 5. seviyede olmalısınız",
+ 	 	 	 	"eng": "You need to be at least level 5 to access bank"
+ 	 	 	}
+ 	 	},
+ 	 	"equipmentUpgrade": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Kalibrasyon istasyonu",
+ 	 	 	 	"eng": "Calibration Station"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Gerekli araçlara sahip bir tezgah, ekipmanınızı geliştirmenizi sağlar.",
+ 	 	 	 	"eng": "A workbench with the necessary tools allows you to tinker with your equipment."
+ 	 	 	}
+ 	 	},
+ 	 	"storageMerchant": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Lee'nin ticaret bölgesi",
+ 	 	 	 	"eng": "Lee's Trading Post"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Öldürürken buldukları şeylerle ticaret yapmanızı sağlayan bir aile işletmesi",
+ 	 	 	 	"eng": "A family run trading shop that lets you trade with what they have found while scavenging"
+ 	 	 	},
+ 	 	 	"canAccessError": {
+ 	 	 	 	"trans": "Tüccara erişmek için en az 10. seviyede olmalısınız",
+ 	 	 	 	"eng": "You need to be at least level 10 to access merchant"
+ 	 	 	}
+ 	 	},
+ 	 	"recycleMachine": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Otomatik geri dönüşüm",
+ 	 	 	 	"eng": "Automatic Recycler"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Tamamen otomatik geri dönüştürücü, eşyaların temel hurda formlarına geri dönüştürebilir",
+ 	 	 	 	"eng": "Fully automated recycler, capable of recycling items to their basic scrap form"
  	 	 	}
  	 	}
  	},
@@ -110,7 +160,7 @@
  	 	},
  	 	"medical": {
  	 	 	"name": {
- 	 	 	 	"trans": "Medikal Bilim",
+ 	 	 	 	"trans": "Tıbbi Bilim",
  	 	 	 	"eng": "medical science"
  	 	 	}
  	 	},
@@ -128,7 +178,7 @@
  	 	},
  	 	"mining": {
  	 	 	"name": {
- 	 	 	 	"trans": "kazım yetenaği",
+ 	 	 	 	"trans": "madencilik yeteneği",
  	 	 	 	"eng": "mining skill"
  	 	 	}
  	 	}
@@ -141,7 +191,7 @@
  	 	 	},
  	 	 	"description": {
  	 	 	 	"trans": "[Şehir Merkezi]\r\n        Bölgedeki en yoğun şehir, burada dünyadaki her tip insana rastlayabilirsin.",
- 	 	 	 	"eng": "[Central Hub]\r\n        One of the busiest cities in the continent, here you can find all sorts of people from around the globe."
+ 	 	 	 	"eng": "[Central Hub]\r\n        One of the busiest cities in the continent. Here you can find all sorts of people from around the globe."
  	 	 	},
  	 	 	"toStation": {
  	 	 	 	"name": {
@@ -150,7 +200,7 @@
  	 	 	 	},
  	 	 	 	"tut": {
  	 	 	 	 	"trans": "Epik hazineler için macerana buradan başla",
- 	 	 	 	 	"eng": "Start your adventure to epic loots here"
+ 	 	 	 	 	"eng": "Start your adventure for epic loot here"
  	 	 	 	},
  	 	 	 	"description": {
  	 	 	 	 	"trans": "Hyper Ana Tren İstasyonu'na git",
@@ -176,6 +226,12 @@
  	 	 	 	 	"trans": "Burada başka oyunculara eşya satabilir veya onlardan satın alabilirsin.",
  	 	 	 	 	"eng": "You can sell or buy items from other players here"
  	 	 	 	}
+ 	 	 	},
+ 	 	 	"toGang": {
+ 	 	 	 	"name": {
+ 	 	 	 	 	"trans": "Çete merkezine git",
+ 	 	 	 	 	"eng": "Go to gang headquarters"
+ 	 	 	 	}
  	 	 	}
  	 	},
  	 	"job": {
@@ -185,7 +241,7 @@
  	 	 	},
  	 	 	"description": {
  	 	 	 	"trans": "[İş Merkezi]\r\n        Etraf mağaza ve işyerleri ile dolu, yeteneklerini test etmek için mükemmel bir yer.",
- 	 	 	 	"eng": "[Job Hub]\r\n        Many shops and Businesses, a perfect location to try out your skills."
+ 	 	 	 	"eng": "[Job Hub]\r\n        Here are many shops and businesses reside. The perfect location to hone and refine your skills."
  	 	 	},
  	 	 	"toMainHub": {
  	 	 	 	"name": {
@@ -217,7 +273,7 @@
  	 	 	},
  	 	 	"description": {
  	 	 	 	"trans": "[Macera]\r\n        Hyperloop'u kullanarak kolaylıkla kıtalar arası süper hızda seyahat edebilirsin.",
- 	 	 	 	"eng": "[Adventure]\r\n        Using the hyperloop you can travel at super speed across the continent with ease."
+ 	 	 	 	"eng": "[Adventure]\r\n        Using the hyperloop, you can travel at supersonic speed across the continent with ease."
  	 	 	}
  	 	},
  	 	"zone": {
@@ -272,7 +328,7 @@
  	 	 	 	}
  	 	 	},
  	 	 	"tut": {
- 	 	 	 	"trans": "Start with level 1 to 10 area",
+ 	 	 	 	"trans": "Seviye 1 ila 10 alanı ile başlayın",
  	 	 	 	"eng": "Start with level 1 to 10 area"
  	 	 	},
  	 	 	"toZone": {
@@ -303,8 +359,29 @@
  	 	 	 	 	"segment",
  	 	 	 	 	"segmentMaxLevel"
  	 	 	 	],
- 	 	 	 	"trans": "Level ${segment} to ${segmentMaxLevel}",
+ 	 	 	 	"trans": "Seviye ${segment}'ten ${segmentMaxLevel}'e",
  	 	 	 	"eng": "Level ${segment} to ${segmentMaxLevel}"
+ 	 	 	},
+ 	 	 	"goTo": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"segmentStationName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${segmentStationName}'a git",
+ 	 	 	 	"eng": "go to ${segmentStationName}"
+ 	 	 	}
+ 	 	},
+ 	 	"gang": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Çete merkezi",
+ 	 	 	 	"eng": "Gang Headquarters"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "[Çete] \r\n         Bir sonraki işleminizi planlamak ve yürütmek için sizin ve çete üyeleriniz için merkezi",
+ 	 	 	 	"eng": "[Gang]\r\n        The headquarters for you and your gang members to plan and execute your next operation"
+ 	 	 	},
+ 	 	 	"cantEnterError": {
+ 	 	 	 	"trans": "Bu bölgeye girmek için bir kazanç katılmanız gerekir",
+ 	 	 	 	"eng": "You need to join a gang to enter this area"
  	 	 	}
  	 	}
  	},
@@ -322,7 +399,7 @@
  	 	 	 	 	"levelName"
  	 	 	 	],
  	 	 	 	"trans": "Birinin hafızasını ve deneyimini içeren bir parça kullanılırsa, bundan $ {levelName} deneyimi kazanabilirsin",
- 	 	 	 	"eng": "A shard that contains someone's memory and experience, if used you may gain ${levelName} experience from this"
+ 	 	 	 	"eng": "A shard that contains someone's memory and experience. If used you may gain ${levelName} experience from this"
  	 	 	}
  	 	},
  	 	"keyFragment": {
@@ -339,7 +416,7 @@
  	 	 	 	 	"segmentDisplayName"
  	 	 	 	],
  	 	 	 	"trans": "Gizli Anahtar Parçasını, bir gizli anahtara kaba kuvvet uygulamak için kullanın.\r\n                                ${segmentDisplayName} Gizli anahtarına Anahtara kaba-kuvvet uygulamak (anahtarı oluşturmak) için Şehir Merkezindeki [Hub] terminali kullanmalısın.\r\n                                Zindanlardan gerekli olan 3 anahtarın her bilirini (hem normal hem de meydan okuma ile) elde edebilirsin.\r\n                                3 anahtarı da elde ettiğin zaman, bir sonraki alana geçmek için anahtara kaba kuvvet uygumalak (oluturmak) için Terminali kullanabilirsin",
- 	 	 	 	"eng": "Secret key Fragment Use to brute-force a secret key.\r\n                                Use the Terminal at city center [Hub] to brute-force a ${segmentDisplayName} secret key.\r\n                                You can acquire each of the 3 required keys in each dungeon (both normal or challenge),\r\n                                when you acquired 3 keys, you may use Terminal to brute-force (Craft) a key to the next area"
+ 	 	 	 	"eng": "A secret key Fragment used to brute-force a secret key.\r\n                                Use the Terminal at city center [Hub] to brute-force a ${segmentDisplayName} secret key.\r\n                                You can acquire each of the 3 required keys in each dungeon (both normal or challenge),\r\n                                when you acquired 3 keys, you may use Terminal to brute-force (Craft) a key to the next area"
  	 	 	}
  	 	},
  	 	"cache": {
@@ -348,14 +425,14 @@
  	 	 	 	 	"tierName",
  	 	 	 	 	"typeName"
  	 	 	 	],
- 	 	 	 	"trans": "${tierName} ${typeName} cache",
+ 	 	 	 	"trans": "${tierName} ${typeName} taslak",
  	 	 	 	"eng": "${tierName} ${typeName} cache"
  	 	 	},
  	 	 	"description": {
  	 	 	 	"vars": [
  	 	 	 	 	"typeName"
  	 	 	 	],
- 	 	 	 	"trans": "A ${typeName} cache contains information used for Molecular 3D Printing, \r\n                    You can create a ${typeName} with the [Molecular 3d Printer] at [Central Hub].\r\n                    \r\n                    Pro tip: The level of item you get from printing is determined by your Printing Rank,\r\n                    so always print the trash ones first, as they cost less and useful to level up your Printing Rank",
+ 	 	 	 	"trans": "Bir ${typeName} taslağı Moleküler 3D Baskı için bilgi içerir , \r\n                    [Central Hub]da [Molecular 3d Printer] ile ${typeName} üretebilirsin.\r\n                    \r\n                    İpucu:Çıkan ürünün seviyesi Üretim Seviyesi tarafından belirlenir.,\r\n                    yani herzaman önce daha az kaliteli olanlarla başla, daha ucuz olduğu kadar Üretim Seviyesini artırmaktada faydalıdır.",
  	 	 	 	"eng": "A ${typeName} cache contains information used for Molecular 3D Printing, \r\n                    You can create a ${typeName} with the [Molecular 3d Printer] at [Central Hub].\r\n                    \r\n                    Pro tip: The level of item you get from printing is determined by your Printing Rank,\r\n                    so always print the trash ones first, as they cost less and useful to level up your Printing Rank"
  	 	 	}
  	 	},
@@ -396,77 +473,77 @@
  	 	 	},
  	 	 	"description": {
  	 	 	 	"trans": "Baş ağrınız mı var? Ağrınızı gidermek için Ağrıkesici™ kullanın!",
- 	 	 	 	"eng": "Do you have headache? use Pain Away™ to relief your pain!"
+ 	 	 	 	"eng": "Do you have headache? Use Pain Away™ to relieve your pain!"
  	 	 	}
  	 	},
  	 	"healing2": {
  	 	 	"name": {
- 	 	 	 	"trans": "Bozulmus Nano Onarım Botu",
+ 	 	 	 	"trans": "Bozulmuş Nano Onarım Robotu",
  	 	 	 	"eng": "Degraded Nano Repair Bot"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "eskimiş nano Onarım Botu, genellikle küçük teknoloji cihazlarını onarmak için kullanılır",
- 	 	 	 	"eng": "Old nano repair bot, usually used to repair small tech devices"
+ 	 	 	 	"trans": "Eskimiş nano onarım robotu, genellikle küçük teknoloji cihazlarını onarmak için kullanılır",
+ 	 	 	 	"eng": "An old nano repair bot, usually used to repair small tech devices."
  	 	 	}
  	 	},
  	 	"healing3": {
  	 	 	"name": {
- 	 	 	 	"trans": "Bozulmuş Nano Sağlık Botu",
+ 	 	 	 	"trans": "Bozulmuş Nano Sağlık Robotu",
  	 	 	 	"eng": "Degraded Nano Medic Bot"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Eskimiş nano Sağlık Botu, herhangi bir (*koşul geçerlidir) yaralanmayı iyileştirmek için enjekte edin!",
- 	 	 	 	"eng": "Old nano Medic bot, inject it to cure any(*conditions apply) injury!"
+ 	 	 	 	"trans": "Eskimiş nano Sağlık Robotu, herhangi bir (*koşul geçerlidir) yaralanmayı iyileştirmek için enjekte edin!",
+ 	 	 	 	"eng": "Old nano medic bot is used to cure any (*conditions apply) injury!"
  	 	 	}
  	 	},
  	 	"healing4": {
  	 	 	"name": {
- 	 	 	 	"trans": "Nano Sağlık Botu",
+ 	 	 	 	"trans": "Nano Sağlık Robotu",
  	 	 	 	"eng": "Nano Medic Bot"
  	 	 	},
  	 	 	"description": {
  	 	 	 	"trans": "herhangi bir (*koşul geçerlidir) yaralanmayı iyileştirmek için enjekte edin!",
- 	 	 	 	"eng": "inject it to cure any(*conditions apply) injury!"
+ 	 	 	 	"eng": "Inject it to cure any(*conditions apply) injury!"
  	 	 	}
  	 	},
  	 	"healing5": {
  	 	 	"name": {
- 	 	 	 	"trans": "Askeri Nano Sağlık Botu",
+ 	 	 	 	"trans": "Askeri Nano Sağlık Robotu",
  	 	 	 	"eng": "Military Nano Medic Bot"
  	 	 	},
  	 	 	"description": {
  	 	 	 	"trans": "Askeri kullanım için standart olan enjekte edilebilir nano makineler, savaş sırasında yaralanmaları onarabilir..",
- 	 	 	 	"eng": "Injectable nano machines that are standard issue for military use, capable of patching injuries while in combat."
+ 	 	 	 	"eng": "Injectable nano machines that are standard issue for military use. They are capable of patching injuries while in combat."
  	 	 	}
  	 	},
  	 	"healing6": {
  	 	 	"name": {
- 	 	 	 	"trans": "Gelişmiş Nano Sağlık Botu",
+ 	 	 	 	"trans": "Gelişmiş Nano Sağlık Robotu",
  	 	 	 	"eng": "Advanced Nano Medic Bot"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Orduda kullanılan enjekte edilebilir nano makineler. Savaş sırasında yaraları onarabilirler..",
- 	 	 	 	"eng": "Injectable nano machines that are used in the military. They are capable of patching injuries while in combat."
+ 	 	 	 	"trans": "Orduda kullanılan enjekte edilebilir nano makineler. Savaş sırasında yaraları onarabilirler.",
+ 	 	 	 	"eng": "Injectable nano machines that are standard issue for military use. They're capable of patching injuries while in combat."
  	 	 	}
  	 	},
  	 	"healing7": {
  	 	 	"name": {
- 	 	 	 	"trans": "Kaliteli Nano Sağlık Botu",
+ 	 	 	 	"trans": "Kaliteli Nano Sağlık Robotu",
  	 	 	 	"eng": "High Quality Nano Medic Bot"
  	 	 	},
  	 	 	"description": {
  	 	 	 	"trans": "ileri askeri kullanım için üretilmiş, savaş durumunda yaralanmaları anarabilen enjekte edilebilir nano makineler",
- 	 	 	 	"eng": "injectable nano machines that is for advance military use, capable of patching injury in combat situation"
+ 	 	 	 	"eng": "Injectable nano machines that are standard issue for military use. They're capable of patching injuries while in combat."
  	 	 	}
  	 	},
  	 	"healing8": {
  	 	 	"name": {
- 	 	 	 	"trans": "Nadir Nano Sağlık Botu",
+ 	 	 	 	"trans": "Nadir Nano Sağlık Robotu",
  	 	 	 	"eng": "Rare Nano Medic Bot"
  	 	 	},
  	 	 	"description": {
  	 	 	 	"trans": "ileri askeri kullanım için üretilmiş, savaş durumunda yaralanmaları anarabilen enjekte edilebilir nano makineler",
- 	 	 	 	"eng": "injectable nano machines that is for advance military use, capable of patching injury in combat situation"
+ 	 	 	 	"eng": "Injectable nano machines that are standard issue for military use. They're capable of patching injuries while in combat."
  	 	 	}
  	 	},
  	 	"healingArea1": {
@@ -476,7 +553,7 @@
  	 	 	},
  	 	 	"description": {
  	 	 	 	"trans": "Arkadaşın ve senin birlikte baş ağrınız mı var? Ağrınızı gidermek için Ağrıkesici Sprey™ kullanın!",
- 	 	 	 	"eng": "Do you and your friend have headache together? use Pain Away Spray™ to relief your pain!"
+ 	 	 	 	"eng": "Do you and your friends both have headaches? Use Pain Away Spray™ to relief your pain!"
  	 	 	}
  	 	},
  	 	"healingArea2": {
@@ -486,7 +563,7 @@
  	 	 	},
  	 	 	"description": {
  	 	 	 	"trans": "Eskimiş onarım dronu, yakındaki oyuncuları onarabilir veya iyileştirebilir",
- 	 	 	 	"eng": "Old repair drone, capable of repair or heal nearby players"
+ 	 	 	 	"eng": "Old repair drone, capable of repairing or heal nearby players"
  	 	 	}
  	 	},
  	 	"healingArea3": {
@@ -556,17 +633,17 @@
  	 	 	},
  	 	 	"description": {
  	 	 	 	"trans": "Kullanılmış teknolojik tıbbi parça, nasıl yapıldığını anlarsan, iyileştirici öğeler üretebilirsin",
- 	 	 	 	"eng": "Bits and pieces of used medical tech, this can be used to craft healing items if you understand how"
+ 	 	 	 	"eng": "Bits and pieces of used medical tech. This can be used to craft healing items if you understand how"
  	 	 	}
  	 	},
  	 	"expMemory": {
  	 	 	"name": {
- 	 	 	 	"trans": "Experience Memory",
+ 	 	 	 	"trans": "Deneyim Hafızası",
  	 	 	 	"eng": "Experience Memory"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Memory bank contains someone's memory, if used you may gain experience from this",
- 	 	 	 	"eng": "Memory bank contains someone's memory, if used you may gain experience from this"
+ 	 	 	 	"trans": "Hafıza bankası birilerinin anılarını içerir, eğer kullanılırsa bundan deneyim elde edebilirsin",
+ 	 	 	 	"eng": "Memory bank contains someone's memory. If used you may gain experience from this"
  	 	 	}
  	 	},
  	 	"hashProcessor": {
@@ -581,101 +658,101 @@
  	 	},
  	 	"afkAcceleration": {
  	 	 	"name": {
- 	 	 	 	"trans": "Synaptic Acceleration Transmitter",
+ 	 	 	 	"trans": "Sinaptik Hızlanma Vericisi",
  	 	 	 	"eng": "Synaptic Acceleration Transmitter"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Broadcasts exploits to all cybernetically connected users, overclock their synaptic processors thus allowing super-human mental capacity for short period of time.\r\n        \r\n        When used, gives Global Buff to all players online, allowing them to complete AFK tasks in +5% speed for 10 minutes (stackable)",
- 	 	 	 	"eng": "Broadcasts exploits to all cybernetically connected users, overclock their synaptic processors thus allowing super-human mental capacity for short period of time.\r\n        \r\n        When used, gives Global Buff to all players online, allowing them to complete AFK tasks in +5% speed for 10 minutes (stackable)"
+ 	 	 	 	"trans": "Sibernetik olarak bağlı bütün kullanıcıların yayınlarını kullanır, sinaptik işlemcilerini overclock ederek kısa bir süre için süper insan zihinsel kapasitesine izin verir.\r\n        \r\n        Kullanıldığında, bütün çevrimiçi oyunculara Küresel Güçlendirme verir , AFK görevlerini 10 dakika için %5 hızlandırma izin verir (stoklanabilir)",
+ 	 	 	 	"eng": "Broadcasts exploits to all cybernetically connected users, overclocking their synaptic processors thus allowing super-human mental capacity for short period of time.\r\n        \r\n        When used, gives Global Buff to all players online, allowing them to complete AFK tasks in +5% speed for 10 minutes (stackable)"
  	 	 	}
  	 	},
  	 	"afkAcceleration2": {
  	 	 	"name": {
- 	 	 	 	"trans": "Rare Synaptic Acceleration Transmitter",
+ 	 	 	 	"trans": "Ender Sinaptik Hızlanma Vericisi",
  	 	 	 	"eng": "Rare Synaptic Acceleration Transmitter"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Broadcasts exploits to all cybernetically connected users, overclock their synaptic processors thus allowing super-human mental capacity for short period of time.\r\n        \r\n        When used, gives Global Buff to all players online, allowing them to complete AFK tasks in +40% speed for 20 minutes (stackable)",
- 	 	 	 	"eng": "Broadcasts exploits to all cybernetically connected users, overclock their synaptic processors thus allowing super-human mental capacity for short period of time.\r\n        \r\n        When used, gives Global Buff to all players online, allowing them to complete AFK tasks in +40% speed for 20 minutes (stackable)"
+ 	 	 	 	"trans": "Sibernetik olarak bağlı bütün kullanıcıların yayınlarını kullanır, sinaptik işlemcilerini overclock ederek kısa bir süre için süper insan zihinsel kapasitesine izin verir.\r\n        \r\n        Kullanıldığında, bütün çevrimiçi oyunculara Küresel Güçlendirme verir, AFK görevlerini 20 dakika için %40 hızlandırma izin verir  (stoklanabilir)",
+ 	 	 	 	"eng": "Broadcasts exploits to all cybernetically connected users, overclocking their synaptic processors thus allowing super-human mental capacity for short period of time.\r\n        \r\n        When used, gives Global Buff to all players online, allowing them to complete AFK tasks in +40% speed for 20 minutes (stackable)"
  	 	 	}
  	 	},
  	 	"expMultiplier": {
  	 	 	"name": {
- 	 	 	 	"trans": "Frontal Cortex Optimization Transmitter",
+ 	 	 	 	"trans": "Frontal Korteks Optimizasyon Vericisi",
  	 	 	 	"eng": "Frontal Cortex Optimization Transmitter"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Broadcasts exploits to all cybernetically connected users, enhance their Frontal Cortex integration with cyberwares installed, thus increase memory capability of the user.\r\n\r\n        When used, gives Global Buff to all players online, increase EXP gained to 180% for 20 minutes\r\n        ",
- 	 	 	 	"eng": "Broadcasts exploits to all cybernetically connected users, enhance their Frontal Cortex integration with cyberwares installed, thus increase memory capability of the user.\r\n\r\n        When used, gives Global Buff to all players online, increase EXP gained to 180% for 20 minutes\r\n        "
+ 	 	 	 	"trans": "Sibernetik olarak bağlı bütün kullanıcıların yayınlarını kullanır, Frontal Cortex entegrasyonunu kurulu siber yazılımlarla geliştirir, böylece kullanıcının bellek kapasitesini artırır.\r\n\r\n        Kullanıldığında, bütün çevrimiçi oyuncculara Küresel Güçlendirme verir, 20 dakika için kazanılan EXP yi %180 artırır\r\n        ",
+ 	 	 	 	"eng": "Broadcasts exploits to all cybernetically connected users, enhancing their Frontal Cortex integration with cyberwares installed, thus increasing memory capability of the user.\r\n\r\n        When used, gives Global Buff to all players online, increase EXP gained to 180% for 20 minutes\r\n        "
  	 	 	}
  	 	},
  	 	"btcMultiplier": {
  	 	 	"name": {
- 	 	 	 	"trans": "Transaction Exploit Transmitter",
+ 	 	 	 	"trans": "İşlem Exploit Verici",
  	 	 	 	"eng": "Transaction Exploit Transmitter"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Broadcasts exploits to all cybernetically connected users, argument their transaction algorithm temporary, allowing user to receive bonus  ${Config.CURRENCY_NAME}.\r\n\r\n        When used, gives Global Buff to all players online, increase BitCoin gained by 40% for 20 minutes (stackable)\r\n        ",
+ 	 	 	 	"trans": "Sibernetik olarak bağlı bütün kullanıcıların yayınlarını kullanır , işlem algoritmalarını geçici olarak değiştirerek kullanıcının bonus almasına izin verir  ${Config.CURRENCY_NAME}.\r\n\r\n        Kullanıldığında, bütün çevrimiçi oyuncculara Küresel Güçlendirme verir, 20 dakika için kazandıkları BitCoinleri 40% artırır(stoklanabilir)\r\n        ",
  	 	 	 	"eng": "Broadcasts exploits to all cybernetically connected users, argument their transaction algorithm temporary, allowing user to receive bonus  ${Config.CURRENCY_NAME}.\r\n\r\n        When used, gives Global Buff to all players online, increase BitCoin gained by 40% for 20 minutes (stackable)\r\n        "
  	 	 	}
  	 	},
  	 	"aiCore": {
  	 	 	"name": {
- 	 	 	 	"trans": "AI Core",
+ 	 	 	 	"trans": "YZ Çekirdeği",
  	 	 	 	"eng": "AI Core"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Commercially used Neural Processing Unit (NPU). Comes with general purpose AI. \r\n        You can use this to deploy a farming bot to dungeon for you.",
+ 	 	 	 	"trans": "Ticari olarak kullanılan Nöral İşlem Birimi (NPU). Genel amaçlı YZ ile birlikte gelir. \r\n        Bunu, sizin için zindana bir toplama botu yerleştirmek için kullanabilirsiniz.",
  	 	 	 	"eng": "Commercially used Neural Processing Unit (NPU). Comes with general purpose AI. \r\n        You can use this to deploy a farming bot to dungeon for you."
  	 	 	}
  	 	},
  	 	"ammo1": {
  	 	 	"name": {
- 	 	 	 	"trans": "Energy Cell",
+ 	 	 	 	"trans": "Enerji Hücresi",
  	 	 	 	"eng": "Energy Cell"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Portable energy storage device, it can be used as consumable ammo for your Special Weapons",
+ 	 	 	 	"trans": "Taşınabilir enerji depolama cihazı, Özel Silah için cephane olarak kullanılır",
  	 	 	 	"eng": "Portable energy storage device, it can be used as consumable ammo for your Special Weapons"
  	 	 	}
  	 	},
  	 	"ammo2": {
  	 	 	"name": {
- 	 	 	 	"trans": "Anti Matter Charge",
+ 	 	 	 	"trans": "Anti Madde Yükü",
  	 	 	 	"eng": "Anti Matter Charge"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "High-tech, miniaturized, one-time use, antimatter energy generator. \r\n        This item produces enormous amounts of power. You can use this as ammunition for your destructive weapon. ",
+ 	 	 	 	"trans": "ileri teknoloji, minyatür, tek kullanımlık, antimadde enerji jeneratörü. \r\n        Bu eşya muazzam miktarda güç üretir. Bunu Yıkıcı Silahınız için cephane olarak kullanabilirsiniz.  ",
  	 	 	 	"eng": "High-tech, miniaturized, one-time use, antimatter energy generator. \r\n        This item produces enormous amounts of power. You can use this as ammunition for your destructive weapon. "
  	 	 	}
  	 	},
  	 	"ammoTech1": {
  	 	 	"name": {
- 	 	 	 	"trans": "Ammunition tech parts",
+ 	 	 	 	"trans": "Mühimmat Teknolojik Parçası",
  	 	 	 	"eng": "Ammunition tech parts"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Ammunition tech parts, These can be commonly found circulating the black market. \r\n        You can use these to craft ammunition if you understand how.",
+ 	 	 	 	"trans": "Mühimmat teknolojik parçaları, bunlar genellikle karaborsada dolaşırken bulunabilir.  \r\n        Nasıl yapılacağını biliyorsan, bunları mühimmat yapmak için kullanabilirsin.",
  	 	 	 	"eng": "Ammunition tech parts, These can be commonly found circulating the black market. \r\n        You can use these to craft ammunition if you understand how."
  	 	 	}
  	 	},
  	 	"ammoTech2": {
  	 	 	"name": {
- 	 	 	 	"trans": "Military ammunition tech parts",
+ 	 	 	 	"trans": "Askeri mühimmat teknolojik parçası",
  	 	 	 	"eng": "Military ammunition tech parts"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Military grade ammunition tech parts, commonly used by government, military and the elites,can be used to craft into usable Ammo if you have the know-how",
+ 	 	 	 	"trans": "Askeri sınıf mühimmat teknik parçaları , hükümet, ordu ve seçkinler tarafından yaygın olarak kullanılır, bilginiz varsa, kullanılabilir Cephane yapmak için kullanılabilir ",
  	 	 	 	"eng": "Military grade ammunition tech parts, commonly used by government, military and the elites,can be used to craft into usable Ammo if you have the know-how"
  	 	 	}
  	 	},
  	 	"techScrap": {
  	 	 	"name": {
- 	 	 	 	"trans": "Tech Scrap",
+ 	 	 	 	"trans": "Teknoloji Hurdası",
  	 	 	 	"eng": "Tech Scrap"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Technology scrap from disassembled equipment, this can be reverse engineered to gain printing xp. \r\n        You can perform reverse engineering in the Job Hub.",
+ 	 	 	 	"trans": "İmha edilmiş ekipmandan teknoloji hurdası, üretim seviyesi kazanmak için tersine mühendislik yapılabilir. \r\n        İş Merkezi'nde tersine mühendislik gerçekleştirebilirsin.",
  	 	 	 	"eng": "Technology scrap from disassembled equipment, this can be reverse engineered to gain printing xp. \r\n        You can perform reverse engineering in the Job Hub."
  	 	 	}
  	 	},
@@ -693,38 +770,298 @@
  	 	},
  	 	"tertiary": {
  	 	 	"name": {
- 	 	 	 	"trans": "Tarumar Edici Silah",
+ 	 	 	 	"trans": "Yıkıcı Silah",
  	 	 	 	"eng": "Destructive Weapon"
  	 	 	}
  	 	},
  	 	"lootBox1": {
  	 	 	"name": {
- 	 	 	 	"trans": "locked container",
+ 	 	 	 	"trans": "kilitli konteyner",
  	 	 	 	"eng": "locked container"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "A reinforced container with biometric encryption lock, it seems to contain important items inside.\r\n        Luckily the on board micro computer is running on out-dated firmware, where an exploit is possible, go to [Terminal] to unlock this container",
+ 	 	 	 	"trans": "Biyometrik şifreleme kilidine sahip güçlendirilmiş bir kap, içinde önemli öğeler barındırıyor gibi görünüyor.\r\n        Şans eseri, yerleşik mikro bilgisayar güncelliğini yitirmiş ürün yazılımı ile çalışıyor , kullanmak mümkünse, bu konteyneri açmak için [Terminal]'e git",
  	 	 	 	"eng": "A reinforced container with biometric encryption lock, it seems to contain important items inside.\r\n        Luckily the on board micro computer is running on out-dated firmware, where an exploit is possible, go to [Terminal] to unlock this container"
  	 	 	}
  	 	},
  	 	"lootBox2": {
  	 	 	"name": {
- 	 	 	 	"trans": "locked rare container",
+ 	 	 	 	"trans": "kilitli nadir konteyner",
  	 	 	 	"eng": "locked rare container"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "A reinforced container with biometric encryption lock, it seems to contain important items inside.\r\n        Luckily the on board micro computer is running on out-dated firmware, where an exploit is possible, go to [Terminal] to unlock this container",
+ 	 	 	 	"trans": "Biyometrik şifreleme kilidine sahip güçlendirilmiş bir kap, içinde önemli öğeler barındırıyor gibi görünüyor.\r\n       Şans eseri, yerleşik mikro bilgisayar güncelliğini yitirmiş ürün yazılımı ile çalışıyor , kullanmak mümkünse, bu konteyneri açmak için [Terminal]'e git",
  	 	 	 	"eng": "A reinforced container with biometric encryption lock, it seems to contain important items inside.\r\n        Luckily the on board micro computer is running on out-dated firmware, where an exploit is possible, go to [Terminal] to unlock this container"
  	 	 	}
  	 	},
  	 	"lootBox3": {
  	 	 	"name": {
- 	 	 	 	"trans": "locked legendary container",
+ 	 	 	 	"trans": "kilitli efsanevi konteyner",
  	 	 	 	"eng": "locked legendary container"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "A reinforced container with biometric encryption lock, it seems to contain important items inside.\r\n        Luckily the on board micro computer is running on out-dated firmware, where an exploit is possible, go to [Terminal] to unlock this container",
+ 	 	 	 	"trans": "Biyometrik şifreleme kilidine sahip güçlendirilmiş bir kap, içinde önemli öğeler barındırıyor gibi görünüyor.\r\n       Şans eseri, yerleşik mikro bilgisayar güncelliğini yitirmiş ürün yazılımı ile çalışıyor, kullanmak mümkünse, bu konteyneri açmak için [Terminal]'e git",
  	 	 	 	"eng": "A reinforced container with biometric encryption lock, it seems to contain important items inside.\r\n        Luckily the on board micro computer is running on out-dated firmware, where an exploit is possible, go to [Terminal] to unlock this container"
+ 	 	 	}
+ 	 	},
+ 	 	"clanDungeonKey": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Çete istilası sipariş vericisi",
+ 	 	 	 	"eng": "Gang Invasion Order Transmitter"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Çete şifreli kanalınıza bağlanabilen ve istila siparişi verebilecek basit bir verici cihazı. \r\n         Bu ürün çete zindanlarını etkinleştirmek için gereklidir",
+ 	 	 	 	"eng": "A simple transmitter device that can be bind to your gang encrypted channel and give out invasion order.\r\n        This item is required to activate Gang Dungeons"
+ 	 	 	}
+ 	 	},
+ 	 	"clanResource": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Tedarik Crate [Gang]",
+ 	 	 	 	"eng": "Supply Crate [Gang]"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "İşlevsel kalmak için bir çete için misc öğeleri ve kaynakları içerir, \r\n         Gang merkezinize göndermek için Kullan'ı tıklayın",
+ 	 	 	 	"eng": "Contains misc items and resources for a gang to stay functional,\r\n        Click use to send it to your gang headquarters"
+ 	 	 	}
+ 	 	},
+ 	 	"clanExp": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "şifreli çete bellek shard",
+ 	 	 	 	"eng": "encrypted gang memory shard"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Bir Memory Shard şifreli çete sırları içerir, \r\n         Yararlı Intel kazanmak için çete merkezinizde bunu şifresini çözün (bir çete içinde olmayı gerektirir)",
+ 	 	 	 	"eng": "A memory shard contains encrypted gang secrets, \r\n        decrypt this in your gang headquarters to gain useful intel (requires to be in a gang)"
+ 	 	 	}
+ 	 	},
+ 	 	"upgradeActivator": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Ekipman Kalibrasyon Çekirdeği",
+ 	 	 	 	"eng": "Equipment Calibration Core"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Siyah bir pazar hafızası shard, yüksek oranda şifrelenmiş algoritma ve şematik, yükseltme ekipmanları sürecinde çok önemlidir",
+ 	 	 	 	"eng": "A black market memory shard contains highly encrypted algorithm and schematic that is crucial in the process of upgrading equipments"
+ 	 	 	}
+ 	 	},
+ 	 	"upgradeChanceIncreaser0": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Kalibrasyon AI Shard (% 5)",
+ 	 	 	 	"eng": "Calibration AI Shard (5%)"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Yükseltme ekipmanlarına yardımcı olmak için tasarlanmış avans AI parçalarını içerir. \r\n         Kullanıldığında, yıkıcı başarısızlık olasılığını 5 dakika boyunca% 5 (istiflenebilir) azaltır.",
+ 	 	 	 	"eng": "Contains fragments of advance AI designed to assist with upgrading equipments.\r\n        When used, decreases the chance of destructive failure by 5% (stackable) for 5 minutes."
+ 	 	 	}
+ 	 	},
+ 	 	"upgradeChanceIncreaser1": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Kalibrasyon AI Shard (% 10)",
+ 	 	 	 	"eng": "Calibration AI Shard (10%)"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Yükseltme ekipmanlarına yardımcı olmak için tasarlanmış avans AI parçalarını içerir. \r\n         Kullanıldığında, yıkıcı başarısızlık olasılığını 5 dakika boyunca% 10 (istiflenebilir) azaltır.",
+ 	 	 	 	"eng": "Contains fragments of advance AI designed to assist with upgrading equipments.\r\n        When used, decreases the chance of destructive failure by 10% (stackable) for 5 minutes."
+ 	 	 	}
+ 	 	},
+ 	 	"upgradeChanceIncreaser2": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Kalibrasyon AI Shard (% 50)",
+ 	 	 	 	"eng": "Calibration AI Shard (50%)"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Yükseltme ekipmanlarına yardımcı olmak için tasarlanmış avans AI parçalarını içerir. \r\n         Kullanıldığında, yıkıcı başarısızlık olasılığını 5 dakika boyunca% 50 (istiflenebilir) azaltır. Bu etki çevrimiçi tüm oyuncular için geçerli olacaktır",
+ 	 	 	 	"eng": "Contains fragments of advance AI designed to assist with upgrading equipments.\r\n        When used, decreases the chance of destructive failure by 50% (stackable) for 5 minutes. This effect will apply to all players online"
+ 	 	 	}
+ 	 	},
+ 	 	"upgradeChanceIncreaser3": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Kalibrasyon AI Shard (% 100)",
+ 	 	 	 	"eng": "Calibration AI Shard (100%)"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Yükseltme ekipmanlarına yardımcı olmak için tasarlanmış avans AI parçalarını içerir. \r\n         Kullanıldığında, yıkıcı başarısızlık olasılığını% 100 (istiflenebilir) 5 dakika boyunca azaltır. Bu etki çevrimiçi tüm oyuncular için geçerli olacaktır",
+ 	 	 	 	"eng": "Contains fragments of advance AI designed to assist with upgrading equipments.\r\n        When used, decreases the chance of destructive failure by 100% (stackable) for 5 minutes. This effect will apply to all players online"
+ 	 	 	}
+ 	 	},
+ 	 	"upgradeNoBreak": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Kalibrasyon Güvenliği Nano Botları",
+ 	 	 	 	"eng": "Calibration Safety Nano Bots"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Kalibrasyon başarısız olurken yıkıcı etkiyi azaltmak ve reddetmek için tasarlanmış deneysel nano makineleri, \r\n         Bu etkinleştiğinde, tüm kalibrasyon başarısız olanları 5 dakika boyunca öğeyi yok etmeyecektir",
+ 	 	 	 	"eng": "Experimental nano machines designed to reduces and negate the destructive effect when failing calibration, \r\n        when this is activated, all calibration fails will not destroy the item for 5 minutes"
+ 	 	 	}
+ 	 	},
+ 	 	"backpack1": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Eski poşet",
+ 	 	 	 	"eng": "Old Pouch"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Unutulmuş bir antik kese, \r\n         Big ağız ve onun yanında çizim kırmızı dudaklar ile garip bir karikatür kurbağa var, \r\n         Antik uğursuz çizimin anlamı bilinmiyor, ancak içinde bazı küçük nesneleri tutmak için kullanışlıdır. \r\n         Donanırken envanter alanını artırın.",
+ 	 	 	 	"eng": "A forgotten ancient pouch, \r\n        there is a weird cartoon frog with big mouth and red lips drawing at the side of it,\r\n        the meaning of the ancient ominous drawing is unknown, but it is handy for keep some small object in it.\r\n        increase inventory space when equipped."
+ 	 	 	}
+ 	 	},
+ 	 	"backpack2": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Bel çantası",
+ 	 	 	 	"eng": "Fanny Pack"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Bir efsane tarafından imzalanan serin ve şık fanny paketi, onlarca yıl önce kaya kendini denir. \r\n         Donanırken envanter alanını artırın.",
+ 	 	 	 	"eng": "Cool and fashionable Fanny Pack, signed by a legend called The Rock himself from decades ago.\r\n        increase inventory space when equipped."
+ 	 	 	}
+ 	 	},
+ 	 	"backpack3": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Explorer'ın sırt çantası",
+ 	 	 	 	"eng": "Explorer's Backpack"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Mor 'Explorer' sırt çantasını görünen eski bir anaokulu, önceki sahibinin \"Dora\" adlı bir isim etiketi var, üzerine yazılmış muhteşem görünüyorsun. \r\n         Donanırken envanter alanını artırın",
+ 	 	 	 	"eng": "An old Kindergarten looking Purple 'Explorer' Backpack, it has a name tag with the previous owner's name \"Dora\" written on it, you look fabulous wearing it.\r\n        increase inventory space when equipped"
+ 	 	 	}
+ 	 	},
+ 	 	"backpack4": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Çalışan ofis davası",
+ 	 	 	 	"eng": "Employee Office Case"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Standart bir sayı ofis davası, üzerinde \"Arasaka\" ile Whit Print ile bir etiketi var, \r\n         Olurken ve bazı yüksek teknoloji bölmesi ve belge depolama için yuvalara sahip olsa da, silah taşımak için çok uygun değildir. \r\n         Donanırken envanter alanını artırın",
+ 	 	 	 	"eng": "An standard issue office case, it has a label with whit print with \"Arasaka\" on it, \r\n        while it is specious and has some high tech compartment and slots for document storage, it is not not very suitable for carrying weapons\r\n        increase inventory space when equipped"
+ 	 	 	}
+ 	 	},
+ 	 	"backpack5": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Özerk Depolama Birimi",
+ 	 	 	 	"eng": "Autonomous Storage Unit"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Ekipmanlarınızı taşımak ve sizi özerk olarak takip etmek için tasarlanmış bir askeri kullanılan bir bot, \r\n         Örümceklerin hareketini ve bir avansın AI'sini taklit eden altı güçlü bacaklı, \r\n         Sahip olduğunuz bir misyonun yoluna girerken kaçınırken sizi hızlı ve sessizce takip edebilir",
+ 	 	 	 	"eng": "An military used bot designed to carry your equipments and follows you autonomously,\r\n        with it's six strong legs that imitates the movement of spiders and a advance onboard AI, \r\n        it can follow you swiftly and quietly while it avoids get in the way of whatever mission you are performing"
+ 	 	 	}
+ 	 	},
+ 	 	"healing9": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Efsanevi Nano Medic Bot",
+ 	 	 	 	"eng": "Legendary Nano Medic Bot"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Gelişmiş askeri kullanım için enjekte edilebilir nano makineleri, savaş durumunda yaralanmayı yamalayabilen",
+ 	 	 	 	"eng": "injectable nano machines that is for advance military use, capable of patching injury in combat situation"
+ 	 	 	}
+ 	 	},
+ 	 	"healing10": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Epik nano medic bot",
+ 	 	 	 	"eng": "Epic Nano Medic Bot"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Gelişmiş askeri kullanım için enjekte edilebilir nano makineleri, savaş durumunda yaralanmayı yamalayabilen",
+ 	 	 	 	"eng": "injectable nano machines that is for advance military use, capable of patching injury in combat situation"
+ 	 	 	}
+ 	 	},
+ 	 	"healingArea9": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Efsanevi Nano Medic Drone",
+ 	 	 	 	"eng": "Legendary Nano medic drone"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Yakın oyuncuları iyileştirmek için binlerce gelişmiş nano makinesini gönderme yeteneğine sahip",
+ 	 	 	 	"eng": "capable of dispatching thousands of advanced nano machines to heal nearby players"
+ 	 	 	}
+ 	 	},
+ 	 	"healingArea10": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Epik nano medic drone",
+ 	 	 	 	"eng": "Epic Nano medic drone"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Yakın oyuncuları iyileştirmek için binlerce gelişmiş nano makinesini gönderme yeteneğine sahip",
+ 	 	 	 	"eng": "capable of dispatching thousands of advanced nano machines to heal nearby players"
+ 	 	 	}
+ 	 	},
+ 	 	"upgradeChanceIncreaser2personal": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Kalibrasyon AI Shard (% 50) [Etkinlik]",
+ 	 	 	 	"eng": "Calibration AI Shard (50%) [EVENT]"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Yükseltme ekipmanlarına yardımcı olmak için tasarlanmış avans AI parçalarını içerir. \r\n         Kullanıldığında, yıkıcı başarısızlık olasılığını 5 dakika boyunca% 50 azaltır. Bu sadece kendini etkiler. \r\n         Gang merkezinizdeki öğeleri kalibre edebilirsiniz, önce bir çeteye katılmanız ya da başlamalısınız.",
+ 	 	 	 	"eng": "Contains fragments of advance AI designed to assist with upgrading equipments.\r\n        When used, decreases the chance of destructive failure by 50% for 5 minutes. this only affect yourself.\r\n        You can calibrate items in your Gang Headquarters, you must join or start a gang first."
+ 	 	 	}
+ 	 	},
+ 	 	"chatExploitPirate": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Sohbet Exploit Verici [Korsan]",
+ 	 	 	 	"eng": "Chat exploit transmitter [PIRATE]"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Global sohbet paketlerini engelleyen ve değiştiren, orta ataktan birini uygulayan bir Exploit modülü. \r\n         Tüm konuşmaları küresel sohbette korsan konuşur. Bu, tüm oyuncuları 10 dakika boyunca etkiler",
+ 	 	 	 	"eng": "A exploit module that intercepts global chat packages and modifies it, performing Man-In-The-Middle attack.\r\n        Transforms all speech at global chat to Pirate Speak. This effects all players for 10 minutes"
+ 	 	 	}
+ 	 	},
+ 	 	"chatExploitLeet": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Sohbet Exploit Verici [1337]",
+ 	 	 	 	"eng": "Chat exploit transmitter [1337]"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Global sohbet paketlerini engelleyen ve değiştiren, orta ataktan birini uygulayan bir Exploit modülü. \r\n         Tüm konuşmaları Global Sohbet'te L33T SP34K'ya dönüştürür. Bu, tüm oyuncuları 10 dakika boyunca etkiler",
+ 	 	 	 	"eng": "A exploit module that intercepts global chat packages and modifies it, performing Man-In-The-Middle attack.\r\n        Transforms all speech at global chat to l33t Sp34k. This effects all players for 10 minutes"
+ 	 	 	}
+ 	 	},
+ 	 	"chatExploitUwU": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Sohbet Exploit Verici [UWU]",
+ 	 	 	 	"eng": "Chat exploit transmitter [UwU]"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Gwobaw sohbet paketlerini belirleyen ve değiştiren bir Expwoit MoDuwe, Middwe A-Middwe'u pewfowming. \r\n          Twansfowms AWW Konuşma Gwobaw sohbetinde konuşun. Bu efektler AWW PAYDALARI 10 DAKİKA FOW",
+ 	 	 	 	"eng": "A expwoit moduwe that intewcepts gwobaw chat packages and modifies it, pewfowming man-in-the-middwe attack.\r\n         twansfowms aww speech at gwobaw chat to uwu speak. This effects aww pwayews fow 10 minutes"
+ 	 	 	}
+ 	 	},
+ 	 	"upgradeResetShard": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Fabrika sıfırlama parçası",
+ 	 	 	 	"eng": "Factory reset shard"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Bir Shard, Ekipmanlar için varsayılan ayarları ve algoritmayı saklar, bu fabrikada ekipmanlarınızı sıfırlamak için kullanılır",
+ 	 	 	 	"eng": "A shard stores default settings and algorithm for equipments, this is used for factory-resetting your equipments"
+ 	 	 	}
+ 	 	},
+ 	 	"timeSkipPersonal": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Kişisel sinaptik hızlandırıcı",
+ 	 	 	 	"eng": "Personal Synaptic Accelerator"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Kullanıldığında, AFK görevlerinde 60 dakika atlayın. \r\n         AFK ekranında kullanılmalıdır",
+ 	 	 	 	"eng": "When used, skip 60 minutes on AFK tasks.\r\n        must be used at AFK screen"
+ 	 	 	}
+ 	 	},
+ 	 	"chatExploitLove": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Sohbet Exploit Verici [Aşk]",
+ 	 	 	 	"eng": "Chat exploit transmitter [Love]"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Biraz aşk olsun ve biraz seviyorsun! Herkes biraz seviyor! \r\n         Kullanıldığında herkes birbirlerini sever \r\n         Bu etkiler Tüm oyuncular 10 dakika boyunca fow",
+ 	 	 	 	"eng": "You get some love, and you get some love! everyone gets some love!.\r\n        When used everyone loves each other\r\n        This effects all players fow 10 minutes"
+ 	 	 	}
+ 	 	},
+ 	 	"chatExploitProtect": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Cybertunnel vpn",
+ 	 	 	 	"eng": "CyberTunnel VPN"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Cyberspace'e göz atarken, büyük kardeşi casusluk yapıyor mu? \r\n         İletişimlerinize kötü niyetli saldırılar tarafından ele mi geçirildi? \r\n         Netrunning deneyiminizi korumak ve şifrelemek için CyberTunnel VPN kullanın! \r\n        \r\n         Etkinleştirildikten sonra, 1 saat boyunca herhangi bir sohbetten yok sayar",
+ 	 	 	 	"eng": "Worried the Big Brother spying on you while you browse the cyberspace?\r\n        your intercoms always get hacked by malicious attacks? \r\n        use CyberTunnel VPN to protect and encrypt your netrunning experience! \r\n        \r\n        Once activated, ignores any chat exploit for 1 hour"
  	 	 	}
  	 	}
  	},
@@ -735,11 +1072,11 @@
  	 	 	 	"eng": "Deploy farm bot"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "[AFK Exp Farm]\r\n        Deploys an AI to dungeon for you. This will use up an AI Core, they usually only just manage the one trip.",
+ 	 	 	 	"trans": "[AFK Exp Farm]\r\n        Sizin için zindana bir yapay zeka yerleştirir. Bu, bir YZ Çekirdeğini kullanır, genellikle yalnızca bir geziyi yönetirler.",
  	 	 	 	"eng": "[AFK Exp Farm]\r\n        Deploys an AI to dungeon for you. This will use up an AI Core, they usually only just manage the one trip."
  	 	 	},
  	 	 	"tut": {
- 	 	 	 	"trans": "You can use your AI Core to Auto-Farm enemies while you AFK",
+ 	 	 	 	"trans": "AFK iken düşmanlardan otomatik toplama yapmak için YZ Çekirdeklerinizi kullanabilirsiniz",
  	 	 	 	"eng": "You can use your AI Core to Auto-Farm enemies while you AFK"
  	 	 	}
  	 	},
@@ -749,17 +1086,17 @@
  	 	 	 	"eng": "work in printing factory"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Improve Printing Rank without sacrificing tech scrap, this may help to increase the level of your prints.",
+ 	 	 	 	"trans": "Teknoloji hurdalarınızı feda etmeden Üretim Seviyenizi yükseltir, baskılarınızın seviyesini yükseltmeye yardımcı olabilir.",
  	 	 	 	"eng": "Improve Printing Rank without sacrificing tech scrap, this may help to increase the level of your prints."
  	 	 	}
  	 	},
  	 	"increaseMedical": {
  	 	 	"name": {
- 	 	 	 	"trans": "Hack a Body Mod Clinic",
+ 	 	 	 	"trans": "Vücut Mod Kliniği'ni Hackle",
  	 	 	 	"eng": "Hack a Body Mod Clinic"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Download useful data from a local body mod clinic to craft higher quality medical bots and drones.",
+ 	 	 	 	"trans": "Daha yüksek kaliteli medikal bot ve dronelar üretmek için yerel vucüt mod kliniğinden işe yarar veriler indir.",
  	 	 	 	"eng": "Download useful data from a local body mod clinic to craft higher quality medical bots and drones."
  	 	 	}
  	 	},
@@ -769,17 +1106,17 @@
  	 	 	 	"eng": "Improve Ammunition"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Tinker with ammunition, to find more effective ways of crafting it.",
+ 	 	 	 	"trans": "Mühimmatları kurcalayın, onu üretmenin daha etkili yollarını bulun.",
  	 	 	 	"eng": "Tinker with ammunition, to find more effective ways of crafting it."
  	 	 	}
  	 	},
  	 	"reverseEngineer": {
  	 	 	"name": {
- 	 	 	 	"trans": "Ters Mühendislik",
+ 	 	 	 	"trans": "Tersine Mühendislik",
  	 	 	 	"eng": "Reverse Engineer Scraps"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Reverse engineer tech scrap to improve your Print Rank. \r\n        You’ll need to sacrifice some of your tech scrap.",
+ 	 	 	 	"trans": "Teknoloji hurdalarına tersine mühendislik yaparak Üretim Seviyesi'ni artırın. \r\n        Bazı teknoloji hurdalarını feda etmeniz gerekir.",
  	 	 	 	"eng": "Reverse engineer tech scrap to improve your Print Rank. \r\n        You’ll need to sacrifice some of your tech scrap."
  	 	 	}
  	 	},
@@ -807,6 +1144,66 @@
  	 	 	 	],
  	 	 	 	"trans": "[AFK Malzeme Toplama]\r\n                    ${zoneName} bölgesinin etrafını yağmala ve işe yarar eşyalar bul.\r\n                    Kim bilir? Belki dört ayak üstüne düşersin!",
  	 	 	 	"eng": "[AFK Resource Gather]\r\n                    Search around in ${zoneName} and scavenge for useful items.\r\n                    Who knows, maybe you'll get lucky!"
+ 	 	 	}
+ 	 	},
+ 	 	"clanResource": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Çete kaynağı topla",
+ 	 	 	 	"eng": "Gather Gang Resource"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Çeten için kaynak toplamaya yardımcı ol",
+ 	 	 	 	"eng": "Help gather and manage needed resources for your gang"
+ 	 	 	}
+ 	 	},
+ 	 	"clanDecryptShard": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Şifresini çözün",
+ 	 	 	 	"eng": "Decrypt memory shard"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Yararlı Intel almak için bulduğunuz hafıza parçasını şifresini çözün",
+ 	 	 	 	"eng": "Decrypt memory shard you found to retrieve useful intel"
+ 	 	 	}
+ 	 	},
+ 	 	"clanOccupation": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Shangri-la'da işgali takviye",
+ 	 	 	 	"eng": "Reinforce occupation at Shangri-la"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Shangri-La City'nin daha fazla kontrolünü güçlendirmeye ve kurmaya yardımcı olun.",
+ 	 	 	 	"eng": "Help reinforce and establish greater control of Shangri-la city."
+ 	 	 	}
+ 	 	},
+ 	 	"gambling1": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Mega pachinko oyunu oyna",
+ 	 	 	 	"eng": "Play MEGA Pachinko Game"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Konnichiwa!! ^___^\r\n        Come play the MEGA Pachinko! With chance to win HUGE EPIC rewards\r\n        only 10000 btc per session, LIMITED TIME OFFER!!! <3<3<3\r\n        ##Special thanks for Militech for sponsoring this event##",
+ 	 	 	 	"eng": "Konnichiwa!! ^___^\r\n        Come play the MEGA Pachinko! With chance to win HUGE EPIC rewards\r\n        only 5000 btc per session, LIMITED TIME OFFER!!! <3<3<3\r\n        ##Special thanks for Militech for sponsoring this event##"
+ 	 	 	}
+ 	 	},
+ 	 	"topClanExclusive": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Koruma ücretlerini topla",
+ 	 	 	 	"eng": "Collect Protection Fees"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Hükümet yetkilileri ve SLPD rüşvet ve Shangri-Lah'daki işletme sahibi ve vatandaşlardan koruma ücretleri toplayın. Belki onlardan bazı epik eşyalar alacak mısın? (En iyi iki çete özel)",
+ 	 	 	 	"eng": "Bribe Government officials and SLPD and Collect Protection Fees from business owner and citizens in Shangri-lah. maybe you will get some EPIC items from them? (Top Two Gang Exclusive)"
+ 	 	 	}
+ 	 	},
+ 	 	"globalQuest": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "SL Veri Kalesi Hack",
+ 	 	 	 	"eng": "Hack SL Data Fortress"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Shangri-la veri kalesini hedefleyen siber alanda ortak bir saldırı başlatın \r\n         Saldırı başarılı olsaydı, veri kalesini tüm sibernetik olarak bağlı kullanıcılara istismarları iletmek için zorlamak mümkündür",
+ 	 	 	 	"eng": "Launch a collaborated attack in cyberspace targeting the Shangri-La Data Fortress\r\n        if attack were to succeed its possible to force the Data Fortress to transmit exploits to all cybernetically connected users"
  	 	 	}
  	 	}
  	},
@@ -871,7 +1268,7 @@
  	 	 	 	 	"zoneName"
  	 	 	 	],
  	 	 	 	"trans": "Daha fazla exp ve hazine için zindanları keşfet!\r\n                        İyileştirme eşyası almayı unutma! Zindanlarda yapılan dövüşlerden sonra canın yenilenmez",
- 	 	 	 	"eng": "Dive into dungeon to get even more exp and loot!\r\n                        remember to buy some healing item! you won\"t regen after battle in dungeon"
+ 	 	 	 	"eng": "Are you ready? you can test your strength out with normal dungeon, the easiest one.\r\n                        Remember to bring healing item! you won't heal after fights in dungeon"
  	 	 	}
  	 	},
  	 	"challenge": {
@@ -888,13 +1285,35 @@
  	 	 	 	"vars": [
  	 	 	 	 	"zoneName"
  	 	 	 	],
- 	 	 	 	"trans": "Saldır ${zoneName}",
+ 	 	 	 	"trans": "saldır ${zoneName}",
  	 	 	 	"eng": "attack ${zoneName}"
  	 	 	},
  	 	 	"tut": {
- 	 	 	 	"trans": "Are you strong enough? try it out on Challenge Dungeon,\r\n                        there is a strong boss and tons of loot at the end waiting for you!\r\n                        Its recommended to attempt this with other players.",
+ 	 	 	 	"trans": "Yeterince güçlümüsün? Meydan Okuma Zindanı'nı dene,\r\n                        burada güçlü düşmanlar ve tonlarca hazine seni bekliyor!\r\n                        Bunu diğer oyuncularla birlikte denemeniz önerilir.",
  	 	 	 	"eng": "Are you strong enough? try it out on Challenge Dungeon,\r\n                        there is a strong boss and tons of loot at the end waiting for you!\r\n                        Its recommended to attempt this with other players."
  	 	 	}
+ 	 	},
+ 	 	"gang": {
+ 	 	 	"startName": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"zoneName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Davayın ${zoneName}",
+ 	 	 	 	"eng": "invade ${zoneName}"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"maxLevel",
+ 	 	 	 	 	"keyFragmentDisplayName",
+ 	 	 	 	 	"expMultiplier"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Önerilen Seviye: ${maxLevel} + CO-OP ile \r\n                     ${expMultiplier} x daha fazla exp! \r\n                     Çete modu zindan, ekstra yağma ve exp. \r\n                     Patron damlaları nadirdir + \r\n                     Seviyeniz çok düşükse girmeniz önerilmez",
+ 	 	 	 	"eng": "Recommended Level:　${maxLevel}+ with co-op\r\n                    ${2.3}x more EXP! and 4~5x stronger enemies!\r\n                    Gang mode dungeon, extra loot and exp.\r\n                    *Not for the faint of heart*"
+ 	 	 	}
+ 	 	},
+ 	 	"buttonTut": {
+ 	 	 	"trans": "Yeterince güçlü olduğunu düşünüyor musun? Zindanda daha güçlü düşmanları alın! \r\n                         Biraz şifa ürününü satın almayı unutmayın! Zindanda savaştan sonra regen olmazsın",
+ 	 	 	"eng": "Do you think you are strong enough? take on stronger enemies in dungeon!\r\n                        remember to buy some healing item! you won't regen after battle in dungeon"
  	 	}
  	},
  	"secretKey": {
@@ -921,58 +1340,58 @@
  	 	 	 	"vars": [
  	 	 	 	 	"progressionId"
  	 	 	 	],
- 	 	 	 	"trans": "Progression-${progressionId}",
+ 	 	 	 	"trans": "İlerleme - ${{0}",
  	 	 	 	"eng": "Progression-${progressionId}"
  	 	 	},
  	 	 	"description": {
  	 	 	 	"vars": [
  	 	 	 	 	"segmentDisplayName"
  	 	 	 	],
- 	 	 	 	"trans": "Acquire 3 different Key Fragments from each dungeons located in ${segmentDisplayName},\r\n                these are used to create the key to next zone.\r\n                To craft the key, go to terminal in [HUB]",
+ 	 	 	 	"trans": "${segmentDisplayName} bölgesinde bulunan her zindandan 3 farklı anahtar fragman kazanın, \r\n                 Bunlar, bir sonraki bölgenin anahtarı oluşturmak için kullanılır. \r\n                 Anahtarı hazırlamak için, [Hub] için terminale gidin",
  	 	 	 	"eng": "Acquire 3 different Key Fragments from each dungeons located in ${segmentDisplayName},\r\n                these are used to create the key to next zone.\r\n                To craft the key, go to terminal in [HUB]"
  	 	 	}
  	 	},
  	 	"random": {
  	 	 	"clearChallengeDungeon": {
  	 	 	 	"name": {
- 	 	 	 	 	"trans": "dungeon warrior",
+ 	 	 	 	 	"trans": "zindan savaşçısı",
  	 	 	 	 	"eng": "dungeon warrior"
  	 	 	 	}
  	 	 	},
  	 	 	"clearDungeonCoOp": {
  	 	 	 	"name": {
- 	 	 	 	 	"trans": "dungeon friends",
+ 	 	 	 	 	"trans": "zindan arkadaşları",
  	 	 	 	 	"eng": "dungeon friends"
  	 	 	 	}
  	 	 	},
  	 	 	"clearDungeon": {
  	 	 	 	"name": {
- 	 	 	 	 	"trans": "dungeon crawler",
+ 	 	 	 	 	"trans": "zindan paletli",
  	 	 	 	 	"eng": "dungeon crawler"
  	 	 	 	}
  	 	 	},
  	 	 	"dealDamage": {
- 	 	 	 	"trans": "Deal Damage",
+ 	 	 	 	"trans": "Hasar Ver",
  	 	 	 	"eng": "Deal Damage"
  	 	 	},
  	 	 	"exp": {
- 	 	 	 	"trans": "Gain exp",
+ 	 	 	 	"trans": "Deneyim kazan",
  	 	 	 	"eng": "Gain exp"
  	 	 	},
  	 	 	"joinDungeon": {
- 	 	 	 	"trans": "Join Dungeon",
+ 	 	 	 	"trans": "Zindana katıl",
  	 	 	 	"eng": "Join Dungeon"
  	 	 	},
  	 	 	"killEnemy": {
- 	 	 	 	"trans": "Kill enemy",
+ 	 	 	 	"trans": "Düşman öldür",
  	 	 	 	"eng": "Kill enemy"
  	 	 	},
  	 	 	"getMoney": {
- 	 	 	 	"trans": "Acquire Bitcoin",
+ 	 	 	 	"trans": "Bitcoin elde et",
  	 	 	 	"eng": "Acquire Bitcoin"
  	 	 	},
  	 	 	"print": {
- 	 	 	 	"trans": "Molecular Printing",
+ 	 	 	 	"trans": "Moleküler Baskı",
  	 	 	 	"eng": "Molecular Printing"
  	 	 	}
  	 	}
@@ -980,27 +1399,38 @@
  	"ui": {
  	 	"header": {
  	 	 	"playerOnline": {
- 	 	 	 	"trans": "Aktif Oyuncu",
+ 	 	 	 	"trans": "Çevrimiçi Oyuncular",
  	 	 	 	"eng": "players online"
+ 	 	 	},
+ 	 	 	"online": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"skipCount"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${skipCount} atlamak",
+ 	 	 	 	"eng": "Skipping ${skipCount}"
+ 	 	 	},
+ 	 	 	"skipAvailable": {
+ 	 	 	 	"trans": "Mevcudu atla",
+ 	 	 	 	"eng": "Skip Available"
  	 	 	}
  	 	},
  	 	"mobileQuestPage": {
  	 	 	"receiveReward": {
- 	 	 	 	"trans": "Click to receive reward",
+ 	 	 	 	"trans": "Ödülü almak için tıklayın",
  	 	 	 	"eng": "Click to receive reward"
  	 	 	},
  	 	 	"inProgress": {
- 	 	 	 	"trans": "Request in progress...",
+ 	 	 	 	"trans": "Görev devam ediyor...",
  	 	 	 	"eng": "Request in progress..."
  	 	 	},
  	 	 	"watchAdRefresh": {
- 	 	 	 	"trans": "Watch an AD to refresh quest",
+ 	 	 	 	"trans": "Görevi yenilemek için bir reklam izleyin",
  	 	 	 	"eng": "Watch an AD to refresh quest"
  	 	 	}
  	 	},
  	 	"map": {
  	 	 	"interactable": {
- 	 	 	 	"trans": "Interactable",
+ 	 	 	 	"trans": "Etkileşimli",
  	 	 	 	"eng": "Interactable"
  	 	 	},
  	 	 	"travel": {
@@ -1014,11 +1444,11 @@
  	 	 	 	"eng": "Alias"
  	 	 	},
  	 	 	"title": {
- 	 	 	 	"trans": "title",
+ 	 	 	 	"trans": "başlık",
  	 	 	 	"eng": "title"
  	 	 	},
  	 	 	"gearScore": {
- 	 	 	 	"trans": "Gear Score",
+ 	 	 	 	"trans": "Ekipman Derecesi",
  	 	 	 	"eng": "Gear Score"
  	 	 	},
  	 	 	"location": {
@@ -1026,107 +1456,140 @@
  	 	 	 	"eng": "location"
  	 	 	},
  	 	 	"onlineStatus": {
- 	 	 	 	"trans": "system link",
+ 	 	 	 	"trans": "Sistem bağlantısı",
  	 	 	 	"eng": "system link"
  	 	 	},
  	 	 	"streetCred": {
- 	 	 	 	"trans": "Street Cred",
+ 	 	 	 	"trans": "Sokak inanmak",
  	 	 	 	"eng": "Street Cred"
  	 	 	},
  	 	 	"status": {
- 	 	 	 	"trans": "Status",
+ 	 	 	 	"trans": "Durum",
  	 	 	 	"eng": "Status"
  	 	 	},
  	 	 	"numOfMember": {
- 	 	 	 	"trans": "Number of members",
+ 	 	 	 	"trans": "Üye sayısı",
  	 	 	 	"eng": "Number of members"
  	 	 	},
  	 	 	"gangAction": {
  	 	 	 	"label": {
- 	 	 	 	 	"trans": "Gang Actions",
+ 	 	 	 	 	"trans": "Çete Eylemleri",
  	 	 	 	 	"eng": "Gang Actions"
  	 	 	 	},
  	 	 	 	"kick": {
- 	 	 	 	 	"trans": "Kick",
+ 	 	 	 	 	"trans": "At",
  	 	 	 	 	"eng": "Kick"
  	 	 	 	},
  	 	 	 	"transferLeadership": {
- 	 	 	 	 	"trans": "Transfer Leadership",
+ 	 	 	 	 	"trans": "Liderliği devret",
  	 	 	 	 	"eng": "Transfer Leadership"
  	 	 	 	}
  	 	 	},
  	 	 	"playerActions": {
  	 	 	 	"label": {
- 	 	 	 	 	"trans": "Player Actions",
+ 	 	 	 	 	"trans": "Oyuncu Hareketleri",
  	 	 	 	 	"eng": "Player Actions"
  	 	 	 	},
  	 	 	 	"sendPrivateMsg": {
- 	 	 	 	 	"trans": "Send private message",
+ 	 	 	 	 	"trans": "Özel mesaj gönder",
  	 	 	 	 	"eng": "Send private message"
  	 	 	 	},
  	 	 	 	"sendGift": {
- 	 	 	 	 	"trans": "Send Gift",
+ 	 	 	 	 	"trans": "Hediye gönder",
  	 	 	 	 	"eng": "Send Gift"
  	 	 	 	},
  	 	 	 	"inviteToGang": {
- 	 	 	 	 	"trans": "Invite to Gang",
+ 	 	 	 	 	"trans": "Çeteye davet et",
  	 	 	 	 	"eng": "Invite to Gang"
  	 	 	 	},
  	 	 	 	"addToFriend": {
- 	 	 	 	 	"trans": "add to Friend List",
+ 	 	 	 	 	"trans": "Arkadaş Listesi'ne ekle",
  	 	 	 	 	"eng": "add to Friend List"
  	 	 	 	},
  	 	 	 	"removeFromFriend": {
- 	 	 	 	 	"trans": "Remove from Friend List",
+ 	 	 	 	 	"trans": "Arkadaş Listesi'nden kaldır",
  	 	 	 	 	"eng": "Remove from Friend List"
  	 	 	 	},
  	 	 	 	"giveStreetCred": {
- 	 	 	 	 	"trans": "Give Street Cred",
+ 	 	 	 	 	"trans": "Sokak Cred ver",
  	 	 	 	 	"eng": "Give Street Cred"
  	 	 	 	}
  	 	 	},
  	 	 	"bio": {
- 	 	 	 	"trans": "Bio",
+ 	 	 	 	"trans": "Biyografi",
  	 	 	 	"eng": "Bio"
  	 	 	},
  	 	 	"bioNotFound": {
- 	 	 	 	"trans": "REDACTED",
+ 	 	 	 	"trans": "Biyografi bulunamadı",
  	 	 	 	"eng": "REDACTED"
+ 	 	 	},
+ 	 	 	"equipped": {
+ 	 	 	 	"trans": "Donanılmış",
+ 	 	 	 	"eng": "Equipped"
+ 	 	 	},
+ 	 	 	"inventory": {
+ 	 	 	 	"trans": "Envanter",
+ 	 	 	 	"eng": "Inventory"
  	 	 	}
  	 	},
  	 	"market": {
  	 	 	"lookAround": {
- 	 	 	 	"trans": "Look around",
+ 	 	 	 	"trans": "Etrafa bakın",
  	 	 	 	"eng": "Look around"
  	 	 	},
  	 	 	"myStall": {
- 	 	 	 	"trans": "My Stall",
+ 	 	 	 	"trans": "Benim standım",
  	 	 	 	"eng": "My Stall"
  	 	 	},
  	 	 	"increaseSlot": {
  	 	 	 	"vars": [
  	 	 	 	 	"nextSlotSize"
  	 	 	 	],
- 	 	 	 	"trans": "Increase slot to ${nextSlotSize}",
+ 	 	 	 	"trans": "Slotu ${nextSlotSize}'a arttır",
  	 	 	 	"eng": "Increase slot to ${nextSlotSize}"
+ 	 	 	},
+ 	 	 	"stall": {
+ 	 	 	 	"sellItemButton": {
+ 	 	 	 	 	"trans": "Satışa koy",
+ 	 	 	 	 	"eng": "Put Item On Sale"
+ 	 	 	 	},
+ 	 	 	 	"selectItemForSale": {
+ 	 	 	 	 	"trans": "Lütfen satmak istediğiniz öğeyi seçin",
+ 	 	 	 	 	"eng": "Please select the item you want to sell"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"increaseSlotDescription": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"nextSlotSize"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Standınızda aynı anda satılabilecek ürün sınırını arttırmak için Bitcoin harcayın",
+ 	 	 	 	"eng": "Spend Bitcoins to increase how many items you can put in your stall at the same time"
+ 	 	 	},
+ 	 	 	"cantEnterError": {
+ 	 	 	 	"trans": "Markete erişmek için en az 4. seviyede olmalısınız",
+ 	 	 	 	"eng": "You need to be at least level 4 to access the market"
  	 	 	}
  	 	},
  	 	"chat": {
  	 	 	"chat": {
- 	 	 	 	"trans": "chat",
+ 	 	 	 	"trans": "sohbet",
  	 	 	 	"eng": "chat"
  	 	 	},
  	 	 	"gang": {
- 	 	 	 	"trans": "gang",
+ 	 	 	 	"trans": "çete",
  	 	 	 	"eng": "gang"
  	 	 	},
  	 	 	"mail": {
- 	 	 	 	"trans": "mail",
+ 	 	 	 	"trans": "posta",
  	 	 	 	"eng": "mail"
  	 	 	},
  	 	 	"noti": {
- 	 	 	 	"trans": "noti.",
+ 	 	 	 	"trans": "bildirim",
  	 	 	 	"eng": "noti."
+ 	 	 	},
+ 	 	 	"reconnecting": {
+ 	 	 	 	"trans": "Bağlantı yeniden kuruluyor",
+ 	 	 	 	"eng": "Reestablishing connection"
  	 	 	}
  	 	},
  	 	"profile": {
@@ -1145,6 +1608,12 @@
  	 	 	"credits": {
  	 	 	 	"trans": "Yapımcılar",
  	 	 	 	"eng": "credits"
+ 	 	 	},
+ 	 	 	"deleteAccount": {
+ 	 	 	 	"button": {
+ 	 	 	 	 	"trans": "Hesabı sil",
+ 	 	 	 	 	"eng": "Delete Account"
+ 	 	 	 	}
  	 	 	}
  	 	},
  	 	"tutorial": {
@@ -1155,334 +1624,1193 @@
  	 	},
  	 	"setting": {
  	 	 	"language": {
- 	 	 	 	"trans": "Language",
+ 	 	 	 	"trans": "Dil",
  	 	 	 	"eng": "Language"
  	 	 	},
  	 	 	"langWarning": {
- 	 	 	 	"trans": "This language pack is open source and contributed by our players, the text may not be fully translated and could contain mistakes. please feel free to edit and contribute from our Github page",
+ 	 	 	 	"trans": "Bu dil pakedi açık kaynaklıdır ve oyuncuların katkılarıyla oluşturulmuştur, metinler tamamen çevrilmemiş veya hatalı çevrilmis olabilir. Github sayfamızı ziyaret ederek çevirilere katkıda bulunabilirsiniz",
  	 	 	 	"eng": "This language pack is open source and contributed by our players, the text may not be fully translated and could contain mistakes. please feel free to edit and contribute from our Github page"
  	 	 	},
  	 	 	"playBackgroundMusic": {
- 	 	 	 	"trans": "Mute background music",
+ 	 	 	 	"trans": "Arkaplan müziğini sustur",
  	 	 	 	"eng": "Mute background music"
  	 	 	},
  	 	 	"restartRequired": {
- 	 	 	 	"trans": "App will self restart after save",
+ 	 	 	 	"trans": "Uygulama kayıttan sonra kendini yeniden başlatacak",
  	 	 	 	"eng": "App will self restart after save"
  	 	 	},
  	 	 	"save": {
- 	 	 	 	"trans": "save",
+ 	 	 	 	"trans": "kaydet",
  	 	 	 	"eng": "save"
  	 	 	},
  	 	 	"langGithub": {
- 	 	 	 	"trans": "Help with translating the game",
+ 	 	 	 	"trans": "Oyunun tercümesine yardım edin",
  	 	 	 	"eng": "Help with translating the game"
+ 	 	 	},
+ 	 	 	"receiveClanNotification": {
+ 	 	 	 	"trans": "Çete bildirimi almak",
+ 	 	 	 	"eng": "Receive Gang Notification"
+ 	 	 	},
+ 	 	 	"receiveGlobalNotification": {
+ 	 	 	 	"trans": "Global Buff Bildirimi Alın",
+ 	 	 	 	"eng": "Receive Global Buff Notification"
+ 	 	 	},
+ 	 	 	"disableAttackBar": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Saldırı zamanlama çubuğunu devre dışı bırak",
+ 	 	 	 	 	"eng": "Disable Attack Timing Bar"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "Saldırı zamanlama çubuğunu devre dışı bırakmak ekstra hasar vermez",
+ 	 	 	 	 	"eng": "Disabling attack timing bar will not grant extra damage"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"forceMobileMode": {
+ 	 	 	 	"trans": "Cyberpunk modunu etkinleştir",
+ 	 	 	 	"eng": "Enable Cyberpunk Mode"
+ 	 	 	},
+ 	 	 	"dangerZone": {
+ 	 	 	 	"trans": "Tehlike Bölgesi",
+ 	 	 	 	"eng": "Danger Zone"
  	 	 	}
  	 	},
  	 	"captcha": {
  	 	 	"title": {
- 	 	 	 	"trans": "Enter system passcode to proceed",
+ 	 	 	 	"trans": "İlerlemek için sistem giriş kodunu giriniz",
  	 	 	 	"eng": "Enter system passcode to proceed"
  	 	 	}
  	 	},
  	 	"deathScreen": {
  	 	 	"topTitleLeft": {
- 	 	 	 	"trans": "fatal injury",
+ 	 	 	 	"trans": "ölümcül yara",
  	 	 	 	"eng": "fatal injury"
  	 	 	},
  	 	 	"topTitleRight": {
- 	 	 	 	"trans": "SL Medical Center",
+ 	 	 	 	"trans": "SL Sağlık Merkezi",
  	 	 	 	"eng": "SL Medical Center"
  	 	 	},
  	 	 	"title": {
- 	 	 	 	"trans": "Flatlined",
+ 	 	 	 	"trans": "Kalbin durdu",
  	 	 	 	"eng": "Flatlined"
  	 	 	},
  	 	 	"subTitleSmall": {
- 	 	 	 	"trans": "Critical Error: Neural Link Disconnected",
+ 	 	 	 	"trans": "Kritik Hata: Sinir bağlantısı kesildi",
  	 	 	 	"eng": "Critical Error: Neural Link Disconnected"
  	 	 	},
  	 	 	"progressBarTitle": {
- 	 	 	 	"trans": "Re-establishing connection",
+ 	 	 	 	"trans": "Bağlantı yeniden kuruluyor",
  	 	 	 	"eng": "Re-establishing connection"
  	 	 	}
  	 	},
  	 	"setBio": {
  	 	 	"title": {
- 	 	 	 	"trans": "Enter your bio",
+ 	 	 	 	"trans": "Biyografini gir",
  	 	 	 	"eng": "Enter your bio"
+ 	 	 	}
+ 	 	},
+ 	 	"clan": {
+ 	 	 	"selectDepositAmount": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Lütfen yatırmak istediğiniz tutarı girin",
+ 	 	 	 	 	"eng": "Please enter amount you want to deposit"
+ 	 	 	 	},
+ 	 	 	 	"detail": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"amount"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "${amount} Bitcoin, çete hesabınıza yatırılacak, bu ters çevrilemez",
+ 	 	 	 	 	"eng": "${amount} bitcoin will be deposit into your gang account, this cannot be reversed"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"deposit": {
+ 	 	 	 	"trans": "Bitcoin yatır",
+ 	 	 	 	"eng": "Deposit Bitcoin"
+ 	 	 	},
+ 	 	 	"level": {
+ 	 	 	 	"trans": "Çete seviyesi",
+ 	 	 	 	"eng": "Gang Level"
+ 	 	 	},
+ 	 	 	"resource": {
+ 	 	 	 	"trans": "Kaynak",
+ 	 	 	 	"eng": "Resource"
+ 	 	 	},
+ 	 	 	"funding": {
+ 	 	 	 	"trans": "finansman",
+ 	 	 	 	"eng": "funding"
+ 	 	 	},
+ 	 	 	"memberCount": {
+ 	 	 	 	"trans": "üyeler",
+ 	 	 	 	"eng": "members"
+ 	 	 	},
+ 	 	 	"nextUpkeepDate": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"nextUpkeepDate"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Sonraki bakım tarihi: ${nextUpkeepDate}",
+ 	 	 	 	"eng": "Next upkeep Date: ${nextUpkeepDate}"
+ 	 	 	},
+ 	 	 	"insufficientError": {
+ 	 	 	 	"trans": "kaynak kritik",
+ 	 	 	 	"eng": "resource critical"
+ 	 	 	},
+ 	 	 	"insufficientFound": {
+ 	 	 	 	"trans": "Yetersiz bulundu",
+ 	 	 	 	"eng": "Insufficient Found"
+ 	 	 	},
+ 	 	 	"insufficientResource": {
+ 	 	 	 	"trans": "Yetersiz kaynak",
+ 	 	 	 	"eng": "Insufficient Resource"
+ 	 	 	},
+ 	 	 	"members": {
+ 	 	 	 	"trans": "Üyeler",
+ 	 	 	 	"eng": "Members"
+ 	 	 	},
+ 	 	 	"editMotto": {
+ 	 	 	 	"modal": {
+ 	 	 	 	 	"title": {
+ 	 	 	 	 	 	"trans": "Lütfen çete sloganınızı girin",
+ 	 	 	 	 	 	"eng": "Please enter your gang motto"
+ 	 	 	 	 	}
+ 	 	 	 	},
+ 	 	 	 	"button": {
+ 	 	 	 	 	"trans": "Çete Sloganını Güncelleyin",
+ 	 	 	 	 	"eng": "Edit Gang Motto"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"updateImage": {
+ 	 	 	 	"button": {
+ 	 	 	 	 	"trans": "Çete Resmini Güncelleyin",
+ 	 	 	 	 	"eng": "Update Gang Image"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"occupationPoint": {
+ 	 	 	 	"trans": "Shangri-la üzerinden kontrol",
+ 	 	 	 	"eng": "Control over Shangri-la"
+ 	 	 	},
+ 	 	 	"occupation": {
+ 	 	 	 	"noClan": {
+ 	 	 	 	 	"trans": "Hiçbir çete henüz bu bölgeyi meşgul etmedi",
+ 	 	 	 	 	"eng": "No gang has occupied this area yet"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"equipmentDisplay": {
+ 	 	 	"empty": {
+ 	 	 	 	"trans": "Boş",
+ 	 	 	 	"eng": "Empty"
+ 	 	 	}
+ 	 	},
+ 	 	"fab": {
+ 	 	 	"dungeonList": {
+ 	 	 	 	"trans": "Zindan listesi",
+ 	 	 	 	"eng": "Dungeon List"
+ 	 	 	},
+ 	 	 	"links": {
+ 	 	 	 	"trans": "linkler",
+ 	 	 	 	"eng": "links"
+ 	 	 	},
+ 	 	 	"premiumShop": {
+ 	 	 	 	"trans": "Premium dükkan",
+ 	 	 	 	"eng": "Premium Shop"
+ 	 	 	},
+ 	 	 	"friendList": {
+ 	 	 	 	"trans": "Arkadaş listesi",
+ 	 	 	 	"eng": "Friend List"
+ 	 	 	},
+ 	 	 	"leaderBoard": {
+ 	 	 	 	"trans": "Liderler Sıralaması",
+ 	 	 	 	"eng": "Leader Board"
+ 	 	 	},
+ 	 	 	"skipQueue": {
+ 	 	 	 	"trans": "Kuyruğu atla",
+ 	 	 	 	"eng": "Skip Queue"
+ 	 	 	},
+ 	 	 	"settings": {
+ 	 	 	 	"trans": "Ayarlar",
+ 	 	 	 	"eng": "Settings"
+ 	 	 	},
+ 	 	 	"apps": {
+ 	 	 	 	"trans": "Tüm uygulamalar",
+ 	 	 	 	"eng": "All Apps"
+ 	 	 	}
+ 	 	},
+ 	 	"machineCrafting": {
+ 	 	 	"titleBox": {
+ 	 	 	 	"tile": {
+ 	 	 	 	 	"trans": "sistem boşta",
+ 	 	 	 	 	"eng": "system idle"
+ 	 	 	 	},
+ 	 	 	 	"subtitle": {
+ 	 	 	 	 	"trans": "Lütfen bir öğe ekleyin",
+ 	 	 	 	 	"eng": "Please inset an item"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"selectItemButton": {
+ 	 	 	 	"trans": "Öğeyi geri dönüştür",
+ 	 	 	 	"eng": "Recycle Item"
+ 	 	 	},
+ 	 	 	"selectAmount": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Lütfen miktar seçiniz",
+ 	 	 	 	 	"eng": "Please select amount"
+ 	 	 	 	},
+ 	 	 	 	"subtitle": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"timeStr"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "Bu ${timeStr} alacak",
+ 	 	 	 	 	"eng": "This will take ${timeStr}"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"modal": {
+ 	 	 	"upgradeFailed": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Hata",
+ 	 	 	 	 	"eng": "Error"
+ 	 	 	 	},
+ 	 	 	 	"subtitle": {
+ 	 	 	 	 	"trans": "Yıkıcı başarısızlık",
+ 	 	 	 	 	"eng": "Destructive failure accrued"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"upgradeSuccess": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Kalibrasyon başarılı",
+ 	 	 	 	 	"eng": "Calibration Success"
+ 	 	 	 	},
+ 	 	 	 	"subtitle": {
+ 	 	 	 	 	"trans": "Hata algılanmadı",
+ 	 	 	 	 	"eng": "No error detected"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"leaveDungeon": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Bu zindandan ayrılmak istediğinize emin misiniz?",
+ 	 	 	 	 	"eng": "Are you sure you want to leave this dungeon?"
+ 	 	 	 	},
+ 	 	 	 	"subtitle": {
+ 	 	 	 	 	"trans": "Aynı zindana tekrar tekrar giremezsiniz",
+ 	 	 	 	 	"eng": "You will not be able to enter this dungeon instance again"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"equipmentUpgrade": {
+ 	 	 	"notActivated": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Çekirdek bulunamadı",
+ 	 	 	 	 	"eng": "Core not found"
+ 	 	 	 	},
+ 	 	 	 	"subTitle": {
+ 	 	 	 	 	"trans": "Lütfen kalibrasyon çekirdeğini takın",
+ 	 	 	 	 	"eng": "Please insert Calibration Core"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"activate": {
+ 	 	 	 	"trans": "Çekirdek ekle",
+ 	 	 	 	"eng": "Insert Core"
+ 	 	 	},
+ 	 	 	"activating": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "İşle",
+ 	 	 	 	 	"eng": "Processing"
+ 	 	 	 	},
+ 	 	 	 	"subTitle": {
+ 	 	 	 	 	"trans": "Şifresini çöz",
+ 	 	 	 	 	"eng": "Decrypting shard"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"noEquipment": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Ekipman bulunamadı",
+ 	 	 	 	 	"eng": "equipment not found"
+ 	 	 	 	},
+ 	 	 	 	"subTitle": {
+ 	 	 	 	 	"trans": "Devam etmek için bir ekipman seçin",
+ 	 	 	 	 	"eng": "Select an equipment to continue"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"haveEquipment": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Uyumlu eşya tanımlandı",
+ 	 	 	 	 	"eng": "Compatible Item Identified"
+ 	 	 	 	},
+ 	 	 	 	"subTitle": {
+ 	 	 	 	 	"trans": "Tüm sistem hazır",
+ 	 	 	 	 	"eng": "All system ready"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"failureRate": {
+ 	 	 	 	"trans": "Büyük başarısızlık olasılığı",
+ 	 	 	 	"eng": "Chance of destructive failure"
+ 	 	 	},
+ 	 	 	"selectEquipmentTitle": {
+ 	 	 	 	"trans": "Lütfen kalibre etmek için bir öğe seçin",
+ 	 	 	 	"eng": "Please select an item to calibrate"
+ 	 	 	},
+ 	 	 	"upgradeButton": {
+ 	 	 	 	"trans": "Kalibre et",
+ 	 	 	 	"eng": "Calibrate"
+ 	 	 	}
+ 	 	},
+ 	 	"itemInbox": {
+ 	 	 	"getAllItems": {
+ 	 	 	 	"trans": "Tüm eşyaları al",
+ 	 	 	 	"eng": "Get All Items"
+ 	 	 	},
+ 	 	 	"expireDate": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"date"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${date}'de süresi dolar",
+ 	 	 	 	"eng": "Expires in ${date}"
+ 	 	 	}
+ 	 	},
+ 	 	"linkPage": {
+ 	 	 	"forum": {
+ 	 	 	 	"trans": "Resmi forum",
+ 	 	 	 	"eng": "Official Forum"
+ 	 	 	}
+ 	 	},
+ 	 	"noPrintableCaches": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Ekipman taslağı bulunamadı",
+ 	 	 	 	"eng": "Equipment Cache not found"
+ 	 	 	},
+ 	 	 	"subTitle": {
+ 	 	 	 	"trans": "Yeni silahlarınızı ve zırhınızı üretmek için düşman ve zindanlardan gelen taslakları toplayın",
+ 	 	 	 	"eng": "gather the caches from enemies and dungeons to print your new weapons and armor"
+ 	 	 	}
+ 	 	},
+ 	 	"bank": {
+ 	 	 	"balance": {
+ 	 	 	 	"trans": "bakiye",
+ 	 	 	 	"eng": "balance"
+ 	 	 	},
+ 	 	 	"deposit": {
+ 	 	 	 	"trans": "Depola",
+ 	 	 	 	"eng": "Deposit"
+ 	 	 	},
+ 	 	 	"withdraw": {
+ 	 	 	 	"trans": "Geri Çek",
+ 	 	 	 	"eng": "Withdraw"
+ 	 	 	},
+ 	 	 	"upgradeSlot": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"upgradeToSlot"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${upgradeToSlot} yuvalarına yükseltin",
+ 	 	 	 	"eng": "UPGRADE TO ${upgradeToSlot} SLOTS"
+ 	 	 	},
+ 	 	 	"takeItemFromVault": {
+ 	 	 	 	"trans": "Eşyayı geri al",
+ 	 	 	 	"eng": "Withdraw Item"
+ 	 	 	},
+ 	 	 	"putItemToVault": {
+ 	 	 	 	"trans": "Eşyayı depola",
+ 	 	 	 	"eng": "Deposit Item"
+ 	 	 	},
+ 	 	 	"modal": {
+ 	 	 	 	"selectDeposit": {
+ 	 	 	 	 	"trans": "Ne kadar para yatırmak istersiniz?",
+ 	 	 	 	 	"eng": "How much would you like to deposit?"
+ 	 	 	 	},
+ 	 	 	 	"selectWithdraw": {
+ 	 	 	 	 	"trans": "Ne kadar çekmek istersiniz?",
+ 	 	 	 	 	"eng": "How much would you like to withdraw?"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"noBalance": {
+ 	 	 	 	"trans": "Bakiyeniz olmadığı için çekim yapamazsınız.",
+ 	 	 	 	"eng": "You can't withdraw when you have no balance."
+ 	 	 	},
+ 	 	 	"depositDesc": {
+ 	 	 	 	"trans": "Bitcoin'leri bankaya koyun",
+ 	 	 	 	"eng": "Put Bitcoins into bank"
+ 	 	 	},
+ 	 	 	"withdrawDesc": {
+ 	 	 	 	"trans": "Bitcoin'leri bankadan alın",
+ 	 	 	 	"eng": "Take Bitcoins out of bank"
+ 	 	 	},
+ 	 	 	"putItemToVaultDesc": {
+ 	 	 	 	"trans": "Eşyaları kasaya koy",
+ 	 	 	 	"eng": "Put items into your vault"
+ 	 	 	},
+ 	 	 	"takeItemFromVaultDesc": {
+ 	 	 	 	"trans": "Kasanızdan eşyaları çıkarın",
+ 	 	 	 	"eng": "Take items out from your vault"
+ 	 	 	},
+ 	 	 	"upgradeSlotDesc": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"upgradeToSlot"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Vault'ta depolayabileceğiniz maksimum eşya miktarını arttırın {0}",
+ 	 	 	 	"eng": "Increase the max amount of items you can store in vault to ${upgradeToSlot}"
+ 	 	 	}
+ 	 	},
+ 	 	"generalCaptcha": {
+ 	 	 	"story": {
+ 	 	 	 	"trans": "Eski bir kilitli kasa buldunuz, bunun üzerine yazılmış bir metinle bir post-it gibi görünüyor.",
+ 	 	 	 	"eng": "You found an old locked safe box, there seems like a post-it with some text written on it."
+ 	 	 	},
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Kilidini açmak için gereken PIN kodu",
+ 	 	 	 	"eng": "Pin code required to unlock"
+ 	 	 	},
+ 	 	 	"inputLabel": {
+ 	 	 	 	"trans": "Pin kodu",
+ 	 	 	 	"eng": "Pin Code"
+ 	 	 	},
+ 	 	 	"inputPlaceholder": {
+ 	 	 	 	"trans": "PIN kodunu girin",
+ 	 	 	 	"eng": "Enter pin code"
+ 	 	 	}
+ 	 	},
+ 	 	"list": {
+ 	 	 	"longPressToMultiSelect": {
+ 	 	 	 	"trans": "Çoklu seçmek için uzun basın",
+ 	 	 	 	"eng": "Long press to multi-select"
+ 	 	 	}
+ 	 	},
+ 	 	"inventory": {
+ 	 	 	"items": {
+ 	 	 	 	"trans": "öğeler",
+ 	 	 	 	"eng": "items"
+ 	 	 	},
+ 	 	 	"secretKeys": {
+ 	 	 	 	"trans": "gizli anahtarlar",
+ 	 	 	 	"eng": "secret keys"
+ 	 	 	},
+ 	 	 	"equipped": {
+ 	 	 	 	"trans": "Donanılmış",
+ 	 	 	 	"eng": "Equipped"
+ 	 	 	},
+ 	 	 	"inventory": {
+ 	 	 	 	"trans": "Envanter",
+ 	 	 	 	"eng": "Inventory"
+ 	 	 	},
+ 	 	 	"itemInbox": {
+ 	 	 	 	"trans": "Öğe Gelen Kutusu",
+ 	 	 	 	"eng": "Item Inbox"
+ 	 	 	},
+ 	 	 	"crafting": {
+ 	 	 	 	"trans": "Üretim",
+ 	 	 	 	"eng": "Crafting"
+ 	 	 	},
+ 	 	 	"autoScrap": {
+ 	 	 	 	"button": {
+ 	 	 	 	 	"trans": "Otomatik hurda",
+ 	 	 	 	 	"eng": "Auto Scrap"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"itemDisplay": {
+ 	 	 	"broken": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Arızalı",
+ 	 	 	 	 	"eng": "Malfunctioned"
+ 	 	 	 	},
+ 	 	 	 	"subtitle": {
+ 	 	 	 	 	"trans": "Kapsamlı onarım gerekli",
+ 	 	 	 	 	"eng": "Extensive repair required"
+ 	 	 	 	},
+ 	 	 	 	"instruction": {
+ 	 	 	 	 	"trans": "Bu ürün kırıldı, onarım için silah tamircisine götür",
+ 	 	 	 	 	"eng": "This item is broken, bring it to Weapon Smith for repair"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"secretKey": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Gizli anahtarlar",
+ 	 	 	 	"eng": "Secret Keys"
+ 	 	 	},
+ 	 	 	"noKeysTitle": {
+ 	 	 	 	"trans": "Gizli anahtarınız yok",
+ 	 	 	 	"eng": "You don't have any secret keys"
+ 	 	 	},
+ 	 	 	"noKeysSubtitle": {
+ 	 	 	 	"trans": "Zindanlardan gizli anahtar elde edebilirsiniz",
+ 	 	 	 	"eng": "You can obtain secret keys from Dungeons"
+ 	 	 	}
+ 	 	},
+ 	 	"npc": {
+ 	 	 	"notUnlocked": {
+ 	 	 	 	"trans": "Bu henüz açılmamış, karakterinizin seviyesini arttırın",
+ 	 	 	 	"eng": "This is not unlocked yet, try leveling up your character"
+ 	 	 	},
+ 	 	 	"repairItems": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"repairFee"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Tüm öğeleri onarın (${repairFee} Bitcoin)",
+ 	 	 	 	"eng": " Repair all items for (${repairFee} Bitcoin)"
+ 	 	 	}
+ 	 	},
+ 	 	"travel": {
+ 	 	 	"notUnlocked": {
+ 	 	 	 	"trans": "Henüz bu alanın kilidini açmadın",
+ 	 	 	 	"eng": "You have not unlocked this area yet"
+ 	 	 	}
+ 	 	},
+ 	 	"itemDetails": {
+ 	 	 	"factoryReset": {
+ 	 	 	 	"confirmation": {
+ 	 	 	 	 	"trans": "Bunu yapmak, öğenizdeki tüm kalibrasyonları sıfırlar, ayrıca tekrar işlem yapılabilir. \n       Devam etmek istediğinize emin misiniz?",
+ 	 	 	 	 	"eng": "Doing this will reset all calibration on your item. It will also make it tradable again. \n      Are you sure you want to proceed?"
+ 	 	 	 	},
+ 	 	 	 	"trans": "Fabrika ayarları",
+ 	 	 	 	"eng": "Factory Reset"
+ 	 	 	}
+ 	 	},
+ 	 	"apps": {
+ 	 	 	"dailyReward": {
+ 	 	 	 	"trans": "Günlük ödül",
+ 	 	 	 	"eng": "Daily Reward"
+ 	 	 	},
+ 	 	 	"coupon": {
+ 	 	 	 	"trans": "Kuponu talep et",
+ 	 	 	 	"eng": "Claim Coupon"
+ 	 	 	}
+ 	 	},
+ 	 	"gang": {
+ 	 	 	"confirmKickMember": {
+ 	 	 	 	"trans": "Bu oyuncuyu çetenizden tekmelemek istediğinize emin misiniz?",
+ 	 	 	 	"eng": "are you sure you want to kick this player from your gang?"
+ 	 	 	},
+ 	 	 	"memberContribution": {
+ 	 	 	 	"resource": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"resourceContribution"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "${resourceContribution} kaynağı",
+ 	 	 	 	 	"eng": "${resourceContribution} Resource"
+ 	 	 	 	},
+ 	 	 	 	"occupation": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"occupationContribution"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "${occupationContribution} ele geçirme noktası",
+ 	 	 	 	 	"eng": "${occupationContribution} occupation point"
+ 	 	 	 	},
+ 	 	 	 	"fund": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"moneyContribution"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "${moneyContribution} finansmanı",
+ 	 	 	 	 	"eng": "${moneyContribution} funding"
+ 	 	 	 	},
+ 	 	 	 	"exp": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"expContribution"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "${expContribution} deneyimi",
+ 	 	 	 	 	"eng": "${expContribution} exp"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"coupon": {
+ 	 	 	"inputLabel": {
+ 	 	 	 	"trans": "Kupon",
+ 	 	 	 	"eng": "Coupon"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Etkinliklerimizden birinden kuponunuz varsa, burada bunu alabilirsiniz.",
+ 	 	 	 	"eng": "If you have a coupon from one of our events, you can claim it here."
+ 	 	 	},
+ 	 	 	"placeholder": {
+ 	 	 	 	"trans": "Burada kupon kodunuzu girin veya yapıştırın",
+ 	 	 	 	"eng": "Paste or enter your coupon here"
+ 	 	 	},
+ 	 	 	"confirm": {
+ 	 	 	 	"trans": "Kuponu aktive et",
+ 	 	 	 	"eng": "Activate Coupon"
+ 	 	 	}
+ 	 	},
+ 	 	"dailyReward": {
+ 	 	 	"day": {
+ 	 	 	 	"trans": "Gün",
+ 	 	 	 	"eng": "Day"
+ 	 	 	},
+ 	 	 	"canClaim": {
+ 	 	 	 	"trans": "Mevcut",
+ 	 	 	 	"eng": "Available"
+ 	 	 	},
+ 	 	 	"claimed": {
+ 	 	 	 	"trans": "Alınan",
+ 	 	 	 	"eng": "Claimed"
+ 	 	 	},
+ 	 	 	"cantClaimYet": {
+ 	 	 	 	"trans": "Kilitli",
+ 	 	 	 	"eng": "Locked"
+ 	 	 	}
+ 	 	},
+ 	 	"shop": {
+ 	 	 	"purchase": {
+ 	 	 	 	"trans": "satın al",
+ 	 	 	 	"eng": "purchase"
+ 	 	 	},
+ 	 	 	"sell": {
+ 	 	 	 	"trans": "sat",
+ 	 	 	 	"eng": "sell"
+ 	 	 	}
+ 	 	},
+ 	 	"porofile": {
+ 	 	 	"deleteAccount": {
+ 	 	 	 	"modal": {
+ 	 	 	 	 	"title": {
+ 	 	 	 	 	 	"trans": "Hesabınızı silmek istediğinizden emin misiniz? Bu geri dönüşü olmayan, tüm bilgiler kaldırılacak.",
+ 	 	 	 	 	 	"eng": "Are you sure you want to delete your account? This is irreversible, all account information will be removed."
+ 	 	 	 	 	}
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"job": {
+ 	 	 	"cantEnterError": {
+ 	 	 	 	"trans": "İş merkezine erişmek için en az 2. seviye olmalısınız",
+ 	 	 	 	"eng": "You need to be at least level 2 to access the job hub"
+ 	 	 	}
+ 	 	},
+ 	 	"landing": {
+ 	 	 	"subtile": {
+ 	 	 	 	"trans": "Cyberpunk Metin Tabanlı MMORPG",
+ 	 	 	 	"eng": "Cyberpunk Text-based MMORPG"
+ 	 	 	},
+ 	 	 	"description1": {
+ 	 	 	 	"trans": "CyberCode Online çevrimiçi bir oyundur, oyun verilerini saklamak için bir hesap gereklidir.",
+ 	 	 	 	"eng": "CyberCode Online is an online game, an account is needed to store game data."
+ 	 	 	},
+ 	 	 	"description2": {
+ 	 	 	 	"trans": "Lütfen mevcut hesabınızla giriş yapın veya kayıt olun",
+ 	 	 	 	"eng": "please register or login with existing account"
+ 	 	 	}
+ 	 	},
+ 	 	"login": {
+ 	 	 	"loginButton": {
+ 	 	 	 	"trans": "Giriş yap",
+ 	 	 	 	"eng": "Login"
+ 	 	 	},
+ 	 	 	"forgotPassword": {
+ 	 	 	 	"trans": "Parolanızı mı unuttunuz?",
+ 	 	 	 	"eng": "Forgot Password?"
+ 	 	 	},
+ 	 	 	"registerPageButton": {
+ 	 	 	 	"trans": "Kayıt ol?",
+ 	 	 	 	"eng": "Create Account?"
+ 	 	 	}
+ 	 	},
+ 	 	"register": {
+ 	 	 	"registerButton": {
+ 	 	 	 	"trans": "Kayıt ol",
+ 	 	 	 	"eng": "Create Account"
+ 	 	 	},
+ 	 	 	"loginPageButton": {
+ 	 	 	 	"trans": "Hesabın var mı?",
+ 	 	 	 	"eng": "Have account?"
+ 	 	 	}
+ 	 	},
+ 	 	"basicInfo": {
+ 	 	 	"emptyError": {
+ 	 	 	 	"trans": "Lütfen devam etmek için karakter adınızı girin.",
+ 	 	 	 	"eng": "Please enter your character name to continue."
+ 	 	 	},
+ 	 	 	"playerNameInput": {
+ 	 	 	 	"label": {
+ 	 	 	 	 	"trans": "Karakter Adı",
+ 	 	 	 	 	"eng": "Character Name"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "Saldırgan veya uygunsuz isimler kullanırsanız sessize alınırsınız.",
+ 	 	 	 	 	"eng": "you will be muted if you use an offensive or inappropriate name."
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"timeSkip": {
+ 	 	 	"unitTimeSkipButton": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"timeSkipMinutes",
+ 	 	 	 	 	 	"timeSkipCost"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "Küresel atlama (${timeSkipMinutes} min, {1} birimler maliyeti)",
+ 	 	 	 	 	"eng": "Global Skip (${timeSkipMinutes} Min, Cost ${timeSkipCost} Units)"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "Küresel atlama, AFK bekleme süresini atlamanızı ve anında bitirmenizi sağlar. \n     Bu etki, AFK görevini gerçekleştiren tüm oyunculara uygulanacaktır",
+ 	 	 	 	 	"eng": "Global Skip allow you to skip the AFK waiting time, and finish it instantly.\n    this effect will be applied to all player performing AFK task"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"itemTimeSkipButton": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"itemSkipMinutes"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "Boş zaman atla (${itemSkipMinutes} min)",
+ 	 	 	 	 	"eng": "Free time skip (${itemSkipMinutes} Min)"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"timeSkipItemName",
+ 	 	 	 	 	 	"itemSkipMinutes"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "${itemSkipMinutes} dakikalarından geçmek için ${0 }'inizden birini kullanın",
+ 	 	 	 	 	"eng": "Use one of your ${timeSkipItemName} to skip ${itemSkipMinutes} minutes"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"inProgressBox": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Global Atla Devam Ediyor",
+ 	 	 	 	 	"eng": "Global Skip in progress"
+ 	 	 	 	},
+ 	 	 	 	"subtitle": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"skippingPlayerCount"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "${skippingPlayerCount} kullanıcıları hızlandıran ..",
+ 	 	 	 	 	"eng": "Accelerating ${skippingPlayerCount} users.."
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Küresel atlama, AFK bekleme süresini atlamanızı ve anında bitirmenizi sağlar. \n     Bu etki, AFK görevini gerçekleştiren tüm oyunculara uygulanacaktır",
+ 	 	 	 	"eng": "Global Skip allow you to skip the AFK waiting time, and finish it instantly.\n    this effect will be applied to all players performing an AFK task"
+ 	 	 	}
+ 	 	},
+ 	 	"afkTask": {
+ 	 	 	"abort": {
+ 	 	 	 	"trans": "İptal et",
+ 	 	 	 	"eng": "Abort"
+ 	 	 	}
+ 	 	},
+ 	 	"quest": {
+ 	 	 	"globalQuest": {
+ 	 	 	 	"progressTitle": {
+ 	 	 	 	 	"trans": "SL-Veri Kalesi İhlali",
+ 	 	 	 	 	"eng": "SL-Data Fortress Breach"
+ 	 	 	 	},
+ 	 	 	 	"infoBox": {
+ 	 	 	 	 	"title": {
+ 	 	 	 	 	 	"trans": "Siber Hacking Devam Ediyor",
+ 	 	 	 	 	 	"eng": "Cyberspace hacking in progress"
+ 	 	 	 	 	},
+ 	 	 	 	 	"subtitle": {
+ 	 	 	 	 	 	"trans": "Tüm oyunculara bonus buff sağlamak için SL-Veri Kalesi'nin ele geçirilmesine katılın",
+ 	 	 	 	 	 	"eng": "Join forces with other Netrunners to breach the SL-Data Fortress to grant all players with buff"
+ 	 	 	 	 	}
+ 	 	 	 	},
+ 	 	 	 	"completeBox": {
+ 	 	 	 	 	"title": {
+ 	 	 	 	 	 	"trans": "İhlal İşlemi tamamlandı",
+ 	 	 	 	 	 	"eng": "Breach operation completed"
+ 	 	 	 	 	},
+ 	 	 	 	 	"subtitle": {
+ 	 	 	 	 	 	"trans": "Uzaktaki exploit dağıtılıyor, lütfen bekleyin ...",
+ 	 	 	 	 	 	"eng": "Remote exploit deploying, please wait..."
+ 	 	 	 	 	}
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"battle": {
+ 	 	 	"attackButton": {
+ 	 	 	 	"primary": {
+ 	 	 	 	 	"title": {
+ 	 	 	 	 	 	"trans": "öncelik",
+ 	 	 	 	 	 	"eng": "primary"
+ 	 	 	 	 	}
+ 	 	 	 	},
+ 	 	 	 	"secondary": {
+ 	 	 	 	 	"title": {
+ 	 	 	 	 	 	"trans": "özel",
+ 	 	 	 	 	 	"eng": "special"
+ 	 	 	 	 	}
+ 	 	 	 	},
+ 	 	 	 	"tertiary": {
+ 	 	 	 	 	"title": {
+ 	 	 	 	 	 	"trans": "İmha.",
+ 	 	 	 	 	 	"eng": "Destruct."
+ 	 	 	 	 	}
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"backToPreviusLoc": {
+ 	 	 	"longPressBackToCity": {
+ 	 	 	 	"trans": "Şehre geri dönmek için uzun basın",
+ 	 	 	 	"eng": "Long press to go back to city"
+ 	 	 	}
+ 	 	},
+ 	 	"dungeon": {
+ 	 	 	"public": {
+ 	 	 	 	"trans": "Halka açık zindan",
+ 	 	 	 	"eng": "Public dungeon"
+ 	 	 	},
+ 	 	 	"password": {
+ 	 	 	 	"trans": "Şifre korumalı zindan",
+ 	 	 	 	"eng": "Password protected dungeon"
+ 	 	 	},
+ 	 	 	"enterDungeon": {
+ 	 	 	 	"trans": "Zindan girin",
+ 	 	 	 	"eng": "Enter Dungeon"
+ 	 	 	},
+ 	 	 	"listButton": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Zindanlar",
+ 	 	 	 	 	"eng": "Dungeons"
+ 	 	 	 	},
+ 	 	 	 	"des": {
+ 	 	 	 	 	"trans": "Zindanlarda, her dövüşten sonra iyileşmeyeceksiniz ve düşmanlar daha güçlüdür, ancak daha fazla exp ve yağmuru var",
+ 	 	 	 	 	"eng": "In dungeons, you will not heal after each fight, and enemies are stronger, but there are more exp and loots"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"combat": {
+ 	 	 	"enemyIsDeadTitle": {
+ 	 	 	 	"trans": "Burada hiçbir şey bulamadın",
+ 	 	 	 	"eng": "You found nothing here"
+ 	 	 	}
+ 	 	},
+ 	 	"dungeonLobby": {
+ 	 	 	"noDungeon": {
+ 	 	 	 	"trans": "Şu anda halka açık zindan yok",
+ 	 	 	 	"eng": "There is currently no public dungeon"
+ 	 	 	}
+ 	 	},
+ 	 	"localCombat": {
+ 	 	 	"nearByEnemiesButton": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Yakındaki düşmanlar",
+ 	 	 	 	 	"eng": "Nearby Enemies"
+ 	 	 	 	},
+ 	 	 	 	"desc": {
+ 	 	 	 	 	"trans": "Sokakta yakındaki düşmanlar için taramalar, zindanlar dışındaki düşmanlar zayıf ve yenilemeyi kolaydır. Ancak onlar da daha az exp düşürürler",
+ 	 	 	 	 	"eng": "Scans for nearby enemies on the street, enemies outside dungeons are weaker and easier to defeat. However they also drop less exp"
+ 	 	 	 	}
  	 	 	}
  	 	}
  	},
  	"misc": {
  	 	"missing": {
- 	 	 	"trans": "missing",
+ 	 	 	"trans": "eksik",
  	 	 	"eng": "missing"
  	 	},
  	 	"name": {
- 	 	 	"trans": "Name",
+ 	 	 	"trans": "İsim",
  	 	 	"eng": "Name"
  	 	},
  	 	"tag": {
- 	 	 	"trans": "Tag",
+ 	 	 	"trans": "Etiket",
  	 	 	"eng": "Tag"
  	 	},
  	 	"donate": {
- 	 	 	"trans": "Donate",
+ 	 	 	"trans": "Bağış yap",
  	 	 	"eng": "Donate"
  	 	},
  	 	"noSecretKey": {
- 	 	 	"trans": " No secret key",
+ 	 	 	"trans": " Gizli anahtar yok",
  	 	 	"eng": " No secret key"
  	 	},
  	 	"globalEffects": {
- 	 	 	"trans": "Global Effects",
+ 	 	 	"trans": "Küresel Etkiler",
  	 	 	"eng": "Global Effects"
  	 	},
  	 	"confirm": {
- 	 	 	"trans": "Confirm",
+ 	 	 	"trans": "Onayla",
  	 	 	"eng": "Confirm"
  	 	},
  	 	"requires": {
- 	 	 	"trans": "Requires",
+ 	 	 	"trans": "Gereken",
  	 	 	"eng": "Requires"
  	 	},
  	 	"receives": {
- 	 	 	"trans": "Receives",
+ 	 	 	"trans": "Alınan",
  	 	 	"eng": "Receives"
  	 	},
  	 	"amount": {
- 	 	 	"trans": "Amount",
+ 	 	 	"trans": "Miktar",
  	 	 	"eng": "Amount"
  	 	},
  	 	"shield": {
- 	 	 	"trans": "Shield",
+ 	 	 	"trans": "Kalkan",
  	 	 	"eng": "Shield"
  	 	},
  	 	"health": {
- 	 	 	"trans": "Health",
+ 	 	 	"trans": "Sağlık",
  	 	 	"eng": "Health"
  	 	},
  	 	"statusEffect": {
- 	 	 	"trans": "Status Effects",
+ 	 	 	"trans": "Durum Etkileri",
  	 	 	"eng": "Status Effects"
+ 	 	},
+ 	 	"notTradable": {
+ 	 	 	"trans": "takas edilebilir değil",
+ 	 	 	"eng": "not tradable"
+ 	 	},
+ 	 	"itemUpgradeCapacity": {
+ 	 	 	"trans": "Calibration Capacity",
+ 	 	 	"eng": "Collaboration Capacity"
+ 	 	},
+ 	 	"systemStandby": {
+ 	 	 	"trans": "Sistem beklemede",
+ 	 	 	"eng": "System standby"
+ 	 	},
+ 	 	"send": {
+ 	 	 	"trans": "gönder",
+ 	 	 	"eng": "send"
+ 	 	},
+ 	 	"password": {
+ 	 	 	"trans": "Parola",
+ 	 	 	"eng": "Password"
+ 	 	},
+ 	 	"close": {
+ 	 	 	"trans": "kapat",
+ 	 	 	"eng": "close"
+ 	 	},
+ 	 	"back": {
+ 	 	 	"trans": "geri",
+ 	 	 	"eng": "back"
+ 	 	},
+ 	 	"dungeons": {
+ 	 	 	"trans": "Zindanlar",
+ 	 	 	"eng": "dungeons"
+ 	 	},
+ 	 	"enemies": {
+ 	 	 	"trans": "Düşmanlar",
+ 	 	 	"eng": "Enemies"
  	 	}
  	},
  	"statsType": {
  	 	"health": {
  	 	 	"name": {
- 	 	 	 	"trans": "Health",
+ 	 	 	 	"trans": "Sağlık",
  	 	 	 	"eng": "Health"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Increases maximum health",
+ 	 	 	 	"trans": "Maksimum sağlığı artırır",
  	 	 	 	"eng": "Increases maximum health"
  	 	 	}
  	 	},
  	 	"armor": {
  	 	 	"name": {
- 	 	 	 	"trans": "Armor",
+ 	 	 	 	"trans": "Zırh",
  	 	 	 	"eng": "Armor"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Decrease damage taken from enemy",
- 	 	 	 	"eng": "Decrease damage taken from enemy"
+ 	 	 	 	"trans": "Düşmandan alınan hasarı axaltır",
+ 	 	 	 	"eng": "Decreases damage taken from enemies"
  	 	 	}
  	 	},
  	 	"healthRegen": {
  	 	 	"name": {
- 	 	 	 	"trans": "Health regen",
+ 	 	 	 	"trans": "Sağlık yenilemesi",
  	 	 	 	"eng": "Health regen"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Amount of health regenerated after end of combat",
- 	 	 	 	"eng": "Amount of health regenerated after end of combat"
+ 	 	 	 	"trans": "Savaştan sonraki sağlık yenilemesi miktarı",
+ 	 	 	 	"eng": "Amount of health regenerated after the end of combat"
  	 	 	}
  	 	},
  	 	"damage": {
  	 	 	"name": {
- 	 	 	 	"trans": "Damage",
+ 	 	 	 	"trans": "Hasar",
  	 	 	 	"eng": "Damage"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Directly influences amount of damage dealt by you",
- 	 	 	 	"eng": "Directly influences amount of damage dealt by you"
+ 	 	 	 	"trans": "Verdiğiniz hasar miktarını doğrudan etkiler",
+ 	 	 	 	"eng": "Directly influences the amount of damage dealt by you"
  	 	 	}
  	 	},
  	 	"critChance": {
  	 	 	"name": {
- 	 	 	 	"trans": "Crit chance",
+ 	 	 	 	"trans": "Kritik şansı",
  	 	 	 	"eng": "Crit chance"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Chance of you executing a critical attack",
+ 	 	 	 	"trans": "Kritik bir saldırı gerçekleştirme şansı",
  	 	 	 	"eng": "Chance of you executing a critical attack"
  	 	 	}
  	 	},
  	 	"critDamage": {
  	 	 	"name": {
- 	 	 	 	"trans": "Crit damage",
+ 	 	 	 	"trans": "Kritik hasar",
  	 	 	 	"eng": "Crit damage"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Influence the critical attack damage you deal to the enemy",
+ 	 	 	 	"trans": "Düşmana verdiğiniz kritik saldırı hasarını etkiler",
  	 	 	 	"eng": "Influence the critical attack damage you deal to the enemy"
  	 	 	}
  	 	},
  	 	"maxShield": {
  	 	 	"name": {
- 	 	 	 	"trans": "MaxShield",
+ 	 	 	 	"trans": "Maksimum Kalkan",
  	 	 	 	"eng": "MaxShield"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Increases your shield capacity",
+ 	 	 	 	"trans": "Kalkan kapasitesini artırır",
  	 	 	 	"eng": "Increases your shield capacity"
  	 	 	}
  	 	},
  	 	"description": {
  	 	 	"name": {
- 	 	 	 	"trans": "Increases your shield capacity",
+ 	 	 	 	"trans": "Envanter kapasitesini artırır",
  	 	 	 	"eng": "Increases inventory capacity"
  	 	 	}
  	 	},
  	 	"escape": {
  	 	 	"name": {
- 	 	 	 	"trans": "Escape",
+ 	 	 	 	"trans": "Kaç",
  	 	 	 	"eng": "Escape"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Chance of you escaping from a dungeon enemy",
- 	 	 	 	"eng": "Chance of you escaping from a dungeon enemy"
+ 	 	 	 	"trans": "Zindandaki düşmandan kaçma şansı",
+ 	 	 	 	"eng": "Chances of you escaping from a dungeon enemy"
  	 	 	}
  	 	},
  	 	"stunChance": {
  	 	 	"name": {
- 	 	 	 	"trans": "Stun chance",
+ 	 	 	 	"trans": "Sersemletme şansı",
  	 	 	 	"eng": "Stun chance"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Chance of you stunning your enemy when dealing damage, \r\n    causing them not able to respond to your attack",
+ 	 	 	 	"trans": "Hasar verirken düşmanınızı sersemletme şansınız , \r\n    saldırınıza karşılık verememelerine neden olur ",
  	 	 	 	"eng": "Chance of you stunning your enemy when dealing damage, \r\n    causing them not able to respond to your attack"
  	 	 	}
  	 	},
  	 	"evade": {
  	 	 	"name": {
- 	 	 	 	"trans": "Evade",
+ 	 	 	 	"trans": "Kaçınma",
  	 	 	 	"eng": "Evade"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Chance of you dodging an enemies attack",
+ 	 	 	 	"trans": "Düşman saldırılarından kaçınma şansı",
  	 	 	 	"eng": "Chance of you dodging an enemies attack"
  	 	 	}
  	 	},
  	 	"bargain": {
  	 	 	"name": {
- 	 	 	 	"trans": "Bargain",
+ 	 	 	 	"trans": "Pazarlık",
  	 	 	 	"eng": "Bargain"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Influences the price when buying and selling from npc's or stores.",
+ 	 	 	 	"trans": "Npc'lerden veya mağazalardan alım satım yaparken fiyatı etkiler.",
  	 	 	 	"eng": "Influences the price when buying and selling from npc's or stores."
  	 	 	}
  	 	},
  	 	"pocket": {
  	 	 	"name": {
- 	 	 	 	"trans": "Pocket",
+ 	 	 	 	"trans": "Cep",
  	 	 	 	"eng": "Pocket"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Increases inventory capacity",
+ 	 	 	 	"trans": "Envanter kapasitesini artırır",
  	 	 	 	"eng": "Increases inventory capacity"
  	 	 	}
  	 	},
  	 	"damageMultiplier": {
  	 	 	"name": {
- 	 	 	 	"trans": "Damage multiplier",
+ 	 	 	 	"trans": "Hasar Çarpanı",
  	 	 	 	"eng": "Damage multiplier"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Increases damage by percentage",
+ 	 	 	 	"trans": "Yüzdeye göre hasarı artırır ",
  	 	 	 	"eng": "Increases damage by percentage"
  	 	 	}
  	 	},
  	 	"defenceMultiplier": {
  	 	 	"name": {
- 	 	 	 	"trans": "Defence multiplier",
+ 	 	 	 	"trans": "Savunma Çarpanı",
  	 	 	 	"eng": "Defence multiplier"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Decreases damage received by percentage",
+ 	 	 	 	"trans": "Yüzdeye göre alınan hasarı azaltır",
  	 	 	 	"eng": "Decreases damage received by percentage"
  	 	 	}
  	 	},
  	 	"stunEvade": {
  	 	 	"name": {
- 	 	 	 	"trans": "Stun evade",
+ 	 	 	 	"trans": "Sersemletmeden kaçınma",
  	 	 	 	"eng": "Stun evade"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Decreases chance of getting stunned",
+ 	 	 	 	"trans": "Sersemletilme ihtimalinizi azaltır",
  	 	 	 	"eng": "Decreases chance of getting stunned"
  	 	 	}
  	 	},
  	 	"shieldMultiplier": {
  	 	 	"name": {
- 	 	 	 	"trans": "Shield multiplier",
+ 	 	 	 	"trans": "Kalkan çarpanı",
  	 	 	 	"eng": "Shield multiplier"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Increase strength of shield by percentage",
+ 	 	 	 	"trans": "Kalkanın gücünü yüzde oranında artırın ",
  	 	 	 	"eng": "Increase strength of shield by percentage"
  	 	 	}
  	 	},
  	 	"healMultiplier": {
  	 	 	"name": {
- 	 	 	 	"trans": "Healing multiplier",
+ 	 	 	 	"trans": "İyileşme Çarpanı",
  	 	 	 	"eng": "Healing multiplier"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Increases the potency of your heals",
+ 	 	 	 	"trans": "İyileşmenizin gücünü artırın",
  	 	 	 	"eng": "Increases the potency of your heals"
  	 	 	}
  	 	},
  	 	"timeReduction": {
  	 	 	"name": {
- 	 	 	 	"trans": "Time reduction",
+ 	 	 	 	"trans": "Zaman azaltma",
  	 	 	 	"eng": "Time reduction"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Reduce AFK task required time",
+ 	 	 	 	"trans": "AFK görevler için gereken süreyi azaltın",
  	 	 	 	"eng": "Reduce AFK task required time"
  	 	 	}
  	 	},
  	 	"expMultiplier": {
  	 	 	"name": {
- 	 	 	 	"trans": "Exp multiplier",
+ 	 	 	 	"trans": "Exp çarpanı",
  	 	 	 	"eng": "Exp multiplier"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Increase EXP you receive",
+ 	 	 	 	"trans": "Kazandığınız EXP'yi artırın",
  	 	 	 	"eng": "Increase EXP you receive"
  	 	 	}
  	 	},
  	 	"btcMultiplier": {
  	 	 	"name": {
- 	 	 	 	"trans": "BTC multiplier",
+ 	 	 	 	"trans": "BTC çarpanı",
  	 	 	 	"eng": "BTC multiplier"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Increase Bitcoins you receive",
+ 	 	 	 	"trans": "Kazandığınız Bitcoinleri artırın",
  	 	 	 	"eng": "Increase Bitcoins you receive"
  	 	 	}
  	 	},
  	 	"maxHealth": {
  	 	 	"name": {
- 	 	 	 	"trans": "Max Health",
+ 	 	 	 	"trans": "Maksimum Sağlık",
  	 	 	 	"eng": "Max Health"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Maximum health capacity",
+ 	 	 	 	"trans": "Maksimum sağlık kapasitesi",
  	 	 	 	"eng": "Maximum health capacity"
+ 	 	 	}
+ 	 	},
+ 	 	"upgradeChance": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Kalibrasyon şansı",
+ 	 	 	 	"eng": "Calibration Chance"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Öğeleri kalibre ederken yıkıcı yetmezlik şansını azaltır",
+ 	 	 	 	"eng": "Reduces chance of destructive failure when calibrating items"
+ 	 	 	}
+ 	 	},
+ 	 	"upgradeNoBreak": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Kalibrasyon güvenliği",
+ 	 	 	 	"eng": "Calibration Safety"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Kalibrasyon başarısız olur öğeyi yok etmeyecek",
+ 	 	 	 	"eng": "Calibration fails will not destroy the item"
  	 	 	}
  	 	}
  	},
@@ -1492,7 +2820,7 @@
  	 	 	 	"verb",
  	 	 	 	"amount"
  	 	 	],
- 	 	 	"trans": "You can ${verb} ${amount} times",
+ 	 	 	"trans": "${amount} defa ${verb} yapabilirsin",
  	 	 	"eng": "You can ${verb} ${amount} times"
  	 	},
  	 	"timeRequiredText": {
@@ -1500,31 +2828,65 @@
  	 	 	 	"verb",
  	 	 	 	"timeStr"
  	 	 	],
- 	 	 	"trans": "Time required to ${verb}: ${timeStr}",
+ 	 	 	"trans": "${verb} için gereken zaman: ${timeStr}",
  	 	 	"eng": "Time required to ${verb}: ${timeStr}"
  	 	}
  	},
  	"recipe": {
  	 	"unlockLootBox1": {
  	 	 	"name": {
- 	 	 	 	"trans": "Unlock Container",
+ 	 	 	 	"trans": "Konteyner Aç",
  	 	 	 	"eng": "Unlock Container"
  	 	 	}
  	 	},
  	 	"unlock": {
- 	 	 	"trans": "Unlock",
+ 	 	 	"trans": "Aç",
  	 	 	"eng": "Unlock"
  	 	},
  	 	"unlockLootBox2": {
  	 	 	"name": {
- 	 	 	 	"trans": "Unlock Rare Container",
+ 	 	 	 	"trans": "Nadir Konteyner Aç",
  	 	 	 	"eng": "Unlock Rare Container"
  	 	 	}
  	 	},
  	 	"unlockLootBox3": {
  	 	 	"name": {
- 	 	 	 	"trans": "Unlock Legendary Container",
+ 	 	 	 	"trans": "Efsanevi Konteyner Aç",
  	 	 	 	"eng": "Unlock Legendary Container"
+ 	 	 	}
+ 	 	},
+ 	 	"backpack1": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Eski poşet",
+ 	 	 	 	"eng": "Old Pouch"
+ 	 	 	}
+ 	 	},
+ 	 	"trade": {
+ 	 	 	"trans": "Ticaret",
+ 	 	 	"eng": "Trade"
+ 	 	},
+ 	 	"backpack2": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Bel çantası",
+ 	 	 	 	"eng": "Fanny Pack"
+ 	 	 	}
+ 	 	},
+ 	 	"backpack3": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Explorer'ın sırt çantası",
+ 	 	 	 	"eng": "Explorer's Backpack"
+ 	 	 	}
+ 	 	},
+ 	 	"backpack4": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Çalışan ofis davası",
+ 	 	 	 	"eng": "Employee Office Case"
+ 	 	 	}
+ 	 	},
+ 	 	"backpack5": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Özerk Depolama Birimi",
+ 	 	 	 	"eng": "Autonomous Storage Unit"
  	 	 	}
  	 	}
  	},
@@ -1535,32 +2897,32 @@
  	 	 	 	"priceStr",
  	 	 	 	"itemName"
  	 	 	],
- 	 	 	"trans": "You are selling ${amountStr} ${itemName}(s), at the price of ${priceStr} Per Item",
+ 	 	 	"trans": "${amountStr} adet ${itemName}, ürün başına ${priceStr} fiyata satıyorsunuz",
  	 	 	"eng": "You are selling ${amountStr} ${itemName}(s), at the price of ${priceStr} Per Item"
  	 	},
  	 	"totalConfirm": {
  	 	 	"vars": [
  	 	 	 	"total"
  	 	 	],
- 	 	 	"trans": "If all of them are sold, you will earn ${total} BitCoins",
- 	 	 	"eng": "If all of them are sold, you will earn ${total} BitCoins"
+ 	 	 	"trans": "Eğer hepsi satılırsa ${total} BitCoin kazanacaksın",
+ 	 	 	"eng": "If all items are sold, you will earn ${total} BitCoins"
  	 	},
  	 	"sellAmountModalTitle": {
- 	 	 	"trans": "How many would you like to sell?",
+ 	 	 	"trans": "Kaç adet satmak istiyorsun?",
  	 	 	"eng": "How many would you like to sell?"
  	 	}
  	},
  	"modal": {
  	 	"levelUp": {
  	 	 	"title": {
- 	 	 	 	"trans": "LEVEL UP",
+ 	 	 	 	"trans": "SEVİYE ATLANDI",
  	 	 	 	"eng": "LEVEL UP"
  	 	 	},
  	 	 	"subTitle": {
  	 	 	 	"vars": [
  	 	 	 	 	"levelName"
  	 	 	 	],
- 	 	 	 	"trans": "Congratulation, you have leveled up your ${levelName}!",
+ 	 	 	 	"trans": "Tebrikler, seviyenizi ${levelName}'e artırdınız!",
  	 	 	 	"eng": "Congratulation, you have leveled up your ${levelName}!"
  	 	 	},
  	 	 	"fromTo": {
@@ -1571,6 +2933,40 @@
  	 	 	 	"trans": "${from} => ${to}",
  	 	 	 	"eng": "${from} => ${to}"
  	 	 	}
+ 	 	},
+ 	 	"review": {
+ 	 	 	"title1": {
+ 	 	 	 	"trans": "Ben bu oyunun geliştiricisi olan Dexter'im ve deneyiminizi şimdiye kadar tanımayı umuyorum.",
+ 	 	 	 	"eng": "I'm Dexter, the developer of this game, and I hope to know your experience so far."
+ 	 	 	},
+ 	 	 	"title2": {
+ 	 	 	 	"trans": "Kaç yıldız verirdiniz?",
+ 	 	 	 	"eng": "How many stars would you give?"
+ 	 	 	},
+ 	 	 	"badReview": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Çok üzgünüm, lütfen nerede geliştirebileceğimi bana bildirin",
+ 	 	 	 	 	"eng": "I am so sorry, please let me know where I can improve"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"goodReview": {
+ 	 	 	 	"title1": {
+ 	 	 	 	 	"trans": "Vay çok teşekkürler! Onur duydum, lütfen onları mağaza sayfamıza bırakarak resmi olarak yaptırın :)",
+ 	 	 	 	 	"eng": "Wow, thanks so much! I'm honored, please make it official by leaving them on our store page :)"
+ 	 	 	 	},
+ 	 	 	 	"title2": {
+ 	 	 	 	 	"trans": "İyi değerlendirmeniz bana çok yardımcı olacak ve topluluğumuza daha fazla oyuncu getirecek!",
+ 	 	 	 	 	"eng": "Your good review is going to help me much and bring more players into our community!"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"dontAskMeAgain": {
+ 	 	 	 	"trans": "Bana tekrar sorma",
+ 	 	 	 	"eng": "Don't ask me again"
+ 	 	 	},
+ 	 	 	"reviewLater": {
+ 	 	 	 	"trans": "Daha sonra inceleyin",
+ 	 	 	 	"eng": "review later"
+ 	 	 	}
  	 	}
  	},
  	"cosmetic": {
@@ -1578,8 +2974,97 @@
  	 	 	"vars": [
  	 	 	 	"tierName"
  	 	 	],
- 	 	 	"trans": "This is an example chat frame of ${tierName} Tier",
- 	 	 	"eng": "This is an example chat frame of ${tierName} Tier"
+ 	 	 	"trans": "Bu ${tierName} kademesi için örnek bir sohbet çerçevesidir",
+ 	 	 	"eng": "example chat frame of ${tierName} Tier"
+ 	 	}
+ 	},
+ 	"reward": {
+ 	 	"gangResource": {
+ 	 	 	"vars": [
+ 	 	 	 	"clanResource"
+ 	 	 	],
+ 	 	 	"trans": "${clanResource} Çete Kaynağı",
+ 	 	 	"eng": "${clanResource} gang resource"
+ 	 	},
+ 	 	"gangExp": {
+ 	 	 	"vars": [
+ 	 	 	 	"clanExp"
+ 	 	 	],
+ 	 	 	"trans": "${clanExp} Çete Exp",
+ 	 	 	"eng": "${clanExp} gang exp"
+ 	 	},
+ 	 	"gangFunding": {
+ 	 	 	"vars": [
+ 	 	 	 	"clanMoney"
+ 	 	 	],
+ 	 	 	"trans": "${clanMoney} Çete finansmanı",
+ 	 	 	"eng": "${clanMoney} gang funding"
+ 	 	},
+ 	 	"unknown": {
+ 	 	 	"trans": "Bilinmeyen eşyalar",
+ 	 	 	"eng": "Unknown Items"
+ 	 	},
+ 	 	"gangOccupationPoint": {
+ 	 	 	"vars": [
+ 	 	 	 	"clanOccupationPoint"
+ 	 	 	],
+ 	 	 	"trans": "${clanOccupationPoint} işgal kontrolü",
+ 	 	 	"eng": "${clanOccupationPoint} Occupation Control"
+ 	 	},
+ 	 	"globalQuestPoint": {
+ 	 	 	"vars": [
+ 	 	 	 	"globalQuestPoint"
+ 	 	 	],
+ 	 	 	"trans": "${globalQuestPoint} SL veri kalesi ihlali ilerlemesi",
+ 	 	 	"eng": "${globalQuestPoint} SL Data Fortress breach progress"
+ 	 	}
+ 	},
+ 	"cost": {
+ 	 	"requireGang": {
+ 	 	 	"trans": "Çetede olmayı gerektirir",
+ 	 	 	"eng": "Requires you to be in a gang"
+ 	 	},
+ 	 	"requireTopGang": {
+ 	 	 	"trans": "Üst çetede olmayı gerektirir",
+ 	 	 	"eng": "Requires you to be in the top gang"
+ 	 	}
+ 	},
+ 	"statusEffect": {
+ 	 	"pirate": {
+ 	 	 	"trans": "Sohbet Exploit [Korsan]",
+ 	 	 	"eng": "Chat Exploit [PIRATE]"
+ 	 	},
+ 	 	"leet": {
+ 	 	 	"trans": "Sohbet Exploit [1337]",
+ 	 	 	"eng": "Chat Exploit [1337]"
+ 	 	},
+ 	 	"UwU": {
+ 	 	 	"trans": "Sohbet Exploit [UWU]",
+ 	 	 	"eng": "Chat Exploit [UwU]"
+ 	 	},
+ 	 	"love": {
+ 	 	 	"trans": "Sohbet Exploit [Aşk]",
+ 	 	 	"eng": "Chat Exploit [LOVE]"
+ 	 	},
+ 	 	"chatExploitProtect": {
+ 	 	 	"trans": "Sohbet Şifreleme",
+ 	 	 	"eng": "Chat Encryption"
+ 	 	}
+ 	},
+ 	"inventory": {
+ 	 	"ui": {
+ 	 	 	"autoScrap": {
+ 	 	 	 	"noItem": {
+ 	 	 	 	 	"trans": "Otomatik hurda için ürün yok",
+ 	 	 	 	 	"eng": "No item to auto scrap"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	}
+ 	},
+ 	"tutorial": {
+ 	 	"localCombatButton": {
+ 	 	 	"trans": "Sokak düşmanlarını taramak için buraya tıklayın",
+ 	 	 	"eng": "Click here to scan for street enemies"
  	 	}
  	}
 }

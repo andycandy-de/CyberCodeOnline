@@ -5,7 +5,7 @@
  	 	 	"eng": "Inventory"
  	 	},
  	 	"quest": {
- 	 	 	"trans": "Quest",
+ 	 	 	"trans": "Aufgaben",
  	 	 	"eng": "Quest"
  	 	},
  	 	"chat": {
@@ -24,12 +24,16 @@
  	"npc": {
  	 	"unitExchange": {
  	 	 	"name": {
- 	 	 	 	"trans": "Arasaka Unit Exchange",
+ 	 	 	 	"trans": "Austausch von Arasaka-Units",
  	 	 	 	"eng": "Arasaka Unit Exchange"
  	 	 	},
  	 	 	"tut": {
  	 	 	 	"trans": "Hier kannst du globale Buffs kaufen",
  	 	 	 	"eng": "You can purchase global buff items here"
+ 	 	 	},
+ 	 	 	"canAccessError": {
+ 	 	 	 	"trans": "Du benötigst mindestens Level 5, um Zugriff auf den Austausch von Units zu erhalten",
+ 	 	 	 	"eng": "You need to be at least level 5 to access unit exchange"
  	 	 	}
  	 	},
  	 	"cosmetic": {
@@ -40,12 +44,16 @@
  	 	 	"tut": {
  	 	 	 	"trans": "Wenn dir das Spiel gefällt, denke bitte über eine Spende nach :)",
  	 	 	 	"eng": "If you liked the game, please consider donation :)"
+ 	 	 	},
+ 	 	 	"canAccessError": {
+ 	 	 	 	"trans": "Du benötigst mindestens Level 5, um auf den kosmetischen Händler zuzugreifen",
+ 	 	 	 	"eng": "You need to be at least level 5 to access cosmetic merchant"
  	 	 	}
  	 	},
  	 	"printer": {
  	 	 	"name": {
- 	 	 	 	"trans": "Molekularer 3d Drucker",
- 	 	 	 	"eng": "Molecular 3d Printer"
+ 	 	 	 	"trans": "Molekularer 3D Drucker",
+ 	 	 	 	"eng": "Molecular 3D Printer"
  	 	 	},
  	 	 	"tut": {
  	 	 	 	"trans": "Hier kannst du deine Caches zum Drucken neuer Ausrüstung verwenden",
@@ -65,11 +73,15 @@
  	 	 	},
  	 	 	"tut": {
  	 	 	 	"trans": "Um zum nächsten Gebiet zu gelangen, musst du Schlüsselfragmente aus Dungeons holen. \r\n        Anschließend kannst du den Schlüssel zum nächsten Gebiet am Terminal brute-forcen (herstellen)",
- 	 	 	 	"eng": "To progress to next area, you need to use get Secret Key Fragments from dungeons, \r\n        and use Terminal to Brute Force the key for next area"
+ 	 	 	 	"eng": "To progress to the next area, you need to use get Secret Key Fragments from dungeons, \r\n        and use the Terminal to Brute Force the key for next area"
  	 	 	},
  	 	 	"description": {
  	 	 	 	"trans": "Dein persönlicher Computer. Ist zwar etwas älter, mit Geduld tut er jedoch noch seinen Job",
- 	 	 	 	"eng": "Your personal computer, although its a little outdated, it could get the job done with enough patient"
+ 	 	 	 	"eng": "Your personal computer, although it's a little outdated, it can get the job done with enough patience"
+ 	 	 	},
+ 	 	 	"canAccessError": {
+ 	 	 	 	"trans": "Du benötigst mindestens Level 5, um auf das Terminal zuzugreifen",
+ 	 	 	 	"eng": "You need to be at least level 5 to access terminal"
  	 	 	}
  	 	},
  	 	"store": {
@@ -82,6 +94,44 @@
  	 	 	"name": {
  	 	 	 	"trans": "Bank von Arasaka",
  	 	 	 	"eng": "Bank of Arasaka"
+ 	 	 	},
+ 	 	 	"canAccessError": {
+ 	 	 	 	"trans": "Du benötigst mindestens Level 5, um auf die Bank zuzugreifen",
+ 	 	 	 	"eng": "You need to be at least level 5 to access bank"
+ 	 	 	}
+ 	 	},
+ 	 	"equipmentUpgrade": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Kalibrierstation",
+ 	 	 	 	"eng": "Calibration Station"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Eine Werkbank mit allen notwendigen Werkzeugen, um an deiner Ausrüstung zu basteln.",
+ 	 	 	 	"eng": "A workbench with the necessary tools allows you to tinker with your equipment."
+ 	 	 	}
+ 	 	},
+ 	 	"storageMerchant": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Lee's Handelsposten",
+ 	 	 	 	"eng": "Lee's Trading Post"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Ein familiengeführtes Handelsgeschäft, in dem du mit dem handeln kannst, was du beim Plündern gefunden hast.",
+ 	 	 	 	"eng": "A family run trading shop that lets you trade with what they have found while scavenging"
+ 	 	 	},
+ 	 	 	"canAccessError": {
+ 	 	 	 	"trans": "Du benötigst mindestens Level 10, um den Händler zu erhalten",
+ 	 	 	 	"eng": "You need to be at least level 10 to access merchant"
+ 	 	 	}
+ 	 	},
+ 	 	"recycleMachine": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Automatischer Recycler",
+ 	 	 	 	"eng": "Automatic Recycler"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Vollautomatischer Recycler, der Gegenstände in ihre ursprüngliche Schrottform recyceln kann",
+ 	 	 	 	"eng": "Fully automated recycler, capable of recycling items to their basic scrap form"
  	 	 	}
  	 	}
  	},
@@ -104,13 +154,13 @@
  	 	},
  	 	"print": {
  	 	 	"name": {
- 	 	 	 	"trans": "Drucken-Rang",
+ 	 	 	 	"trans": "printing rank",
  	 	 	 	"eng": "printing rank"
  	 	 	}
  	 	},
  	 	"medical": {
  	 	 	"name": {
- 	 	 	 	"trans": "Medizinisches Wissen",
+ 	 	 	 	"trans": "Medizin",
  	 	 	 	"eng": "medical science"
  	 	 	}
  	 	},
@@ -122,13 +172,13 @@
  	 	},
  	 	"scavenge": {
  	 	 	"name": {
- 	 	 	 	"trans": "Plündern-Rang",
+ 	 	 	 	"trans": "Plünderungsfertigkeit",
  	 	 	 	"eng": "scavenge skill"
  	 	 	}
  	 	},
  	 	"mining": {
  	 	 	"name": {
- 	 	 	 	"trans": "Crypto-Mining-Rang",
+ 	 	 	 	"trans": "Crypto-Mining-Skill",
  	 	 	 	"eng": "mining skill"
  	 	 	}
  	 	}
@@ -136,30 +186,30 @@
  	"location": {
  	 	"mainHub": {
  	 	 	"name": {
- 	 	 	 	"trans": "Shangri-La City Center",
+ 	 	 	 	"trans": "Stadtzentrum von Shangri-La",
  	 	 	 	"eng": "Shangri-La City center"
  	 	 	},
  	 	 	"description": {
  	 	 	 	"trans": "[Central Hub]\r\n        Eine der beschäftigsten Städte des Kontinents, hier begegnest du verschiedensten Menschen aus aller Welt.",
- 	 	 	 	"eng": "[Central Hub]\r\n        One of the busiest cities in the continent, here you can find all sorts of people from around the globe."
+ 	 	 	 	"eng": "[Central Hub]\r\n        One of the busiest cities in the continent. Here you can find all sorts of people from around the globe."
  	 	 	},
  	 	 	"toStation": {
  	 	 	 	"name": {
- 	 	 	 	 	"trans": "Gehe zur Hyper Train Central Station",
+ 	 	 	 	 	"trans": "Gehe zum Hyper Train Hauptbahnhof",
  	 	 	 	 	"eng": "Go to Hyper Train Central Station"
  	 	 	 	},
  	 	 	 	"tut": {
  	 	 	 	 	"trans": "Beginne dein Abenteuer und die Jagd nach epischen Gegenständen",
- 	 	 	 	 	"eng": "Start your adventure to epic loots here"
+ 	 	 	 	 	"eng": "Start your adventure for epic loot here"
  	 	 	 	},
  	 	 	 	"description": {
- 	 	 	 	 	"trans": "Gehe zur Hyper Train Central Station",
+ 	 	 	 	 	"trans": "Gehe zum Hyper Train Hauptbahnhof",
  	 	 	 	 	"eng": "Go to Hyper Train Central Station"
  	 	 	 	}
  	 	 	},
  	 	 	"toJob": {
  	 	 	 	"name": {
- 	 	 	 	 	"trans": "Gehe zur Shangri-La Commercial Area",
+ 	 	 	 	 	"trans": "Gehe zum Shangri-La Gewerbegebiet",
  	 	 	 	 	"eng": "Go to Shangri-La Commercial Area"
  	 	 	 	},
  	 	 	 	"tut": {
@@ -169,55 +219,61 @@
  	 	 	},
  	 	 	"toMarket": {
  	 	 	 	"name": {
- 	 	 	 	 	"trans": "Gehe zur Shangri-La Market Street",
+ 	 	 	 	 	"trans": "Gehe zur Shangri-La Marktstraße",
  	 	 	 	 	"eng": "Go to Shangri-La Market Street"
  	 	 	 	},
  	 	 	 	"tut": {
  	 	 	 	 	"trans": "Hier kannst du deine Gegenstände an andere Spieler verkaufen oder Gegenstände von ihnen kaufen",
  	 	 	 	 	"eng": "You can sell or buy items from other players here"
  	 	 	 	}
+ 	 	 	},
+ 	 	 	"toGang": {
+ 	 	 	 	"name": {
+ 	 	 	 	 	"trans": "Gehe zum Gang Hauptquartier",
+ 	 	 	 	 	"eng": "Go to gang headquarters"
+ 	 	 	 	}
  	 	 	}
  	 	},
  	 	"job": {
  	 	 	"name": {
- 	 	 	 	"trans": "Shangri-La Commercial Area",
+ 	 	 	 	"trans": "Shangri-La Gewerbegebiet",
  	 	 	 	"eng": "Shangri-La Commercial Area"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "[Job Hub]\r\n        Viele Läden und Geschäfte, der perfekte Ort, deine Fähigkeiten zu testen.",
- 	 	 	 	"eng": "[Job Hub]\r\n        Many shops and Businesses, a perfect location to try out your skills."
+ 	 	 	 	"trans": "[Job Hub]\r\n        Hier sind viele Geschäfte und Unternehmen ansässig.  Der perfekte Ort, um Ihre Fähigkeiten zu verbessern und zu verfeinern.",
+ 	 	 	 	"eng": "[Job Hub]\r\n        Here are many shops and businesses reside. The perfect location to hone and refine your skills."
  	 	 	},
  	 	 	"toMainHub": {
  	 	 	 	"name": {
- 	 	 	 	 	"trans": "Zurück zum Shangri-La City Center",
+ 	 	 	 	 	"trans": "Rückkehr zum Stadtzentrum von Shangri-La",
  	 	 	 	 	"eng": "Return to Shangri-La City Center"
  	 	 	 	}
  	 	 	}
  	 	},
  	 	"market": {
  	 	 	"name": {
- 	 	 	 	"trans": "Shangri-La Market Street",
+ 	 	 	 	"trans": "Shangri-La Marktstraße",
  	 	 	 	"eng": "Shangri-La Market Street"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "[Spieler Markt]\r\n        Die berühmte Markt Straße in Shangri-La. Jede Menge Verkaufsstände füllen diese Straße.\r\n        Vielleicht findest du etwas brauchbares oder eröffnest selbst einen Stand.",
+ 	 	 	 	"trans": "[Spieler Markt]\r\n        Die berühmte Marktstraße in Shangri-La. Jede Menge Verkaufsstände füllen diese Straße.\r\n        Vielleicht findest du etwas brauchbares oder eröffnest selbst einen Stand.",
  	 	 	 	"eng": "[Player Market]\r\n        The famous market street in Shangri-La. Loads of market stalls fill the street.\r\n        Maybe you can find something you need or set up shop yourself."
  	 	 	},
  	 	 	"toMainHub": {
  	 	 	 	"name": {
- 	 	 	 	 	"trans": "Zurück zum Shangri-La City Center",
+ 	 	 	 	 	"trans": "Rückkehr zum Stadtzentrum von Shangri-La",
  	 	 	 	 	"eng": "Return to Shangri-La City Center"
  	 	 	 	}
  	 	 	}
  	 	},
  	 	"station": {
  	 	 	"name": {
- 	 	 	 	"trans": "Hyper Train Central Station",
+ 	 	 	 	"trans": "Hyper Train Hauptbahnhof",
  	 	 	 	"eng": "Hyper Train Central Station"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "[Abenteuer]\r\n        Mit dem Hyperloop kannst du mit Supergeschwindigkeit quer über den gesamten Kontinent reisen.",
- 	 	 	 	"eng": "[Adventure]\r\n        Using the hyperloop you can travel at super speed across the continent with ease."
+ 	 	 	 	"trans": "[Abenteuer]\r\n        Mit dem Hyperloop kannst du problemlos mit Überschallgeschwindigkeit über den Kontinent reisen.",
+ 	 	 	 	"eng": "[Adventure]\r\n        Using the hyperloop, you can travel at supersonic speed across the continent with ease."
  	 	 	}
  	 	},
  	 	"zone": {
@@ -233,7 +289,7 @@
  	 	 	 	 	"vars": [
  	 	 	 	 	 	"mainHubName"
  	 	 	 	 	],
- 	 	 	 	 	"trans": "Zurück zum ${mainHubName}",
+ 	 	 	 	 	"trans": "Rückkehr zum ${mainHubName}",
  	 	 	 	 	"eng": "Return to ${mainHubName}"
  	 	 	 	}
  	 	 	},
@@ -242,24 +298,24 @@
  	 	 	 	 	"vars": [
  	 	 	 	 	 	"segmentStationName"
  	 	 	 	 	],
- 	 	 	 	 	"trans": "Zurück zu ${segmentStationName}",
+ 	 	 	 	 	"trans": "Zurück zum ${segmentStationName}",
  	 	 	 	 	"eng": "back to ${segmentStationName}"
  	 	 	 	},
  	 	 	 	"description": {
  	 	 	 	 	"vars": [
  	 	 	 	 	 	"segmentStationName"
  	 	 	 	 	],
- 	 	 	 	 	"trans": "Kehre zu ${segmentStationName} zurück",
+ 	 	 	 	 	"trans": "Rückkehr zum ${segmentStationName} zurück",
  	 	 	 	 	"eng": "return to ${segmentStationName}"
  	 	 	 	}
  	 	 	},
  	 	 	"toStation": {
  	 	 	 	"description": {
- 	 	 	 	 	"trans": "Kehre zur Hyper Train Station zurück",
+ 	 	 	 	 	"trans": "Rückkehr zum Hyper Train Bahnhof",
  	 	 	 	 	"eng": "Return to Hyper Train Station"
  	 	 	 	},
  	 	 	 	"name": {
- 	 	 	 	 	"trans": "Zurück zur Hyper Train Station",
+ 	 	 	 	 	"trans": "Zurück zum Hyper Train Bahnhof",
  	 	 	 	 	"eng": "back to Hyper Train Station"
  	 	 	 	}
  	 	 	}
@@ -295,7 +351,7 @@
  	 	 	 	"vars": [
  	 	 	 	 	"segmentDisplayName"
  	 	 	 	],
- 	 	 	 	"trans": "${segmentDisplayName} station",
+ 	 	 	 	"trans": "${segmentDisplayName} Station",
  	 	 	 	"eng": "${segmentDisplayName} station"
  	 	 	},
  	 	 	"description": {
@@ -305,6 +361,27 @@
  	 	 	 	],
  	 	 	 	"trans": "Level ${segment} bis ${segmentMaxLevel}",
  	 	 	 	"eng": "Level ${segment} to ${segmentMaxLevel}"
+ 	 	 	},
+ 	 	 	"goTo": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"segmentStationName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Gehe zu ${segmentStationName}",
+ 	 	 	 	"eng": "go to ${segmentStationName}"
+ 	 	 	}
+ 	 	},
+ 	 	"gang": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Gang Hauptquartier",
+ 	 	 	 	"eng": "Gang Headquarters"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "[Gang]\r\n        Das Hauptquartier für dich und deine Gangmitglieder, um deine nächste Operation zu planen und durchzuführen",
+ 	 	 	 	"eng": "[Gang]\r\n        The headquarters for you and your gang members to plan and execute your next operation"
+ 	 	 	},
+ 	 	 	"cantEnterError": {
+ 	 	 	 	"trans": "Du musst einer Gang beitreten, um in diesen Bereich zu gelangen",
+ 	 	 	 	"eng": "You need to join a gang to enter this area"
  	 	 	}
  	 	}
  	},
@@ -322,7 +399,7 @@
  	 	 	 	 	"levelName"
  	 	 	 	],
  	 	 	 	"trans": "Ein Splitter, der die Erinnerungen und Erfahrungen von jemandem enthält. Bei Verwendung erhälst du vielleicht ${levelName} Erfahrung",
- 	 	 	 	"eng": "A shard that contains someone's memory and experience, if used you may gain ${levelName} experience from this"
+ 	 	 	 	"eng": "A shard that contains someone's memory and experience. If used you may gain ${levelName} experience from this"
  	 	 	}
  	 	},
  	 	"keyFragment": {
@@ -338,8 +415,8 @@
  	 	 	 	"vars": [
  	 	 	 	 	"segmentDisplayName"
  	 	 	 	],
- 	 	 	 	"trans": "Geheimes Schlüsselfragment, benutze es zum erstellen eines geheimen Schlüssels.\r\n                                Benutze das Terminal im City Center [Hub], um einen ${segmentDisplayName} Schlüssel zu brute-forcen (herzustellen).\r\n                                Du kannst jedes der 3 Schlüsselfragmente in den 3 Dungeons (Normal oder Challenge) finden.\r\n                                Sobald du alle 3 Schlüsselfragmente gefunden hast, kannst du am Terminal den Schlüssel zum nächsten Gebiet brute-forcen (herstellen)",
- 	 	 	 	"eng": "Secret key Fragment Use to brute-force a secret key.\r\n                                Use the Terminal at city center [Hub] to brute-force a ${segmentDisplayName} secret key.\r\n                                You can acquire each of the 3 required keys in each dungeon (both normal or challenge),\r\n                                when you acquired 3 keys, you may use Terminal to brute-force (Craft) a key to the next area"
+ 	 	 	 	"trans": "Geheimes Schlüsselfragment, benutze es zum Erstellen eines geheimen Schlüssels.\r\n                                Benutze das Terminal im City Center [Hub], um einen ${segmentDisplayName} Schlüssel zu brute-forcen (herzustellen).\r\n                                Du kannst jedes der 3 Schlüsselfragmente in den 3 Dungeons (Normal oder Challenge) finden.\r\n                                Sobald du alle 3 Schlüsselfragmente gefunden hast, kannst du am Terminal den Schlüssel zum nächsten Gebiet brute-forcen (herstellen)",
+ 	 	 	 	"eng": "A secret key Fragment used to brute-force a secret key.\r\n                                Use the Terminal at city center [Hub] to brute-force a ${segmentDisplayName} secret key.\r\n                                You can acquire each of the 3 required keys in each dungeon (both normal or challenge),\r\n                                when you acquired 3 keys, you may use Terminal to brute-force (Craft) a key to the next area"
  	 	 	}
  	 	},
  	 	"cache": {
@@ -396,7 +473,7 @@
  	 	 	},
  	 	 	"description": {
  	 	 	 	"trans": "Hast du Kopfschmerzen? Benutze Pain Away™ und die Schmerzen sind vergessen!",
- 	 	 	 	"eng": "Do you have headache? use Pain Away™ to relief your pain!"
+ 	 	 	 	"eng": "Do you have headache? Use Pain Away™ to relieve your pain!"
  	 	 	}
  	 	},
  	 	"healing2": {
@@ -406,7 +483,7 @@
  	 	 	},
  	 	 	"description": {
  	 	 	 	"trans": "Ein alter Nanobot, wird normalerweise verwendet um kleine Elektrogeräte zu reparieren.",
- 	 	 	 	"eng": "Old nano repair bot, usually used to repair small tech devices"
+ 	 	 	 	"eng": "An old nano repair bot, usually used to repair small tech devices."
  	 	 	}
  	 	},
  	 	"healing3": {
@@ -416,7 +493,7 @@
  	 	 	},
  	 	 	"description": {
  	 	 	 	"trans": "Ein alter Nanobot, Injektion zur Heilung jeder Verletzung (*unter einigen Bedingungen).",
- 	 	 	 	"eng": "Old nano Medic bot, inject it to cure any(*conditions apply) injury!"
+ 	 	 	 	"eng": "Old nano medic bot is used to cure any (*conditions apply) injury!"
  	 	 	}
  	 	},
  	 	"healing4": {
@@ -426,7 +503,7 @@
  	 	 	},
  	 	 	"description": {
  	 	 	 	"trans": "Injektion zur Heilung jeder Verletzung (*unter einigen Bedingungen).",
- 	 	 	 	"eng": "inject it to cure any(*conditions apply) injury!"
+ 	 	 	 	"eng": "Inject it to cure any(*conditions apply) injury!"
  	 	 	}
  	 	},
  	 	"healing5": {
@@ -436,7 +513,7 @@
  	 	 	},
  	 	 	"description": {
  	 	 	 	"trans": "Injizierbare Nanomaschinen, die zur Standardausrüstung des Militärs gehören und in der Lage sind, Verletzungen während des Kampfes zu heilen.",
- 	 	 	 	"eng": "Injectable nano machines that are standard issue for military use, capable of patching injuries while in combat."
+ 	 	 	 	"eng": "Injectable nano machines that are standard issue for military use. They are capable of patching injuries while in combat."
  	 	 	}
  	 	},
  	 	"healing6": {
@@ -446,7 +523,7 @@
  	 	 	},
  	 	 	"description": {
  	 	 	 	"trans": "Injizierbare Nanomaschinen, die im Militär eingesetzt werden. Sie sind in der Lage, Verletzungen während des Kampfes zu heilen.",
- 	 	 	 	"eng": "Injectable nano machines that are used in the military. They are capable of patching injuries while in combat."
+ 	 	 	 	"eng": "Injectable nano machines that are standard issue for military use. They're capable of patching injuries while in combat."
  	 	 	}
  	 	},
  	 	"healing7": {
@@ -456,7 +533,7 @@
  	 	 	},
  	 	 	"description": {
  	 	 	 	"trans": "Injizierbare Nanomaschinen, die für den schweren militärischen Einsatz bestimmt sind und Verletzungen in Kampfsituationen heilen können",
- 	 	 	 	"eng": "injectable nano machines that is for advance military use, capable of patching injury in combat situation"
+ 	 	 	 	"eng": "Injectable nano machines that are standard issue for military use. They're capable of patching injuries while in combat."
  	 	 	}
  	 	},
  	 	"healing8": {
@@ -466,7 +543,7 @@
  	 	 	},
  	 	 	"description": {
  	 	 	 	"trans": "Injizierbare Nanomaschinen, die für den schweren militärischen Einsatz bestimmt sind und Verletzungen in Kampfsituationen heilen können",
- 	 	 	 	"eng": "injectable nano machines that is for advance military use, capable of patching injury in combat situation"
+ 	 	 	 	"eng": "Injectable nano machines that are standard issue for military use. They're capable of patching injuries while in combat."
  	 	 	}
  	 	},
  	 	"healingArea1": {
@@ -476,7 +553,7 @@
  	 	 	},
  	 	 	"description": {
  	 	 	 	"trans": "Haben du und deine Freunde gemeinsam Kopfschmerzen? Benutzt Pain Away Spray™ und die Schmerzen sind vergessen!",
- 	 	 	 	"eng": "Do you and your friend have headache together? use Pain Away Spray™ to relief your pain!"
+ 	 	 	 	"eng": "Do you and your friends both have headaches? Use Pain Away Spray™ to relief your pain!"
  	 	 	}
  	 	},
  	 	"healingArea2": {
@@ -486,7 +563,7 @@
  	 	 	},
  	 	 	"description": {
  	 	 	 	"trans": "Alte Reparaturdrohne, die in der Lage ist, Spieler in der Nähe zu reparieren oder zu heilen.",
- 	 	 	 	"eng": "Old repair drone, capable of repair or heal nearby players"
+ 	 	 	 	"eng": "Old repair drone, capable of repairing or heal nearby players"
  	 	 	}
  	 	},
  	 	"healingArea3": {
@@ -556,7 +633,7 @@
  	 	 	},
  	 	 	"description": {
  	 	 	 	"trans": "Teile von gebrauchter medizinischer Technologie, die , mit dem benötigtem Wissen, zur Herstellung von Heilgegenständen verwendet werden können",
- 	 	 	 	"eng": "Bits and pieces of used medical tech, this can be used to craft healing items if you understand how"
+ 	 	 	 	"eng": "Bits and pieces of used medical tech. This can be used to craft healing items if you understand how"
  	 	 	}
  	 	},
  	 	"expMemory": {
@@ -566,7 +643,7 @@
  	 	 	},
  	 	 	"description": {
  	 	 	 	"trans": "Die Speicherbank enthält die Erinnerungen von jemandem. Wenn sie verwendet wird, können daraus Erfahrungen gewonnen werden.",
- 	 	 	 	"eng": "Memory bank contains someone's memory, if used you may gain experience from this"
+ 	 	 	 	"eng": "Memory bank contains someone's memory. If used you may gain experience from this"
  	 	 	}
  	 	},
  	 	"hashProcessor": {
@@ -581,32 +658,32 @@
  	 	},
  	 	"afkAcceleration": {
  	 	 	"name": {
- 	 	 	 	"trans": "Synaptischer Beschleunigungstransmitter",
+ 	 	 	 	"trans": "Synaptischer Beschleunigungssender",
  	 	 	 	"eng": "Synaptic Acceleration Transmitter"
  	 	 	},
  	 	 	"description": {
  	 	 	 	"trans": "Sendet Exploits an alle kybernetisch verbundenen Benutzer, übertaktet deren synaptische Prozessoren und ermöglicht so für kurze Zeit übermenschliche mentale Kapazität.\r\n        \r\n        Wenn er benutzt wird, gibt er allen aktiven Spielern, einen globalen Buff, der es ihnen ermöglicht, AFK-Aufgaben 10 Minuten lang +5% schneller zu erledigen (stapelbar)",
- 	 	 	 	"eng": "Broadcasts exploits to all cybernetically connected users, overclock their synaptic processors thus allowing super-human mental capacity for short period of time.\r\n        \r\n        When used, gives Global Buff to all players online, allowing them to complete AFK tasks in +5% speed for 10 minutes (stackable)"
+ 	 	 	 	"eng": "Broadcasts exploits to all cybernetically connected users, overclocking their synaptic processors thus allowing super-human mental capacity for short period of time.\r\n        \r\n        When used, gives Global Buff to all players online, allowing them to complete AFK tasks in +5% speed for 10 minutes (stackable)"
  	 	 	}
  	 	},
  	 	"afkAcceleration2": {
  	 	 	"name": {
- 	 	 	 	"trans": "Seltener Synaptischer Beschleunigungstransmitter",
+ 	 	 	 	"trans": "Seltener synaptischer Beschleunigungssender",
  	 	 	 	"eng": "Rare Synaptic Acceleration Transmitter"
  	 	 	},
  	 	 	"description": {
  	 	 	 	"trans": "Sendet Exploits an alle kybernetisch verbundenen Benutzer, übertaktet deren synaptische Prozessoren und ermöglicht so für kurze Zeit übermenschliche mentale Kapazität.\r\n        \r\n        Wenn er benutzt wird, gibt er allen aktiven Spielern, einen globalen Buff, der es ihnen ermöglicht, AFK-Aufgaben 20 Minuten lang +40% schneller zu erledigen (stapelbar)",
- 	 	 	 	"eng": "Broadcasts exploits to all cybernetically connected users, overclock their synaptic processors thus allowing super-human mental capacity for short period of time.\r\n        \r\n        When used, gives Global Buff to all players online, allowing them to complete AFK tasks in +40% speed for 20 minutes (stackable)"
+ 	 	 	 	"eng": "Broadcasts exploits to all cybernetically connected users, overclocking their synaptic processors thus allowing super-human mental capacity for short period of time.\r\n        \r\n        When used, gives Global Buff to all players online, allowing them to complete AFK tasks in +40% speed for 20 minutes (stackable)"
  	 	 	}
  	 	},
  	 	"expMultiplier": {
  	 	 	"name": {
- 	 	 	 	"trans": "Frontalkortex-Optimierungstransmitter",
+ 	 	 	 	"trans": "Frontaler Kortex-Optimierungssender",
  	 	 	 	"eng": "Frontal Cortex Optimization Transmitter"
  	 	 	},
  	 	 	"description": {
  	 	 	 	"trans": "Sendet Exploits an alle kybernetisch verbundenen Benutzer, verbessert deren Frontal-Cortex-Integration mit installierter Cyberware und erhöht so die Speicherfähigkeit des Benutzers.\r\n\r\n        Wenn er benutzt wird, gibt er allen aktiven Spielern einen globalen Buff, der die gewonnene EXP 20 Minuten lang um +80% erhöht.\r\n        ",
- 	 	 	 	"eng": "Broadcasts exploits to all cybernetically connected users, enhance their Frontal Cortex integration with cyberwares installed, thus increase memory capability of the user.\r\n\r\n        When used, gives Global Buff to all players online, increase EXP gained to 180% for 20 minutes\r\n        "
+ 	 	 	 	"eng": "Broadcasts exploits to all cybernetically connected users, enhancing their Frontal Cortex integration with cyberwares installed, thus increasing memory capability of the user.\r\n\r\n        When used, gives Global Buff to all players online, increase EXP gained to 180% for 20 minutes\r\n        "
  	 	 	}
  	 	},
  	 	"btcMultiplier": {
@@ -641,7 +718,7 @@
  	 	},
  	 	"ammo2": {
  	 	 	"name": {
- 	 	 	 	"trans": "Anti-Materia-Ladung",
+ 	 	 	 	"trans": "Anti-Materie-Ladung",
  	 	 	 	"eng": "Anti Matter Charge"
  	 	 	},
  	 	 	"description": {
@@ -726,6 +803,266 @@
  	 	 	 	"trans": "Ein verstärkter Behälter mit einer biometrischen Verschlüsselung, scheint wichtige Gegenstände zu beinhalten.\r\n        Glücklicherweise läuft auf dem Microcomputer eine veraltetet Firmware, bei dem ein Exploit möglich ist, geh zum [Terminal] um diesen Behälter zu öffnen",
  	 	 	 	"eng": "A reinforced container with biometric encryption lock, it seems to contain important items inside.\r\n        Luckily the on board micro computer is running on out-dated firmware, where an exploit is possible, go to [Terminal] to unlock this container"
  	 	 	}
+ 	 	},
+ 	 	"clanDungeonKey": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Sender des Ganginvasionsbefehls",
+ 	 	 	 	"eng": "Gang Invasion Order Transmitter"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Ein einfaches Sendegerät, das an den verschlüsselten Kanal deiner Gang gebunden werden und Invasionsbefehle ausgeben kann.\r\n        Dieser Gegenstand wird benötigt, um Gang-Dungeons zu aktivieren",
+ 	 	 	 	"eng": "A simple transmitter device that can be bind to your gang encrypted channel and give out invasion order.\r\n        This item is required to activate Gang Dungeons"
+ 	 	 	}
+ 	 	},
+ 	 	"clanResource": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Versorgungskiste [Gang]",
+ 	 	 	 	"eng": "Supply Crate [Gang]"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Enthält verschiedene Gegenstände und Ressourcen, damit eine Gang funktionsfähig bleibt.\r\n        Klicken Sie auf Verwenden, um sie an Ihr Gang-Hauptquartier zu senden",
+ 	 	 	 	"eng": "Contains misc items and resources for a gang to stay functional,\r\n        Click use to send it to your gang headquarters"
+ 	 	 	}
+ 	 	},
+ 	 	"clanExp": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "verschlüsselter Gang-Speicher-Shard",
+ 	 	 	 	"eng": "encrypted gang memory shard"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Ein Speichersplitter enthält verschlüsselte Ganggeheimnisse, \r\n        entschlüssele diese in deinem Ganghauptquartier, um nützliche Informationen zu erhalten (erfordert, in einer Gang zu sein)",
+ 	 	 	 	"eng": "A memory shard contains encrypted gang secrets, \r\n        decrypt this in your gang headquarters to gain useful intel (requires to be in a gang)"
+ 	 	 	}
+ 	 	},
+ 	 	"upgradeActivator": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Gerätekalibrierungskern",
+ 	 	 	 	"eng": "Equipment Calibration Core"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Ein Schwarzmarkt-Speicher-Shard enthält hochgradig verschlüsselte Algorithmen und Schaltpläne, die für den Upgrade-Prozess von Ausrüstungen von entscheidender Bedeutung sind",
+ 	 	 	 	"eng": "A black market memory shard contains highly encrypted algorithm and schematic that is crucial in the process of upgrading equipments"
+ 	 	 	}
+ 	 	},
+ 	 	"upgradeChanceIncreaser0": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Kalibrierung AI Shard (5%)",
+ 	 	 	 	"eng": "Calibration AI Shard (5%)"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Enthält Fragmente von Advance AI, die zur Unterstützung der Modernisierung von Ausrüstungen entworfen wurden. \r\n         Bei der Verwendung verringert sich die Chance des destruktiven Ausfalls um 5 Minuten (stapelbar) für 5 Minuten.",
+ 	 	 	 	"eng": "Contains fragments of advance AI designed to assist with upgrading equipments.\r\n        When used, decreases the chance of destructive failure by 5% (stackable) for 5 minutes."
+ 	 	 	}
+ 	 	},
+ 	 	"upgradeChanceIncreaser1": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Kalibrierung AI Shard (10%)",
+ 	 	 	 	"eng": "Calibration AI Shard (10%)"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Enthält Fragmente von Advance AI, die zur Unterstützung der Modernisierung von Ausrüstungen entworfen wurden. \r\n         Bei der Verwendung verringert sich die Chance des destruktiven Ausfalls um 10% (stapelbar) für 5 Minuten.",
+ 	 	 	 	"eng": "Contains fragments of advance AI designed to assist with upgrading equipments.\r\n        When used, decreases the chance of destructive failure by 10% (stackable) for 5 minutes."
+ 	 	 	}
+ 	 	},
+ 	 	"upgradeChanceIncreaser2": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Kalibrierung AI Shard (50%)",
+ 	 	 	 	"eng": "Calibration AI Shard (50%)"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Enthält Fragmente von Advance AI, die zur Unterstützung der Modernisierung von Ausrüstungen entworfen wurden. \r\n         Bei Verwendung verringert sich die Chance des destruktiven Ausfalls um 50% (stapelbar) für 5 Minuten. Dieser Effekt gilt für alle Online-Spieler",
+ 	 	 	 	"eng": "Contains fragments of advance AI designed to assist with upgrading equipments.\r\n        When used, decreases the chance of destructive failure by 50% (stackable) for 5 minutes. This effect will apply to all players online"
+ 	 	 	}
+ 	 	},
+ 	 	"upgradeChanceIncreaser3": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Kalibrierung AI Shard (100%)",
+ 	 	 	 	"eng": "Calibration AI Shard (100%)"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Enthält Fragmente fortschrittlicher KI, die bei der Aufrüstung von Ausrüstungen helfen sollen.\r\n        Verringert bei Verwendung die Wahrscheinlichkeit eines zerstörerischen Ausfalls um 100% (stapelbar) für 5 Minuten. Dieser Effekt gilt für alle Spieler online",
+ 	 	 	 	"eng": "Contains fragments of advance AI designed to assist with upgrading equipments.\r\n        When used, decreases the chance of destructive failure by 100% (stackable) for 5 minutes. This effect will apply to all players online"
+ 	 	 	}
+ 	 	},
+ 	 	"upgradeNoBreak": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Kalibrierung Sicherheits-Nano-Bots",
+ 	 	 	 	"eng": "Calibration Safety Nano Bots"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Experimentelle Nanomaschinen, die den zerstörerischen Effekt reduzieren und aufheben, wenn die Kalibrierung fehlschlägt, \r\n        Wenn dies aktiviert ist, wird der Gegenstand 5 Minuten lang nicht zerstört, wenn die Kalibrierung fehlschlägt",
+ 	 	 	 	"eng": "Experimental nano machines designed to reduces and negate the destructive effect when failing calibration, \r\n        when this is activated, all calibration fails will not destroy the item for 5 minutes"
+ 	 	 	}
+ 	 	},
+ 	 	"backpack1": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Alter Beutel",
+ 	 	 	 	"eng": "Old Pouch"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Ein vergessener uralter Beutel, \r\n        da ist ein seltsamer Cartoon-Frosch mit großem Maul und roten Lippen, die an der Seite gezeichnet sind.\r\n        vergrößert den Inventarplatz, wenn ausgerüstet.",
+ 	 	 	 	"eng": "A forgotten ancient pouch, \r\n        there is a weird cartoon frog with big mouth and red lips drawing at the side of it,\r\n        the meaning of the ancient ominous drawing is unknown, but it is handy for keep some small object in it.\r\n        increase inventory space when equipped."
+ 	 	 	}
+ 	 	},
+ 	 	"backpack2": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Gürteltasche",
+ 	 	 	 	"eng": "Fanny Pack"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Coole und modische Gürteltasche, signiert von einer Legende namens The Rock vor Jahrzehnten.\r\n        vergrößert den Inventarplatz, wenn ausgerüstet.",
+ 	 	 	 	"eng": "Cool and fashionable Fanny Pack, signed by a legend called The Rock himself from decades ago.\r\n        increase inventory space when equipped."
+ 	 	 	}
+ 	 	},
+ 	 	"backpack3": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Rucksack des Entdeckers",
+ 	 	 	 	"eng": "Explorer's Backpack"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Ein alter lilafarbener 'Explorer'-Rucksack im Kindergarten-Look, auf dem ein Namensschild mit dem Namen des Vorbesitzers \"Dora\" steht, du siehst fabelhaft aus, wenn du ihn trägst\r\n        vergrößert den Inventarplatz, wenn ausgerüstet",
+ 	 	 	 	"eng": "An old Kindergarten looking Purple 'Explorer' Backpack, it has a name tag with the previous owner's name \"Dora\" written on it, you look fabulous wearing it.\r\n        increase inventory space when equipped"
+ 	 	 	}
+ 	 	},
+ 	 	"backpack4": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Bürokoffer für Mitarbeiter",
+ 	 	 	 	"eng": "Employee Office Case"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Eine Standard-Bürotasche mit einem Etikett mit weißem Aufdruck mit \"Arasaka\" darauf, \r\n        obwohl sie geräumig ist und einige High-Tech-Fächer und Fächer für die Dokumentenaufbewahrung hat, ist sie zum Tragen nicht sehr geeignet Waffen \r\n        vergrößern den Inventarplatz, wenn sie ausgerüstet sind",
+ 	 	 	 	"eng": "An standard issue office case, it has a label with whit print with \"Arasaka\" on it, \r\n        while it is specious and has some high tech compartment and slots for document storage, it is not not very suitable for carrying weapons\r\n        increase inventory space when equipped"
+ 	 	 	}
+ 	 	},
+ 	 	"backpack5": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Autonome Speichereinheit",
+ 	 	 	 	"eng": "Autonomous Storage Unit"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Ein vom Militär verwendeter Bot, der entwickelt wurde, um deine Ausrüstung zu tragen und dir autonom folgt,\r\n        mit seinen sechs starken Beinen, die die Bewegung von Spinnen imitieren und einer fortschrittlichen KI an Bord, \r\n        er dir schnell und leise folgen kann, während er Get vermeidet in der Art und Weise, welche Mission Sie ausführen",
+ 	 	 	 	"eng": "An military used bot designed to carry your equipments and follows you autonomously,\r\n        with it's six strong legs that imitates the movement of spiders and a advance onboard AI, \r\n        it can follow you swiftly and quietly while it avoids get in the way of whatever mission you are performing"
+ 	 	 	}
+ 	 	},
+ 	 	"healing9": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Legendärer Nano Medic Bot",
+ 	 	 	 	"eng": "Legendary Nano Medic Bot"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Injizierbare Nano-Maschinen, die für den vorrangigen militärischen Gebrauch ist, die in der Lage sind, Verletzungen in der Kampfsituation zu patnen",
+ 	 	 	 	"eng": "injectable nano machines that is for advance military use, capable of patching injury in combat situation"
+ 	 	 	}
+ 	 	},
+ 	 	"healing10": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Epischer Nano-Medic Bot",
+ 	 	 	 	"eng": "Epic Nano Medic Bot"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Injizierbare Nano-Maschinen, die für den vorrangigen militärischen Gebrauch ist, die in der Lage sind, Verletzungen in der Kampfsituation zu patnen",
+ 	 	 	 	"eng": "injectable nano machines that is for advance military use, capable of patching injury in combat situation"
+ 	 	 	}
+ 	 	},
+ 	 	"healingArea9": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Legendärer Nano Medic Drone",
+ 	 	 	 	"eng": "Legendary Nano medic drone"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "In der Lage, Tausende fortgeschrittener Nano-Maschinen zu versenden, um die nahe gelegenen Spieler zu heilen",
+ 	 	 	 	"eng": "capable of dispatching thousands of advanced nano machines to heal nearby players"
+ 	 	 	}
+ 	 	},
+ 	 	"healingArea10": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Epic Nano Medic Drone",
+ 	 	 	 	"eng": "Epic Nano medic drone"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "In der Lage, Tausende fortgeschrittener Nano-Maschinen zu versenden, um die nahe gelegenen Spieler zu heilen",
+ 	 	 	 	"eng": "capable of dispatching thousands of advanced nano machines to heal nearby players"
+ 	 	 	}
+ 	 	},
+ 	 	"upgradeChanceIncreaser2personal": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Kalibrierung AI Shard (50%) [Ereignis]",
+ 	 	 	 	"eng": "Calibration AI Shard (50%) [EVENT]"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Enthält Fragmente fortschrittlicher KI, die bei der Aufrüstung von Ausrüstungen helfen sollen.\r\n        Verringert bei Verwendung die Wahrscheinlichkeit eines zerstörerischen Versagens 5 Minuten lang um 50%. das betrifft nur dich selbst.\r\n        Du kannst Gegenstände in deinem Gang-Hauptquartier kalibrieren, du musst zuerst einer Gang beitreten oder sie gründen.",
+ 	 	 	 	"eng": "Contains fragments of advance AI designed to assist with upgrading equipments.\r\n        When used, decreases the chance of destructive failure by 50% for 5 minutes. this only affect yourself.\r\n        You can calibrate items in your Gang Headquarters, you must join or start a gang first."
+ 	 	 	}
+ 	 	},
+ 	 	"chatExploitPirate": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Chat-Exploit-Sender [Pirat]",
+ 	 	 	 	"eng": "Chat exploit transmitter [PIRATE]"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Ein Exploit-Modul, das globale Chat-Pakete abfängt und modifiziert, indem es Man-In-The-Middle-Angriffe durchführt.\r\n        Wandelt alle Sprache im globalen Chat in Pirate Speak um. Dies wirkt sich 10 Minuten lang auf alle Spieler aus",
+ 	 	 	 	"eng": "A exploit module that intercepts global chat packages and modifies it, performing Man-In-The-Middle attack.\r\n        Transforms all speech at global chat to Pirate Speak. This effects all players for 10 minutes"
+ 	 	 	}
+ 	 	},
+ 	 	"chatExploitLeet": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Chat-Exploit-Sender [1337]",
+ 	 	 	 	"eng": "Chat exploit transmitter [1337]"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Ein Exploit-Modul, das globale Chat-Pakete abfängt und modifiziert, indem es Man-In-The-Middle-Angriffe durchführt.\r\n        Transformiert die gesamte Sprache im globalen Chat in l33t Sp34k. Dies wirkt sich 10 Minuten lang auf alle Spieler aus",
+ 	 	 	 	"eng": "A exploit module that intercepts global chat packages and modifies it, performing Man-In-The-Middle attack.\r\n        Transforms all speech at global chat to l33t Sp34k. This effects all players for 10 minutes"
+ 	 	 	}
+ 	 	},
+ 	 	"chatExploitUwU": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Chat-Exploit-Sender [UWU]",
+ 	 	 	 	"eng": "Chat exploit transmitter [UwU]"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Ein expwoit-Modul, das gwobaw-Chat-Pakete aufnimmt und modifiziert, pewfowming Man-in-the-Middwe-Angriffe.\r\n         twansfowms aww Rede bei gwobaw chat to uwu speak. Dies wirkt sich aww pwayews fow 10 Minuten aus",
+ 	 	 	 	"eng": "A expwoit moduwe that intewcepts gwobaw chat packages and modifies it, pewfowming man-in-the-middwe attack.\r\n         twansfowms aww speech at gwobaw chat to uwu speak. This effects aww pwayews fow 10 minutes"
+ 	 	 	}
+ 	 	},
+ 	 	"upgradeResetShard": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Shard auf Werkseinstellungen zurücksetzen",
+ 	 	 	 	"eng": "Factory reset shard"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Ein Shard speichert die Standardeinstellungen und den Algorithmus für Geräte. Dies wird zum Zurücksetzen deiner Geräte auf die Werkseinstellungen verwendet",
+ 	 	 	 	"eng": "A shard stores default settings and algorithm for equipments, this is used for factory-resetting your equipments"
+ 	 	 	}
+ 	 	},
+ 	 	"timeSkipPersonal": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Persönlicher synaptischer Beschleuniger",
+ 	 	 	 	"eng": "Personal Synaptic Accelerator"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Überspringe bei Verwendung 60 Minuten bei AFK-Aufgaben. \r\n         muss im AFK-Bildschirm verwendet werden",
+ 	 	 	 	"eng": "When used, skip 60 minutes on AFK tasks.\r\n        must be used at AFK screen"
+ 	 	 	}
+ 	 	},
+ 	 	"chatExploitLove": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Chat-Exploit-Sender [Liebe]",
+ 	 	 	 	"eng": "Chat exploit transmitter [Love]"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Du bekommst etwas Liebe, und du bekommst etwas Liebe! jeder bekommt etwas Liebe!. \r\n         Wenn verwendet, lieben sich alle \r\n         Dies wirkt sich auf alle Spieler für 10 Minuten aus",
+ 	 	 	 	"eng": "You get some love, and you get some love! everyone gets some love!.\r\n        When used everyone loves each other\r\n        This effects all players fow 10 minutes"
+ 	 	 	}
+ 	 	},
+ 	 	"chatExploitProtect": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Cybertunnel VPN",
+ 	 	 	 	"eng": "CyberTunnel VPN"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Hast du Angst, dass der Big Brother dich ausspioniert, während du im Cyberspace surfst?\r\n        Deine Gegensprechanlagen immer von böswilligen Angriffen gehackt werden? \r\n        Verwende CyberTunnel VPN, um dein Netrunning-Erlebnis zu schützen und zu verschlüsseln! \r\n        \r\n        Ignoriert nach der Aktivierung jeden Chat-Exploit für 1 Stunde",
+ 	 	 	 	"eng": "Worried the Big Brother spying on you while you browse the cyberspace?\r\n        your intercoms always get hacked by malicious attacks? \r\n        use CyberTunnel VPN to protect and encrypt your netrunning experience! \r\n        \r\n        Once activated, ignores any chat exploit for 1 hour"
+ 	 	 	}
  	 	}
  	},
  	"action": {
@@ -805,8 +1142,68 @@
  	 	 	 	"vars": [
  	 	 	 	 	"zoneName"
  	 	 	 	],
- 	 	 	 	"trans": "[AFK Resourcen sammeln]\r\n                    Durchsuche ${zoneName} und plündere nützliche Gegenstände.\r\n                    Wer weiß, vielleicht hast du ja Glück!",
+ 	 	 	 	"trans": "[AFK Ressourcen sammeln]\r\n                    Durchsuche ${zoneName} und plündere nützliche Gegenstände.\r\n                    Wer weiß, vielleicht hast du ja Glück!",
  	 	 	 	"eng": "[AFK Resource Gather]\r\n                    Search around in ${zoneName} and scavenge for useful items.\r\n                    Who knows, maybe you'll get lucky!"
+ 	 	 	}
+ 	 	},
+ 	 	"clanResource": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Gang Ressourcen sammeln",
+ 	 	 	 	"eng": "Gather Gang Resource"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Hilf dabei, die benötigten Ressourcen für deine Gang zu sammeln und zu verwalten",
+ 	 	 	 	"eng": "Help gather and manage needed resources for your gang"
+ 	 	 	}
+ 	 	},
+ 	 	"clanDecryptShard": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Speicher-Shard entschlüsseln",
+ 	 	 	 	"eng": "Decrypt memory shard"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Entschlüssle den Speicher-Shard, den du gefunden hast, um nützliche Informationen abzurufen",
+ 	 	 	 	"eng": "Decrypt memory shard you found to retrieve useful intel"
+ 	 	 	}
+ 	 	},
+ 	 	"clanOccupation": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Verstärkung der Besetzung in Shangri-La",
+ 	 	 	 	"eng": "Reinforce occupation at Shangri-La"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Helfe mit, die Kontrolle über die Stadt Shangri-La zu stärken und aufzubauen.",
+ 	 	 	 	"eng": "Help reinforce and establish greater control of Shangri-La city."
+ 	 	 	}
+ 	 	},
+ 	 	"gambling1": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Spiele Mega Pachinko Spiel",
+ 	 	 	 	"eng": "Play MEGA Pachinko Game"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Konnichiwa!! ^___^\r\n Spiele das MEGA Pachinko! Mit der Chance, RIESIGE EPISCHE Belohnungen zu gewinnen\r\n        nur 5000 BTC pro Sitzung, ZEITLICH BEGRENZTES ANGEBOT!!! <3<3<3\r\n        ##Besonderer Dank an Militech für das Sponsoring dieser Veranstaltung##",
+ 	 	 	 	"eng": "Konnichiwa!! ^___^\r\n        Come play the MEGA Pachinko! With chance to win HUGE EPIC rewards\r\n        only 5000 btc per session, LIMITED TIME OFFER!!! <3<3<3\r\n        ##Special thanks for Militech for sponsoring this event##"
+ 	 	 	}
+ 	 	},
+ 	 	"topClanExclusive": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Schutzgebühren sammeln",
+ 	 	 	 	"eng": "Collect Protection Fees"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Besteche Regierungsbeamte und SLPD und erhebe Schutzgebühren von Geschäftsinhabern und Bürgern in Shangri-La. Vielleicht bekommst du ein paar EPISCHE Gegenstände von ihnen? (Top-Zwei-Gang-Exklusiv)",
+ 	 	 	 	"eng": "Bribe Government officials and SLPD and Collect Protection Fees from business owner and citizens in Shangri-La. maybe you will get some EPIC items from them? (Top Two Gang Exclusive)"
+ 	 	 	}
+ 	 	},
+ 	 	"globalQuest": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Hacke SL-Datenfestung",
+ 	 	 	 	"eng": "Hack SL Data Fortress"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Starte einen kollaborativen Angriff im Cyberspace mit dem Ziel der Shangri-La-Datenfestung\r\n        Wenn der Angriff erfolgreich sein sollte, könnte die Datenfestung gezwungen werden, Exploits an alle kybernetisch verbundenen Benutzer zu übertragen",
+ 	 	 	 	"eng": "Launch a collaborated attack in cyberspace targeting the Shangri-La Data Fortress\r\n        if attack were to succeed its possible to force the Data Fortress to transmit exploits to all cybernetically connected users"
  	 	 	}
  	 	}
  	},
@@ -871,7 +1268,7 @@
  	 	 	 	 	"zoneName"
  	 	 	 	],
  	 	 	 	"trans": "Gehe in den Dungeon, um noch mehr Erfahrung zu erhalten und Gegenstände zu finden!\r\n                        Denke daran, dir genügend Heilungsgegenstände zu besorgen! Du regenerierst dich nach Dungeonkämpfen nicht.",
- 	 	 	 	"eng": "Dive into dungeon to get even more exp and loot!\r\n                        remember to buy some healing item! you won\"t regen after battle in dungeon"
+ 	 	 	 	"eng": "Are you ready? you can test your strength out with normal dungeon, the easiest one.\r\n                        Remember to bring healing item! you won't heal after fights in dungeon"
  	 	 	}
  	 	},
  	 	"challenge": {
@@ -895,6 +1292,28 @@
  	 	 	 	"trans": "Greife ${zoneName} an",
  	 	 	 	"eng": "attack ${zoneName}"
  	 	 	}
+ 	 	},
+ 	 	"gang": {
+ 	 	 	"startName": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"zoneName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "eindringen {0}",
+ 	 	 	 	"eng": "invade ${zoneName}"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"maxLevel",
+ 	 	 	 	 	"keyFragmentDisplayName",
+ 	 	 	 	 	"expMultiplier"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Empfohlene Niveau: ${maxLevel} + mit Co-op \r\n                     ${expMultiplier} x mehr exp! \r\n                     Gangmodus Dungeon, zusätzliche Beute und Exp. \r\n                     BOSS-Tropfen sind seltene + \r\n                     Nicht empfohlen, einzugeben, wenn Ihr Niveau zu niedrig ist",
+ 	 	 	 	"eng": "Recommended Level:　${maxLevel}+ with co-op\r\n                    ${2.3}x more EXP! and 4~5x stronger enemies!\r\n                    Gang mode dungeon, extra loot and exp.\r\n                    *Not for the faint of heart*"
+ 	 	 	}
+ 	 	},
+ 	 	"buttonTut": {
+ 	 	 	"trans": "Glaubst du, du bist stark genug? Nehmen Sie stärkere Feinde in Dungeon an! \r\n                         Denken Sie daran, etwas Heilungspunkt zu kaufen! Sie werden nach dem Kampf in Dungeon nicht regen",
+ 	 	 	"eng": "Do you think you are strong enough? take on stronger enemies in dungeon!\r\n                        remember to buy some healing item! you won't regen after battle in dungeon"
  	 	}
  	},
  	"secretKey": {
@@ -956,7 +1375,7 @@
  	 	 	 	"eng": "Deal Damage"
  	 	 	},
  	 	 	"exp": {
- 	 	 	 	"trans": "Sammle EXP",
+ 	 	 	 	"trans": "Erfahrung sammeln",
  	 	 	 	"eng": "Gain exp"
  	 	 	},
  	 	 	"joinDungeon": {
@@ -982,6 +1401,17 @@
  	 	 	"playerOnline": {
  	 	 	 	"trans": "Spieler online",
  	 	 	 	"eng": "players online"
+ 	 	 	},
+ 	 	 	"online": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"skipCount"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${skipCount} überspringen",
+ 	 	 	 	"eng": "Skipping ${skipCount}"
+ 	 	 	},
+ 	 	 	"skipAvailable": {
+ 	 	 	 	"trans": "Überspringen verfügbar",
+ 	 	 	 	"eng": "Skip Available"
  	 	 	}
  	 	},
  	 	"mobileQuestPage": {
@@ -990,11 +1420,11 @@
  	 	 	 	"eng": "Click to receive reward"
  	 	 	},
  	 	 	"inProgress": {
- 	 	 	 	"trans": "Anfrage wird bearbeitet...",
+ 	 	 	 	"trans": "Anfrage in Bearbeitung...",
  	 	 	 	"eng": "Request in progress..."
  	 	 	},
  	 	 	"watchAdRefresh": {
- 	 	 	 	"trans": "Schaue Werbung und aktualisiere Quest",
+ 	 	 	 	"trans": "Schaue Werbung und aktualisiere die Quest",
  	 	 	 	"eng": "Watch an AD to refresh quest"
  	 	 	}
  	 	},
@@ -1092,6 +1522,14 @@
  	 	 	"bioNotFound": {
  	 	 	 	"trans": "ZENSIERT",
  	 	 	 	"eng": "REDACTED"
+ 	 	 	},
+ 	 	 	"equipped": {
+ 	 	 	 	"trans": "Ausgestattet",
+ 	 	 	 	"eng": "Equipped"
+ 	 	 	},
+ 	 	 	"inventory": {
+ 	 	 	 	"trans": "Inventar",
+ 	 	 	 	"eng": "Inventory"
  	 	 	}
  	 	},
  	 	"market": {
@@ -1109,6 +1547,27 @@
  	 	 	 	],
  	 	 	 	"trans": "Slots auf ${nextSlotSize} erhöhen",
  	 	 	 	"eng": "Increase slot to ${nextSlotSize}"
+ 	 	 	},
+ 	 	 	"stall": {
+ 	 	 	 	"sellItemButton": {
+ 	 	 	 	 	"trans": "Gegenstand zum Verkauf setzen",
+ 	 	 	 	 	"eng": "Put Item On Sale"
+ 	 	 	 	},
+ 	 	 	 	"selectItemForSale": {
+ 	 	 	 	 	"trans": "Bitte wähle den Gegenstand aus, den du verkaufen möchtest",
+ 	 	 	 	 	"eng": "Please select the item you want to sell"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"increaseSlotDescription": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"nextSlotSize"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Gib Bitcoins aus, um zu erhöhen, wie viele Gegenstände du gleichzeitig in deinen Stand stellen kannst",
+ 	 	 	 	"eng": "Spend Bitcoins to increase how many items you can put in your stall at the same time"
+ 	 	 	},
+ 	 	 	"cantEnterError": {
+ 	 	 	 	"trans": "Du benötigst mindestens Level 4, um auf den Markt zu gelangen",
+ 	 	 	 	"eng": "You need to be at least level 4 to access the market"
  	 	 	}
  	 	},
  	 	"chat": {
@@ -1127,6 +1586,10 @@
  	 	 	"noti": {
  	 	 	 	"trans": "Meldungen",
  	 	 	 	"eng": "noti."
+ 	 	 	},
+ 	 	 	"reconnecting": {
+ 	 	 	 	"trans": "Verbindung wiederherstellen",
+ 	 	 	 	"eng": "Reestablishing connection"
  	 	 	}
  	 	},
  	 	"profile": {
@@ -1135,7 +1598,7 @@
  	 	 	 	"eng": "Profile"
  	 	 	},
  	 	 	"update": {
- 	 	 	 	"trans": "Updates",
+ 	 	 	 	"trans": "Aktualisierungen",
  	 	 	 	"eng": "Updates"
  	 	 	},
  	 	 	"tutorial": {
@@ -1145,11 +1608,17 @@
  	 	 	"credits": {
  	 	 	 	"trans": "Credits",
  	 	 	 	"eng": "credits"
+ 	 	 	},
+ 	 	 	"deleteAccount": {
+ 	 	 	 	"button": {
+ 	 	 	 	 	"trans": "Konto löschen",
+ 	 	 	 	 	"eng": "Delete Account"
+ 	 	 	 	}
  	 	 	}
  	 	},
  	 	"tutorial": {
  	 	 	"title": {
- 	 	 	 	"trans": "Tutorial",
+ 	 	 	 	"trans": "Lernprogramm",
  	 	 	 	"eng": "Tutorial"
  	 	 	}
  	 	},
@@ -1167,7 +1636,7 @@
  	 	 	 	"eng": "Mute background music"
  	 	 	},
  	 	 	"restartRequired": {
- 	 	 	 	"trans": "App startet nach speichen automatisch neu",
+ 	 	 	 	"trans": "App startet nach Speichern automatisch neu",
  	 	 	 	"eng": "App will self restart after save"
  	 	 	},
  	 	 	"save": {
@@ -1177,17 +1646,43 @@
  	 	 	"langGithub": {
  	 	 	 	"trans": "Hilf uns das Spiel zu übersetzen",
  	 	 	 	"eng": "Help with translating the game"
+ 	 	 	},
+ 	 	 	"receiveClanNotification": {
+ 	 	 	 	"trans": "Gang-Bbenachrichtigung erhalten",
+ 	 	 	 	"eng": "Receive Gang Notification"
+ 	 	 	},
+ 	 	 	"receiveGlobalNotification": {
+ 	 	 	 	"trans": "Global Buff-Benachrichtigung erhalten",
+ 	 	 	 	"eng": "Receive Global Buff Notification"
+ 	 	 	},
+ 	 	 	"disableAttackBar": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Deaktiviere die Angriffs-Timing-Leiste",
+ 	 	 	 	 	"eng": "Disable Attack Timing Bar"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "Das Deaktivieren der Angriffs-Timing-Leiste gewährt keinen zusätzlichen Schaden",
+ 	 	 	 	 	"eng": "Disabling attack timing bar will not grant extra damage"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"forceMobileMode": {
+ 	 	 	 	"trans": "Aktiviere den CyberPunk-Modus",
+ 	 	 	 	"eng": "Enable Cyberpunk Mode"
+ 	 	 	},
+ 	 	 	"dangerZone": {
+ 	 	 	 	"trans": "Gefahrenzone",
+ 	 	 	 	"eng": "Danger Zone"
  	 	 	}
  	 	},
  	 	"captcha": {
  	 	 	"title": {
- 	 	 	 	"trans": "Gib den Code ein, um fortzufahren",
+ 	 	 	 	"trans": "Gib den Systempasscode ein, um fortzufahren",
  	 	 	 	"eng": "Enter system passcode to proceed"
  	 	 	}
  	 	},
  	 	"deathScreen": {
  	 	 	"topTitleLeft": {
- 	 	 	 	"trans": "Tödlich verletzt",
+ 	 	 	 	"trans": "tödliche Verletzung",
  	 	 	 	"eng": "fatal injury"
  	 	 	},
  	 	 	"topTitleRight": {
@@ -1212,6 +1707,783 @@
  	 	 	 	"trans": "Biografie erstellen",
  	 	 	 	"eng": "Enter your bio"
  	 	 	}
+ 	 	},
+ 	 	"clan": {
+ 	 	 	"selectDepositAmount": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Gebe die Menge an die du einzahlen möchtest",
+ 	 	 	 	 	"eng": "Please enter amount you want to deposit"
+ 	 	 	 	},
+ 	 	 	 	"detail": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"amount"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "${amount} Bitcoin werden auf das Gang Konto eingezahlt, dies kann nicht rückgängig gemacht werden",
+ 	 	 	 	 	"eng": "${amount} bitcoin will be deposit into your gang account, this cannot be reversed"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"deposit": {
+ 	 	 	 	"trans": "Bitcoin einzahlen",
+ 	 	 	 	"eng": "Deposit Bitcoin"
+ 	 	 	},
+ 	 	 	"level": {
+ 	 	 	 	"trans": "Gang Level",
+ 	 	 	 	"eng": "Gang Level"
+ 	 	 	},
+ 	 	 	"resource": {
+ 	 	 	 	"trans": "Ressourcen",
+ 	 	 	 	"eng": "Resource"
+ 	 	 	},
+ 	 	 	"funding": {
+ 	 	 	 	"trans": "Finanzierung",
+ 	 	 	 	"eng": "funding"
+ 	 	 	},
+ 	 	 	"memberCount": {
+ 	 	 	 	"trans": "Mitglieder",
+ 	 	 	 	"eng": "members"
+ 	 	 	},
+ 	 	 	"nextUpkeepDate": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"nextUpkeepDate"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Nächster Wartungstermin: ${nextUpkeepDate}",
+ 	 	 	 	"eng": "Next upkeep Date: ${nextUpkeepDate}"
+ 	 	 	},
+ 	 	 	"insufficientError": {
+ 	 	 	 	"trans": "ressourcenkritisch",
+ 	 	 	 	"eng": "resource critical"
+ 	 	 	},
+ 	 	 	"insufficientFound": {
+ 	 	 	 	"trans": "Unzureichend gefunden",
+ 	 	 	 	"eng": "Insufficient Found"
+ 	 	 	},
+ 	 	 	"insufficientResource": {
+ 	 	 	 	"trans": "Unzureichende Ressourcen",
+ 	 	 	 	"eng": "Insufficient Resource"
+ 	 	 	},
+ 	 	 	"members": {
+ 	 	 	 	"trans": "Mitglieder",
+ 	 	 	 	"eng": "Members"
+ 	 	 	},
+ 	 	 	"editMotto": {
+ 	 	 	 	"modal": {
+ 	 	 	 	 	"title": {
+ 	 	 	 	 	 	"trans": "Bitte gib dein Gangmotto ein",
+ 	 	 	 	 	 	"eng": "Please enter your gang motto"
+ 	 	 	 	 	}
+ 	 	 	 	},
+ 	 	 	 	"button": {
+ 	 	 	 	 	"trans": "Gangmotto bearbeiten",
+ 	 	 	 	 	"eng": "Edit Gang Motto"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"updateImage": {
+ 	 	 	 	"button": {
+ 	 	 	 	 	"trans": "Gangbild aktualisieren",
+ 	 	 	 	 	"eng": "Update Gang Image"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"occupationPoint": {
+ 	 	 	 	"trans": "Kontrolle über Shangri-La",
+ 	 	 	 	"eng": "Control over Shangri-La"
+ 	 	 	},
+ 	 	 	"occupation": {
+ 	 	 	 	"noClan": {
+ 	 	 	 	 	"trans": "Noch keine Gang hat dieses Gebiet besetzt",
+ 	 	 	 	 	"eng": "No gang has occupied this area yet"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"equipmentDisplay": {
+ 	 	 	"empty": {
+ 	 	 	 	"trans": "Leer",
+ 	 	 	 	"eng": "Empty"
+ 	 	 	}
+ 	 	},
+ 	 	"fab": {
+ 	 	 	"dungeonList": {
+ 	 	 	 	"trans": "Dungeon Liste",
+ 	 	 	 	"eng": "Dungeon List"
+ 	 	 	},
+ 	 	 	"links": {
+ 	 	 	 	"trans": "Links",
+ 	 	 	 	"eng": "links"
+ 	 	 	},
+ 	 	 	"premiumShop": {
+ 	 	 	 	"trans": "Premium-Shop",
+ 	 	 	 	"eng": "Premium Shop"
+ 	 	 	},
+ 	 	 	"friendList": {
+ 	 	 	 	"trans": "Freundesliste",
+ 	 	 	 	"eng": "Friend List"
+ 	 	 	},
+ 	 	 	"leaderBoard": {
+ 	 	 	 	"trans": "Bestenliste",
+ 	 	 	 	"eng": "Leader Board"
+ 	 	 	},
+ 	 	 	"skipQueue": {
+ 	 	 	 	"trans": "Warteschlange überspringen",
+ 	 	 	 	"eng": "Skip Queue"
+ 	 	 	},
+ 	 	 	"settings": {
+ 	 	 	 	"trans": "Einstellungen",
+ 	 	 	 	"eng": "Settings"
+ 	 	 	},
+ 	 	 	"apps": {
+ 	 	 	 	"trans": "Alle Apps",
+ 	 	 	 	"eng": "All Apps"
+ 	 	 	}
+ 	 	},
+ 	 	"machineCrafting": {
+ 	 	 	"titleBox": {
+ 	 	 	 	"tile": {
+ 	 	 	 	 	"trans": "System im Leerlauf",
+ 	 	 	 	 	"eng": "system idle"
+ 	 	 	 	},
+ 	 	 	 	"subtitle": {
+ 	 	 	 	 	"trans": "Bitte gib einen Gegenstand ein",
+ 	 	 	 	 	"eng": "Please insert an item"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"selectItemButton": {
+ 	 	 	 	"trans": "Gegenstand recyclen",
+ 	 	 	 	"eng": "Recycle Item"
+ 	 	 	},
+ 	 	 	"selectAmount": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Bitte wähle den Betrag aus",
+ 	 	 	 	 	"eng": "Please select amount"
+ 	 	 	 	},
+ 	 	 	 	"subtitle": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"timeStr"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "Das wird ${timeStr} dauern",
+ 	 	 	 	 	"eng": "This will take ${timeStr}"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"modal": {
+ 	 	 	"upgradeFailed": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Fehler",
+ 	 	 	 	 	"eng": "Error"
+ 	 	 	 	},
+ 	 	 	 	"subtitle": {
+ 	 	 	 	 	"trans": "Zerstörerischer Ausfall aufgelaufen",
+ 	 	 	 	 	"eng": "Destructive failure accrued"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"upgradeSuccess": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Kalibrierung erfolgreich",
+ 	 	 	 	 	"eng": "Calibration Success"
+ 	 	 	 	},
+ 	 	 	 	"subtitle": {
+ 	 	 	 	 	"trans": "Kein Fehler gefunden",
+ 	 	 	 	 	"eng": "No error detected"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"leaveDungeon": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Bist du sicher das du den Dungeon verlassen willst?",
+ 	 	 	 	 	"eng": "Are you sure you want to leave this dungeon?"
+ 	 	 	 	},
+ 	 	 	 	"subtitle": {
+ 	 	 	 	 	"trans": "Du wirst dieser Instanz des Dungeons nicht erneut beitreten können",
+ 	 	 	 	 	"eng": "You will not be able to enter this dungeon instance again"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"equipmentUpgrade": {
+ 	 	 	"notActivated": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Kern nicht gefunden",
+ 	 	 	 	 	"eng": "Core not found"
+ 	 	 	 	},
+ 	 	 	 	"subTitle": {
+ 	 	 	 	 	"trans": "Bitte setze den Kalibrierungskern ein",
+ 	 	 	 	 	"eng": "Please insert Calibration Core"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"activate": {
+ 	 	 	 	"trans": "Kern einfügen",
+ 	 	 	 	"eng": "Insert Core"
+ 	 	 	},
+ 	 	 	"activating": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Wird verarbeitet",
+ 	 	 	 	 	"eng": "Processing"
+ 	 	 	 	},
+ 	 	 	 	"subTitle": {
+ 	 	 	 	 	"trans": "Scherbe entschlüsseln",
+ 	 	 	 	 	"eng": "Decrypting shard"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"noEquipment": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Ausrüstung nicht gefunden",
+ 	 	 	 	 	"eng": "equipment not found"
+ 	 	 	 	},
+ 	 	 	 	"subTitle": {
+ 	 	 	 	 	"trans": "Wähle eine Ausrüstung aus, um fortzufahren",
+ 	 	 	 	 	"eng": "Select an equipment to continue"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"haveEquipment": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Kompatibler Gegenstand identifiziert",
+ 	 	 	 	 	"eng": "Compatible Item Identified"
+ 	 	 	 	},
+ 	 	 	 	"subTitle": {
+ 	 	 	 	 	"trans": "Alles systembereit",
+ 	 	 	 	 	"eng": "All system ready"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"failureRate": {
+ 	 	 	 	"trans": "Chance auf zerstörerisches Ausfall",
+ 	 	 	 	"eng": "Chance of destructive failure"
+ 	 	 	},
+ 	 	 	"selectEquipmentTitle": {
+ 	 	 	 	"trans": "Bitte wähle einen zu kalibrierenden Artikel aus",
+ 	 	 	 	"eng": "Please select an item to calibrate"
+ 	 	 	},
+ 	 	 	"upgradeButton": {
+ 	 	 	 	"trans": "Kalibrieren",
+ 	 	 	 	"eng": "Calibrate"
+ 	 	 	}
+ 	 	},
+ 	 	"itemInbox": {
+ 	 	 	"getAllItems": {
+ 	 	 	 	"trans": "Alle Gegenstände nehmen",
+ 	 	 	 	"eng": "Get All Items"
+ 	 	 	},
+ 	 	 	"expireDate": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"date"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Läuft in ${date} ab",
+ 	 	 	 	"eng": "Expires in ${date}"
+ 	 	 	}
+ 	 	},
+ 	 	"linkPage": {
+ 	 	 	"forum": {
+ 	 	 	 	"trans": "Offizielles Forum",
+ 	 	 	 	"eng": "Official Forum"
+ 	 	 	}
+ 	 	},
+ 	 	"noPrintableCaches": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Ausrüstungs Cache nicht gefunden",
+ 	 	 	 	"eng": "Equipment Cache not found"
+ 	 	 	},
+ 	 	 	"subTitle": {
+ 	 	 	 	"trans": "Sammeln Sie die Caches von Feinden und Dungeons, um Ihre neuen Waffen und Rüstungen zu drucken",
+ 	 	 	 	"eng": "gather the caches from enemies and dungeons to print your new weapons and armor"
+ 	 	 	}
+ 	 	},
+ 	 	"bank": {
+ 	 	 	"balance": {
+ 	 	 	 	"trans": "Kontostand",
+ 	 	 	 	"eng": "balance"
+ 	 	 	},
+ 	 	 	"deposit": {
+ 	 	 	 	"trans": "Anzahlung",
+ 	 	 	 	"eng": "Deposit"
+ 	 	 	},
+ 	 	 	"withdraw": {
+ 	 	 	 	"trans": "Abheben",
+ 	 	 	 	"eng": "Withdraw"
+ 	 	 	},
+ 	 	 	"upgradeSlot": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"upgradeToSlot"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Upgrade auf ${upgradeToSlot} Slots",
+ 	 	 	 	"eng": "UPGRADE TO ${upgradeToSlot} SLOTS"
+ 	 	 	},
+ 	 	 	"takeItemFromVault": {
+ 	 	 	 	"trans": "Gegenstand zurückziehen",
+ 	 	 	 	"eng": "Withdraw Item"
+ 	 	 	},
+ 	 	 	"putItemToVault": {
+ 	 	 	 	"trans": "Einzahlungsgegenstand",
+ 	 	 	 	"eng": "Deposit Item"
+ 	 	 	},
+ 	 	 	"modal": {
+ 	 	 	 	"selectDeposit": {
+ 	 	 	 	 	"trans": "Wie viel möchtest du einzahlen?",
+ 	 	 	 	 	"eng": "How much would you like to deposit?"
+ 	 	 	 	},
+ 	 	 	 	"selectWithdraw": {
+ 	 	 	 	 	"trans": "Wie viel möchtest du abheben?",
+ 	 	 	 	 	"eng": "How much would you like to withdraw?"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"noBalance": {
+ 	 	 	 	"trans": "Du kannst nichts abheben, wenn du kein Guthaben hast.",
+ 	 	 	 	"eng": "You can't withdraw when you have no balance."
+ 	 	 	},
+ 	 	 	"depositDesc": {
+ 	 	 	 	"trans": "Bringe Bitcoins auf die Bank",
+ 	 	 	 	"eng": "Put Bitcoins into bank"
+ 	 	 	},
+ 	 	 	"withdrawDesc": {
+ 	 	 	 	"trans": "Hole Bitcoins aus der Bank",
+ 	 	 	 	"eng": "Take Bitcoins out of bank"
+ 	 	 	},
+ 	 	 	"putItemToVaultDesc": {
+ 	 	 	 	"trans": "Lege Gegenstände in deinen Tresor",
+ 	 	 	 	"eng": "Put items into your vault"
+ 	 	 	},
+ 	 	 	"takeItemFromVaultDesc": {
+ 	 	 	 	"trans": "Nimm Gegenstände aus deinem Tresor",
+ 	 	 	 	"eng": "Take items out from your vault"
+ 	 	 	},
+ 	 	 	"upgradeSlotDesc": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"upgradeToSlot"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Erhöhe die maximale Anzahl von Gegenständen, die du im Tresor aufbewahren kannst, auf ${upgradeToSlot}",
+ 	 	 	 	"eng": "Increase the max amount of items you can store in vault to ${upgradeToSlot}"
+ 	 	 	}
+ 	 	},
+ 	 	"generalCaptcha": {
+ 	 	 	"story": {
+ 	 	 	 	"trans": "Du hast einen alten verschlossenen Safe gefunden, sieht aus als wäre dort ein Post-It mit etwas Text darauf.",
+ 	 	 	 	"eng": "You found an old locked safe box, there seems like a post-it with some text written on it."
+ 	 	 	},
+ 	 	 	"title": {
+ 	 	 	 	"trans": "PIN-Code zum Entsperren erforderlich",
+ 	 	 	 	"eng": "Pin code required to unlock"
+ 	 	 	},
+ 	 	 	"inputLabel": {
+ 	 	 	 	"trans": "PIN-Code",
+ 	 	 	 	"eng": "Pin Code"
+ 	 	 	},
+ 	 	 	"inputPlaceholder": {
+ 	 	 	 	"trans": "Geben Sie den PIN-Code ein",
+ 	 	 	 	"eng": "Enter pin code"
+ 	 	 	}
+ 	 	},
+ 	 	"list": {
+ 	 	 	"longPressToMultiSelect": {
+ 	 	 	 	"trans": "Lange drücken für Mehrfachauswahl",
+ 	 	 	 	"eng": "Long press to multi-select"
+ 	 	 	}
+ 	 	},
+ 	 	"inventory": {
+ 	 	 	"items": {
+ 	 	 	 	"trans": "Gegenstände",
+ 	 	 	 	"eng": "items"
+ 	 	 	},
+ 	 	 	"secretKeys": {
+ 	 	 	 	"trans": "geheime Schlüssel",
+ 	 	 	 	"eng": "secret keys"
+ 	 	 	},
+ 	 	 	"equipped": {
+ 	 	 	 	"trans": "Ausgestattet",
+ 	 	 	 	"eng": "Equipped"
+ 	 	 	},
+ 	 	 	"inventory": {
+ 	 	 	 	"trans": "Inventar",
+ 	 	 	 	"eng": "Inventory"
+ 	 	 	},
+ 	 	 	"itemInbox": {
+ 	 	 	 	"trans": "Posteingang",
+ 	 	 	 	"eng": "Item Inbox"
+ 	 	 	},
+ 	 	 	"crafting": {
+ 	 	 	 	"trans": "Basteln",
+ 	 	 	 	"eng": "Crafting"
+ 	 	 	},
+ 	 	 	"autoScrap": {
+ 	 	 	 	"button": {
+ 	 	 	 	 	"trans": "Automatische Verschrottung",
+ 	 	 	 	 	"eng": "Auto Scrap"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"itemDisplay": {
+ 	 	 	"broken": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Fehlfunktion",
+ 	 	 	 	 	"eng": "Malfunctioned"
+ 	 	 	 	},
+ 	 	 	 	"subtitle": {
+ 	 	 	 	 	"trans": "Umfangreiche Reparatur erforderlich",
+ 	 	 	 	 	"eng": "Extensive repair required"
+ 	 	 	 	},
+ 	 	 	 	"instruction": {
+ 	 	 	 	 	"trans": "Dieser Gegenstand ist kaputt, bring ihn zur Reparatur zu Waffenschmied",
+ 	 	 	 	 	"eng": "This item is broken, bring it to Weapon Smith for repair"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"secretKey": {
+ 	 	 	"title": {
+ 	 	 	 	"trans": "Geheime Schlüssel",
+ 	 	 	 	"eng": "Secret Keys"
+ 	 	 	},
+ 	 	 	"noKeysTitle": {
+ 	 	 	 	"trans": "Du hast keine geheimen Schlüssel",
+ 	 	 	 	"eng": "You don't have any secret keys"
+ 	 	 	},
+ 	 	 	"noKeysSubtitle": {
+ 	 	 	 	"trans": "Du kannst geheime Schlüssel von Dungeons erhalten",
+ 	 	 	 	"eng": "You can obtain secret keys from Dungeons"
+ 	 	 	}
+ 	 	},
+ 	 	"npc": {
+ 	 	 	"notUnlocked": {
+ 	 	 	 	"trans": "Dies ist noch nicht freigeschaltet, versuche, deinen Charakter zu leveln",
+ 	 	 	 	"eng": "This is not unlocked yet, try leveling up your character"
+ 	 	 	},
+ 	 	 	"repairItems": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"repairFee"
+ 	 	 	 	],
+ 	 	 	 	"trans": "Alle Gegenstände reparieren (${repairFee} Bitcoin)",
+ 	 	 	 	"eng": " Repair all items for (${repairFee} Bitcoin)"
+ 	 	 	}
+ 	 	},
+ 	 	"travel": {
+ 	 	 	"notUnlocked": {
+ 	 	 	 	"trans": "Du hast diesen Bereich noch nicht freigeschaltet",
+ 	 	 	 	"eng": "You have not unlocked this area yet"
+ 	 	 	}
+ 	 	},
+ 	 	"itemDetails": {
+ 	 	 	"factoryReset": {
+ 	 	 	 	"confirmation": {
+ 	 	 	 	 	"trans": "Dadurch wird die gesamte Kalibrierung deines Gegenstands zurückgesetzt. Dadurch wird er auch wieder handelbar. \n      Möchtest du wirklich fortfahren?",
+ 	 	 	 	 	"eng": "Doing this will reset all calibration on your item. It will also make it tradable again. \n      Are you sure you want to proceed?"
+ 	 	 	 	},
+ 	 	 	 	"trans": "Werkseinstellungen zurückgesetzt",
+ 	 	 	 	"eng": "Factory Reset"
+ 	 	 	}
+ 	 	},
+ 	 	"apps": {
+ 	 	 	"dailyReward": {
+ 	 	 	 	"trans": "Tägliche Belohnung",
+ 	 	 	 	"eng": "Daily Reward"
+ 	 	 	},
+ 	 	 	"coupon": {
+ 	 	 	 	"trans": "Gutschein beanspruchen",
+ 	 	 	 	"eng": "Claim Coupon"
+ 	 	 	}
+ 	 	},
+ 	 	"gang": {
+ 	 	 	"confirmKickMember": {
+ 	 	 	 	"trans": "Bist du sicher, dass du diesen Spieler von deiner Gang ausschließen möchtest?",
+ 	 	 	 	"eng": "are you sure you want to kick this player from your gang?"
+ 	 	 	},
+ 	 	 	"memberContribution": {
+ 	 	 	 	"resource": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"resourceContribution"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "${resourceContribution} Ressource",
+ 	 	 	 	 	"eng": "${resourceContribution} Resource"
+ 	 	 	 	},
+ 	 	 	 	"occupation": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"occupationContribution"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "${occupationContribution} Berufspunkt",
+ 	 	 	 	 	"eng": "${occupationContribution} occupation point"
+ 	 	 	 	},
+ 	 	 	 	"fund": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"moneyContribution"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "${moneyContribution} Finanzierung",
+ 	 	 	 	 	"eng": "${moneyContribution} funding"
+ 	 	 	 	},
+ 	 	 	 	"exp": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"expContribution"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "${expContribution} EXP",
+ 	 	 	 	 	"eng": "${expContribution} exp"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"coupon": {
+ 	 	 	"inputLabel": {
+ 	 	 	 	"trans": "Gutschein",
+ 	 	 	 	"eng": "Coupon"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Wenn du einen Gutschein von einem unserer Events hast, kannst du diesen hier einfordern.",
+ 	 	 	 	"eng": "If you have a coupon from one of our events, you can claim it here."
+ 	 	 	},
+ 	 	 	"placeholder": {
+ 	 	 	 	"trans": "Füge hier deinen Gutschein ein oder gib ihn ein",
+ 	 	 	 	"eng": "Paste or enter your coupon here"
+ 	 	 	},
+ 	 	 	"confirm": {
+ 	 	 	 	"trans": "Gutschein aktivieren",
+ 	 	 	 	"eng": "Activate Coupon"
+ 	 	 	}
+ 	 	},
+ 	 	"dailyReward": {
+ 	 	 	"day": {
+ 	 	 	 	"trans": "Tag",
+ 	 	 	 	"eng": "Day"
+ 	 	 	},
+ 	 	 	"canClaim": {
+ 	 	 	 	"trans": "Verfügbar",
+ 	 	 	 	"eng": "Available"
+ 	 	 	},
+ 	 	 	"claimed": {
+ 	 	 	 	"trans": "Beansprucht",
+ 	 	 	 	"eng": "Claimed"
+ 	 	 	},
+ 	 	 	"cantClaimYet": {
+ 	 	 	 	"trans": "Gesperrt",
+ 	 	 	 	"eng": "Locked"
+ 	 	 	}
+ 	 	},
+ 	 	"shop": {
+ 	 	 	"purchase": {
+ 	 	 	 	"trans": "kaufen",
+ 	 	 	 	"eng": "purchase"
+ 	 	 	},
+ 	 	 	"sell": {
+ 	 	 	 	"trans": "verkaufen",
+ 	 	 	 	"eng": "sell"
+ 	 	 	}
+ 	 	},
+ 	 	"porofile": {
+ 	 	 	"deleteAccount": {
+ 	 	 	 	"modal": {
+ 	 	 	 	 	"title": {
+ 	 	 	 	 	 	"trans": "Möchtest du dein Konto wirklich löschen? Dies ist irreversibel, alle Kontoinformationen werden entfernt.",
+ 	 	 	 	 	 	"eng": "Are you sure you want to delete your account? This is irreversible, all account information will be removed."
+ 	 	 	 	 	}
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"job": {
+ 	 	 	"cantEnterError": {
+ 	 	 	 	"trans": "Du benötigst mindestens Level 2, um auf den Job-Hub zuzugreifen",
+ 	 	 	 	"eng": "You need to be at least level 2 to access the job hub"
+ 	 	 	}
+ 	 	},
+ 	 	"landing": {
+ 	 	 	"subtile": {
+ 	 	 	 	"trans": "Cyberpunk textbasiertes MMORPG",
+ 	 	 	 	"eng": "Cyberpunk Text-based MMORPG"
+ 	 	 	},
+ 	 	 	"description1": {
+ 	 	 	 	"trans": "CyberCode Online ist ein Online-Spiel. Ein Konto ist erforderlich um Spieldaten zu speichern.",
+ 	 	 	 	"eng": "CyberCode Online is an online game, an account is needed to store game data."
+ 	 	 	},
+ 	 	 	"description2": {
+ 	 	 	 	"trans": "Bitte registrieren oder mit dem vorhandenen Konto anmelden",
+ 	 	 	 	"eng": "please register or login with existing account"
+ 	 	 	}
+ 	 	},
+ 	 	"login": {
+ 	 	 	"loginButton": {
+ 	 	 	 	"trans": "Anmeldung",
+ 	 	 	 	"eng": "Login"
+ 	 	 	},
+ 	 	 	"forgotPassword": {
+ 	 	 	 	"trans": "Passwort vergessen?",
+ 	 	 	 	"eng": "Forgot Password?"
+ 	 	 	},
+ 	 	 	"registerPageButton": {
+ 	 	 	 	"trans": "Registrieren?",
+ 	 	 	 	"eng": "Create Account?"
+ 	 	 	}
+ 	 	},
+ 	 	"register": {
+ 	 	 	"registerButton": {
+ 	 	 	 	"trans": "Registrieren",
+ 	 	 	 	"eng": "Create Account"
+ 	 	 	},
+ 	 	 	"loginPageButton": {
+ 	 	 	 	"trans": "Konto vorhanden?",
+ 	 	 	 	"eng": "Have account?"
+ 	 	 	}
+ 	 	},
+ 	 	"basicInfo": {
+ 	 	 	"emptyError": {
+ 	 	 	 	"trans": "Bitte gebe deinen Charakternamen ein um fortzufahren.",
+ 	 	 	 	"eng": "Please enter your character name to continue."
+ 	 	 	},
+ 	 	 	"playerNameInput": {
+ 	 	 	 	"label": {
+ 	 	 	 	 	"trans": "Charaktername",
+ 	 	 	 	 	"eng": "Character Name"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "Du wirst stummgeschaltet, wenn du einen anstößigen oder unangemessenen Namen verwendest.",
+ 	 	 	 	 	"eng": "you will be muted if you use an offensive or inappropriate name."
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"timeSkip": {
+ 	 	 	"unitTimeSkipButton": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"timeSkipMinutes",
+ 	 	 	 	 	 	"timeSkipCost"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "Global Skip (${timeSkipMinutes} min, Kosten ${timeSkipCost} Einheiten)",
+ 	 	 	 	 	"eng": "Global Skip (${timeSkipMinutes} Min, Cost ${timeSkipCost} Units)"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"trans": "Global Skip ermöglicht es dir, die AFK-Wartezeit zu überspringen und sofort zu beenden. \n     Dieser Effekt wird auf alle Spieler angewendet, die einen AFK-Task durchführen",
+ 	 	 	 	 	"eng": "Global Skip allow you to skip the AFK waiting time, and finish it instantly.\n    this effect will be applied to all player performing AFK task"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"itemTimeSkipButton": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"itemSkipMinutes"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "Gratis Zeitsprung (${itemSkipMinutes} min)",
+ 	 	 	 	 	"eng": "Free time skip (${itemSkipMinutes} Min)"
+ 	 	 	 	},
+ 	 	 	 	"description": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"timeSkipItemName",
+ 	 	 	 	 	 	"itemSkipMinutes"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "Verwende eines deiner ${timeSkipItemName}, um ${itemSkipMinutes} Minuten zu überspringen",
+ 	 	 	 	 	"eng": "Use one of your ${timeSkipItemName} to skip ${itemSkipMinutes} minutes"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"inProgressBox": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Global Skip in Arbeit",
+ 	 	 	 	 	"eng": "Global Skip in progress"
+ 	 	 	 	},
+ 	 	 	 	"subtitle": {
+ 	 	 	 	 	"vars": [
+ 	 	 	 	 	 	"skippingPlayerCount"
+ 	 	 	 	 	],
+ 	 	 	 	 	"trans": "Beschleunigung von ${skippingPlayerCount} Benutzern..",
+ 	 	 	 	 	"eng": "Accelerating ${skippingPlayerCount} users.."
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Global Skip ermöglicht dir, die AFK-Wartezeit zu überspringen und sofort zu beenden. \n     Dieser Effekt wird auf alle Spieler angewendet, die AFK Task durchführen",
+ 	 	 	 	"eng": "Global Skip allow you to skip the AFK waiting time, and finish it instantly.\n    this effect will be applied to all players performing an AFK task"
+ 	 	 	}
+ 	 	},
+ 	 	"afkTask": {
+ 	 	 	"abort": {
+ 	 	 	 	"trans": "Abbrechen",
+ 	 	 	 	"eng": "Abort"
+ 	 	 	}
+ 	 	},
+ 	 	"quest": {
+ 	 	 	"globalQuest": {
+ 	 	 	 	"progressTitle": {
+ 	 	 	 	 	"trans": "Breach der SL-Data-Festung",
+ 	 	 	 	 	"eng": "SL-Data Fortress Breach"
+ 	 	 	 	},
+ 	 	 	 	"infoBox": {
+ 	 	 	 	 	"title": {
+ 	 	 	 	 	 	"trans": "Cyberspace-Hacking im Gange",
+ 	 	 	 	 	 	"eng": "Cyberspace hacking in progress"
+ 	 	 	 	 	},
+ 	 	 	 	 	"subtitle": {
+ 	 	 	 	 	 	"trans": "Verbinde dich mit anderen NetRunners, für einen Breach der SL-Data-Festung und allen Spielern einen Buff zu gewähren",
+ 	 	 	 	 	 	"eng": "Join forces with other Netrunners to breach the SL-Data Fortress to grant all players with buff"
+ 	 	 	 	 	}
+ 	 	 	 	},
+ 	 	 	 	"completeBox": {
+ 	 	 	 	 	"title": {
+ 	 	 	 	 	 	"trans": "Breach Operation abgeschlossen",
+ 	 	 	 	 	 	"eng": "Breach operation completed"
+ 	 	 	 	 	},
+ 	 	 	 	 	"subtitle": {
+ 	 	 	 	 	 	"trans": "Remote-Exploit-Bereitstellung, bitte warten ...",
+ 	 	 	 	 	 	"eng": "Remote exploit deploying, please wait..."
+ 	 	 	 	 	}
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"battle": {
+ 	 	 	"attackButton": {
+ 	 	 	 	"primary": {
+ 	 	 	 	 	"title": {
+ 	 	 	 	 	 	"trans": "Primär",
+ 	 	 	 	 	 	"eng": "primary"
+ 	 	 	 	 	}
+ 	 	 	 	},
+ 	 	 	 	"secondary": {
+ 	 	 	 	 	"title": {
+ 	 	 	 	 	 	"trans": "Besondere",
+ 	 	 	 	 	 	"eng": "special"
+ 	 	 	 	 	}
+ 	 	 	 	},
+ 	 	 	 	"tertiary": {
+ 	 	 	 	 	"title": {
+ 	 	 	 	 	 	"trans": "Zerstören.",
+ 	 	 	 	 	 	"eng": "Destruct."
+ 	 	 	 	 	}
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"backToPreviusLoc": {
+ 	 	 	"longPressBackToCity": {
+ 	 	 	 	"trans": "Lang drücken, um zur Stadt zurückzukehren",
+ 	 	 	 	"eng": "Long press to go back to city"
+ 	 	 	}
+ 	 	},
+ 	 	"dungeon": {
+ 	 	 	"public": {
+ 	 	 	 	"trans": "Öffentlicher Dungeon",
+ 	 	 	 	"eng": "Public dungeon"
+ 	 	 	},
+ 	 	 	"password": {
+ 	 	 	 	"trans": "Passwortgeschützter Dungeon",
+ 	 	 	 	"eng": "Password protected dungeon"
+ 	 	 	},
+ 	 	 	"enterDungeon": {
+ 	 	 	 	"trans": "Dungeon betreten",
+ 	 	 	 	"eng": "Enter Dungeon"
+ 	 	 	},
+ 	 	 	"listButton": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Dungeons",
+ 	 	 	 	 	"eng": "Dungeons"
+ 	 	 	 	},
+ 	 	 	 	"des": {
+ 	 	 	 	 	"trans": "In Dungeons heilst du nicht nach jedem Kampf und Feinde sind stärker, aber es gibt mehr Erfahrung und Beute",
+ 	 	 	 	 	"eng": "In dungeons, you will not heal after each fight, and enemies are stronger, but there are more exp and loots"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	},
+ 	 	"combat": {
+ 	 	 	"enemyIsDeadTitle": {
+ 	 	 	 	"trans": "Du hast hier nichts gefunden",
+ 	 	 	 	"eng": "You found nothing here"
+ 	 	 	}
+ 	 	},
+ 	 	"dungeonLobby": {
+ 	 	 	"noDungeon": {
+ 	 	 	 	"trans": "Derzeit gibt es keinen öffentlichen Dungeon",
+ 	 	 	 	"eng": "There is currently no public dungeon"
+ 	 	 	}
+ 	 	},
+ 	 	"localCombat": {
+ 	 	 	"nearByEnemiesButton": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Feinde in der Nähe",
+ 	 	 	 	 	"eng": "Nearby Enemies"
+ 	 	 	 	},
+ 	 	 	 	"desc": {
+ 	 	 	 	 	"trans": "Sucht auf der Straße nach Feinden in der Nähe, Feinde außerhalb von Dungeons sind schwächer und leichter zu besiegen. Allerdings geben sie auch weniger Erfahrung",
+ 	 	 	 	 	"eng": "Scans for nearby enemies on the street, enemies outside dungeons are weaker and easier to defeat. However they also drop less exp"
+ 	 	 	 	}
+ 	 	 	}
  	 	}
  	},
  	"misc": {
@@ -1224,7 +2496,7 @@
  	 	 	"eng": "Name"
  	 	},
  	 	"tag": {
- 	 	 	"trans": "Tag",
+ 	 	 	"trans": "Etikett",
  	 	 	"eng": "Tag"
  	 	},
  	 	"donate": {
@@ -1266,6 +2538,42 @@
  	 	"statusEffect": {
  	 	 	"trans": "Status Effekte",
  	 	 	"eng": "Status Effects"
+ 	 	},
+ 	 	"notTradable": {
+ 	 	 	"trans": "nicht handelbar",
+ 	 	 	"eng": "not tradable"
+ 	 	},
+ 	 	"itemUpgradeCapacity": {
+ 	 	 	"trans": "Kooperationskapazität",
+ 	 	 	"eng": "Collaboration Capacity"
+ 	 	},
+ 	 	"systemStandby": {
+ 	 	 	"trans": "System-Standby",
+ 	 	 	"eng": "System standby"
+ 	 	},
+ 	 	"send": {
+ 	 	 	"trans": "senden",
+ 	 	 	"eng": "send"
+ 	 	},
+ 	 	"password": {
+ 	 	 	"trans": "Passwort",
+ 	 	 	"eng": "Password"
+ 	 	},
+ 	 	"close": {
+ 	 	 	"trans": "schließen",
+ 	 	 	"eng": "close"
+ 	 	},
+ 	 	"back": {
+ 	 	 	"trans": "zurück",
+ 	 	 	"eng": "back"
+ 	 	},
+ 	 	"dungeons": {
+ 	 	 	"trans": "Dungeons",
+ 	 	 	"eng": "dungeons"
+ 	 	},
+ 	 	"enemies": {
+ 	 	 	"trans": "Feinde",
+ 	 	 	"eng": "Enemies"
  	 	}
  	},
  	"statsType": {
@@ -1286,7 +2594,7 @@
  	 	 	},
  	 	 	"description": {
  	 	 	 	"trans": "Verringert den Schaden durch Gegner",
- 	 	 	 	"eng": "Decrease damage taken from enemy"
+ 	 	 	 	"eng": "Decreases damage taken from enemies"
  	 	 	}
  	 	},
  	 	"healthRegen": {
@@ -1296,7 +2604,7 @@
  	 	 	},
  	 	 	"description": {
  	 	 	 	"trans": "Menge der regenerierten Gesundheit nach einem Kampf",
- 	 	 	 	"eng": "Amount of health regenerated after end of combat"
+ 	 	 	 	"eng": "Amount of health regenerated after the end of combat"
  	 	 	}
  	 	},
  	 	"damage": {
@@ -1306,7 +2614,7 @@
  	 	 	},
  	 	 	"description": {
  	 	 	 	"trans": "Beeinflusst direkt die Höhe des verursachten Schadens",
- 	 	 	 	"eng": "Directly influences amount of damage dealt by you"
+ 	 	 	 	"eng": "Directly influences the amount of damage dealt by you"
  	 	 	}
  	 	},
  	 	"critChance": {
@@ -1352,7 +2660,7 @@
  	 	 	},
  	 	 	"description": {
  	 	 	 	"trans": "Chance, aus einem Dungeonkampf zu entkommen",
- 	 	 	 	"eng": "Chance of you escaping from a dungeon enemy"
+ 	 	 	 	"eng": "Chances of you escaping from a dungeon enemy"
  	 	 	}
  	 	},
  	 	"stunChance": {
@@ -1387,7 +2695,7 @@
  	 	},
  	 	"pocket": {
  	 	 	"name": {
- 	 	 	 	"trans": "Taschen",
+ 	 	 	 	"trans": "Tasche",
  	 	 	 	"eng": "Pocket"
  	 	 	},
  	 	 	"description": {
@@ -1484,6 +2792,26 @@
  	 	 	 	"trans": "Maximale Gesundheitskapazität",
  	 	 	 	"eng": "Maximum health capacity"
  	 	 	}
+ 	 	},
+ 	 	"upgradeChance": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Kalibrierungs-Chance",
+ 	 	 	 	"eng": "Calibration Chance"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Reduziert die Wahrscheinlichkeit eines zerstörerischen Fehlers beim Kalibrieren von Gegenständen",
+ 	 	 	 	"eng": "Reduces chance of destructive failure when calibrating items"
+ 	 	 	}
+ 	 	},
+ 	 	"upgradeNoBreak": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Kalibrierungssicherheit",
+ 	 	 	 	"eng": "Calibration Safety"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Wenn die Kalibrierung fehlschlägt, wird der Artikel nicht zerstört",
+ 	 	 	 	"eng": "Calibration fails will not destroy the item"
+ 	 	 	}
  	 	}
  	},
  	"craft": {
@@ -1526,6 +2854,40 @@
  	 	 	 	"trans": "Legendären Behälter öffnen",
  	 	 	 	"eng": "Unlock Legendary Container"
  	 	 	}
+ 	 	},
+ 	 	"backpack1": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Alter Beutel",
+ 	 	 	 	"eng": "Old Pouch"
+ 	 	 	}
+ 	 	},
+ 	 	"trade": {
+ 	 	 	"trans": "Handeln",
+ 	 	 	"eng": "Trade"
+ 	 	},
+ 	 	"backpack2": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Gürteltasche",
+ 	 	 	 	"eng": "Fanny Pack"
+ 	 	 	}
+ 	 	},
+ 	 	"backpack3": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Rucksack des Entdeckers",
+ 	 	 	 	"eng": "Explorer's Backpack"
+ 	 	 	}
+ 	 	},
+ 	 	"backpack4": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Bürokoffer für Mitarbeiter",
+ 	 	 	 	"eng": "Employee Office Case"
+ 	 	 	}
+ 	 	},
+ 	 	"backpack5": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "Autonome Speichereinheit",
+ 	 	 	 	"eng": "Autonomous Storage Unit"
+ 	 	 	}
  	 	}
  	},
  	"market": {
@@ -1543,7 +2905,7 @@
  	 	 	 	"total"
  	 	 	],
  	 	 	"trans": "Wenn alle verkauft werden, verdienst du ${total} BitCoins",
- 	 	 	"eng": "If all of them are sold, you will earn ${total} BitCoins"
+ 	 	 	"eng": "If all items are sold, you will earn ${total} BitCoins"
  	 	},
  	 	"sellAmountModalTitle": {
  	 	 	"trans": "Wieviele möchtest du verkaufen?",
@@ -1553,7 +2915,7 @@
  	"modal": {
  	 	"levelUp": {
  	 	 	"title": {
- 	 	 	 	"trans": "LEVEL UP",
+ 	 	 	 	"trans": "AUFLEVELN",
  	 	 	 	"eng": "LEVEL UP"
  	 	 	},
  	 	 	"subTitle": {
@@ -1571,6 +2933,40 @@
  	 	 	 	"trans": "${from} => ${to}",
  	 	 	 	"eng": "${from} => ${to}"
  	 	 	}
+ 	 	},
+ 	 	"review": {
+ 	 	 	"title1": {
+ 	 	 	 	"trans": "Ich bin Dexter, den Entwickler dieses Spiels, und ich hoffe, dass du deine bisherige Erfahrung hier mitteilst.",
+ 	 	 	 	"eng": "I'm Dexter, the developer of this game, and I hope to know your experience so far."
+ 	 	 	},
+ 	 	 	"title2": {
+ 	 	 	 	"trans": "Wie viele Sterne würdest du geben?",
+ 	 	 	 	"eng": "How many stars would you give?"
+ 	 	 	},
+ 	 	 	"badReview": {
+ 	 	 	 	"title": {
+ 	 	 	 	 	"trans": "Es tut mir so leid, bitte lass mich wissen, wo Verbesserungen nötig sind",
+ 	 	 	 	 	"eng": "I am so sorry, please let me know where I can improve"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"goodReview": {
+ 	 	 	 	"title1": {
+ 	 	 	 	 	"trans": "Wow, vielen Dank! Ich fühle mich geehrt, bitte mache es offiziell, indem du diese auf unserer Shop-Seite hinterlässt :)",
+ 	 	 	 	 	"eng": "Wow, thanks so much! I'm honored, please make it official by leaving them on our store page :)"
+ 	 	 	 	},
+ 	 	 	 	"title2": {
+ 	 	 	 	 	"trans": "Deine gute Bewertung wird mir sehr helfen und mehr Spieler in unsere Community bringen!",
+ 	 	 	 	 	"eng": "Your good review is going to help me much and bring more players into our community!"
+ 	 	 	 	}
+ 	 	 	},
+ 	 	 	"dontAskMeAgain": {
+ 	 	 	 	"trans": "Frag mich nicht mehr",
+ 	 	 	 	"eng": "Don't ask me again"
+ 	 	 	},
+ 	 	 	"reviewLater": {
+ 	 	 	 	"trans": "später überprüfen",
+ 	 	 	 	"eng": "review later"
+ 	 	 	}
  	 	}
  	},
  	"cosmetic": {
@@ -1579,7 +2975,96 @@
  	 	 	 	"tierName"
  	 	 	],
  	 	 	"trans": "Dies ist ein Beispiel eines ${tierName} Tier Chatrahmens",
- 	 	 	"eng": "This is an example chat frame of ${tierName} Tier"
+ 	 	 	"eng": "example chat frame of ${tierName} Tier"
+ 	 	}
+ 	},
+ 	"reward": {
+ 	 	"gangResource": {
+ 	 	 	"vars": [
+ 	 	 	 	"clanResource"
+ 	 	 	],
+ 	 	 	"trans": "${clanResource} Gang Ressource",
+ 	 	 	"eng": "${clanResource} gang resource"
+ 	 	},
+ 	 	"gangExp": {
+ 	 	 	"vars": [
+ 	 	 	 	"clanExp"
+ 	 	 	],
+ 	 	 	"trans": "${clanExp} Gang Exp",
+ 	 	 	"eng": "${clanExp} gang exp"
+ 	 	},
+ 	 	"gangFunding": {
+ 	 	 	"vars": [
+ 	 	 	 	"clanMoney"
+ 	 	 	],
+ 	 	 	"trans": "${clanMoney} Gangfinanzierung",
+ 	 	 	"eng": "${clanMoney} gang funding"
+ 	 	},
+ 	 	"unknown": {
+ 	 	 	"trans": "Unbekannte Items",
+ 	 	 	"eng": "Unknown Items"
+ 	 	},
+ 	 	"gangOccupationPoint": {
+ 	 	 	"vars": [
+ 	 	 	 	"clanOccupationPoint"
+ 	 	 	],
+ 	 	 	"trans": "${clanOccupationPoint} Besetzungskontrolle",
+ 	 	 	"eng": "${clanOccupationPoint} Occupation Control"
+ 	 	},
+ 	 	"globalQuestPoint": {
+ 	 	 	"vars": [
+ 	 	 	 	"globalQuestPoint"
+ 	 	 	],
+ 	 	 	"trans": "${globalQuestPoint} SL Data Festung Breach Fortschritt",
+ 	 	 	"eng": "${globalQuestPoint} SL Data Fortress breach progress"
+ 	 	}
+ 	},
+ 	"cost": {
+ 	 	"requireGang": {
+ 	 	 	"trans": "Erfordert, in einer Gang zu sein",
+ 	 	 	"eng": "Requires you to be in a gang"
+ 	 	},
+ 	 	"requireTopGang": {
+ 	 	 	"trans": "Erfordert, in der oberen Gang zu sein",
+ 	 	 	"eng": "Requires you to be in the top gang"
+ 	 	}
+ 	},
+ 	"statusEffect": {
+ 	 	"pirate": {
+ 	 	 	"trans": "Chat-Exploit [Pirat]",
+ 	 	 	"eng": "Chat Exploit [PIRATE]"
+ 	 	},
+ 	 	"leet": {
+ 	 	 	"trans": "Chat-Exploit [1337]",
+ 	 	 	"eng": "Chat Exploit [1337]"
+ 	 	},
+ 	 	"UwU": {
+ 	 	 	"trans": "Chat-Exploit [Uwu]",
+ 	 	 	"eng": "Chat Exploit [UwU]"
+ 	 	},
+ 	 	"love": {
+ 	 	 	"trans": "Chat-Exploit [Liebe]",
+ 	 	 	"eng": "Chat Exploit [LOVE]"
+ 	 	},
+ 	 	"chatExploitProtect": {
+ 	 	 	"trans": "Chat-Verschlüsselung",
+ 	 	 	"eng": "Chat Encryption"
+ 	 	}
+ 	},
+ 	"inventory": {
+ 	 	"ui": {
+ 	 	 	"autoScrap": {
+ 	 	 	 	"noItem": {
+ 	 	 	 	 	"trans": "Kein Item zum automatischen Verschrotten",
+ 	 	 	 	 	"eng": "No item to auto scrap"
+ 	 	 	 	}
+ 	 	 	}
+ 	 	}
+ 	},
+ 	"tutorial": {
+ 	 	"localCombatButton": {
+ 	 	 	"trans": "Klicke hier, um nach Straßenfeinden zu scannen",
+ 	 	 	"eng": "Click here to scan for street enemies"
  	 	}
  	}
 }

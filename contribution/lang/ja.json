@@ -1,184 +1,60 @@
 {
  	"tabs": {
+ 	 	"map": {
+ 	 	 	"trans": "マップ",
+ 	 	 	"eng": "Map"
+ 	 	},
  	 	"inventory": {
- 	 	 	"trans": "Inventario",
+ 	 	 	"trans": "インベントリ",
  	 	 	"eng": "Inventory"
  	 	},
  	 	"quest": {
- 	 	 	"trans": "Misión",
+ 	 	 	"trans": "クエスト",
  	 	 	"eng": "Quest"
  	 	},
  	 	"chat": {
- 	 	 	"trans": "Chat",
+ 	 	 	"trans": "チャット",
  	 	 	"eng": "Chat"
  	 	},
  	 	"profile": {
- 	 	 	"trans": "Perfil",
+ 	 	 	"trans": "プロフィール",
  	 	 	"eng": "Profile"
- 	 	},
- 	 	"map": {
- 	 	 	"trans": "Mapa",
- 	 	 	"eng": "Map"
- 	 	}
- 	},
- 	"npc": {
- 	 	"unitExchange": {
- 	 	 	"name": {
- 	 	 	 	"trans": "Intercambio de unidades de Arasaka",
- 	 	 	 	"eng": "Arasaka Unit Exchange"
- 	 	 	},
- 	 	 	"tut": {
- 	 	 	 	"trans": "Puedes comprar objetos de mejora global aquí",
- 	 	 	 	"eng": "You can purchase global buff items here"
- 	 	 	},
- 	 	 	"canAccessError": {
- 	 	 	 	"trans": "Necesitas al menos nivel 5 para acceder a la unidad de intercambio",
- 	 	 	 	"eng": "You need to be at least level 5 to access unit exchange"
- 	 	 	}
- 	 	},
- 	 	"cosmetic": {
- 	 	 	"name": {
- 	 	 	 	"trans": "Ciberprendas cosméticas",
- 	 	 	 	"eng": "Cosmetic Cyberwear"
- 	 	 	},
- 	 	 	"tut": {
- 	 	 	 	"trans": "Si te gusta el juego, por favor considera hacer una donación :)",
- 	 	 	 	"eng": "If you liked the game, please consider donation :)"
- 	 	 	},
- 	 	 	"canAccessError": {
- 	 	 	 	"trans": "Necesitas al menos nivel 5 para acceder al comerciante de cosméticos",
- 	 	 	 	"eng": "You need to be at least level 5 to access cosmetic merchant"
- 	 	 	}
- 	 	},
- 	 	"printer": {
- 	 	 	"name": {
- 	 	 	 	"trans": "Impresora Molecular 3D",
- 	 	 	 	"eng": "Molecular 3d Printer"
- 	 	 	},
- 	 	 	"tut": {
- 	 	 	 	"trans": "Puedes utilizar tu caché para imprimir nuevo equipamiento aquí",
- 	 	 	 	"eng": "You can use your Cache to print new equipment here"
- 	 	 	}
- 	 	},
- 	 	"weaponSmith": {
- 	 	 	"name": {
- 	 	 	 	"trans": "Armero",
- 	 	 	 	"eng": "Weapon Smith"
- 	 	 	}
- 	 	},
- 	 	"terminal": {
- 	 	 	"name": {
- 	 	 	 	"trans": "Terminal",
- 	 	 	 	"eng": "Terminal"
- 	 	 	},
- 	 	 	"tut": {
- 	 	 	 	"trans": "Para progresar al área siguiente, tienes que obtener y usar fragmentos de la llave secreta en las mazmorras, \r\n        y usar la Terminal para crear la llave de dicha área",
- 	 	 	 	"eng": "To progress to the next area, you need to use get Secret Key Fragments from dungeons, \r\n        and use the Terminal to Brute Force the key for next area"
- 	 	 	},
- 	 	 	"description": {
- 	 	 	 	"trans": "Tu ordenador personal, aunque es un poco anticuado, podría hacer el trabajo con la suficiente paciencia.",
- 	 	 	 	"eng": "Your personal computer, although it's a little outdated, it can get the job done with enough patience"
- 	 	 	},
- 	 	 	"canAccessError": {
- 	 	 	 	"trans": "Necesita al menos nivel 5 para acceder al terminal",
- 	 	 	 	"eng": "You need to be at least level 5 to access terminal"
- 	 	 	}
- 	 	},
- 	 	"store": {
- 	 	 	"name": {
- 	 	 	 	"trans": "Mercado Trinoky",
- 	 	 	 	"eng": "Trinoky Mart"
- 	 	 	}
- 	 	},
- 	 	"bank": {
- 	 	 	"name": {
- 	 	 	 	"trans": "Banco de Arasaka",
- 	 	 	 	"eng": "Bank of Arasaka"
- 	 	 	},
- 	 	 	"canAccessError": {
- 	 	 	 	"trans": "Necesitas al menos nivel 5 para acceder al banco",
- 	 	 	 	"eng": "You need to be at least level 5 to access bank"
- 	 	 	}
- 	 	},
- 	 	"equipmentUpgrade": {
- 	 	 	"name": {
- 	 	 	 	"trans": "Estación de Calibración",
- 	 	 	 	"eng": "Calibration Station"
- 	 	 	},
- 	 	 	"description": {
- 	 	 	 	"trans": "Una mesa de trabajo con las herramientas necesarias te permitirá trabajar en tu equipamiento.",
- 	 	 	 	"eng": "A workbench with the necessary tools allows you to tinker with your equipment."
- 	 	 	}
- 	 	},
- 	 	"storageMerchant": {
- 	 	 	"name": {
- 	 	 	 	"trans": "Puesto Comercial de Lee",
- 	 	 	 	"eng": "Lee's Trading Post"
- 	 	 	},
- 	 	 	"description": {
- 	 	 	 	"trans": "Una tienda de comercio familiar que te permite comerciar con lo que has recolectado",
- 	 	 	 	"eng": "A family run trading shop that lets you trade with what they have found while scavenging"
- 	 	 	},
- 	 	 	"canAccessError": {
- 	 	 	 	"trans": "Necesitas al menos nivel 10 para acceder al comerciante",
- 	 	 	 	"eng": "You need to be at least level 10 to access merchant"
- 	 	 	}
- 	 	},
- 	 	"recycleMachine": {
- 	 	 	"name": {
- 	 	 	 	"trans": "Recicladora Automática",
- 	 	 	 	"eng": "Automatic Recycler"
- 	 	 	},
- 	 	 	"description": {
- 	 	 	 	"trans": "Recicladora totalmente automatizada, capaz de reciclar artículos a su forma básica de chatarra",
- 	 	 	 	"eng": "Fully automated recycler, capable of recycling items to their basic scrap form"
- 	 	 	}
- 	 	}
- 	},
- 	"receive": {
- 	 	"item": {
- 	 	 	"vars": [
- 	 	 	 	"amount",
- 	 	 	 	"itemName"
- 	 	 	],
- 	 	 	"trans": "Recibiste ${amount} ${itemName}",
- 	 	 	"eng": "You received ${amount} ${itemName}"
  	 	}
  	},
  	"levelType": {
  	 	"normal": {
  	 	 	"name": {
- 	 	 	 	"trans": "nivel",
+ 	 	 	 	"trans": "レベル",
  	 	 	 	"eng": "level"
  	 	 	}
  	 	},
  	 	"print": {
  	 	 	"name": {
- 	 	 	 	"trans": "rango de impresión",
+ 	 	 	 	"trans": "クラフトスキル",
  	 	 	 	"eng": "printing rank"
  	 	 	}
  	 	},
  	 	"medical": {
  	 	 	"name": {
- 	 	 	 	"trans": "ciencia médica",
+ 	 	 	 	"trans": "医療スキル",
  	 	 	 	"eng": "medical science"
  	 	 	}
  	 	},
  	 	"ammo": {
  	 	 	"name": {
- 	 	 	 	"trans": "fabricación de munición",
+ 	 	 	 	"trans": "弾薬作成スキル",
  	 	 	 	"eng": "ammo crafting"
  	 	 	}
  	 	},
  	 	"scavenge": {
  	 	 	"name": {
- 	 	 	 	"trans": "habilidad de recolección",
+ 	 	 	 	"trans": "収集スキル",
  	 	 	 	"eng": "scavenge skill"
  	 	 	}
  	 	},
  	 	"mining": {
  	 	 	"name": {
- 	 	 	 	"trans": "habilidad de minería",
+ 	 	 	 	"trans": "マイニングスキル",
  	 	 	 	"eng": "mining skill"
  	 	 	}
  	 	}
@@ -186,100 +62,100 @@
  	"location": {
  	 	"mainHub": {
  	 	 	"name": {
- 	 	 	 	"trans": "Centro de Shangri-La",
+ 	 	 	 	"trans": "シャングリ・ラシティセンター",
  	 	 	 	"eng": "Shangri-La City center"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "[Central Hub]\r\n        Una de las ciudades más ocupadas del continente, aquí puedes encontrar a todo tipo de gente del mundo.",
+ 	 	 	 	"trans": "[セントラルハブ] \r\n         大陸で最も賑わう都市の1つ。ここには世界中の人々が集まる。",
  	 	 	 	"eng": "[Central Hub]\r\n        One of the busiest cities in the continent. Here you can find all sorts of people from around the globe."
  	 	 	},
  	 	 	"toStation": {
  	 	 	 	"name": {
- 	 	 	 	 	"trans": "Ir a la Estación Central de Hiper Trenes",
+ 	 	 	 	 	"trans": "ハイパーループセントラルステーションへ行く",
  	 	 	 	 	"eng": "Go to Hyper Train Central Station"
  	 	 	 	},
  	 	 	 	"tut": {
- 	 	 	 	 	"trans": "Empieza aquí tu aventura en busca de recompensas épicas",
+ 	 	 	 	 	"trans": "壮大な戦利品を求めて冒険を始める",
  	 	 	 	 	"eng": "Start your adventure for epic loot here"
  	 	 	 	},
  	 	 	 	"description": {
- 	 	 	 	 	"trans": "Ir a la Estación Central de Hiper Trenes",
+ 	 	 	 	 	"trans": "ハイパーループセントラルステーションへ行く",
  	 	 	 	 	"eng": "Go to Hyper Train Central Station"
  	 	 	 	}
  	 	 	},
  	 	 	"toJob": {
  	 	 	 	"name": {
- 	 	 	 	 	"trans": "Ir al Área Comercial de Shangri-La",
+ 	 	 	 	 	"trans": "シャングリ・ラ商業地区へ行く",
  	 	 	 	 	"eng": "Go to Shangri-La Commercial Area"
  	 	 	 	},
  	 	 	 	"tut": {
- 	 	 	 	 	"trans": "Aquí puedes completar actividades AFK para mejorar tus habilidades",
+ 	 	 	 	 	"trans": "ここでスキルを高めるためにAFKの仕事をこなせます",
  	 	 	 	 	"eng": "You can complete AFK jobs to increase your skills here"
  	 	 	 	}
  	 	 	},
  	 	 	"toMarket": {
  	 	 	 	"name": {
- 	 	 	 	 	"trans": "Ir al mercadillo de Shangri-La",
+ 	 	 	 	 	"trans": "シャングリ・ラ商店街へ行く",
  	 	 	 	 	"eng": "Go to Shangri-La Market Street"
  	 	 	 	},
  	 	 	 	"tut": {
- 	 	 	 	 	"trans": "Puedes vender o comprar objetos a otros jugadores aquí",
+ 	 	 	 	 	"trans": "ここで他のプレイヤーからアイテムを売買することができます",
  	 	 	 	 	"eng": "You can sell or buy items from other players here"
  	 	 	 	}
  	 	 	},
  	 	 	"toGang": {
  	 	 	 	"name": {
- 	 	 	 	 	"trans": "Ir al cuartel general de la banda",
+ 	 	 	 	 	"trans": "ギャング本部へ行く",
  	 	 	 	 	"eng": "Go to gang headquarters"
  	 	 	 	}
  	 	 	}
  	 	},
  	 	"job": {
  	 	 	"name": {
- 	 	 	 	"trans": "Área Comercial de Shangri-La",
+ 	 	 	 	"trans": "シャングリ・ラ商業地区",
  	 	 	 	"eng": "Shangri-La Commercial Area"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "[Job Hub]\r\n        Muchas tiendas y negocios, un lugar perfecto para probar tus habilidades.",
+ 	 	 	 	"trans": "[ジョブハブ] \r\n         スキルを試すのに最適な店や仕事がここに。",
  	 	 	 	"eng": "[Job Hub]\r\n        Here are many shops and businesses reside. The perfect location to hone and refine your skills."
  	 	 	},
  	 	 	"toMainHub": {
  	 	 	 	"name": {
- 	 	 	 	 	"trans": "Volver al Centro de Shangri-La",
+ 	 	 	 	 	"trans": "シャングリ・ラシティセンターに戻る",
  	 	 	 	 	"eng": "Return to Shangri-La City Center"
  	 	 	 	}
  	 	 	}
  	 	},
  	 	"market": {
  	 	 	"name": {
- 	 	 	 	"trans": "Mercadillo de Shangri-La",
+ 	 	 	 	"trans": "シャングリ・ラ商店街",
  	 	 	 	"eng": "Shangri-La Market Street"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "[Player Market]\r\n        El famoso mercadillo de Shangri-La. Montones de puestos comerciales llenan la calle.\r\n        Tal vez puedas encontrar algo que necesites o poner una tienda por tu cuenta.",
+ 	 	 	 	"trans": "[プレイヤーマーケット] \r\n         シャングリ・ラの有名な商店街。 屋台が通りを埋め尽くす。 \r\n         必要なものの多くはここで見つけることができる。",
  	 	 	 	"eng": "[Player Market]\r\n        The famous market street in Shangri-La. Loads of market stalls fill the street.\r\n        Maybe you can find something you need or set up shop yourself."
  	 	 	},
  	 	 	"toMainHub": {
  	 	 	 	"name": {
- 	 	 	 	 	"trans": "Volver al Centro de Shangri-La",
+ 	 	 	 	 	"trans": "シャングリ・ラシティセンターに戻る",
  	 	 	 	 	"eng": "Return to Shangri-La City Center"
  	 	 	 	}
  	 	 	}
  	 	},
  	 	"station": {
  	 	 	"name": {
- 	 	 	 	"trans": "Estación Central de Hiper Trenes",
+ 	 	 	 	"trans": "ハイパーループセントラルステーション",
  	 	 	 	"eng": "Hyper Train Central Station"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "[Adventure]\r\n        Si usas el hyperloop, puedes viajar a súper velocidad a traves del continente con facilidad.",
+ 	 	 	 	"trans": "[冒険] \r\n         ハイパーループを使用すると、簡単に高速で大陸を横断できる。",
  	 	 	 	"eng": "[Adventure]\r\n        Using the hyperloop, you can travel at supersonic speed across the continent with ease."
  	 	 	}
  	 	},
  	 	"zone": {
  	 	 	"backToMainHub": {
  	 	 	 	"name": {
- 	 	 	 	 	"trans": "Regresar a ${mainHubName}",
+ 	 	 	 	 	"trans": "シティセンターに戻る",
  	 	 	 	 	"eng": "Back to city center",
  	 	 	 	 	"vars": [
  	 	 	 	 	 	"mainHubName"
@@ -289,7 +165,7 @@
  	 	 	 	 	"vars": [
  	 	 	 	 	 	"mainHubName"
  	 	 	 	 	],
- 	 	 	 	 	"trans": "Regresar a ${mainHubName}",
+ 	 	 	 	 	"trans": "${mainHubName}に戻る",
  	 	 	 	 	"eng": "Return to ${mainHubName}"
  	 	 	 	}
  	 	 	},
@@ -298,24 +174,24 @@
  	 	 	 	 	"vars": [
  	 	 	 	 	 	"segmentStationName"
  	 	 	 	 	],
- 	 	 	 	 	"trans": "volver a ${segmentStationName}",
+ 	 	 	 	 	"trans": "${segmentStationName}に戻る",
  	 	 	 	 	"eng": "back to ${segmentStationName}"
  	 	 	 	},
  	 	 	 	"description": {
  	 	 	 	 	"vars": [
  	 	 	 	 	 	"segmentStationName"
  	 	 	 	 	],
- 	 	 	 	 	"trans": "regresar a ${segmentStationName}",
+ 	 	 	 	 	"trans": "${segmentStationName}に戻る",
  	 	 	 	 	"eng": "return to ${segmentStationName}"
  	 	 	 	}
  	 	 	},
  	 	 	"toStation": {
  	 	 	 	"description": {
- 	 	 	 	 	"trans": "Regresar a la Estación de Hiper Trenes",
+ 	 	 	 	 	"trans": "ハイパーループステーションに戻る",
  	 	 	 	 	"eng": "Return to Hyper Train Station"
  	 	 	 	},
  	 	 	 	"name": {
- 	 	 	 	 	"trans": "de vuelta a la Estación de Hiper Trenes",
+ 	 	 	 	 	"trans": "ハイパーループステーションに戻る",
  	 	 	 	 	"eng": "back to Hyper Train Station"
  	 	 	 	}
  	 	 	}
@@ -323,12 +199,12 @@
  	 	"segment": {
  	 	 	"locked": {
  	 	 	 	"description": {
- 	 	 	 	 	"trans": "Recolecta los 3 fragmentos distintos de una llave en las mazmorras de las 3 zonas de la estación anterior, \r\n                    luego ve a [Terminal] en el Centro de la Ciudad [Centro] para descifrar (Fabricar) dicha llave y asi desbloquear esta área",
+ 	 	 	 	 	"trans": "前の駅の3つのゾーンのダンジョンにある3種類の鍵のかけらをすべて集めてきてください。 \r\n                     その後、シティセンター[ハブ]の[ターミナル]に行き、このエリアを開くために必要な鍵を作ります。",
  	 	 	 	 	"eng": "Gather all 3 different Key Fragments from Dungeons in each 3 zones in previous station, \r\n                    then go to [Terminal] at City Center [Hub] to brute-force (Craft) the key required to unlock this area"
  	 	 	 	}
  	 	 	},
  	 	 	"tut": {
- 	 	 	 	"trans": "Empieza en la zona de niveles 1 a 10",
+ 	 	 	 	"trans": "レベル1~10のエリアから始める",
  	 	 	 	"eng": "Start with level 1 to 10 area"
  	 	 	},
  	 	 	"toZone": {
@@ -336,14 +212,14 @@
  	 	 	 	 	"vars": [
  	 	 	 	 	 	"segmentStationName"
  	 	 	 	 	],
- 	 	 	 	 	"trans": "Continua aquí para combatir con enemigos de nivel 1",
+ 	 	 	 	 	"trans": "ここでレベル1の敵と戦う",
  	 	 	 	 	"eng": "Continue here to fight level 1 enemy"
  	 	 	 	},
  	 	 	 	"description": {
  	 	 	 	 	"vars": [
  	 	 	 	 	 	"zoneName"
  	 	 	 	 	],
- 	 	 	 	 	"trans": "Ir a ${zoneName}",
+ 	 	 	 	 	"trans": "${zoneName}に行く",
  	 	 	 	 	"eng": "Go to ${zoneName}"
  	 	 	 	}
  	 	 	},
@@ -351,7 +227,7 @@
  	 	 	 	"vars": [
  	 	 	 	 	"segmentDisplayName"
  	 	 	 	],
- 	 	 	 	"trans": "Estación ${segmentDisplayName}",
+ 	 	 	 	"trans": "${segmentDisplayName}駅",
  	 	 	 	"eng": "${segmentDisplayName} station"
  	 	 	},
  	 	 	"description": {
@@ -359,29 +235,333 @@
  	 	 	 	 	"segment",
  	 	 	 	 	"segmentMaxLevel"
  	 	 	 	],
- 	 	 	 	"trans": "Nivel ${segment} a ${segmentMaxLevel}",
+ 	 	 	 	"trans": "レベル${segment}から${segmentMaxLevel}",
  	 	 	 	"eng": "Level ${segment} to ${segmentMaxLevel}"
  	 	 	},
  	 	 	"goTo": {
  	 	 	 	"vars": [
  	 	 	 	 	"segmentStationName"
  	 	 	 	],
- 	 	 	 	"trans": "ir a ${segmentStationName}",
+ 	 	 	 	"trans": "${segmentStationName}に行く",
  	 	 	 	"eng": "go to ${segmentStationName}"
  	 	 	}
  	 	},
  	 	"gang": {
  	 	 	"name": {
- 	 	 	 	"trans": "Cuartel General de la Banda",
+ 	 	 	 	"trans": "ギャング本部",
  	 	 	 	"eng": "Gang Headquarters"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "[Gang]\r\n        El cuartel general para que tú y los miembros de tu banda planifiquen y ejecuten su próxima operación",
+ 	 	 	 	"trans": "[ギャング] \r\n         ギャングメンバーたちが次の作戦を練り、実行に移すための本拠地",
  	 	 	 	"eng": "[Gang]\r\n        The headquarters for you and your gang members to plan and execute your next operation"
  	 	 	},
  	 	 	"cantEnterError": {
- 	 	 	 	"trans": "Necesitas unirte a una banda para entrar en esta área",
+ 	 	 	 	"trans": "このエリアに入るにはゲインに参加する必要があります",
  	 	 	 	"eng": "You need to join a gang to enter this area"
+ 	 	 	}
+ 	 	}
+ 	},
+ 	"npc": {
+ 	 	"unitExchange": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "アラサカユニット交換所",
+ 	 	 	 	"eng": "Arasaka Unit Exchange"
+ 	 	 	},
+ 	 	 	"tut": {
+ 	 	 	 	"trans": "グローバルバフアイテムを購入できる",
+ 	 	 	 	"eng": "You can purchase global buff items here"
+ 	 	 	},
+ 	 	 	"canAccessError": {
+ 	 	 	 	"trans": "ユニット交換にアクセスするにはレベル5以上が必要です",
+ 	 	 	 	"eng": "You need to be at least level 5 to access unit exchange"
+ 	 	 	}
+ 	 	},
+ 	 	"cosmetic": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "コスメティックサイバーウェア",
+ 	 	 	 	"eng": "Cosmetic Cyberwear"
+ 	 	 	},
+ 	 	 	"tut": {
+ 	 	 	 	"trans": "ゲームをお楽しみですか？寄付を検討いただけると幸いです:)",
+ 	 	 	 	"eng": "If you liked the game, please consider donation :)"
+ 	 	 	},
+ 	 	 	"canAccessError": {
+ 	 	 	 	"trans": "コスメティックマーチャントにアクセスするにはレベル5以上が必要です",
+ 	 	 	 	"eng": "You need to be at least level 5 to access cosmetic merchant"
+ 	 	 	}
+ 	 	},
+ 	 	"printer": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "分子合成式3Dプリンター",
+ 	 	 	 	"eng": "Molecular 3d Printer"
+ 	 	 	},
+ 	 	 	"tut": {
+ 	 	 	 	"trans": "キャッシュを使用して新たな装備品をクラフトできる",
+ 	 	 	 	"eng": "You can use your Cache to print new equipment here"
+ 	 	 	}
+ 	 	},
+ 	 	"weaponSmith": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "装備屋",
+ 	 	 	 	"eng": "Weapon Smith"
+ 	 	 	}
+ 	 	},
+ 	 	"terminal": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "ターミナル",
+ 	 	 	 	"eng": "Terminal"
+ 	 	 	},
+ 	 	 	"tut": {
+ 	 	 	 	"trans": "次のエリアへ進むには、ダンジョンでシークレットキーのかけらをあつめ、 \r\n         ターミナルからブルートフォースして、エリアのキーを入手します。",
+ 	 	 	 	"eng": "To progress to the next area, you need to use get Secret Key Fragments from dungeons, \r\n        and use the Terminal to Brute Force the key for next area"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "使い古された個人用のPC。使用には十分な注意が必要。",
+ 	 	 	 	"eng": "Your personal computer, although it's a little outdated, it can get the job done with enough patience"
+ 	 	 	},
+ 	 	 	"canAccessError": {
+ 	 	 	 	"trans": "ターミナルにアクセスするにはレベル5以上が必要です",
+ 	 	 	 	"eng": "You need to be at least level 5 to access terminal"
+ 	 	 	}
+ 	 	},
+ 	 	"store": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "トリノキーマーケット",
+ 	 	 	 	"eng": "Trinoky Mart"
+ 	 	 	}
+ 	 	},
+ 	 	"bank": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "アラサカ銀行",
+ 	 	 	 	"eng": "Bank of Arasaka"
+ 	 	 	},
+ 	 	 	"canAccessError": {
+ 	 	 	 	"trans": "銀行にアクセスするにはレベル5以上が必要です",
+ 	 	 	 	"eng": "You need to be at least level 5 to access bank"
+ 	 	 	}
+ 	 	},
+ 	 	"equipmentUpgrade": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "キャリブレーションステーション",
+ 	 	 	 	"eng": "Calibration Station"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "必要なツールを備えたワークベンチを使って装備に手を加えることができる",
+ 	 	 	 	"eng": "A workbench with the necessary tools allows you to tinker with your equipment."
+ 	 	 	}
+ 	 	},
+ 	 	"storageMerchant": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "リーの交易所",
+ 	 	 	 	"eng": "Lee's Trading Post"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "収集した物を交換できる家族経営の交易所",
+ 	 	 	 	"eng": "A family run trading shop that lets you trade with what they have found while scavenging"
+ 	 	 	},
+ 	 	 	"canAccessError": {
+ 	 	 	 	"trans": "交易所にアクセスするためにレベル10以上が必要です",
+ 	 	 	 	"eng": "You need to be at least level 10 to access merchant"
+ 	 	 	}
+ 	 	},
+ 	 	"recycleMachine": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "オートリサイクラー",
+ 	 	 	 	"eng": "Automatic Recycler"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "アイテムを基礎の状態にスクラップする全自動のリサイクル機",
+ 	 	 	 	"eng": "Fully automated recycler, capable of recycling items to their basic scrap form"
+ 	 	 	}
+ 	 	}
+ 	},
+ 	"action": {
+ 	 	"increasePrint": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "印刷工場で作業する",
+ 	 	 	 	"eng": "work in printing factory"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "テックスクラップを犠牲にせずにクラフトランクを向上させる。クラフトのレベルを上げるのに役立つ。",
+ 	 	 	 	"eng": "Improve Printing Rank without sacrificing tech scrap, this may help to increase the level of your prints."
+ 	 	 	}
+ 	 	},
+ 	 	"increaseMedical": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "ボディモッドクリニックをハック",
+ 	 	 	 	"eng": "Hack a Body Mod Clinic"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "ローカルのボディモッドクリニックから有用なデータをダウンロードして、より高品質な医療用ロボットやドローンを作ることができる",
+ 	 	 	 	"eng": "Download useful data from a local body mod clinic to craft higher quality medical bots and drones."
+ 	 	 	}
+ 	 	},
+ 	 	"increaseAmmo": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "弾薬の改良",
+ 	 	 	 	"eng": "Improve Ammunition"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "弾薬に手を加えることで、より効果的な製造方法を見つけることができる",
+ 	 	 	 	"eng": "Tinker with ammunition, to find more effective ways of crafting it."
+ 	 	 	}
+ 	 	},
+ 	 	"reverseEngineer": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "リバースエンジニアリングスクラップ",
+ 	 	 	 	"eng": "Reverse Engineer Scraps"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "テックスクラップをリバースエンジニアリングすることでクラフトランクを向上させる \r\n         テックスクラップが必要",
+ 	 	 	 	"eng": "Reverse engineer tech scrap to improve your Print Rank. \r\n        You’ll need to sacrifice some of your tech scrap."
+ 	 	 	}
+ 	 	},
+ 	 	"reverseMining": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "クリプトマイニング",
+ 	 	 	 	"eng": "initiate crypto mining"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "クリプトマイニングを行うとビットコインを獲得できるが、ハッシュプロセッサーの使用が多いため、量子処理ユニット（通称QPU）がしばしば焼損する",
+ 	 	 	 	"eng": "Engaging in crypto mining will earn you Bitcoins, however due to the intense use of the Hash Processors, the Quantum Processing Unit, otherwise known as the QPU, will often burn out."
+ 	 	 	}
+ 	 	},
+ 	 	"autoFarm": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "ファームボットを展開する",
+ 	 	 	 	"eng": "Deploy farm bot"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "[AFK EXPファーム] \r\n         AIをダンジョンに展開する。 これはAIコアを使い、通常は1周のみダンジョンを巡る",
+ 	 	 	 	"eng": "[AFK Exp Farm]\r\n        Deploys an AI to dungeon for you. This will use up an AI Core, they usually only just manage the one trip."
+ 	 	 	},
+ 	 	 	"tut": {
+ 	 	 	 	"trans": "AFKしている間、AIコアを使用して自動ファームが可能です",
+ 	 	 	 	"eng": "You can use your AI Core to Auto-Farm enemies while you AFK"
+ 	 	 	}
+ 	 	},
+ 	 	"scavenge": {
+ 	 	 	"name": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"zoneName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "${zoneName}での収集",
+ 	 	 	 	"eng": "Scavenge in ${zoneName}"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"vars": [
+ 	 	 	 	 	"zoneName"
+ 	 	 	 	],
+ 	 	 	 	"trans": "[AFKリソース収集] \r\n                     ${zoneName}内を探索し、便利なアイテムを調達する。 \r\n                     運が良ければ、あるいは！",
+ 	 	 	 	"eng": "[AFK Resource Gather]\r\n                    Search around in ${zoneName} and scavenge for useful items.\r\n                    Who knows, maybe you'll get lucky!"
+ 	 	 	}
+ 	 	},
+ 	 	"clanResource": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "クランリソースを集める",
+ 	 	 	 	"eng": "Gather Gang Resource"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "クランに必要な資源を集めて管理する",
+ 	 	 	 	"eng": "Help gather and manage needed resources for your gang"
+ 	 	 	}
+ 	 	},
+ 	 	"clanDecryptShard": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "メモリのかけらを復号化",
+ 	 	 	 	"eng": "Decrypt memory shard"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "拾ったメモリのかけらを解析して有用な情報を得る",
+ 	 	 	 	"eng": "Decrypt memory shard you found to retrieve useful intel"
+ 	 	 	}
+ 	 	},
+ 	 	"clanOccupation": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "シャングリ・ラの占領を強化する",
+ 	 	 	 	"eng": "Reinforce occupation at Shangri-la"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "シャングリラの街を強化し、支配力を高める。",
+ 	 	 	 	"eng": "Help reinforce and establish greater control of Shangri-la city."
+ 	 	 	}
+ 	 	},
+ 	 	"gambling1": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "MEGAパチンコゲーム",
+ 	 	 	 	"eng": "Play MEGA Pachinko Game"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "こんにちは!! ^___^\r\n        MEGAパチンコで遊ぼう! 抽選で豪華賞品が当たるチャンス！\r\n        1回のプレイで10000Btcのみ、期間限定のキャンペーン！<3<3<3\r\n        ##このイベントのスポンサーであるMilitechに感謝します##",
+ 	 	 	 	"eng": "Konnichiwa!! ^___^\r\n        Come play the MEGA Pachinko! With chance to win HUGE EPIC rewards\r\n        only 5000 btc per session, LIMITED TIME OFFER!!! <3<3<3\r\n        ##Special thanks for Militech for sponsoring this event##"
+ 	 	 	}
+ 	 	},
+ 	 	"topClanExclusive": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "プロテクション料の徴収",
+ 	 	 	 	"eng": "Collect Protection Fees"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "政府関係者やSLPDを買収して、シャングリ・ラのビジネスオーナーや市民からプロテクション料を集めよう！もしかしたらEPICアイテムがもらえるかも？(トップ2ギャング専用)",
+ 	 	 	 	"eng": "Bribe Government officials and SLPD and Collect Protection Fees from business owner and citizens in Shangri-lah. maybe you will get some EPIC items from them? (Top Two Gang Exclusive)"
+ 	 	 	}
+ 	 	},
+ 	 	"globalQuest": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "HACK SLデータ要塞",
+ 	 	 	 	"eng": "Hack SL Data Fortress"
+ 	 	 	},
+ 	 	 	"description": {
+ 	 	 	 	"trans": "Shangri-LAデータ要塞をターゲットにしたサイバースペースでの共同攻撃を開始 \r\n         データ要塞がすべてのサイバナリックに接続されているユーザーに悪用を送信するように強制することが可能である場合",
+ 	 	 	 	"eng": "Launch a collaborated attack in cyberspace targeting the Shangri-La Data Fortress\r\n        if attack were to succeed its possible to force the Data Fortress to transmit exploits to all cybernetically connected users"
+ 	 	 	}
+ 	 	}
+ 	},
+ 	"receive": {
+ 	 	"item": {
+ 	 	 	"vars": [
+ 	 	 	 	"amount",
+ 	 	 	 	"itemName"
+ 	 	 	],
+ 	 	 	"trans": "${amount}個の${itemName}を受け取りました",
+ 	 	 	"eng": "You received ${amount} ${itemName}"
+ 	 	}
+ 	},
+ 	"tier": {
+ 	 	"trash": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "使えない",
+ 	 	 	 	"eng": "trash"
+ 	 	 	}
+ 	 	},
+ 	 	"common": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "普通の",
+ 	 	 	 	"eng": "common"
+ 	 	 	}
+ 	 	},
+ 	 	"highQuality": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "高品質",
+ 	 	 	 	"eng": "high quality"
+ 	 	 	}
+ 	 	},
+ 	 	"rare": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "レア",
+ 	 	 	 	"eng": "rare"
+ 	 	 	}
+ 	 	},
+ 	 	"legendary": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "伝説の",
+ 	 	 	 	"eng": "legendary"
+ 	 	 	}
+ 	 	},
+ 	 	"epic": {
+ 	 	 	"name": {
+ 	 	 	 	"trans": "英雄の",
+ 	 	 	 	"eng": "epic"
  	 	 	}
  	 	}
  	},
@@ -391,14 +571,14 @@
  	 	 	 	"vars": [
  	 	 	 	 	"levelName"
  	 	 	 	],
- 	 	 	 	"trans": "Fragmento de Experiencia [${levelName}]",
+ 	 	 	 	"trans": "経験値シャード[${levelName}]",
  	 	 	 	"eng": "Experience Shard [${levelName}]"
  	 	 	},
  	 	 	"description": {
  	 	 	 	"vars": [
  	 	 	 	 	"levelName"
  	 	 	 	],
- 	 	 	 	"trans": "Un fragmento que contiene las memorias y experiencias de alguien, si lo usas podrás ganar ${levelName} experiencia de esto",
+ 	 	 	 	"trans": "誰かの記憶と経験が込められたかけら、${levelName}の経験を得ることができる",
  	 	 	 	"eng": "A shard that contains someone's memory and experience. If used you may gain ${levelName} experience from this"
  	 	 	}
  	 	},
@@ -408,14 +588,14 @@
  	 	 	 	 	"segmentDisplayName",
  	 	 	 	 	"fragmentNum"
  	 	 	 	],
- 	 	 	 	"trans": "${segmentDisplayName} Fragmento de Llave ${fragmentNum}",
+ 	 	 	 	"trans": "${segmentDisplayName}キーフラグメント${fragmentNum}",
  	 	 	 	"eng": "${segmentDisplayName} Key Fragment ${fragmentNum}"
  	 	 	},
  	 	 	"description": {
  	 	 	 	"vars": [
  	 	 	 	 	"segmentDisplayName"
  	 	 	 	],
- 	 	 	 	"trans": "Fragmento de Llave Secreta, Úsalo para descifrar una llave secreta.\r\n                                Usa la Terminal en el Centro de la Ciudad [Centro] para descifrar una llave secreta ${segmentDisplayName}.\r\n                                Puedes adquirir cada una de las 3 llaves requeridas en cada mazmorra (ambas normal y desafiante),\r\n                                cuando adquieras las 3 llaves, podrás usar la Terminal para descifrar (Fabricar) una llave del área siguiente",
+ 	 	 	 	"trans": "シークレットキーのかけらはシークレットキーをブルートフォースするために使用する。 \r\n                                 シティーセンター [ハブ]でターミナルを使用し、${segmentDisplayName}シークレットキーをブルートフォースできる。 \r\n                                 必要な3つのキーは各ダンジョン（ノーマル、チャレンジどれでも）でそれぞれ入手可能。 \r\n                                 3つのキーを獲得すると、ターミナルを使って次のエリアへのキーをブルートフォース（クラフト）できる。",
  	 	 	 	"eng": "A secret key Fragment used to brute-force a secret key.\r\n                                Use the Terminal at city center [Hub] to brute-force a ${segmentDisplayName} secret key.\r\n                                You can acquire each of the 3 required keys in each dungeon (both normal or challenge),\r\n                                when you acquired 3 keys, you may use Terminal to brute-force (Craft) a key to the next area"
  	 	 	}
  	 	},
@@ -425,823 +605,643 @@
  	 	 	 	 	"tierName",
  	 	 	 	 	"typeName"
  	 	 	 	],
- 	 	 	 	"trans": "Caché de ${typeName} ${tierName}",
+ 	 	 	 	"trans": "${tierName} ${typeName}キャッシュ",
  	 	 	 	"eng": "${tierName} ${typeName} cache"
  	 	 	},
  	 	 	"description": {
  	 	 	 	"vars": [
  	 	 	 	 	"typeName"
  	 	 	 	],
- 	 	 	 	"trans": "Un caché de ${typeName} contiene información usada para la Impresión 3D Molecular, \r\n                    Puedes crear un ${typeName} con la [Molecular 3d Printer] en el [Central Hub].\r\n                    \r\n                    Consejo: El nivel del objeto impreso se determina según tu rango de impresión,\r\n                    así que imprime siempre la basura primero, cuestan menos y son útiles para subir tu rango de impresión",
+ 	 	 	 	"trans": "${typeName}キャッシュには、分子合成式3Dプリントに必要な情報が含まれている。 \r\n                     [セントラルハブ]で[分子合成式3Dプリンタ]で${typeName}を作成できる。 \r\n                    \r\n                     PRO TIP：プリンタから得られるアイテムのレベルはクラフトスキルに依存し、 \r\n                     そのため、つかえないものからプリントしていくと、コストがかからずクラフトスキルをあげることにも役立つ。",
  	 	 	 	"eng": "A ${typeName} cache contains information used for Molecular 3D Printing, \r\n                    You can create a ${typeName} with the [Molecular 3d Printer] at [Central Hub].\r\n                    \r\n                    Pro tip: The level of item you get from printing is determined by your Printing Rank,\r\n                    so always print the trash ones first, as they cost less and useful to level up your Printing Rank"
  	 	 	}
  	 	},
  	 	"helmet": {
  	 	 	"name": {
- 	 	 	 	"trans": "casco",
+ 	 	 	 	"trans": "ヘルメット",
  	 	 	 	"eng": "helmet"
  	 	 	}
  	 	},
  	 	"upperArmor": {
  	 	 	"name": {
- 	 	 	 	"trans": "armadura superior",
+ 	 	 	 	"trans": "アーマージャケット",
  	 	 	 	"eng": "upper armor"
  	 	 	}
  	 	},
  	 	"lowerArmor": {
  	 	 	"name": {
- 	 	 	 	"trans": "armadura inferior",
+ 	 	 	 	"trans": "アーマーパンツ",
  	 	 	 	"eng": "lower armor"
  	 	 	}
  	 	},
  	 	"boots": {
  	 	 	"name": {
- 	 	 	 	"trans": "botas",
+ 	 	 	 	"trans": "ブーツ",
  	 	 	 	"eng": "boots"
  	 	 	}
  	 	},
  	 	"upgradeModule": {
  	 	 	"name": {
- 	 	 	 	"trans": "módulo de mejora",
+ 	 	 	 	"trans": "アップグレードモジュール",
  	 	 	 	"eng": "upgrade module"
  	 	 	}
  	 	},
  	 	"healing1": {
  	 	 	"name": {
- 	 	 	 	"trans": "Dolor fuera",
+ 	 	 	 	"trans": "バファソニン",
  	 	 	 	"eng": "Pain Away"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "¿Te duele la cabeza? ¡Usa Pain Away™ para aliviar tu dolor!",
+ 	 	 	 	"trans": "頭痛はありますか？ 痛みに効くのはバファソニン™！",
  	 	 	 	"eng": "Do you have headache? Use Pain Away™ to relieve your pain!"
  	 	 	}
  	 	},
  	 	"healing2": {
  	 	 	"name": {
- 	 	 	 	"trans": "Nano Bot de Reparación deteriorado",
+ 	 	 	 	"trans": "使い古されたナノリペアボット",
  	 	 	 	"eng": "Degraded Nano Repair Bot"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Viejo nano bot de reparación, usualmente utilizado para reparar pequeños dispositivos tecnológicos",
+ 	 	 	 	"trans": "劣化したナノ修理ボット、通常は小さな機器を修理するために使用される",
  	 	 	 	"eng": "An old nano repair bot, usually used to repair small tech devices."
  	 	 	}
  	 	},
  	 	"healing3": {
  	 	 	"name": {
- 	 	 	 	"trans": "Nano bot médico deteriorado",
+ 	 	 	 	"trans": "使い古されたナノメディックボット",
  	 	 	 	"eng": "Degraded Nano Medic Bot"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Viejo Nano bot médico, ¡inyectalo para curar cualquier(*aplican condiciones) herida!",
+ 	 	 	 	"trans": "劣化したナノメディックボット、これを使用すると、あらゆる（*条件付き）傷害が治療される！",
  	 	 	 	"eng": "Old nano medic bot is used to cure any (*conditions apply) injury!"
  	 	 	}
  	 	},
  	 	"healing4": {
  	 	 	"name": {
- 	 	 	 	"trans": "Nano bot médico",
+ 	 	 	 	"trans": "ナノメディックボット",
  	 	 	 	"eng": "Nano Medic Bot"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "¡inyéctalo para curar cualquier(*aplican condiciones) herida!",
+ 	 	 	 	"trans": "使用すると、あらゆる（*条件付き）傷害が治療される！",
  	 	 	 	"eng": "Inject it to cure any(*conditions apply) injury!"
  	 	 	}
  	 	},
  	 	"healing5": {
  	 	 	"name": {
- 	 	 	 	"trans": "Nano bot médico militar",
+ 	 	 	 	"trans": "軍用ナノメディックボット",
  	 	 	 	"eng": "Military Nano Medic Bot"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Nano máquinas inyectables de uso militar estándar, capaces de curar heridas durante el combate",
+ 	 	 	 	"trans": "軍隊で標準的に使用されている注入可能なナノマシンで、戦闘中の怪我の治療ができる。",
  	 	 	 	"eng": "Injectable nano machines that are standard issue for military use. They are capable of patching injuries while in combat."
  	 	 	}
  	 	},
  	 	"healing6": {
  	 	 	"name": {
- 	 	 	 	"trans": "Nano bot médico avanzado",
+ 	 	 	 	"trans": "次世代型ナノメディックボット",
  	 	 	 	"eng": "Advanced Nano Medic Bot"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Nano máquinas inyectables que se usan en el ejército. Son capaces de curar heridas durante el combate.",
+ 	 	 	 	"trans": "軍で使用されている注射用ナノマシン。戦闘中のケガの治療が可能。",
  	 	 	 	"eng": "Injectable nano machines that are standard issue for military use. They're capable of patching injuries while in combat."
  	 	 	}
  	 	},
  	 	"healing7": {
  	 	 	"name": {
- 	 	 	 	"trans": "Nano bot médico de alta calidad",
+ 	 	 	 	"trans": "高品質ナノメディックボット",
  	 	 	 	"eng": "High Quality Nano Medic Bot"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "nano máquinas inyectables de uso militar avanzado, capaces de curar heridas en combate",
+ 	 	 	 	"trans": "戦闘中の怪我を治療することができる、軍用先行使用のナノ注射器。",
  	 	 	 	"eng": "Injectable nano machines that are standard issue for military use. They're capable of patching injuries while in combat."
  	 	 	}
  	 	},
  	 	"healing8": {
  	 	 	"name": {
- 	 	 	 	"trans": "Nano bot médico raro",
+ 	 	 	 	"trans": "珍しいナノメディックボット",
  	 	 	 	"eng": "Rare Nano Medic Bot"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "nano maquinas de uso militar avanzado, capaces de curar heridas en combate",
+ 	 	 	 	"trans": "戦闘中の怪我を治療することができる、軍用先行使用のナノ注射器。",
  	 	 	 	"eng": "Injectable nano machines that are standard issue for military use. They're capable of patching injuries while in combat."
  	 	 	}
  	 	},
  	 	"healingArea1": {
  	 	 	"name": {
- 	 	 	 	"trans": "Pain Away en Aerosol",
+ 	 	 	 	"trans": "バファソニンスプレー",
  	 	 	 	"eng": "Pain Away Spray"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "¿Tienen tú y tu amigo dolor de cabeza? ¡Usa Pain Away Spray™ para aliviar su dolor!",
+ 	 	 	 	"trans": "あなたと友人は一緒に頭痛を抱えていますか？ 痛みに聞くのはバファソニンスプレー™！",
  	 	 	 	"eng": "Do you and your friends both have headaches? Use Pain Away Spray™ to relief your pain!"
  	 	 	}
  	 	},
  	 	"healingArea2": {
  	 	 	"name": {
- 	 	 	 	"trans": "Dron de reparación deteriorado",
+ 	 	 	 	"trans": "古ぼけたリペアドローン",
  	 	 	 	"eng": "Degraded Repair drone"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Dron de reparación deteriorado, capaz de reparar o curar a jugadores cercanos",
+ 	 	 	 	"trans": "周辺のプレーヤーを修理または治療することができる劣化した修理ドローン",
  	 	 	 	"eng": "Old repair drone, capable of repairing or heal nearby players"
  	 	 	}
  	 	},
  	 	"healingArea3": {
  	 	 	"name": {
- 	 	 	 	"trans": "Nano dron médico deteriorado",
+ 	 	 	 	"trans": "古ぼけたナノメディックドローン",
  	 	 	 	"eng": "Degraded nano medic drone"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Nano dron viejo, capaz de desplegar miles de nano máquinas para curar a jugadores cercanos",
+ 	 	 	 	"trans": "旧式のナノドローン。近くのプレイヤーを治療するために数千個のナノマシンを送り出す。",
  	 	 	 	"eng": "Old nano drone, capable of dispatching thousands of nano machines to heal nearby players"
  	 	 	}
  	 	},
  	 	"healingArea4": {
  	 	 	"name": {
- 	 	 	 	"trans": "Nano dron médico",
+ 	 	 	 	"trans": "ナノメディックドローン",
  	 	 	 	"eng": "Nano medic drone"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Capaz de desplegar miles de nano máquinas para curar a jugadores cercanos",
+ 	 	 	 	"trans": "近くのプレイヤーを治療するために数千個のナノマシンを送り出す",
  	 	 	 	"eng": "capable of dispatching thousands of nano machines to heal nearby players"
  	 	 	}
  	 	},
  	 	"healingArea5": {
  	 	 	"name": {
- 	 	 	 	"trans": "Nano dron médico militar",
+ 	 	 	 	"trans": "軍用ナノメディックドローン",
  	 	 	 	"eng": "Military Nano medic drone"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Capaz de desplegar miles de nano máquinas militares para curar a jugadores cercanos",
+ 	 	 	 	"trans": "近くのプレーヤーを治療するために何千もの軍用ナノマシンを送り出す",
  	 	 	 	"eng": "capable of dispatching thousands of military nano machines to heal nearby players"
  	 	 	}
  	 	},
  	 	"healingArea6": {
  	 	 	"name": {
- 	 	 	 	"trans": "Nano dron médico Avanzado",
+ 	 	 	 	"trans": "次世代型ナノメディックドローン",
  	 	 	 	"eng": "Advance Nano medic drone"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Capaz de desplegar miles de nano máquinas avanzadas para curar a jugadores cercanos",
+ 	 	 	 	"trans": "近くのプレーヤーを治療するために何千もの次世代型ナノマシンを送り出す",
  	 	 	 	"eng": "capable of dispatching thousands of advanced nano machines to heal nearby players"
  	 	 	}
  	 	},
  	 	"healingArea7": {
  	 	 	"name": {
- 	 	 	 	"trans": "Nano dron médico de alta calidad",
+ 	 	 	 	"trans": "高品質ナノメディックドローン",
  	 	 	 	"eng": "High Quality Nano medic drone"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Capaz de desplegar miles de nano máquinas avanzadas para curar a jugadores cercanos",
+ 	 	 	 	"trans": "近くのプレーヤーを治療するために何千もの次世代型ナノマシンを送り出す",
  	 	 	 	"eng": "capable of dispatching thousands of advanced nano machines to heal nearby players"
  	 	 	}
  	 	},
  	 	"healingArea8": {
  	 	 	"name": {
- 	 	 	 	"trans": "Nano dron médico raro",
+ 	 	 	 	"trans": "珍しいナノメディックドローン",
  	 	 	 	"eng": "Rare Nano medic drone"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Capaz de desplegar miles de nano máquinas avanzadas para curar a jugadores cercanos",
+ 	 	 	 	"trans": "近くのプレーヤーを治療するために何千もの次世代型ナノマシンを送り出す",
  	 	 	 	"eng": "capable of dispatching thousands of advanced nano machines to heal nearby players"
  	 	 	}
  	 	},
  	 	"medicalTechParts": {
  	 	 	"name": {
- 	 	 	 	"trans": "Partes de tecnología médica",
+ 	 	 	 	"trans": "医療機器パーツ",
  	 	 	 	"eng": "Medical Tech Parts"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Trozos y piezas de tecnología médica usada, se pueden usar para fabricar objetos de curación si sabes como hacerlo",
+ 	 	 	 	"trans": "使われている医療技術のかけら。知識があれば、これを使ってヒーリングアイテムを作ることができる。",
  	 	 	 	"eng": "Bits and pieces of used medical tech. This can be used to craft healing items if you understand how"
  	 	 	}
  	 	},
  	 	"expMemory": {
  	 	 	"name": {
- 	 	 	 	"trans": "Memoria de Experiencia",
+ 	 	 	 	"trans": "エクスペリエンスメモリー",
  	 	 	 	"eng": "Experience Memory"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Banco de memoria que contiene las memorias de alguien, si lo usas podrías ganar experiencia de esto",
+ 	 	 	 	"trans": "誰かの記憶が入ったメモリーバンク。使用すると経験値を得ることができる。",
  	 	 	 	"eng": "Memory bank contains someone's memory. If used you may gain experience from this"
  	 	 	}
  	 	},
  	 	"hashProcessor": {
  	 	 	"name": {
- 	 	 	 	"trans": "Procesador hash",
+ 	 	 	 	"trans": "ハッシュプロセッサー",
  	 	 	 	"eng": "Hash Processor"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Se puede usar como un hardware dedicado para minar BitCoins, \r\n        aunque debido al overclocking, el procesador se sobrecalienta con facilidad,\r\n        Puedes usar esto para minar BitCoins en [CENTRO DE TRABAJO]",
+ 	 	 	 	"trans": "Bitcoinマイニング用の専用ハードウェアとして使用可能。 \r\n         ただし、オーバークロックのため、プロセッサが簡単に焼け付く。 \r\n         [ジョブハブ]でBitcoinのマイニングに使用可能。",
  	 	 	 	"eng": "Can be used as a dedicated hardware for BitCoin mining, \r\n        however due to overclocking, the processor is easily burntout,\r\n        You may use this to mine BitCoin at [JOB HUB]"
  	 	 	}
  	 	},
  	 	"afkAcceleration": {
  	 	 	"name": {
- 	 	 	 	"trans": "Transmisor de Aceleración Sináptica",
+ 	 	 	 	"trans": "シナプス加速送信機",
  	 	 	 	"eng": "Synaptic Acceleration Transmitter"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Transmite ventajas a todos los usuarios ciberneticamente conectados, overclockea sus procesadores sinápticos, lo que permite una capacidad mental super-humana por un corto periodo de tiempo.\r\n        \r\n        Otorga una Mejora Global a todos los jugadores en línea cuando se usa, permitiendoles completar trabajos AFK un +5% más rapido durante 10 minutos (acumulable)",
+ 	 	 	 	"trans": "サイバネティック接続された全てのユーザーにエクスプロイトを配信し、シナプスプロセッサをオーバークロックさせることで、短時間で超人的な精神力を得ることができる。 \r\n        \r\n         使用すると、オンライン中の全てのプレイヤーにグローバルバフを与え、10分間AFKタスクを+5%のスピードでこなすことができる。（スタック可能）",
  	 	 	 	"eng": "Broadcasts exploits to all cybernetically connected users, overclocking their synaptic processors thus allowing super-human mental capacity for short period of time.\r\n        \r\n        When used, gives Global Buff to all players online, allowing them to complete AFK tasks in +5% speed for 10 minutes (stackable)"
  	 	 	}
  	 	},
  	 	"afkAcceleration2": {
  	 	 	"name": {
- 	 	 	 	"trans": "Transmisor de aceleración sináptica raro",
+ 	 	 	 	"trans": "珍しいシナプス加速伝達機",
  	 	 	 	"eng": "Rare Synaptic Acceleration Transmitter"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Transmite ventajas a todos los usuarios ciberneticamente conectados, overclockea sus procesadores sinápticos permitiendo una capacidad mental super-humana por un corto periodo de tiempo.\r\n        \r\n        Otorga una Mejora Global a todos los jugadores en línea cuando se usa, permitiendoles completar trabajos AFK un  +40% más rapido durante 20 minutos (acumulable)",
+ 	 	 	 	"trans": "サイバネティック接続された全てのユーザーにエクスプロイトを配信し、シナプスプロセッサをオーバークロックさせることで、短時間で超人的な精神力を得ることができる。。 \r\n        \r\n         使用すると、オンライン中の全てのプレイヤーにグローバルバフを与え、20分間AFKタスクを+40%のスピードでこなすことができる。（スタック可能）",
  	 	 	 	"eng": "Broadcasts exploits to all cybernetically connected users, overclocking their synaptic processors thus allowing super-human mental capacity for short period of time.\r\n        \r\n        When used, gives Global Buff to all players online, allowing them to complete AFK tasks in +40% speed for 20 minutes (stackable)"
  	 	 	}
  	 	},
  	 	"expMultiplier": {
  	 	 	"name": {
- 	 	 	 	"trans": "Transmisor de optimización de Cortex frontal",
+ 	 	 	 	"trans": "前頭皮質最適化送信機",
  	 	 	 	"eng": "Frontal Cortex Optimization Transmitter"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Transmite ventajas a todos los usuarios ciberneticamente conectados, mejora sus integraciones de la Corteza Frontal con softwares ciberneticos instalados, lo que permite incrementar la capacidad de memoria del usuario.\r\n\r\n        Al utilizarlo, otorga una Mejora global a todos los jugadores en línea, incrementando la EXP ganada en un 180% durante 20 minutos\r\n        ",
+ 	 	 	 	"trans": "サイバネティック接続された全てのユーザーにエクスプロイトを配信してユーザーの前頭皮質の統合を強化し、ユーザーのメモリ能力を向上させる。 \r\n\r\n         使用すると、オンライン中の全プレイヤーにグローバルバフを与え、20分間獲得EXPを180%増加させる。",
  	 	 	 	"eng": "Broadcasts exploits to all cybernetically connected users, enhancing their Frontal Cortex integration with cyberwares installed, thus increasing memory capability of the user.\r\n\r\n        When used, gives Global Buff to all players online, increase EXP gained to 180% for 20 minutes\r\n        "
  	 	 	}
  	 	},
  	 	"btcMultiplier": {
  	 	 	"name": {
- 	 	 	 	"trans": "Exploit transmisor de transaccion",
+ 	 	 	 	"trans": "トランザクションエクスプロイト送信機",
  	 	 	 	"eng": "Transaction Exploit Transmitter"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Transmite ventajas a todos los usuarios ciberneticamente conectados, potencia su algoritmo de intercambio temporalmente, lo que permite a los usuarios recibir un extra de  ${Config.CURRENCY_NAME}.\r\n\r\n        Al utilizarlo, otorga una mejora global a todos los jugadores en línea, incrementando los Bitcoins ganados en un 40% durante 20 minutes (acumulable)\r\n        ",
+ 	 	 	 	"trans": "ブすべてのサイバネティック接続されたユーザーにエクスプロイトを配信し、トランザクション・アルゴリズムを一時的に奪取し、ユーザーはボーナス${config.currency_name}を受け取ることができます。 \r\n\r\n         使用すると、オンライン中の全プレイヤーにグローバルバフを与え、20分間BitCoinの獲得量を40%増加させる。(スタック可能)",
  	 	 	 	"eng": "Broadcasts exploits to all cybernetically connected users, argument their transaction algorithm temporary, allowing user to receive bonus  ${Config.CURRENCY_NAME}.\r\n\r\n        When used, gives Global Buff to all players online, increase BitCoin gained by 40% for 20 minutes (stackable)\r\n        "
  	 	 	}
  	 	},
  	 	"aiCore": {
  	 	 	"name": {
- 	 	 	 	"trans": "Núcleo de IA",
+ 	 	 	 	"trans": "AIコア",
  	 	 	 	"eng": "AI Core"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Unidad de Procesamiento Neurológico (NPU) de uso comercial. Viene con una IA para diferentes usos. \r\n        Puedes usarla para desplegar un bot que recoja recursos en las mazmorras",
+ 	 	 	 	"trans": "市販の神経処理装置（NPU）。 汎用AIが搭載されている。 \r\n         これを使用して、ファーミングボットをダンジョンに展開できる。",
  	 	 	 	"eng": "Commercially used Neural Processing Unit (NPU). Comes with general purpose AI. \r\n        You can use this to deploy a farming bot to dungeon for you."
  	 	 	}
  	 	},
  	 	"ammo1": {
  	 	 	"name": {
- 	 	 	 	"trans": "Célula energética",
+ 	 	 	 	"trans": "エネルギーセル",
  	 	 	 	"eng": "Energy Cell"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Dispositivo de almacenamiento de energía portátil, Lo puedes usar como munición desechable para tus armas especiales",
+ 	 	 	 	"trans": "持ち運び可能な蓄電装置で、特殊武器の弾薬として使用できる。",
  	 	 	 	"eng": "Portable energy storage device, it can be used as consumable ammo for your Special Weapons"
  	 	 	}
  	 	},
  	 	"ammo2": {
  	 	 	"name": {
- 	 	 	 	"trans": "Carga de antimateria",
+ 	 	 	 	"trans": "アンチマターチャージ",
  	 	 	 	"eng": "Anti Matter Charge"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Generador miniatura de energía antimateria de alta tecnología, de un solo uso. \r\n        Este objeto produce cantidades enormes de energía. Puedes usarlo como munición para tu arma destructiva. ",
+ 	 	 	 	"trans": "ハイテク小型化された1回限りの反物質エネルギー発生装置。 \r\n         このアイテムは膨大な量のパワーを生み出す。破壊武器の弾薬として使うことができる。",
  	 	 	 	"eng": "High-tech, miniaturized, one-time use, antimatter energy generator. \r\n        This item produces enormous amounts of power. You can use this as ammunition for your destructive weapon. "
  	 	 	}
  	 	},
  	 	"ammoTech1": {
  	 	 	"name": {
- 	 	 	 	"trans": "Partes tecnológicas de munición",
+ 	 	 	 	"trans": "弾薬技術部品",
  	 	 	 	"eng": "Ammunition tech parts"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Partes tecnológicas de munición, Es común verlas en el mercado negro. \r\n        Puedes usarlas para construir munición si sabes como hacerlo.",
+ 	 	 	 	"trans": "弾薬技術部品、闇市場で流通しているもの。 \r\n         知識があれば、これを使って弾薬を作成できる。",
  	 	 	 	"eng": "Ammunition tech parts, These can be commonly found circulating the black market. \r\n        You can use these to craft ammunition if you understand how."
  	 	 	}
  	 	},
  	 	"ammoTech2": {
  	 	 	"name": {
- 	 	 	 	"trans": "Partes tecnológicas de munición militar",
+ 	 	 	 	"trans": "軍用弾薬技術部品",
  	 	 	 	"eng": "Military ammunition tech parts"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Partes tecnológicas de munición de tipo militar que comúnmente usa el gobierno, milicias y las élites, las puedes usar para construir munición si sabes cómo hacerlo",
+ 	 	 	 	"trans": "軍レベルの弾薬技術パーツ。政府や軍、エリートが使用するもので、ノウハウがあれば使用可能な弾薬に加工することができる。",
  	 	 	 	"eng": "Military grade ammunition tech parts, commonly used by government, military and the elites,can be used to craft into usable Ammo if you have the know-how"
  	 	 	}
  	 	},
  	 	"techScrap": {
  	 	 	"name": {
- 	 	 	 	"trans": "Chatarra tecnológica",
+ 	 	 	 	"trans": "テックスクラップ",
  	 	 	 	"eng": "Tech Scrap"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Chatarra tecnológica de equipamiento desmontado, puedes usarlo para conseguir EXP de impresión mediante la ingeniería inversa. \r\n        Puedes realizar ingeniería inversa en el centro de trabajo.",
+ 	 	 	 	"trans": "分解された機器の技術的なスクラップで、これをリバースエンジニアリングすることでクラフトの経験値を得ることができる。 \r\n         ジョブハブでリバースエンジニアリングを実行可能。",
  	 	 	 	"eng": "Technology scrap from disassembled equipment, this can be reverse engineered to gain printing xp. \r\n        You can perform reverse engineering in the Job Hub."
  	 	 	}
  	 	},
  	 	"primaryWeapon": {
  	 	 	"name": {
- 	 	 	 	"trans": "Arma primaría",
+ 	 	 	 	"trans": "メインウェポン",
  	 	 	 	"eng": "Primary Weapon"
  	 	 	}
  	 	},
  	 	"secondary": {
  	 	 	"name": {
- 	 	 	 	"trans": "Arma especial",
+ 	 	 	 	"trans": "特別兵器",
  	 	 	 	"eng": "Special Weapon"
  	 	 	}
  	 	},
  	 	"tertiary": {
  	 	 	"name": {
- 	 	 	 	"trans": "Arma destructiva",
+ 	 	 	 	"trans": "破壊武器",
  	 	 	 	"eng": "Destructive Weapon"
  	 	 	}
  	 	},
  	 	"lootBox1": {
  	 	 	"name": {
- 	 	 	 	"trans": "contenedor bloqueado",
+ 	 	 	 	"trans": "鍵のかかったコンテナ",
  	 	 	 	"eng": "locked container"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Un contenedor reforzado con cerradura de encriptación biométrica, parece contener elementos importantes en su interior.\r\n        Por suerte, el microordenador de a bordo se está ejecutando con un firmware obsoleto, lo que hace posible instalar un hack, ve a [Terminal] para desbloquear este contenedor",
+ 	 	 	 	"trans": "生体認証による暗号化ロックが施された強化コンテナ。中には重要なアイテムが入っているらしい。 \r\n         幸運なことに、搭載されているマイクロコンピュータは侵入可能な古いファームウェアで動作している。[ターミナル]からロック解除が可能。",
  	 	 	 	"eng": "A reinforced container with biometric encryption lock, it seems to contain important items inside.\r\n        Luckily the on board micro computer is running on out-dated firmware, where an exploit is possible, go to [Terminal] to unlock this container"
  	 	 	}
  	 	},
  	 	"lootBox2": {
  	 	 	"name": {
- 	 	 	 	"trans": "contenedor raro bloqueado",
+ 	 	 	 	"trans": "鍵のかかった珍しいコンテナ",
  	 	 	 	"eng": "locked rare container"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Un contenedor reforzado con cerradura de encriptación biométrica, parece contener elementos importantes en su interior.\r\n        Por suerte, el microordenador de a bordo se está ejecutando con un firmware obsoleto, lo que hace posible instalar un hack, ve a [Terminal] para desbloquear este contenedor",
+ 	 	 	 	"trans": "生体認証による暗号化ロックが施された強化コンテナ。中には重要なアイテムが入っているらしい。 \r\n         幸運なことに、搭載されているマイクロコンピュータは侵入可能な古いファームウェアで動作している。[ターミナル]からロック解除が可能。",
  	 	 	 	"eng": "A reinforced container with biometric encryption lock, it seems to contain important items inside.\r\n        Luckily the on board micro computer is running on out-dated firmware, where an exploit is possible, go to [Terminal] to unlock this container"
  	 	 	}
  	 	},
  	 	"lootBox3": {
  	 	 	"name": {
- 	 	 	 	"trans": "Contenedor legendario bloqueado",
+ 	 	 	 	"trans": "鍵のかかった伝説のコンテナ",
  	 	 	 	"eng": "locked legendary container"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Un contenedor reforzado con cerradura de encriptación biométrica, parece contener elementos importantes en su interior.\r\n        Por suerte, el microordenador de a bordo se está ejecutando con un firmware obsoleto donde es posible instalar un hack, ve a [Terminal] para desbloquear este contenedor",
+ 	 	 	 	"trans": "生体認証による暗号化ロックが施された強化コンテナ。中には重要なアイテムが入っているらしい。 \r\n         幸運なことに、搭載されているマイクロコンピュータは侵入可能な古いファームウェアで動作している。[ターミナル]からロック解除が可能。",
  	 	 	 	"eng": "A reinforced container with biometric encryption lock, it seems to contain important items inside.\r\n        Luckily the on board micro computer is running on out-dated firmware, where an exploit is possible, go to [Terminal] to unlock this container"
  	 	 	}
  	 	},
  	 	"clanDungeonKey": {
  	 	 	"name": {
- 	 	 	 	"trans": "Transmisor de orden de invasión de pandillas",
+ 	 	 	 	"trans": "ギャング侵略指令送信機",
  	 	 	 	"eng": "Gang Invasion Order Transmitter"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Un simple dispositivo transmisor que puede unirse a un canal encriptado de tu banda y dar la orden de invasión.\r\n        Este elemento es necesario para activar las Mazmorras de Banda",
+ 	 	 	 	"trans": "ギャングの暗号化されたチャンネルに接続し、侵攻命令を出すことができるシンプルな送信機。 \r\n         ギャングダンジョンの起動に必要",
  	 	 	 	"eng": "A simple transmitter device that can be bind to your gang encrypted channel and give out invasion order.\r\n        This item is required to activate Gang Dungeons"
  	 	 	}
  	 	},
  	 	"clanResource": {
  	 	 	"name": {
- 	 	 	 	"trans": "Caja de Suministros [Banda]",
+ 	 	 	 	"trans": "支援クレート[ギャング]",
  	 	 	 	"eng": "Supply Crate [Gang]"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Contiene artículos varios y recursos para que la banda permanezca funcional,\r\n        Haz click en usar para enviarlo al cuartel general de tu banda",
+ 	 	 	 	"trans": "ギャングが機能を維持するための様々なアイテムや資源が入っている。クリックするとギャング本部に送信される。 \r\n         [使用]をクリックしてGang本部に送信",
  	 	 	 	"eng": "Contains misc items and resources for a gang to stay functional,\r\n        Click use to send it to your gang headquarters"
  	 	 	}
  	 	},
  	 	"clanExp": {
  	 	 	"name": {
- 	 	 	 	"trans": "Fragmento de memoria de banda encriptada",
+ 	 	 	 	"trans": "暗号化ギャングメモリのかけら",
  	 	 	 	"eng": "encrypted gang memory shard"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Un fragmento de memoria que contiene secretos de banda encriptados, \r\n        descifra esto en el cuartel general de tu banda para obtener información útil (requiere estar en una banda)",
+ 	 	 	 	"trans": "メモリのかけらには暗号化されたギャングの秘密が含まれる。 \r\n         ギャング本部で復号化して、有用な情報を入手する（ギャングに所属している必要がある）",
  	 	 	 	"eng": "A memory shard contains encrypted gang secrets, \r\n        decrypt this in your gang headquarters to gain useful intel (requires to be in a gang)"
  	 	 	}
  	 	},
  	 	"upgradeActivator": {
  	 	 	"name": {
- 	 	 	 	"trans": "Núcleo de Calibración de Equipamiento",
+ 	 	 	 	"trans": "装備キャリブレーションコア",
  	 	 	 	"eng": "Equipment Calibration Core"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Un fragmento de memoria del mercado negro, contiene un algoritmo altamente encriptado y un esquema que es crucial en el proceso de calibración de los equipamientos",
+ 	 	 	 	"trans": "闇市場で販売されているメモリのかけらには、高度に暗号化されたアルゴリズムや回路図が含まれており、機器のアップグレードには欠かせない。",
  	 	 	 	"eng": "A black market memory shard contains highly encrypted algorithm and schematic that is crucial in the process of upgrading equipments"
  	 	 	}
  	 	},
  	 	"upgradeChanceIncreaser0": {
  	 	 	"name": {
- 	 	 	 	"trans": "IA con Fragmentos de Calibración(5%)",
+ 	 	 	 	"trans": "キャリブレーションAIのかけら（5％）",
  	 	 	 	"eng": "Calibration AI Shard (5%)"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Contiene fragmentos de una avanzada IA diseñada para ayudar con los equipos de actualización. \r\n         Cuando se usa, disminuye la posibilidad de falla destructiva en un 5% (apilable) durante 5 minutos.",
+ 	 	 	 	"trans": "装備品のアップグレードを支援するために設計された高度なAIの断片が含まれる。 \r\n         使用すると、5分間、破壊的な失敗の確率が5%減少。(スタック可能)",
  	 	 	 	"eng": "Contains fragments of advance AI designed to assist with upgrading equipments.\r\n        When used, decreases the chance of destructive failure by 5% (stackable) for 5 minutes."
  	 	 	}
  	 	},
  	 	"upgradeChanceIncreaser1": {
  	 	 	"name": {
- 	 	 	 	"trans": "IA con Fragmentos de Calibración (10%)",
+ 	 	 	 	"trans": "キャリブレーションAIのかけら（10％）",
  	 	 	 	"eng": "Calibration AI Shard (10%)"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Contiene fragmentos de una avanzada IA diseñada para ayudar con los equipos de actualización. \r\n         Cuando se usa, disminuye la posibilidad de falla destructiva en un 10% (apilable) durante 5 minutos.",
+ 	 	 	 	"trans": "装備品のアップグレードを支援するために設計された高度なAIの断片が含まれる。 \r\n         使用すると、5分間、破壊的な失敗の確率が10%減少。(スタック可能)",
  	 	 	 	"eng": "Contains fragments of advance AI designed to assist with upgrading equipments.\r\n        When used, decreases the chance of destructive failure by 10% (stackable) for 5 minutes."
  	 	 	}
  	 	},
  	 	"upgradeChanceIncreaser2": {
  	 	 	"name": {
- 	 	 	 	"trans": "IA con Fragmentos de Calibración (50%)",
+ 	 	 	 	"trans": "キャリブレーションAIのかけら（50％）",
  	 	 	 	"eng": "Calibration AI Shard (50%)"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Contiene fragmentos de una avanzada IA diseñada para ayudar con los equipos de actualización. \r\n         Cuando se usa, disminuye la posibilidad de falla destructiva en un 50% (apilable) durante 5 minutos. Este efecto se aplicará a todos los jugadores en línea",
+ 	 	 	 	"trans": "装備品のアップグレードを支援するために設計された高度なAIの断片が含まれる。 \r\n         使用すると、5分間、オンラインのすべてのユーザーの破壊的な失敗の確率が50%減少。(スタック可能)",
  	 	 	 	"eng": "Contains fragments of advance AI designed to assist with upgrading equipments.\r\n        When used, decreases the chance of destructive failure by 50% (stackable) for 5 minutes. This effect will apply to all players online"
  	 	 	}
  	 	},
  	 	"upgradeChanceIncreaser3": {
  	 	 	"name": {
- 	 	 	 	"trans": "IA con Fragmentos de Calibración (100%)",
+ 	 	 	 	"trans": "キャリブレーションAIのかけら（100％）",
  	 	 	 	"eng": "Calibration AI Shard (100%)"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Contiene fragmentos de una avanzada IA diseñada para ayudar con los equipos de actualización. \r\n         Cuando se usa, disminuye la posibilidad de falla destructiva en un 100% (apilable) durante 5 minutos. Este efecto se aplicará a todos los jugadores en línea",
+ 	 	 	 	"trans": "装備品のアップグレードを支援するために設計された高度なAIの断片が含まれる。 \r\n         使用すると、5分間、オンラインのすべてのユーザーの破壊的な失敗の確率が100%減少。(スタック可能)",
  	 	 	 	"eng": "Contains fragments of advance AI designed to assist with upgrading equipments.\r\n        When used, decreases the chance of destructive failure by 100% (stackable) for 5 minutes. This effect will apply to all players online"
  	 	 	}
  	 	},
  	 	"upgradeNoBreak": {
  	 	 	"name": {
- 	 	 	 	"trans": "Nano bots de Calibración Segura",
+ 	 	 	 	"trans": "キャリブレーションセーフティナノボット",
  	 	 	 	"eng": "Calibration Safety Nano Bots"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Nano máquinas experimentales diseñadas para reducir y anular el efecto destructivo al fallar la calibración, \r\n         Cuando esto está activado, todas las fallas de calibración no destruirán el artículo durante 5 minutos",
+ 	 	 	 	"trans": "キャリブレーションに失敗したときの破壊的影響を減らし、無効にするように設計された実験的ナノマシン。 \r\n         起動すると、5分間、すべてのキャリブレーションの失敗でアイテムが破壊されなくなる。",
  	 	 	 	"eng": "Experimental nano machines designed to reduces and negate the destructive effect when failing calibration, \r\n        when this is activated, all calibration fails will not destroy the item for 5 minutes"
  	 	 	}
  	 	},
  	 	"backpack1": {
  	 	 	"name": {
- 	 	 	 	"trans": "Bolsa vieja",
+ 	 	 	 	"trans": "忘れ去られたポーチ",
  	 	 	 	"eng": "Old Pouch"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Una bolsa antigua olvidada, \r\n         Hay una extraña rana de dibujos animados con boca grande y labios rojos dibujados a un lado de él, \r\n         El significado del antiguo dibujo siniestro es desconocido, pero es útil para mantener un objeto pequeño en él. \r\n         Aumenta el espacio del inventario cuando está equipado.",
+ 	 	 	 	"trans": "使い古されたポーチ。 \r\n         大きな口と赤い唇を持つ奇妙なカエルの絵が描かれている。 \r\n         擦り切れた奇妙なな絵の意味はわからないが、小物を入れるのにちょうどいい。 \r\n         装備するとインベントリサイズが増える",
  	 	 	 	"eng": "A forgotten ancient pouch, \r\n        there is a weird cartoon frog with big mouth and red lips drawing at the side of it,\r\n        the meaning of the ancient ominous drawing is unknown, but it is handy for keep some small object in it.\r\n        increase inventory space when equipped."
  	 	 	}
  	 	},
  	 	"backpack2": {
  	 	 	"name": {
- 	 	 	 	"trans": "Riñonera",
+ 	 	 	 	"trans": "おもしろバッグ",
  	 	 	 	"eng": "Fanny Pack"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Riñonera fresca y de moda, firmada hace decadas por una leyenda llamada a si misma La Roca. \r\n         Aumenta el espacio del inventario cuando está equipada.",
+ 	 	 	 	"trans": "イカしておしゃれで代わったバックパックは、かつて\"ザ・ロック\"と呼ばれた男のサインが入っている。 \r\n         装備するとインベントリサイズが増える",
  	 	 	 	"eng": "Cool and fashionable Fanny Pack, signed by a legend called The Rock himself from decades ago.\r\n        increase inventory space when equipped."
  	 	 	}
  	 	},
  	 	"backpack3": {
  	 	 	"name": {
- 	 	 	 	"trans": "Mochila del Explorador",
+ 	 	 	 	"trans": "冒険者のバックパック",
  	 	 	 	"eng": "Explorer's Backpack"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Una vieja mochila de 'explorador' púrpura con diseño de jardín de infantes, tiene una etiqueta con el nombre de su antiguo dueño \"Dora\" escrito en el, Luces fabuloso con el.\r\n        Aumenta el espacio del inventario cuando está equipado",
+ 	 	 	 	"trans": "古ぼけた、幼稚園児向けのような紫色の\"冒険者の\"バックパック。 前の所有者、\"ドーラ\"の名が書かれたタグが付いている。身に着けるととても素敵だ。 \r\n         装備するとインベントリサイズが増える",
  	 	 	 	"eng": "An old Kindergarten looking Purple 'Explorer' Backpack, it has a name tag with the previous owner's name \"Dora\" written on it, you look fabulous wearing it.\r\n        increase inventory space when equipped"
  	 	 	}
  	 	},
  	 	"backpack4": {
  	 	 	"name": {
- 	 	 	 	"trans": "Maletín de oficina de empleados",
+ 	 	 	 	"trans": "サラリーマンのビジネスバッグ",
  	 	 	 	"eng": "Employee Office Case"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Un maletín de oficina de uso común, tiene una etiqueta con la impresión de \"Arasaka\", en él, \r\n         Si bien es especioso y tiene algún compartimento y ranuras de alta tecnología para el almacenamiento de documentos, no es muy adecuado para transportar armas \r\n         Aumenta el espacio del inventario cuando está equipado",
+ 	 	 	 	"trans": "一般的なサラリーマンのカバン。\"ARASAKA\"のラベルがプリントされている。 \r\n         書類などを入れるには非常に良く機能する構造になっているが、武器を持ち運ぶには向かない。 \r\n         装備するとインベントリサイズが増える",
  	 	 	 	"eng": "An standard issue office case, it has a label with whit print with \"Arasaka\" on it, \r\n        while it is specious and has some high tech compartment and slots for document storage, it is not not very suitable for carrying weapons\r\n        increase inventory space when equipped"
  	 	 	}
  	 	},
  	 	"backpack5": {
  	 	 	"name": {
- 	 	 	 	"trans": "Unidad de almacenamiento autónoma",
+ 	 	 	 	"trans": "自律式ストレージユニット",
  	 	 	 	"eng": "Autonomous Storage Unit"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Un bot militar usado, diseñado para llevar tu equipamiento y seguirte de forma autónoma, \r\n         Con sus seis piernas fuertes que imitan el movimiento de las arañas y una IA integrada a bordo, \r\n         Puede seguirte de manera rápida y silenciosa mientras evita interponerse en cualquier  misión que esté realizando",
+ 	 	 	 	"trans": "装備を運ぶために設計され、自律的に後に続くように設計された軍用ロボット。 \r\n         オンボードの先進的なAIによってクモ動きを模した6本の強い足で、 \r\n         それはあなたが演奏しているミッションに邪魔をするのを避けながら、それはあなたに迅速かつ静かに追跡することができます",
  	 	 	 	"eng": "An military used bot designed to carry your equipments and follows you autonomously,\r\n        with it's six strong legs that imitates the movement of spiders and a advance onboard AI, \r\n        it can follow you swiftly and quietly while it avoids get in the way of whatever mission you are performing"
  	 	 	}
  	 	},
  	 	"healing9": {
  	 	 	"name": {
- 	 	 	 	"trans": "Nano bot médico legendario",
+ 	 	 	 	"trans": "伝説のナノメディックボット",
  	 	 	 	"eng": "Legendary Nano Medic Bot"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Nano máquinas inyectables de uso militar avanzado, capaz de reparar lesiones en situación de combate",
+ 	 	 	 	"trans": "戦闘中の怪我を治療することができる、軍用先行使用のナノ注射器。",
  	 	 	 	"eng": "injectable nano machines that is for advance military use, capable of patching injury in combat situation"
  	 	 	}
  	 	},
  	 	"healing10": {
  	 	 	"name": {
- 	 	 	 	"trans": "Nano bot médico épico",
+ 	 	 	 	"trans": "エピックナノメディックボット",
  	 	 	 	"eng": "Epic Nano Medic Bot"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Nano máquinas inyectables de uso militar avanzado, capaz de reparar lesiones en situación de combate",
+ 	 	 	 	"trans": "戦闘中の怪我を治療することができる、軍用先行使用のナノ注射器。",
  	 	 	 	"eng": "injectable nano machines that is for advance military use, capable of patching injury in combat situation"
  	 	 	}
  	 	},
  	 	"healingArea9": {
  	 	 	"name": {
- 	 	 	 	"trans": "Nano dron médico legendario",
+ 	 	 	 	"trans": "伝説のナノメディックドローン",
  	 	 	 	"eng": "Legendary Nano medic drone"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Capaz de enviar miles de nano máquinas avanzadas para curar a los jugadores cercanos",
+ 	 	 	 	"trans": "近くのプレーヤーを癒すために何千もの先進のナノマシンを派遣する。",
  	 	 	 	"eng": "capable of dispatching thousands of advanced nano machines to heal nearby players"
  	 	 	}
  	 	},
  	 	"healingArea10": {
  	 	 	"name": {
- 	 	 	 	"trans": "Nano dron médico Épico",
+ 	 	 	 	"trans": "エピックナノメディックドローン",
  	 	 	 	"eng": "Epic Nano medic drone"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Capaz de enviar miles de nano máquinas avanzadas para curar a los jugadores cercanos",
+ 	 	 	 	"trans": "近くのプレーヤーを癒すために何千もの先進のナノマシンを派遣する。",
  	 	 	 	"eng": "capable of dispatching thousands of advanced nano machines to heal nearby players"
  	 	 	}
  	 	},
  	 	"upgradeChanceIncreaser2personal": {
  	 	 	"name": {
- 	 	 	 	"trans": "Fragmento de IA de Calibración (50%) [Evento]",
+ 	 	 	 	"trans": "キャリブレーションAIのかけら（50％）[イベント]",
  	 	 	 	"eng": "Calibration AI Shard (50%) [EVENT]"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Contiene fragmentos de una avanzada IA diseñada para ayudar con la actualizacion de equipamiento. \r\n        Al usarlo, disminuye la posibilidad de falla destructiva en un 50% durante 5 minutos. Esto solo tiene efecto en ti. \r\n         Puede calibrar artículos en el Cuartel General de la banda, debes unirte o comenzar una banda primero.",
+ 	 	 	 	"trans": "装備品のアップグレードを支援するために設計されたの先進的なAIの断片が含まれている。 \r\n         使用すると、破壊的な失敗の可能性が5分間50%減少する。 これはあなた自身にのみ機能する。 \r\n         ギャング本部でアイテムを調整できる。ギャングを始めるか、ギャングに参加する必要がある。",
  	 	 	 	"eng": "Contains fragments of advance AI designed to assist with upgrading equipments.\r\n        When used, decreases the chance of destructive failure by 50% for 5 minutes. this only affect yourself.\r\n        You can calibrate items in your Gang Headquarters, you must join or start a gang first."
  	 	 	}
  	 	},
  	 	"chatExploitPirate": {
  	 	 	"name": {
- 	 	 	 	"trans": "Transmisor de hack de chat [pirata]",
+ 	 	 	 	"trans": "チャット侵入用送信機[PIRATE]",
  	 	 	 	"eng": "Chat exploit transmitter [PIRATE]"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Un módulo de hack que intercepta los paquetes globales del chat y los modifica, realizando un ataque de suplantación de identidad. \r\n         Transforma todo conversación en el chat global para a Habla de Pirata. Esto afecta a todos los jugadores durante 10 minutos",
+ 	 	 	 	"trans": "グローバルチャットパッケージを傍受し、それを改造し、中間攻撃を実行するエクスプロイトモジュール。 \r\n         グローバルチャットでの会話が全てPirate Speakになります。これはすべてのプレイヤーに10分間効果する。",
  	 	 	 	"eng": "A exploit module that intercepts global chat packages and modifies it, performing Man-In-The-Middle attack.\r\n        Transforms all speech at global chat to Pirate Speak. This effects all players for 10 minutes"
  	 	 	}
  	 	},
  	 	"chatExploitLeet": {
  	 	 	"name": {
- 	 	 	 	"trans": "Transmisor de hack de chat [1337]",
+ 	 	 	 	"trans": "チャット侵入用送信機[1337]",
  	 	 	 	"eng": "Chat exploit transmitter [1337]"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Un módulo de hack que intercepta los paquetes globales de chat y lo modifica, realizando un ataque de suplantación de identidad. \r\n         Transforma toda conversación en el chat global a L33T SP34K. Esto afecta a todos los jugadores durante 10 minutos",
+ 	 	 	 	"trans": "グローバルチャットパッケージを傍受し、それを改造し、中間攻撃を実行するエクスプロイトモジュール。 \r\n         グローバルチャットですべての会話がL33T SP34Kに変換される。 これはすべてのプレイヤーに10分間効果する。",
  	 	 	 	"eng": "A exploit module that intercepts global chat packages and modifies it, performing Man-In-The-Middle attack.\r\n        Transforms all speech at global chat to l33t Sp34k. This effects all players for 10 minutes"
  	 	 	}
  	 	},
  	 	"chatExploitUwU": {
  	 	 	"name": {
- 	 	 	 	"trans": "Transmisor de hack de chat [UWU]",
+ 	 	 	 	"trans": "チャット侵入用送信機[UwU]",
  	 	 	 	"eng": "Chat exploit transmitter [UwU]"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Un Moduwe de hack que intewcepta wos paquetes de chat de Gwobaw y wos modifica, weawizando un ataque de supwantación de identidad. \r\n          Twansfowma toda convewzación en el chat gwobaw en uwu Habla. Este efecto afecta a todos wos jugadowes duwante 10 minutos",
+ 	 	 	 	"trans": "グローバルチャットパッケージを傍受し、それを改造し、中間攻撃を実行するエクスプロイトモジュール。 \r\n          グローバルチャットですべての会話がaww speechに変換される。 これはすべてのプレイヤーに10分間効果する。",
  	 	 	 	"eng": "A expwoit moduwe that intewcepts gwobaw chat packages and modifies it, pewfowming man-in-the-middwe attack.\r\n         twansfowms aww speech at gwobaw chat to uwu speak. This effects aww pwayews fow 10 minutes"
  	 	 	}
  	 	},
  	 	"upgradeResetShard": {
  	 	 	"name": {
- 	 	 	 	"trans": "Fabrica de restablecimiento de fragmento",
+ 	 	 	 	"trans": "ファクトリーリセットシャード",
  	 	 	 	"eng": "Factory reset shard"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Un fragmento almacena configuraciones predeterminadas y algoritmo para el equipamiento, se usa para reestablecer tu equipamiento como recién salido de fábrica",
+ 	 	 	 	"trans": "機器のデフォルト設定やアルゴリズムを保存するシャード。機器を工場出荷時にリセットする際に使用する。",
  	 	 	 	"eng": "A shard stores default settings and algorithm for equipments, this is used for factory-resetting your equipments"
  	 	 	}
  	 	},
  	 	"timeSkipPersonal": {
  	 	 	"name": {
- 	 	 	 	"trans": "Acelerador de sináptica personal",
+ 	 	 	 	"trans": "個人用シナプスアクセラレータ",
  	 	 	 	"eng": "Personal Synaptic Accelerator"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Resta 60 minutos a las tareas AFK. \r\n         debes usarlo en la sección de AFK",
+ 	 	 	 	"trans": "使用されると、AFKタスクで60分間スキップしてください。 \r\n         AFKスクリーンで使用する必要があります",
  	 	 	 	"eng": "When used, skip 60 minutes on AFK tasks.\r\n        must be used at AFK screen"
  	 	 	}
  	 	},
  	 	"chatExploitLove": {
  	 	 	"name": {
- 	 	 	 	"trans": "Transmisor de hack de chat [amor]",
+ 	 	 	 	"trans": "チャットエクスプロイト送信機[LOVE]",
  	 	 	 	"eng": "Chat exploit transmitter [Love]"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "¡Tienes un poco de amor, y tienes un poco de amor! ¡Todos reciben un poco de amor!. \r\n         Cuando se usa a todos se aman unos a otros. \r\n         Esto afecta a todos los jugadores durante 10 minutos",
+ 	 	 	 	"trans": "あなたはいくつかの愛を得ます、そしてあなたはいくつかの愛を得る！ 誰もがいくつかの愛をもたらします！ \r\n         中古のときは誰もがお互いを愛しています \r\n         これはすべてのプレイヤーが10分後に流します",
  	 	 	 	"eng": "You get some love, and you get some love! everyone gets some love!.\r\n        When used everyone loves each other\r\n        This effects all players fow 10 minutes"
  	 	 	}
  	 	},
  	 	"chatExploitProtect": {
  	 	 	"name": {
- 	 	 	 	"trans": "CyberTunnel VPN",
+ 	 	 	 	"trans": "サイバートゥールネルVPN",
  	 	 	 	"eng": "CyberTunnel VPN"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "¿Te preocupa que Gran Hermano te espíe mientras navegas en el ciberespacio? \r\n         ¿Tus intercomunicadores siempre son hackeados con ataques maliciosos? \r\n         ¡Usa CyberTunnel VPN para proteger y cifrar tu navegación en la red! \r\n        \r\n         Una vez activado, ignora cualquier hackeo de chat durante 1 hora",
+ 	 	 	 	"trans": "サイバースペースを閲覧している間、あなたの兄弟があなたをスパイしているのを心配していますか？ \r\n         あなたのインターホンは常に悪意のある攻撃によってハッキングされますか？ \r\n         NetRunningの経験を保護して暗号化するには、Cyber Tunnel VPNを使用してください。 \r\n        \r\n         アクティブになったら、1時間のチャットの悪用を無視します。",
  	 	 	 	"eng": "Worried the Big Brother spying on you while you browse the cyberspace?\r\n        your intercoms always get hacked by malicious attacks? \r\n        use CyberTunnel VPN to protect and encrypt your netrunning experience! \r\n        \r\n        Once activated, ignores any chat exploit for 1 hour"
- 	 	 	}
- 	 	}
- 	},
- 	"action": {
- 	 	"autoFarm": {
- 	 	 	"name": {
- 	 	 	 	"trans": "Desplegar bot de farmeo",
- 	 	 	 	"eng": "Deploy farm bot"
- 	 	 	},
- 	 	 	"description": {
- 	 	 	 	"trans": "[AFK Exp Farm]\r\n        Despliega una IA que explora por ti. Esto consumirá un Núcleo de IA, normalmente solo soportan un solo uso.",
- 	 	 	 	"eng": "[AFK Exp Farm]\r\n        Deploys an AI to dungeon for you. This will use up an AI Core, they usually only just manage the one trip."
- 	 	 	},
- 	 	 	"tut": {
- 	 	 	 	"trans": "Puedes usar tu Núcleo de IA para farmear enemigos automáticamente cuando estás AFK",
- 	 	 	 	"eng": "You can use your AI Core to Auto-Farm enemies while you AFK"
- 	 	 	}
- 	 	},
- 	 	"increasePrint": {
- 	 	 	"name": {
- 	 	 	 	"trans": "trabajar en la fábrica de impresión",
- 	 	 	 	"eng": "work in printing factory"
- 	 	 	},
- 	 	 	"description": {
- 	 	 	 	"trans": "Mejora tu Rango de Impresión sin sacrificar restos de teconología, esto ayudará a aumentar el nivel de tus impresiones.",
- 	 	 	 	"eng": "Improve Printing Rank without sacrificing tech scrap, this may help to increase the level of your prints."
- 	 	 	}
- 	 	},
- 	 	"increaseMedical": {
- 	 	 	"name": {
- 	 	 	 	"trans": "Hackea una Clínica de modificación corporal",
- 	 	 	 	"eng": "Hack a Body Mod Clinic"
- 	 	 	},
- 	 	 	"description": {
- 	 	 	 	"trans": "Descarga datos útiles desde una clínica de modificación corporal local para fabricar bots médicos y drones de mayor calidad.",
- 	 	 	 	"eng": "Download useful data from a local body mod clinic to craft higher quality medical bots and drones."
- 	 	 	}
- 	 	},
- 	 	"increaseAmmo": {
- 	 	 	"name": {
- 	 	 	 	"trans": "Mejorar munición",
- 	 	 	 	"eng": "Improve Ammunition"
- 	 	 	},
- 	 	 	"description": {
- 	 	 	 	"trans": "Entretente con munición para encontrar maneras más efectivas de fabricarla.",
- 	 	 	 	"eng": "Tinker with ammunition, to find more effective ways of crafting it."
- 	 	 	}
- 	 	},
- 	 	"reverseEngineer": {
- 	 	 	"name": {
- 	 	 	 	"trans": "Ingeniería inversa con Chatarra",
- 	 	 	 	"eng": "Reverse Engineer Scraps"
- 	 	 	},
- 	 	 	"description": {
- 	 	 	 	"trans": "Aplica ingenieria inversa a chatarra tecnológica para mejorar el rango de impresión. \r\n         Tendrás que sacrificar algo de tu chatarra tecnológica.",
- 	 	 	 	"eng": "Reverse engineer tech scrap to improve your Print Rank. \r\n        You’ll need to sacrifice some of your tech scrap."
- 	 	 	}
- 	 	},
- 	 	"reverseMining": {
- 	 	 	"name": {
- 	 	 	 	"trans": "iniciar cripto minado",
- 	 	 	 	"eng": "initiate crypto mining"
- 	 	 	},
- 	 	 	"description": {
- 	 	 	 	"trans": "Dedicarte al cripto minado te proporcionará BitCoins, sin embargo debido al intenso uso de los Procesadores Hash, la Unidad de Procesamiento Cuántico, también conocida como QPU, normalmente se quemará.",
- 	 	 	 	"eng": "Engaging in crypto mining will earn you Bitcoins, however due to the intense use of the Hash Processors, the Quantum Processing Unit, otherwise known as the QPU, will often burn out."
- 	 	 	}
- 	 	},
- 	 	"scavenge": {
- 	 	 	"name": {
- 	 	 	 	"vars": [
- 	 	 	 	 	"zoneName"
- 	 	 	 	],
- 	 	 	 	"trans": "Recolectar en ${zoneName}",
- 	 	 	 	"eng": "Scavenge in ${zoneName}"
- 	 	 	},
- 	 	 	"description": {
- 	 	 	 	"vars": [
- 	 	 	 	 	"zoneName"
- 	 	 	 	],
- 	 	 	 	"trans": "[Recolección de recursos AFK]\r\n                    Buscar alrededor de ${zoneName} y recolectar objetos útiles.\r\n                    ¡Quien sabe, quizá tengas suerte!",
- 	 	 	 	"eng": "[AFK Resource Gather]\r\n                    Search around in ${zoneName} and scavenge for useful items.\r\n                    Who knows, maybe you'll get lucky!"
- 	 	 	}
- 	 	},
- 	 	"clanResource": {
- 	 	 	"name": {
- 	 	 	 	"trans": "Recolectar Recursos de la Banda",
- 	 	 	 	"eng": "Gather Gang Resource"
- 	 	 	},
- 	 	 	"description": {
- 	 	 	 	"trans": "Ayuda a recolectar y administrar los recursos necesarios para tu banda",
- 	 	 	 	"eng": "Help gather and manage needed resources for your gang"
- 	 	 	}
- 	 	},
- 	 	"clanDecryptShard": {
- 	 	 	"name": {
- 	 	 	 	"trans": "Descifrar fragmento de memoria",
- 	 	 	 	"eng": "Decrypt memory shard"
- 	 	 	},
- 	 	 	"description": {
- 	 	 	 	"trans": "Descifra el fragmento de memoria que encontraste para recuperar información útil",
- 	 	 	 	"eng": "Decrypt memory shard you found to retrieve useful intel"
- 	 	 	}
- 	 	},
- 	 	"clanOccupation": {
- 	 	 	"name": {
- 	 	 	 	"trans": "Reforzar la ocupación en Shangri-la",
- 	 	 	 	"eng": "Reinforce occupation at Shangri-la"
- 	 	 	},
- 	 	 	"description": {
- 	 	 	 	"trans": "Ayuda a reforzar y establecer un mayor control de la ciudad de Shangri-La.",
- 	 	 	 	"eng": "Help reinforce and establish greater control of Shangri-la city."
- 	 	 	}
- 	 	},
- 	 	"gambling1": {
- 	 	 	"name": {
- 	 	 	 	"trans": "Jugar a MEGA Pachinko Game",
- 	 	 	 	"eng": "Play MEGA Pachinko Game"
- 	 	 	},
- 	 	 	"description": {
- 	 	 	 	"trans": "Konnichiwa!! ^___^\r\n        ¡Ven y juega a MEGA Pachinko! con la oportunidad de ganar GRANDES recompensas EPICAS\r\n        solo 5000 btc por juego, ¡¡¡OFERTA LIMITADA!!! <3<3<3\r\n        ##Muchas gracias a Militech por patrocinar este eventot##",
- 	 	 	 	"eng": "Konnichiwa!! ^___^\r\n        Come play the MEGA Pachinko! With chance to win HUGE EPIC rewards\r\n        only 5000 btc per session, LIMITED TIME OFFER!!! <3<3<3\r\n        ##Special thanks for Militech for sponsoring this event##"
- 	 	 	}
- 	 	},
- 	 	"topClanExclusive": {
- 	 	 	"name": {
- 	 	 	 	"trans": "Recoger las tarifas de protección",
- 	 	 	 	"eng": "Collect Protection Fees"
- 	 	 	},
- 	 	 	"description": {
- 	 	 	 	"trans": "Soborna a los funcionarios gubernamentales y a la SLPD para recolectar las cuotas de protección del propietario de la empresa y de los ciudadanos en Shangri-lah. ¿Tal vez obtengas algunos artículos EPICOS de ellos? (Solo para las dos mejores bandas)",
- 	 	 	 	"eng": "Bribe Government officials and SLPD and Collect Protection Fees from business owner and citizens in Shangri-lah. maybe you will get some EPIC items from them? (Top Two Gang Exclusive)"
- 	 	 	}
- 	 	},
- 	 	"globalQuest": {
- 	 	 	"name": {
- 	 	 	 	"trans": "Hackear SL Data Fortress",
- 	 	 	 	"eng": "Hack SL Data Fortress"
- 	 	 	},
- 	 	 	"description": {
- 	 	 	 	"trans": "Lanzar un ataque colaborado en el ciberespacio dirigido a la fortaleza de datos de Shangri-La \r\n         Si el ataque es exitoso, será posible entrar a la fortaleza de datos para transmitir hacks a todos los usuarios cibernéticamente conectados",
- 	 	 	 	"eng": "Launch a collaborated attack in cyberspace targeting the Shangri-La Data Fortress\r\n        if attack were to succeed its possible to force the Data Fortress to transmit exploits to all cybernetically connected users"
- 	 	 	}
- 	 	}
- 	},
- 	"tier": {
- 	 	"trash": {
- 	 	 	"name": {
- 	 	 	 	"trans": "basura",
- 	 	 	 	"eng": "trash"
- 	 	 	}
- 	 	},
- 	 	"common": {
- 	 	 	"name": {
- 	 	 	 	"trans": "común",
- 	 	 	 	"eng": "common"
- 	 	 	}
- 	 	},
- 	 	"highQuality": {
- 	 	 	"name": {
- 	 	 	 	"trans": "alta calidad",
- 	 	 	 	"eng": "high quality"
- 	 	 	}
- 	 	},
- 	 	"rare": {
- 	 	 	"name": {
- 	 	 	 	"trans": "raro",
- 	 	 	 	"eng": "rare"
- 	 	 	}
- 	 	},
- 	 	"legendary": {
- 	 	 	"name": {
- 	 	 	 	"trans": "legendario",
- 	 	 	 	"eng": "legendary"
- 	 	 	}
- 	 	},
- 	 	"epic": {
- 	 	 	"name": {
- 	 	 	 	"trans": "épico",
- 	 	 	 	"eng": "epic"
  	 	 	}
  	 	}
  	},
@@ -1253,21 +1253,21 @@
  	 	 	 	 	"keyFragmentDisplayName",
  	 	 	 	 	"maxLevel"
  	 	 	 	],
- 	 	 	 	"trans": "Nivel Recomendado:　${maxLevel}\r\n                   ¡${expMultiplier}x veces más experiencia!\r\n                    Obtenible ${keyFragmentDisplayName}",
+ 	 	 	 	"trans": "推奨レベル：${maxLevel} \r\n                     ${expMultiplier} 倍の経験値！ \r\n                     ドロップ：${keyFragmentDisplayName}",
  	 	 	 	"eng": "Recommended Level:　${maxLevel}\r\n                    ${expMultiplier}x times more EXP!\r\n                    Drops ${keyFragmentDisplayName}"
  	 	 	},
  	 	 	"startName": {
  	 	 	 	"vars": [
  	 	 	 	 	"zoneName"
  	 	 	 	],
- 	 	 	 	"trans": "Explorar ${zoneName}",
+ 	 	 	 	"trans": "${zoneName}を探索する",
  	 	 	 	"eng": "Explore ${zoneName}"
  	 	 	},
  	 	 	"tut": {
  	 	 	 	"vars": [
  	 	 	 	 	"zoneName"
  	 	 	 	],
- 	 	 	 	"trans": "¡Adentrate en una mazmorra para obtener aún más experiencia y botín!\r\n                        ¡Recuerda comprar algún objeto curativo! No podras curarte tras las batallas en una mazmorra",
+ 	 	 	 	"trans": "より多くのEXPと戦利品を得るためにダンジョンに飛び込む！ \r\n                         忘れずに回復アイテムを買うこと！ ダンジョン内では自動回復しません。",
  	 	 	 	"eng": "Are you ready? you can test your strength out with normal dungeon, the easiest one.\r\n                        Remember to bring healing item! you won't heal after fights in dungeon"
  	 	 	}
  	 	},
@@ -1278,18 +1278,18 @@
  	 	 	 	 	"keyFragmentDisplayName",
  	 	 	 	 	"expMultiplier"
  	 	 	 	],
- 	 	 	 	"trans": "Nivel Recomendado:　${maxLevel}+ con ayuda\r\n                    ¡${expMultiplier}x más experiencia!\r\n                    Mazmorra en modo desafio, botín y experiencia extra.\r\n                    Obtenible ${keyFragmentDisplayName}\r\n                    No se aconseja entrar si tu nivel es muy bajo",
+ 	 	 	 	"trans": "推奨レベル：${maxLevel} + Co-Op \r\n                     ${expMultiplier} 倍の経験値！ \r\n                     チャレンジモードダンジョン。さらなる経験値と獲得アイテム。 \r\n                     ドロップ：${keyFragmentDisplayName} \r\n                     レベルが低い場合は開始をお勧めしません。",
  	 	 	 	"eng": "Recommended Level:　${maxLevel}+ with co-op\r\n                    ${expMultiplier}x more EXP!\r\n                    Challenge mode dungeon, extra loot and exp.\r\n                    Drops ${keyFragmentDisplayName}\r\n                    Not advised to enter if your level is too low"
  	 	 	},
  	 	 	"tut": {
- 	 	 	 	"trans": "¿Eres lo bastante fuerte? ¡Compruebalo en una Mazmorra de Desafío,\r\n                        ¡hay un poderoso jefe y toneladas de botín al final esperándote!\r\n                        Se recomienda intentarlo con ayuda de otros jugadores.",
+ 	 	 	 	"trans": "もう十分に強いですか？チャレンジダンジョンで試してみてください。 \r\n                         強いボスがいて、最後には大量の戦利品があなたを待っています！ \r\n                         他のプレイヤーと一緒に挑戦することをお勧めします。",
  	 	 	 	"eng": "Are you strong enough? try it out on Challenge Dungeon,\r\n                        there is a strong boss and tons of loot at the end waiting for you!\r\n                        Its recommended to attempt this with other players."
  	 	 	},
  	 	 	"startName": {
  	 	 	 	"vars": [
  	 	 	 	 	"zoneName"
  	 	 	 	],
- 	 	 	 	"trans": "atacar ${zoneName}",
+ 	 	 	 	"trans": "${zoneName}を攻撃",
  	 	 	 	"eng": "attack ${zoneName}"
  	 	 	}
  	 	},
@@ -1298,7 +1298,7 @@
  	 	 	 	"vars": [
  	 	 	 	 	"zoneName"
  	 	 	 	],
- 	 	 	 	"trans": "invadir ${zoneName}",
+ 	 	 	 	"trans": "${zoneName}を侵略",
  	 	 	 	"eng": "invade ${zoneName}"
  	 	 	},
  	 	 	"description": {
@@ -1307,12 +1307,12 @@
  	 	 	 	 	"keyFragmentDisplayName",
  	 	 	 	 	"expMultiplier"
  	 	 	 	],
- 	 	 	 	"trans": "Nivel recomendado:　${maxLevel}+ con ayuda\r\n                    ${expMultiplier}x más experiencia!\r\n                    Mazmorra en modo banda, botín y experiencia extra. \r\n                 El botín de los jefes es: raro+ \r\n                    No es recomendado entrar si tu nivel es muy bajo",
+ 	 	 	 	"trans": "推奨レベル：${maxLevel} + Co-Op \r\n                     ${expMultiplier} 倍以上の経験値！ \r\n                     ギャングモードダンジョン。さらなる経験値と獲得アイテム。 \r\n                     ボスはレア以上のアイテムをドロップ。 \r\n                     レベルが低い場合は開始をお勧めしません",
  	 	 	 	"eng": "Recommended Level:　${maxLevel}+ with co-op\r\n                    ${2.3}x more EXP! and 4~5x stronger enemies!\r\n                    Gang mode dungeon, extra loot and exp.\r\n                    *Not for the faint of heart*"
  	 	 	}
  	 	},
  	 	"buttonTut": {
- 	 	 	"trans": "¿Crees que eres lo suficientemente fuerte? ¡Toma a los enemigos más fuertes en la mazmorra! \r\n                         ¡Recuerda comprar un artículo curativo! No te regañas después de la batalla en la mazmorra",
+ 	 	 	"trans": "あなたは十分に強いと思いますか？ ダンジョンでより強い敵を取ります！ \r\n                         いくつかの癒しのアイテムを買うことを忘れないでください！ あなたはダンジョンでの戦いの後に登録しません",
  	 	 	"eng": "Do you think you are strong enough? take on stronger enemies in dungeon!\r\n                        remember to buy some healing item! you won't regen after battle in dungeon"
  	 	}
  	},
@@ -1321,11 +1321,11 @@
  	 	 	"vars": [
  	 	 	 	"segmentDisplayName"
  	 	 	],
- 	 	 	"trans": "Llave secreta ${segmentDisplayName}",
+ 	 	 	"trans": "${segmentDisplayName}シークレットキー",
  	 	 	"eng": "${segmentDisplayName} Secret Key"
  	 	},
  	 	"unlockVerb": {
- 	 	 	"trans": "descifrar",
+ 	 	 	"trans": "ブルートフォース",
  	 	 	"eng": "brute-force"
  	 	}
  	},
@@ -1334,64 +1334,64 @@
  	 	 	"vars": [
  	 	 	 	"segmentDisplayName"
  	 	 	],
- 	 	 	"trans": "Adquiere 3 Fragmentos de Llave de cada mazmorra de ${segmentDisplayName},\r\n                estos se usan para crear la llave a la siguiente zona.\r\n                Para crear la llave, ve a la terminal en [HUB]",
+ 	 	 	"trans": "進行-${progressionId}",
  	 	 	"eng": "Acquire 3 different Key Fragments from each dungeons located in ${segmentDisplayName},\r\n                these are used to create the key to next zone.\r\n                To craft the key, go to terminal in [HUB]",
  	 	 	"name": {
  	 	 	 	"vars": [
  	 	 	 	 	"progressionId"
  	 	 	 	],
- 	 	 	 	"trans": "Progresión-${progressionId}",
+ 	 	 	 	"trans": "進行 -  ${progressionId}",
  	 	 	 	"eng": "Progression-${progressionId}"
  	 	 	},
  	 	 	"description": {
  	 	 	 	"vars": [
  	 	 	 	 	"segmentDisplayName"
  	 	 	 	],
- 	 	 	 	"trans": "Adquiere 3 Fragmentos de Llave de cada mazmorra de ${segmentDisplayName},\r\n                estos se usan para crear la llave a la siguiente zona.\r\n                Para crear la llave, ve a la terminal en [HUB]",
+ 	 	 	 	"trans": "${segmentDisplayName}にある各ダンジョンから3つの異なるキーのかけらを取得する。 \r\n                 次のゾーンへの鍵を作るのに使う。 \r\n                 [ハブ]のターミナルでキーを作成する。",
  	 	 	 	"eng": "Acquire 3 different Key Fragments from each dungeons located in ${segmentDisplayName},\r\n                these are used to create the key to next zone.\r\n                To craft the key, go to terminal in [HUB]"
  	 	 	}
  	 	},
  	 	"random": {
  	 	 	"clearChallengeDungeon": {
  	 	 	 	"name": {
- 	 	 	 	 	"trans": "guerrero de mazmora",
+ 	 	 	 	 	"trans": "ダンジョンウォリアー",
  	 	 	 	 	"eng": "dungeon warrior"
  	 	 	 	}
  	 	 	},
  	 	 	"clearDungeonCoOp": {
  	 	 	 	"name": {
- 	 	 	 	 	"trans": "amigos de mazmorra",
+ 	 	 	 	 	"trans": "ダンジョンメイト",
  	 	 	 	 	"eng": "dungeon friends"
  	 	 	 	}
  	 	 	},
  	 	 	"clearDungeon": {
  	 	 	 	"name": {
- 	 	 	 	 	"trans": "recorrer la mazmorra",
+ 	 	 	 	 	"trans": "ダンジョンクローラー",
  	 	 	 	 	"eng": "dungeon crawler"
  	 	 	 	}
  	 	 	},
  	 	 	"dealDamage": {
- 	 	 	 	"trans": "Hacer Daño",
+ 	 	 	 	"trans": "ダメージディール",
  	 	 	 	"eng": "Deal Damage"
  	 	 	},
  	 	 	"exp": {
- 	 	 	 	"trans": "Ganar exp",
+ 	 	 	 	"trans": "経験値獲得",
  	 	 	 	"eng": "Gain exp"
  	 	 	},
  	 	 	"joinDungeon": {
- 	 	 	 	"trans": "Unirse a la mazmorra",
+ 	 	 	 	"trans": "ダンジョンに参加",
  	 	 	 	"eng": "Join Dungeon"
  	 	 	},
  	 	 	"killEnemy": {
- 	 	 	 	"trans": "Matar enemigos",
+ 	 	 	 	"trans": "敵を倒す",
  	 	 	 	"eng": "Kill enemy"
  	 	 	},
  	 	 	"getMoney": {
- 	 	 	 	"trans": "Adquirir Bitcoin",
+ 	 	 	 	"trans": "ビットコインを獲得",
  	 	 	 	"eng": "Acquire Bitcoin"
  	 	 	},
  	 	 	"print": {
- 	 	 	 	"trans": "Impresión molecular",
+ 	 	 	 	"trans": "分子結合式プリンタ",
  	 	 	 	"eng": "Molecular Printing"
  	 	 	}
  	 	}
@@ -1399,162 +1399,162 @@
  	"ui": {
  	 	"header": {
  	 	 	"playerOnline": {
- 	 	 	 	"trans": "jugadores conectados",
+ 	 	 	 	"trans": "オンラインプレイヤー",
  	 	 	 	"eng": "players online"
  	 	 	},
  	 	 	"online": {
  	 	 	 	"vars": [
  	 	 	 	 	"skipCount"
  	 	 	 	],
- 	 	 	 	"trans": "Saltando ${skipCount}",
+ 	 	 	 	"trans": "${skipCount}をスキップ",
  	 	 	 	"eng": "Skipping ${skipCount}"
  	 	 	},
  	 	 	"skipAvailable": {
- 	 	 	 	"trans": "Salto disponible",
+ 	 	 	 	"trans": "スキップ可能",
  	 	 	 	"eng": "Skip Available"
  	 	 	}
  	 	},
  	 	"mobileQuestPage": {
  	 	 	"receiveReward": {
- 	 	 	 	"trans": "Haz click para recibir recompensa",
+ 	 	 	 	"trans": "クリックして報酬を獲得",
  	 	 	 	"eng": "Click to receive reward"
  	 	 	},
  	 	 	"inProgress": {
- 	 	 	 	"trans": "Pedido en proceso...",
+ 	 	 	 	"trans": "リクエストが進行中...",
  	 	 	 	"eng": "Request in progress..."
  	 	 	},
  	 	 	"watchAdRefresh": {
- 	 	 	 	"trans": "Mira un anuncio para actualizar la misión",
+ 	 	 	 	"trans": "クエストを更新するために広告を見る",
  	 	 	 	"eng": "Watch an AD to refresh quest"
  	 	 	}
  	 	},
  	 	"map": {
  	 	 	"interactable": {
- 	 	 	 	"trans": "Interactuable",
+ 	 	 	 	"trans": "インタラクト",
  	 	 	 	"eng": "Interactable"
  	 	 	},
  	 	 	"travel": {
- 	 	 	 	"trans": "Viajar",
+ 	 	 	 	"trans": "トラベル",
  	 	 	 	"eng": "Travel"
  	 	 	}
  	 	},
  	 	"playerDetails": {
  	 	 	"alias": {
- 	 	 	 	"trans": "Alias",
+ 	 	 	 	"trans": "エイリアス",
  	 	 	 	"eng": "Alias"
  	 	 	},
  	 	 	"title": {
- 	 	 	 	"trans": "título",
+ 	 	 	 	"trans": "タイトル",
  	 	 	 	"eng": "title"
  	 	 	},
  	 	 	"gearScore": {
- 	 	 	 	"trans": "Puntos de equipamiento",
+ 	 	 	 	"trans": "ギアスコア",
  	 	 	 	"eng": "Gear Score"
  	 	 	},
  	 	 	"location": {
- 	 	 	 	"trans": "ubicación",
+ 	 	 	 	"trans": "ロケーション",
  	 	 	 	"eng": "location"
  	 	 	},
  	 	 	"onlineStatus": {
- 	 	 	 	"trans": "enlace del sistema",
+ 	 	 	 	"trans": "システムリンク",
  	 	 	 	"eng": "system link"
  	 	 	},
  	 	 	"streetCred": {
- 	 	 	 	"trans": "Respeto Callejero",
+ 	 	 	 	"trans": "リスペクト",
  	 	 	 	"eng": "Street Cred"
  	 	 	},
  	 	 	"status": {
- 	 	 	 	"trans": "Estado",
+ 	 	 	 	"trans": "スターテス",
  	 	 	 	"eng": "Status"
  	 	 	},
  	 	 	"numOfMember": {
- 	 	 	 	"trans": "Número de miembros",
+ 	 	 	 	"trans": "メンバー数",
  	 	 	 	"eng": "Number of members"
  	 	 	},
  	 	 	"gangAction": {
  	 	 	 	"label": {
- 	 	 	 	 	"trans": "Acciones de banda",
+ 	 	 	 	 	"trans": "ギャングの行動",
  	 	 	 	 	"eng": "Gang Actions"
  	 	 	 	},
  	 	 	 	"kick": {
- 	 	 	 	 	"trans": "Echar",
+ 	 	 	 	 	"trans": "キック",
  	 	 	 	 	"eng": "Kick"
  	 	 	 	},
  	 	 	 	"transferLeadership": {
- 	 	 	 	 	"trans": "Traspasar el mando",
+ 	 	 	 	 	"trans": "リーダーシップを変更",
  	 	 	 	 	"eng": "Transfer Leadership"
  	 	 	 	}
  	 	 	},
  	 	 	"playerActions": {
  	 	 	 	"label": {
- 	 	 	 	 	"trans": "Acciones de jugador",
+ 	 	 	 	 	"trans": "プレイヤーの行動",
  	 	 	 	 	"eng": "Player Actions"
  	 	 	 	},
  	 	 	 	"sendPrivateMsg": {
- 	 	 	 	 	"trans": "Mandar mensaje privado",
+ 	 	 	 	 	"trans": "プライベートメッセージを送る",
  	 	 	 	 	"eng": "Send private message"
  	 	 	 	},
  	 	 	 	"sendGift": {
- 	 	 	 	 	"trans": "Mandar regalo",
+ 	 	 	 	 	"trans": "ギフトを送る",
  	 	 	 	 	"eng": "Send Gift"
  	 	 	 	},
  	 	 	 	"inviteToGang": {
- 	 	 	 	 	"trans": "Invitar a tu banda",
+ 	 	 	 	 	"trans": "ギャングに招待する",
  	 	 	 	 	"eng": "Invite to Gang"
  	 	 	 	},
  	 	 	 	"addToFriend": {
- 	 	 	 	 	"trans": "Añadir a amigos",
+ 	 	 	 	 	"trans": "フレンドリストに追加",
  	 	 	 	 	"eng": "add to Friend List"
  	 	 	 	},
  	 	 	 	"removeFromFriend": {
- 	 	 	 	 	"trans": "Quitar de amigos",
+ 	 	 	 	 	"trans": "フレンドリストから削除",
  	 	 	 	 	"eng": "Remove from Friend List"
  	 	 	 	},
  	 	 	 	"giveStreetCred": {
- 	 	 	 	 	"trans": "Dar Respeto Callejero",
+ 	 	 	 	 	"trans": "リスペクトを送る",
  	 	 	 	 	"eng": "Give Street Cred"
  	 	 	 	}
  	 	 	},
  	 	 	"bio": {
- 	 	 	 	"trans": "Bio",
+ 	 	 	 	"trans": "バイオ",
  	 	 	 	"eng": "Bio"
  	 	 	},
  	 	 	"bioNotFound": {
- 	 	 	 	"trans": "ELIMINADO",
+ 	 	 	 	"trans": "編成済",
  	 	 	 	"eng": "REDACTED"
  	 	 	},
  	 	 	"equipped": {
- 	 	 	 	"trans": "Equipada",
+ 	 	 	 	"trans": "装備済",
  	 	 	 	"eng": "Equipped"
  	 	 	},
  	 	 	"inventory": {
- 	 	 	 	"trans": "Inventario",
+ 	 	 	 	"trans": "インベントリ",
  	 	 	 	"eng": "Inventory"
  	 	 	}
  	 	},
  	 	"market": {
  	 	 	"lookAround": {
- 	 	 	 	"trans": "Mirar alrededor",
+ 	 	 	 	"trans": "見回す",
  	 	 	 	"eng": "Look around"
  	 	 	},
  	 	 	"myStall": {
- 	 	 	 	"trans": "Mi puesto",
+ 	 	 	 	"trans": "自室",
  	 	 	 	"eng": "My Stall"
  	 	 	},
  	 	 	"increaseSlot": {
  	 	 	 	"vars": [
  	 	 	 	 	"nextSlotSize"
  	 	 	 	],
- 	 	 	 	"trans": "Aumentar espacios a ${nextSlotSize}",
+ 	 	 	 	"trans": "スロット数を${nextSlotSize}に増やす",
  	 	 	 	"eng": "Increase slot to ${nextSlotSize}"
  	 	 	},
  	 	 	"stall": {
  	 	 	 	"sellItemButton": {
- 	 	 	 	 	"trans": "Poner el artículo a la venta",
+ 	 	 	 	 	"trans": "商品を発売",
  	 	 	 	 	"eng": "Put Item On Sale"
  	 	 	 	},
  	 	 	 	"selectItemForSale": {
- 	 	 	 	 	"trans": "Por favor, seleccione el elemento que desea vender",
+ 	 	 	 	 	"trans": "売りたいアイテムを選択してください",
  	 	 	 	 	"eng": "Please select the item you want to sell"
  	 	 	 	}
  	 	 	},
@@ -1562,303 +1562,303 @@
  	 	 	 	"vars": [
  	 	 	 	 	"nextSlotSize"
  	 	 	 	],
- 	 	 	 	"trans": "Gasta bitcoins para aumentar la cantidad de artículos que puedes vender en tu puesto",
+ 	 	 	 	"trans": "ビットコインを使って、同時に出品できるアイテム数を増やすことができます。",
  	 	 	 	"eng": "Spend Bitcoins to increase how many items you can put in your stall at the same time"
  	 	 	},
  	 	 	"cantEnterError": {
- 	 	 	 	"trans": "Necesita al menos nivel 4 para acceder al mercado",
+ 	 	 	 	"trans": "マーケットにアクセスするには、レベル4以上が必要です。",
  	 	 	 	"eng": "You need to be at least level 4 to access the market"
  	 	 	}
  	 	},
  	 	"chat": {
  	 	 	"chat": {
- 	 	 	 	"trans": "chat",
+ 	 	 	 	"trans": "チャット",
  	 	 	 	"eng": "chat"
  	 	 	},
  	 	 	"gang": {
- 	 	 	 	"trans": "banda",
+ 	 	 	 	"trans": "ギャング",
  	 	 	 	"eng": "gang"
  	 	 	},
  	 	 	"mail": {
- 	 	 	 	"trans": "correo",
+ 	 	 	 	"trans": "メール",
  	 	 	 	"eng": "mail"
  	 	 	},
  	 	 	"noti": {
- 	 	 	 	"trans": "notif.",
+ 	 	 	 	"trans": "通知",
  	 	 	 	"eng": "noti."
  	 	 	},
  	 	 	"reconnecting": {
- 	 	 	 	"trans": "Restableciendo conexión",
+ 	 	 	 	"trans": "再接続中",
  	 	 	 	"eng": "Reestablishing connection"
  	 	 	}
  	 	},
  	 	"profile": {
  	 	 	"profile": {
- 	 	 	 	"trans": "Perfil",
+ 	 	 	 	"trans": "プロフィール",
  	 	 	 	"eng": "Profile"
  	 	 	},
  	 	 	"update": {
- 	 	 	 	"trans": "Actualizaciones",
+ 	 	 	 	"trans": "アップデート",
  	 	 	 	"eng": "Updates"
  	 	 	},
  	 	 	"tutorial": {
- 	 	 	 	"trans": "tutorial",
+ 	 	 	 	"trans": "チュートリアル",
  	 	 	 	"eng": "tutorial"
  	 	 	},
  	 	 	"credits": {
- 	 	 	 	"trans": "créditos",
+ 	 	 	 	"trans": "クレジット",
  	 	 	 	"eng": "credits"
  	 	 	},
  	 	 	"deleteAccount": {
  	 	 	 	"button": {
- 	 	 	 	 	"trans": "Borrar cuenta",
+ 	 	 	 	 	"trans": "アカウントを削除する",
  	 	 	 	 	"eng": "Delete Account"
  	 	 	 	}
  	 	 	}
  	 	},
  	 	"tutorial": {
  	 	 	"title": {
- 	 	 	 	"trans": "Tutorial",
+ 	 	 	 	"trans": "チュートリアル",
  	 	 	 	"eng": "Tutorial"
  	 	 	}
  	 	},
  	 	"setting": {
  	 	 	"language": {
- 	 	 	 	"trans": "Idioma",
+ 	 	 	 	"trans": "言語",
  	 	 	 	"eng": "Language"
  	 	 	},
  	 	 	"langWarning": {
- 	 	 	 	"trans": "Éste pack de idioma es de código abierto y contribución de nuestros jugadores, el texto podría no estar del todo traducido o contener errores. Puedes contribuir libremente en nuestra pagina de Github",
+ 	 	 	 	"trans": "この言語パックはオープンソースで、プレイヤーの皆様からのご協力を得ています。テキストは完全には翻訳されておらず、間違いがあるかもしれません。 Githubページから自由に編集して貢献してください。",
  	 	 	 	"eng": "This language pack is open source and contributed by our players, the text may not be fully translated and could contain mistakes. please feel free to edit and contribute from our Github page"
  	 	 	},
  	 	 	"playBackgroundMusic": {
- 	 	 	 	"trans": "Silenciar música de fondo",
+ 	 	 	 	"trans": "BGMをミュート",
  	 	 	 	"eng": "Mute background music"
  	 	 	},
  	 	 	"restartRequired": {
- 	 	 	 	"trans": "La aplicación se reiniciara tras guardar",
+ 	 	 	 	"trans": "保存後に自動で再起動します",
  	 	 	 	"eng": "App will self restart after save"
  	 	 	},
  	 	 	"save": {
- 	 	 	 	"trans": "guardar",
+ 	 	 	 	"trans": "保存",
  	 	 	 	"eng": "save"
  	 	 	},
  	 	 	"langGithub": {
- 	 	 	 	"trans": "Ayuda a traducir el juego",
+ 	 	 	 	"trans": "ゲームの翻訳を手伝う",
  	 	 	 	"eng": "Help with translating the game"
  	 	 	},
  	 	 	"receiveClanNotification": {
- 	 	 	 	"trans": "Recibir notificación de banda",
+ 	 	 	 	"trans": "ギャング通知を受け取る",
  	 	 	 	"eng": "Receive Gang Notification"
  	 	 	},
  	 	 	"receiveGlobalNotification": {
- 	 	 	 	"trans": "Recibir notificación de mejora global",
+ 	 	 	 	"trans": "グローバルバフ通知を受け取る",
  	 	 	 	"eng": "Receive Global Buff Notification"
  	 	 	},
  	 	 	"disableAttackBar": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "Deshabilitar la barra de tiempo de ataque",
+ 	 	 	 	 	"trans": "攻撃タイミングバーを無効にする",
  	 	 	 	 	"eng": "Disable Attack Timing Bar"
  	 	 	 	},
  	 	 	 	"description": {
- 	 	 	 	 	"trans": "Deshabilitar la barra de distribución de ataque no otorgará daños adicionales",
+ 	 	 	 	 	"trans": "攻撃タイミングバーを無効にすると、追加のダメージを与えられません",
  	 	 	 	 	"eng": "Disabling attack timing bar will not grant extra damage"
  	 	 	 	}
  	 	 	},
  	 	 	"forceMobileMode": {
- 	 	 	 	"trans": "Habilitar el modo Cyberpunk",
+ 	 	 	 	"trans": "サイバーパンクモードを有効にする",
  	 	 	 	"eng": "Enable Cyberpunk Mode"
  	 	 	},
  	 	 	"dangerZone": {
- 	 	 	 	"trans": "Zona peligrosa",
+ 	 	 	 	"trans": "危険区域",
  	 	 	 	"eng": "Danger Zone"
  	 	 	}
  	 	},
  	 	"captcha": {
  	 	 	"title": {
- 	 	 	 	"trans": "Ingresar contraseña del sistema para continuar",
+ 	 	 	 	"trans": "システムパスコードを入力してください",
  	 	 	 	"eng": "Enter system passcode to proceed"
  	 	 	}
  	 	},
  	 	"deathScreen": {
  	 	 	"topTitleLeft": {
- 	 	 	 	"trans": "herida mortal",
+ 	 	 	 	"trans": "致命的な負傷",
  	 	 	 	"eng": "fatal injury"
  	 	 	},
  	 	 	"topTitleRight": {
- 	 	 	 	"trans": "SL Medical Center",
+ 	 	 	 	"trans": "SLメディカルセンター",
  	 	 	 	"eng": "SL Medical Center"
  	 	 	},
  	 	 	"title": {
- 	 	 	 	"trans": "Linea Plana",
+ 	 	 	 	"trans": "心停止",
  	 	 	 	"eng": "Flatlined"
  	 	 	},
  	 	 	"subTitleSmall": {
- 	 	 	 	"trans": "Error crítico: enlace neuronal desconectada",
+ 	 	 	 	"trans": "クリティカルエラー：ニューラルリンクが切断されました",
  	 	 	 	"eng": "Critical Error: Neural Link Disconnected"
  	 	 	},
  	 	 	"progressBarTitle": {
- 	 	 	 	"trans": "Restableciendo conexión",
+ 	 	 	 	"trans": "再接続中",
  	 	 	 	"eng": "Re-establishing connection"
  	 	 	}
  	 	},
  	 	"setBio": {
  	 	 	"title": {
- 	 	 	 	"trans": "Ingrese su biografía",
+ 	 	 	 	"trans": "バイオを入力してください",
  	 	 	 	"eng": "Enter your bio"
  	 	 	}
  	 	},
  	 	"clan": {
  	 	 	"selectDepositAmount": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "Porfavor ingrese la cantidad que desea depositar",
+ 	 	 	 	 	"trans": "入金したい金額を入力してください",
  	 	 	 	 	"eng": "Please enter amount you want to deposit"
  	 	 	 	},
  	 	 	 	"detail": {
  	 	 	 	 	"vars": [
  	 	 	 	 	 	"amount"
  	 	 	 	 	],
- 	 	 	 	 	"trans": "${amount} los bitcoin van a ser depositados en su cuenta de la banda, esto no puede revertirse",
+ 	 	 	 	 	"trans": "${amount} Bitcoinがギャングアカウントに入金されます、この操作は取り消すことができません。",
  	 	 	 	 	"eng": "${amount} bitcoin will be deposit into your gang account, this cannot be reversed"
  	 	 	 	}
  	 	 	},
  	 	 	"deposit": {
- 	 	 	 	"trans": "depositar bitcoin",
+ 	 	 	 	"trans": "ビットコインを入金してください",
  	 	 	 	"eng": "Deposit Bitcoin"
  	 	 	},
  	 	 	"level": {
- 	 	 	 	"trans": "Nivel de la banda",
+ 	 	 	 	"trans": "ギャングレベル",
  	 	 	 	"eng": "Gang Level"
  	 	 	},
  	 	 	"resource": {
- 	 	 	 	"trans": "Recurso",
+ 	 	 	 	"trans": "リソース",
  	 	 	 	"eng": "Resource"
  	 	 	},
  	 	 	"funding": {
- 	 	 	 	"trans": "fondos",
+ 	 	 	 	"trans": "資金調達",
  	 	 	 	"eng": "funding"
  	 	 	},
  	 	 	"memberCount": {
- 	 	 	 	"trans": "miembros",
+ 	 	 	 	"trans": "メンバー",
  	 	 	 	"eng": "members"
  	 	 	},
  	 	 	"nextUpkeepDate": {
  	 	 	 	"vars": [
  	 	 	 	 	"nextUpkeepDate"
  	 	 	 	],
- 	 	 	 	"trans": "Siguiente fecha de mantenimiento: ${nextUpkeepDate}",
+ 	 	 	 	"trans": "次の維持日：${nextUpkeepDate}",
  	 	 	 	"eng": "Next upkeep Date: ${nextUpkeepDate}"
  	 	 	},
  	 	 	"insufficientError": {
- 	 	 	 	"trans": "recursos críticos",
+ 	 	 	 	"trans": "リソースクリティカル",
  	 	 	 	"eng": "resource critical"
  	 	 	},
  	 	 	"insufficientFound": {
- 	 	 	 	"trans": "Fondos Insuficientes",
+ 	 	 	 	"trans": "資金不足",
  	 	 	 	"eng": "Insufficient Found"
  	 	 	},
  	 	 	"insufficientResource": {
- 	 	 	 	"trans": "Recursos Insuficientes",
+ 	 	 	 	"trans": "リソース不足",
  	 	 	 	"eng": "Insufficient Resource"
  	 	 	},
  	 	 	"members": {
- 	 	 	 	"trans": "Miembros",
+ 	 	 	 	"trans": "メンバー",
  	 	 	 	"eng": "Members"
  	 	 	},
  	 	 	"editMotto": {
  	 	 	 	"modal": {
  	 	 	 	 	"title": {
- 	 	 	 	 	 	"trans": "Por favor ingresa el lema de tu banda",
+ 	 	 	 	 	 	"trans": "ギャングモットーを入力",
  	 	 	 	 	 	"eng": "Please enter your gang motto"
  	 	 	 	 	}
  	 	 	 	},
  	 	 	 	"button": {
- 	 	 	 	 	"trans": "Editar lema de banda",
+ 	 	 	 	 	"trans": "ギャングモットーを編集",
  	 	 	 	 	"eng": "Edit Gang Motto"
  	 	 	 	}
  	 	 	},
  	 	 	"updateImage": {
  	 	 	 	"button": {
- 	 	 	 	 	"trans": "Actualizar imagen de banda",
+ 	 	 	 	 	"trans": "ギャングイメージを更新",
  	 	 	 	 	"eng": "Update Gang Image"
  	 	 	 	}
  	 	 	},
  	 	 	"occupationPoint": {
- 	 	 	 	"trans": "Control sobre Shangri-la",
+ 	 	 	 	"trans": "シャングリ・ラのコントロール",
  	 	 	 	"eng": "Control over Shangri-la"
  	 	 	},
  	 	 	"occupation": {
  	 	 	 	"noClan": {
- 	 	 	 	 	"trans": "Ninguna banda ha ocupado esta área todavía",
+ 	 	 	 	 	"trans": "まだこの地域を占領したギャングはいません",
  	 	 	 	 	"eng": "No gang has occupied this area yet"
  	 	 	 	}
  	 	 	}
  	 	},
  	 	"equipmentDisplay": {
  	 	 	"empty": {
- 	 	 	 	"trans": "Vacío",
+ 	 	 	 	"trans": "空き",
  	 	 	 	"eng": "Empty"
  	 	 	}
  	 	},
  	 	"fab": {
  	 	 	"dungeonList": {
- 	 	 	 	"trans": "Lista de Mazmorras",
+ 	 	 	 	"trans": "ダンジョンリスト",
  	 	 	 	"eng": "Dungeon List"
  	 	 	},
  	 	 	"links": {
- 	 	 	 	"trans": "Enlaces",
+ 	 	 	 	"trans": "リンク",
  	 	 	 	"eng": "links"
  	 	 	},
  	 	 	"premiumShop": {
- 	 	 	 	"trans": "Tienda premium",
+ 	 	 	 	"trans": "プレミアムショップ",
  	 	 	 	"eng": "Premium Shop"
  	 	 	},
  	 	 	"friendList": {
- 	 	 	 	"trans": "Lista de Amigos",
+ 	 	 	 	"trans": "フレンドリスト",
  	 	 	 	"eng": "Friend List"
  	 	 	},
  	 	 	"leaderBoard": {
- 	 	 	 	"trans": "Tabla de Clasificatoria",
+ 	 	 	 	"trans": "リーダーボード",
  	 	 	 	"eng": "Leader Board"
  	 	 	},
  	 	 	"skipQueue": {
- 	 	 	 	"trans": "Saltar Cola",
+ 	 	 	 	"trans": "キューをスキップ",
  	 	 	 	"eng": "Skip Queue"
  	 	 	},
  	 	 	"settings": {
- 	 	 	 	"trans": "Ajustes",
+ 	 	 	 	"trans": "設定",
  	 	 	 	"eng": "Settings"
  	 	 	},
  	 	 	"apps": {
- 	 	 	 	"trans": "Todas las aplicaciones",
+ 	 	 	 	"trans": "すべてのアプリ",
  	 	 	 	"eng": "All Apps"
  	 	 	}
  	 	},
  	 	"machineCrafting": {
  	 	 	"titleBox": {
  	 	 	 	"tile": {
- 	 	 	 	 	"trans": "Sistema Inactivo",
+ 	 	 	 	 	"trans": "システムアイドル",
  	 	 	 	 	"eng": "system idle"
  	 	 	 	},
  	 	 	 	"subtitle": {
- 	 	 	 	 	"trans": "Porfavor inserte un objeto",
+ 	 	 	 	 	"trans": "アイテムを挿入してください",
  	 	 	 	 	"eng": "Please inset an item"
  	 	 	 	}
  	 	 	},
  	 	 	"selectItemButton": {
- 	 	 	 	"trans": "Reciclar Objeto",
+ 	 	 	 	"trans": "リサイクルアイテム",
  	 	 	 	"eng": "Recycle Item"
  	 	 	},
  	 	 	"selectAmount": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "Porfavor seleccione cantidad",
+ 	 	 	 	 	"trans": "数量を選択",
  	 	 	 	 	"eng": "Please select amount"
  	 	 	 	},
  	 	 	 	"subtitle": {
  	 	 	 	 	"vars": [
  	 	 	 	 	 	"timeStr"
  	 	 	 	 	],
- 	 	 	 	 	"trans": "Esto tomará ${timeStr}",
+ 	 	 	 	 	"trans": "${timeStr}秒かかります",
  	 	 	 	 	"eng": "This will take ${timeStr}"
  	 	 	 	}
  	 	 	}
@@ -1866,31 +1866,31 @@
  	 	"modal": {
  	 	 	"upgradeFailed": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "Error",
+ 	 	 	 	 	"trans": "エラー",
  	 	 	 	 	"eng": "Error"
  	 	 	 	},
  	 	 	 	"subtitle": {
- 	 	 	 	 	"trans": "Fallo destructivo acumulado",
+ 	 	 	 	 	"trans": "破壊的な失敗が発生",
  	 	 	 	 	"eng": "Destructive failure accrued"
  	 	 	 	}
  	 	 	},
  	 	 	"upgradeSuccess": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "Calibración Exitosa",
+ 	 	 	 	 	"trans": "キャリブレーションの成功",
  	 	 	 	 	"eng": "Calibration Success"
  	 	 	 	},
  	 	 	 	"subtitle": {
- 	 	 	 	 	"trans": "No se ha detectado ningun error",
+ 	 	 	 	 	"trans": "エラーが検出されませんでした",
  	 	 	 	 	"eng": "No error detected"
  	 	 	 	}
  	 	 	},
  	 	 	"leaveDungeon": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "¿Estás seguro que quieres abandonar esta mazmorra?",
+ 	 	 	 	 	"trans": "本当にこのダンジョンを離れますか？",
  	 	 	 	 	"eng": "Are you sure you want to leave this dungeon?"
  	 	 	 	},
  	 	 	 	"subtitle": {
- 	 	 	 	 	"trans": "No podrás volver a entrar a la instancia actual de esta mazmorra",
+ 	 	 	 	 	"trans": "このダンジョンのインスタンスには二度と入れません。",
  	 	 	 	 	"eng": "You will not be able to enter this dungeon instance again"
  	 	 	 	}
  	 	 	}
@@ -1898,208 +1898,208 @@
  	 	"equipmentUpgrade": {
  	 	 	"notActivated": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "Núcleo no encontrado",
+ 	 	 	 	 	"trans": "コアが見つかりません",
  	 	 	 	 	"eng": "Core not found"
  	 	 	 	},
  	 	 	 	"subTitle": {
- 	 	 	 	 	"trans": "Porfavor inserte núcleo de calibración",
+ 	 	 	 	 	"trans": "キャリブレーションコアを挿入してください",
  	 	 	 	 	"eng": "Please insert Calibration Core"
  	 	 	 	}
  	 	 	},
  	 	 	"activate": {
- 	 	 	 	"trans": "Insertar núcleo",
+ 	 	 	 	"trans": "コアを挿入します",
  	 	 	 	"eng": "Insert Core"
  	 	 	},
  	 	 	"activating": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "Procesando",
+ 	 	 	 	 	"trans": "処理中",
  	 	 	 	 	"eng": "Processing"
  	 	 	 	},
  	 	 	 	"subTitle": {
- 	 	 	 	 	"trans": "Descifrando fragmento",
+ 	 	 	 	 	"trans": "解読キーのかけら",
  	 	 	 	 	"eng": "Decrypting shard"
  	 	 	 	}
  	 	 	},
  	 	 	"noEquipment": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "Equipamiento no encontrado",
+ 	 	 	 	 	"trans": "装備が見つかりません",
  	 	 	 	 	"eng": "equipment not found"
  	 	 	 	},
  	 	 	 	"subTitle": {
- 	 	 	 	 	"trans": "Seleccione un equipamiento para continuar",
+ 	 	 	 	 	"trans": "続行するための機器を選択してください",
  	 	 	 	 	"eng": "Select an equipment to continue"
  	 	 	 	}
  	 	 	},
  	 	 	"haveEquipment": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "Objeto compatible indentificado",
+ 	 	 	 	 	"trans": "適合アイテムがあります",
  	 	 	 	 	"eng": "Compatible Item Identified"
  	 	 	 	},
  	 	 	 	"subTitle": {
- 	 	 	 	 	"trans": "Todo el sistema listo",
+ 	 	 	 	 	"trans": "システム準備完了",
  	 	 	 	 	"eng": "All system ready"
  	 	 	 	}
  	 	 	},
  	 	 	"failureRate": {
- 	 	 	 	"trans": "Posibilidad de fracaso destructivo",
+ 	 	 	 	"trans": "破壊的な失敗の確率",
  	 	 	 	"eng": "Chance of destructive failure"
  	 	 	},
  	 	 	"selectEquipmentTitle": {
- 	 	 	 	"trans": "Porfavor seleccione un objeto para calibrar",
+ 	 	 	 	"trans": "キャリブレーションする項目を選択してください",
  	 	 	 	"eng": "Please select an item to calibrate"
  	 	 	},
  	 	 	"upgradeButton": {
- 	 	 	 	"trans": "Calibrar",
+ 	 	 	 	"trans": "キャリブレーション",
  	 	 	 	"eng": "Calibrate"
  	 	 	}
  	 	},
  	 	"itemInbox": {
  	 	 	"getAllItems": {
- 	 	 	 	"trans": "Recoger todos los objetos",
+ 	 	 	 	"trans": "すべてのアイテムを取得する",
  	 	 	 	"eng": "Get All Items"
  	 	 	},
  	 	 	"expireDate": {
  	 	 	 	"vars": [
  	 	 	 	 	"date"
  	 	 	 	],
- 	 	 	 	"trans": "Expira en ${date}",
+ 	 	 	 	"trans": "${date}で期限切れ",
  	 	 	 	"eng": "Expires in ${date}"
  	 	 	}
  	 	},
  	 	"linkPage": {
  	 	 	"forum": {
- 	 	 	 	"trans": "Foro oficial",
+ 	 	 	 	"trans": "公式フォーラム",
  	 	 	 	"eng": "Official Forum"
  	 	 	}
  	 	},
  	 	"noPrintableCaches": {
  	 	 	"title": {
- 	 	 	 	"trans": "Caché de Equipamiento no encontrado",
+ 	 	 	 	"trans": "装備キャッシュが見つかりません",
  	 	 	 	"eng": "Equipment Cache not found"
  	 	 	},
  	 	 	"subTitle": {
- 	 	 	 	"trans": "Consigue caches de los enemigos y mazmoras para imprimir tus nuevas armas y armaduras",
+ 	 	 	 	"trans": "敵やダンジョンにあるキャッシュを集めて、新しい武器や防具をクラフトする。",
  	 	 	 	"eng": "gather the caches from enemies and dungeons to print your new weapons and armor"
  	 	 	}
  	 	},
  	 	"bank": {
  	 	 	"balance": {
- 	 	 	 	"trans": "equilibrio",
+ 	 	 	 	"trans": "残高",
  	 	 	 	"eng": "balance"
  	 	 	},
  	 	 	"deposit": {
- 	 	 	 	"trans": "Depositar",
+ 	 	 	 	"trans": "預金",
  	 	 	 	"eng": "Deposit"
  	 	 	},
  	 	 	"withdraw": {
- 	 	 	 	"trans": "Retirar",
+ 	 	 	 	"trans": "引き出し",
  	 	 	 	"eng": "Withdraw"
  	 	 	},
  	 	 	"upgradeSlot": {
  	 	 	 	"vars": [
  	 	 	 	 	"upgradeToSlot"
  	 	 	 	],
- 	 	 	 	"trans": "Actualizar a ${upgradeToSlot} ranuras",
+ 	 	 	 	"trans": "${upgradeToSlot}スロットにアップグレード",
  	 	 	 	"eng": "UPGRADE TO ${upgradeToSlot} SLOTS"
  	 	 	},
  	 	 	"takeItemFromVault": {
- 	 	 	 	"trans": "Retirar Artículo",
+ 	 	 	 	"trans": "アイテムを取り出す",
  	 	 	 	"eng": "Withdraw Item"
  	 	 	},
  	 	 	"putItemToVault": {
- 	 	 	 	"trans": "Depositar Artículo",
+ 	 	 	 	"trans": "商品を収納する",
  	 	 	 	"eng": "Deposit Item"
  	 	 	},
  	 	 	"modal": {
  	 	 	 	"selectDeposit": {
- 	 	 	 	 	"trans": "¿Cuánto te gustaría depositar?",
+ 	 	 	 	 	"trans": "いくつ収納しますか？",
  	 	 	 	 	"eng": "How much would you like to deposit?"
  	 	 	 	},
  	 	 	 	"selectWithdraw": {
- 	 	 	 	 	"trans": "¿Cuánto te gustaría retirar?",
+ 	 	 	 	 	"trans": "いくつ取り出しますか？",
  	 	 	 	 	"eng": "How much would you like to withdraw?"
  	 	 	 	}
  	 	 	},
  	 	 	"noBalance": {
- 	 	 	 	"trans": "No puedes retirar cuando no tienes dinero en la cuenta.",
+ 	 	 	 	"trans": "残高がないため引き出すことができません。",
  	 	 	 	"eng": "You can't withdraw when you have no balance."
  	 	 	},
  	 	 	"depositDesc": {
- 	 	 	 	"trans": "Depositar bitcoins en el banco",
+ 	 	 	 	"trans": "ビットコインを銀行に入れる",
  	 	 	 	"eng": "Put Bitcoins into bank"
  	 	 	},
  	 	 	"withdrawDesc": {
- 	 	 	 	"trans": "Retirar los bitcoins del banco",
+ 	 	 	 	"trans": "銀行からビットコイン引き出す",
  	 	 	 	"eng": "Take Bitcoins out of bank"
  	 	 	},
  	 	 	"putItemToVaultDesc": {
- 	 	 	 	"trans": "Pon artículos en tu bóveda",
+ 	 	 	 	"trans": "アイテムを金庫に入れる",
  	 	 	 	"eng": "Put items into your vault"
  	 	 	},
  	 	 	"takeItemFromVaultDesc": {
- 	 	 	 	"trans": "Toma artículos de tu bóveda",
+ 	 	 	 	"trans": "金庫からアイテムを取り出す",
  	 	 	 	"eng": "Take items out from your vault"
  	 	 	},
  	 	 	"upgradeSlotDesc": {
  	 	 	 	"vars": [
  	 	 	 	 	"upgradeToSlot"
  	 	 	 	],
- 	 	 	 	"trans": "Aumenta la cantidad máxima de elementos que puedes almacenar en la bóveda a ${upgradeToSlot}",
+ 	 	 	 	"trans": "金庫に保存できるアイテムの最大量を${upgradeToSlot}に増やす",
  	 	 	 	"eng": "Increase the max amount of items you can store in vault to ${upgradeToSlot}"
  	 	 	}
  	 	},
  	 	"generalCaptcha": {
  	 	 	"story": {
- 	 	 	 	"trans": "Encontraste una antigua caja de seguridad cerrada, parece que es una nota adhesiva con algún texto en él.",
+ 	 	 	 	"trans": "古い鍵付きの金庫を見つけ、そこには何か文字が書かれたポストイットのようなものがありました。",
  	 	 	 	"eng": "You found an old locked safe box, there seems like a post-it with some text written on it."
  	 	 	},
  	 	 	"title": {
- 	 	 	 	"trans": "Código PIN requerido para desbloquear",
+ 	 	 	 	"trans": "ロック解除用PINコード",
  	 	 	 	"eng": "Pin code required to unlock"
  	 	 	},
  	 	 	"inputLabel": {
- 	 	 	 	"trans": "Código PIN",
+ 	 	 	 	"trans": "PINコード",
  	 	 	 	"eng": "Pin Code"
  	 	 	},
  	 	 	"inputPlaceholder": {
- 	 	 	 	"trans": "Ingrese el código PIN",
+ 	 	 	 	"trans": "PINコードを入力してください",
  	 	 	 	"eng": "Enter pin code"
  	 	 	}
  	 	},
  	 	"list": {
  	 	 	"longPressToMultiSelect": {
- 	 	 	 	"trans": "Manten presionado para selección multiple",
+ 	 	 	 	"trans": "長押しして複数選択",
  	 	 	 	"eng": "Long press to multi-select"
  	 	 	}
  	 	},
  	 	"inventory": {
  	 	 	"items": {
- 	 	 	 	"trans": "elementos",
+ 	 	 	 	"trans": "アイテム",
  	 	 	 	"eng": "items"
  	 	 	},
  	 	 	"secretKeys": {
- 	 	 	 	"trans": "llaves secretas",
+ 	 	 	 	"trans": "シークレットキー",
  	 	 	 	"eng": "secret keys"
  	 	 	},
  	 	 	"equipped": {
- 	 	 	 	"trans": "Equipado",
+ 	 	 	 	"trans": "装備済",
  	 	 	 	"eng": "Equipped"
  	 	 	},
  	 	 	"inventory": {
- 	 	 	 	"trans": "Inventario",
+ 	 	 	 	"trans": "インベントリ",
  	 	 	 	"eng": "Inventory"
  	 	 	},
  	 	 	"itemInbox": {
- 	 	 	 	"trans": "Bandeja de entrada de artículos",
+ 	 	 	 	"trans": "アイテム受信箱",
  	 	 	 	"eng": "Item Inbox"
  	 	 	},
  	 	 	"crafting": {
- 	 	 	 	"trans": "Crear",
+ 	 	 	 	"trans": "クラフト中",
  	 	 	 	"eng": "Crafting"
  	 	 	},
  	 	 	"autoScrap": {
  	 	 	 	"button": {
- 	 	 	 	 	"trans": "Auto-Desechar",
+ 	 	 	 	 	"trans": "自動クラップ",
  	 	 	 	 	"eng": "Auto Scrap"
  	 	 	 	}
  	 	 	}
@@ -2107,75 +2107,75 @@
  	 	"itemDisplay": {
  	 	 	"broken": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "Mal funcionamiento",
+ 	 	 	 	 	"trans": "故障",
  	 	 	 	 	"eng": "Malfunctioned"
  	 	 	 	},
  	 	 	 	"subtitle": {
- 	 	 	 	 	"trans": "Reparación Extensa requerida",
+ 	 	 	 	 	"trans": "広範囲の修理が必要",
  	 	 	 	 	"eng": "Extensive repair required"
  	 	 	 	},
  	 	 	 	"instruction": {
- 	 	 	 	 	"trans": "Este artículo está roto, llevalo a la Armería para su reparación",
+ 	 	 	 	 	"trans": "この商品は壊れています。修理のために装備屋にお持ちください。",
  	 	 	 	 	"eng": "This item is broken, bring it to Weapon Smith for repair"
  	 	 	 	}
  	 	 	}
  	 	},
  	 	"secretKey": {
  	 	 	"title": {
- 	 	 	 	"trans": "Llaves secretas",
+ 	 	 	 	"trans": "シークレットキー",
  	 	 	 	"eng": "Secret Keys"
  	 	 	},
  	 	 	"noKeysTitle": {
- 	 	 	 	"trans": "No tienes llaves secretas",
+ 	 	 	 	"trans": "シークレットキーがありません",
  	 	 	 	"eng": "You don't have any secret keys"
  	 	 	},
  	 	 	"noKeysSubtitle": {
- 	 	 	 	"trans": "Puedes obtener llaves secretas de las mazmorras",
+ 	 	 	 	"trans": "ダンジョンでシークレットキーを入手可能",
  	 	 	 	"eng": "You can obtain secret keys from Dungeons"
  	 	 	}
  	 	},
  	 	"npc": {
  	 	 	"notUnlocked": {
- 	 	 	 	"trans": "Esto no está desbloqueado todavía, intente subir el nivel de tu personaje",
+ 	 	 	 	"trans": "これはまだアンロックされていません。キャラクターをレベルアップしてみてください。",
  	 	 	 	"eng": "This is not unlocked yet, try leveling up your character"
  	 	 	},
  	 	 	"repairItems": {
  	 	 	 	"vars": [
  	 	 	 	 	"repairFee"
  	 	 	 	],
- 	 	 	 	"trans": "Reparar todos los artículos (${repairFee} Bitcoin)",
+ 	 	 	 	"trans": "すべてのアイテムを修復する（${repairFee}BTC）",
  	 	 	 	"eng": " Repair all items for (${repairFee} Bitcoin)"
  	 	 	}
  	 	},
  	 	"travel": {
  	 	 	"notUnlocked": {
- 	 	 	 	"trans": "No has desbloqueado esta área todavía",
+ 	 	 	 	"trans": "この地域はまだ解放されていません",
  	 	 	 	"eng": "You have not unlocked this area yet"
  	 	 	}
  	 	},
  	 	"itemDetails": {
  	 	 	"factoryReset": {
  	 	 	 	"confirmation": {
- 	 	 	 	 	"trans": "Hacer esto restablecerá toda la calibración de este objeto, también lo hará intercambiable nuevamente. \n       ¿Estas seguro que deseas continuar?",
+ 	 	 	 	 	"trans": "これを行うと、アイテムのすべてのキャリブレーションがリセットされ、再度取引が可能になります。 \n       続行しますか？",
  	 	 	 	 	"eng": "Doing this will reset all calibration on your item. It will also make it tradable again. \n      Are you sure you want to proceed?"
  	 	 	 	},
- 	 	 	 	"trans": "Reinicio de fábrica",
+ 	 	 	 	"trans": "工場のリセット",
  	 	 	 	"eng": "Factory Reset"
  	 	 	}
  	 	},
  	 	"apps": {
  	 	 	"dailyReward": {
- 	 	 	 	"trans": "Recompensa diaria",
+ 	 	 	 	"trans": "デイリーリワード",
  	 	 	 	"eng": "Daily Reward"
  	 	 	},
  	 	 	"coupon": {
- 	 	 	 	"trans": "Reclamar cupón",
+ 	 	 	 	"trans": "クーポン",
  	 	 	 	"eng": "Claim Coupon"
  	 	 	}
  	 	},
  	 	"gang": {
  	 	 	"confirmKickMember": {
- 	 	 	 	"trans": "¿Estás seguro de que quieres hechar a este jugador de tu banda?",
+ 	 	 	 	"trans": "本当にこのプレイヤーをギャングから追放しますか？",
  	 	 	 	"eng": "are you sure you want to kick this player from your gang?"
  	 	 	},
  	 	 	"memberContribution": {
@@ -2183,21 +2183,21 @@
  	 	 	 	 	"vars": [
  	 	 	 	 	 	"resourceContribution"
  	 	 	 	 	],
- 	 	 	 	 	"trans": "${resourceContribution} Recurso",
+ 	 	 	 	 	"trans": "${resourceContribution}リソース",
  	 	 	 	 	"eng": "${resourceContribution} Resource"
  	 	 	 	},
  	 	 	 	"occupation": {
  	 	 	 	 	"vars": [
  	 	 	 	 	 	"occupationContribution"
  	 	 	 	 	],
- 	 	 	 	 	"trans": "Punto de ocupación de ${occupationContribution}",
+ 	 	 	 	 	"trans": "${occupationContribution}職業ポイント",
  	 	 	 	 	"eng": "${occupationContribution} occupation point"
  	 	 	 	},
  	 	 	 	"fund": {
  	 	 	 	 	"vars": [
  	 	 	 	 	 	"moneyContribution"
  	 	 	 	 	],
- 	 	 	 	 	"trans": "${moneyContribution} Financiación",
+ 	 	 	 	 	"trans": "${moneyContribution}資金ポイント",
  	 	 	 	 	"eng": "${moneyContribution} funding"
  	 	 	 	},
  	 	 	 	"exp": {
@@ -2211,47 +2211,47 @@
  	 	},
  	 	"coupon": {
  	 	 	"inputLabel": {
- 	 	 	 	"trans": "Cupón",
+ 	 	 	 	"trans": "クーポン",
  	 	 	 	"eng": "Coupon"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Si tiene un cupón de uno de nuestros eventos, puede reclamarlo aquí.",
+ 	 	 	 	"trans": "イベントで使用したクーポンをお持っていれば、こちらから使用できます。",
  	 	 	 	"eng": "If you have a coupon from one of our events, you can claim it here."
  	 	 	},
  	 	 	"placeholder": {
- 	 	 	 	"trans": "Pegue o ingrese su cupón aquí",
+ 	 	 	 	"trans": "クーポンをここに貼り付けるか、入力してください。",
  	 	 	 	"eng": "Paste or enter your coupon here"
  	 	 	},
  	 	 	"confirm": {
- 	 	 	 	"trans": "Activar el cupón",
+ 	 	 	 	"trans": "クーポンを有効にします",
  	 	 	 	"eng": "Activate Coupon"
  	 	 	}
  	 	},
  	 	"dailyReward": {
  	 	 	"day": {
- 	 	 	 	"trans": "Día",
+ 	 	 	 	"trans": "日",
  	 	 	 	"eng": "Day"
  	 	 	},
  	 	 	"canClaim": {
- 	 	 	 	"trans": "Disponible",
+ 	 	 	 	"trans": "利用可能",
  	 	 	 	"eng": "Available"
  	 	 	},
  	 	 	"claimed": {
- 	 	 	 	"trans": "Reclamada",
+ 	 	 	 	"trans": "要求",
  	 	 	 	"eng": "Claimed"
  	 	 	},
  	 	 	"cantClaimYet": {
- 	 	 	 	"trans": "Bloqueada",
+ 	 	 	 	"trans": "ロック",
  	 	 	 	"eng": "Locked"
  	 	 	}
  	 	},
  	 	"shop": {
  	 	 	"purchase": {
- 	 	 	 	"trans": "compra",
+ 	 	 	 	"trans": "購入",
  	 	 	 	"eng": "purchase"
  	 	 	},
  	 	 	"sell": {
- 	 	 	 	"trans": "vender",
+ 	 	 	 	"trans": "売る",
  	 	 	 	"eng": "sell"
  	 	 	}
  	 	},
@@ -2259,7 +2259,7 @@
  	 	 	"deleteAccount": {
  	 	 	 	"modal": {
  	 	 	 	 	"title": {
- 	 	 	 	 	 	"trans": "¿Estás seguro de que deseas eliminar tu cuenta? Esto es irreversible y eliminará toda la información.",
+ 	 	 	 	 	 	"trans": "アカウントを削除してもよろしいですか？この操作は取り消すことができず、すべての情報が削除されます。",
  	 	 	 	 	 	"eng": "Are you sure you want to delete your account? This is irreversible, all account information will be removed."
  	 	 	 	 	}
  	 	 	 	}
@@ -2267,60 +2267,60 @@
  	 	},
  	 	"job": {
  	 	 	"cantEnterError": {
- 	 	 	 	"trans": "Necesitas al menos nivel 2 para acceder al centro de trabajo",
+ 	 	 	 	"trans": "ジョブハブにアクセスするには、レベル2以上が必要です。",
  	 	 	 	"eng": "You need to be at least level 2 to access the job hub"
  	 	 	}
  	 	},
  	 	"landing": {
  	 	 	"subtile": {
- 	 	 	 	"trans": "MMORPG Cyberpunk basado en texto",
+ 	 	 	 	"trans": "サイバーパンク系テキストベースMMORPG",
  	 	 	 	"eng": "Cyberpunk Text-based MMORPG"
  	 	 	},
  	 	 	"description1": {
- 	 	 	 	"trans": "Cybercode Online es un juego en línea, se necesita una cuenta para almacenar datos del juego.",
+ 	 	 	 	"trans": "CyberCode Onlineはオンラインゲームで、ゲームデータの保存にはアカウントが必要です。",
  	 	 	 	"eng": "CyberCode Online is an online game, an account is needed to store game data."
  	 	 	},
  	 	 	"description2": {
- 	 	 	 	"trans": "Por favor, regístrate o inicia sesión con la cuenta existente",
+ 	 	 	 	"trans": "登録するか、既存のアカウントでログインしてください。",
  	 	 	 	"eng": "please register or login with existing account"
  	 	 	}
  	 	},
  	 	"login": {
  	 	 	"loginButton": {
- 	 	 	 	"trans": "Acceso",
+ 	 	 	 	"trans": "ログイン",
  	 	 	 	"eng": "Login"
  	 	 	},
  	 	 	"forgotPassword": {
- 	 	 	 	"trans": "¿Has olvidado tu contraseña?",
+ 	 	 	 	"trans": "パスワードをお忘れですか？",
  	 	 	 	"eng": "Forgot Password?"
  	 	 	},
  	 	 	"registerPageButton": {
- 	 	 	 	"trans": "¿Registrarse?",
+ 	 	 	 	"trans": "登録はこちら",
  	 	 	 	"eng": "Create Account?"
  	 	 	}
  	 	},
  	 	"register": {
  	 	 	"registerButton": {
- 	 	 	 	"trans": "Registrarse",
+ 	 	 	 	"trans": "登録",
  	 	 	 	"eng": "Create Account"
  	 	 	},
  	 	 	"loginPageButton": {
- 	 	 	 	"trans": "¿Tienes una cuenta?",
+ 	 	 	 	"trans": "アカウントを持っていますか？",
  	 	 	 	"eng": "Have account?"
  	 	 	}
  	 	},
  	 	"basicInfo": {
  	 	 	"emptyError": {
- 	 	 	 	"trans": "Por favor ingresa el nombre de tu personaje para continuar.",
+ 	 	 	 	"trans": "続行するには、キャラクター名を入力してください。",
  	 	 	 	"eng": "Please enter your character name to continue."
  	 	 	},
  	 	 	"playerNameInput": {
  	 	 	 	"label": {
- 	 	 	 	 	"trans": "Nombre del personaje",
+ 	 	 	 	 	"trans": "キャラクター名",
  	 	 	 	 	"eng": "Character Name"
  	 	 	 	},
  	 	 	 	"description": {
- 	 	 	 	 	"trans": "Serás silenciado si usas nombres ofensivos o inapropiados.",
+ 	 	 	 	 	"trans": "不快な名前や不適切な名前を使用すると、ミュートされます。",
  	 	 	 	 	"eng": "you will be muted if you use an offensive or inappropriate name."
  	 	 	 	}
  	 	 	}
@@ -2332,11 +2332,11 @@
  	 	 	 	 	 	"timeSkipMinutes",
  	 	 	 	 	 	"timeSkipCost"
  	 	 	 	 	],
- 	 	 	 	 	"trans": "Omición global (${timeSkipMinutes} min, costo ${timeSkipCost} unidades)",
+ 	 	 	 	 	"trans": "グローバルスキップ（${timeSkipMinutes}分、${timeSkipCost}単位）",
  	 	 	 	 	"eng": "Global Skip (${timeSkipMinutes} Min, Cost ${timeSkipCost} Units)"
  	 	 	 	},
  	 	 	 	"description": {
- 	 	 	 	 	"trans": "Omición global te permite omitir el tiempo de espera de AFK y terminarlo al instante. \n     Este efecto se aplicará a todos los jugadores que estn realizando tareas AFK",
+ 	 	 	 	 	"trans": "グローバルスキップAFK待ち時間をスキップして即座に終了することができます。 \n     この効果はAFKタスクを実行するすべてのプレイヤーに適用されます。",
  	 	 	 	 	"eng": "Global Skip allow you to skip the AFK waiting time, and finish it instantly.\n    this effect will be applied to all player performing AFK task"
  	 	 	 	}
  	 	 	},
@@ -2345,7 +2345,7 @@
  	 	 	 	 	"vars": [
  	 	 	 	 	 	"itemSkipMinutes"
  	 	 	 	 	],
- 	 	 	 	 	"trans": "Saltar tiempo gratuito (${itemSkipMinutes} min)",
+ 	 	 	 	 	"trans": "空き時間スキップ（${itemSkipMinutes}分）",
  	 	 	 	 	"eng": "Free time skip (${itemSkipMinutes} Min)"
  	 	 	 	},
  	 	 	 	"description": {
@@ -2353,57 +2353,57 @@
  	 	 	 	 	 	"timeSkipItemName",
  	 	 	 	 	 	"itemSkipMinutes"
  	 	 	 	 	],
- 	 	 	 	 	"trans": "Usa uno de tus ${timeSkipItemName} para saltar ${itemSkipMinutes} minutos",
+ 	 	 	 	 	"trans": "${itemSkipMinutes}をスキップするには、${timeSkipItemName}の1つを使用します。",
  	 	 	 	 	"eng": "Use one of your ${timeSkipItemName} to skip ${itemSkipMinutes} minutes"
  	 	 	 	}
  	 	 	},
  	 	 	"inProgressBox": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "Omición global en progreso",
+ 	 	 	 	 	"trans": "グローバルスキップ進行中の",
  	 	 	 	 	"eng": "Global Skip in progress"
  	 	 	 	},
  	 	 	 	"subtitle": {
  	 	 	 	 	"vars": [
  	 	 	 	 	 	"skippingPlayerCount"
  	 	 	 	 	],
- 	 	 	 	 	"trans": "Acelerando ${skippingPlayerCount} usuarios ..",
+ 	 	 	 	 	"trans": "${skippingPlayerCount}ユーザーの加速",
  	 	 	 	 	"eng": "Accelerating ${skippingPlayerCount} users.."
  	 	 	 	}
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Omición global le permite omitir el tiempo de espera AFK y terminarlo al instante. \n     Este efecto se aplicará a todos los jugadores que estén realizando tareas AFK",
+ 	 	 	 	"trans": "グローバルスキップAFK待ち時間をスキップして即座に終了することができます。 \n     この効果はAFKタスクを実行するすべてのプレイヤーに適用されます。",
  	 	 	 	"eng": "Global Skip allow you to skip the AFK waiting time, and finish it instantly.\n    this effect will be applied to all players performing an AFK task"
  	 	 	}
  	 	},
  	 	"afkTask": {
  	 	 	"abort": {
- 	 	 	 	"trans": "Abortar",
+ 	 	 	 	"trans": "アボート",
  	 	 	 	"eng": "Abort"
  	 	 	}
  	 	},
  	 	"quest": {
  	 	 	"globalQuest": {
  	 	 	 	"progressTitle": {
- 	 	 	 	 	"trans": "Brecha en SL-Data Fortress",
+ 	 	 	 	 	"trans": "SLデータ要塞違反",
  	 	 	 	 	"eng": "SL-Data Fortress Breach"
  	 	 	 	},
  	 	 	 	"infoBox": {
  	 	 	 	 	"title": {
- 	 	 	 	 	 	"trans": "Cyberspace Hacking en progreso",
+ 	 	 	 	 	 	"trans": "進行中のサイバースペースハッキング",
  	 	 	 	 	 	"eng": "Cyberspace hacking in progress"
  	 	 	 	 	},
  	 	 	 	 	"subtitle": {
- 	 	 	 	 	 	"trans": "Úne fuerzas con otros Netrunners para filtrarte en la fortaleza SL-Data y asi otorgar un buff a todos los jugadores",
+ 	 	 	 	 	 	"trans": "他のネットランナーとの結合に参加してSLデータの要塞を違反して、すべてのプレーヤーをバフで付与する",
  	 	 	 	 	 	"eng": "Join forces with other Netrunners to breach the SL-Data Fortress to grant all players with buff"
  	 	 	 	 	}
  	 	 	 	},
  	 	 	 	"completeBox": {
  	 	 	 	 	"title": {
- 	 	 	 	 	 	"trans": "Operación de filtración completada",
+ 	 	 	 	 	 	"trans": "違反操作完了",
  	 	 	 	 	 	"eng": "Breach operation completed"
  	 	 	 	 	},
  	 	 	 	 	"subtitle": {
- 	 	 	 	 	 	"trans": "Desplegando Hack remoto, por favor espere ...",
+ 	 	 	 	 	 	"trans": "リモートエクスプロイトのデプロイ、お待ちください...",
  	 	 	 	 	 	"eng": "Remote exploit deploying, please wait..."
  	 	 	 	 	}
  	 	 	 	}
@@ -2413,19 +2413,19 @@
  	 	 	"attackButton": {
  	 	 	 	"primary": {
  	 	 	 	 	"title": {
- 	 	 	 	 	 	"trans": "primaria",
+ 	 	 	 	 	 	"trans": "主要な",
  	 	 	 	 	 	"eng": "primary"
  	 	 	 	 	}
  	 	 	 	},
  	 	 	 	"secondary": {
  	 	 	 	 	"title": {
- 	 	 	 	 	 	"trans": "especial",
+ 	 	 	 	 	 	"trans": "特別",
  	 	 	 	 	 	"eng": "special"
  	 	 	 	 	}
  	 	 	 	},
  	 	 	 	"tertiary": {
  	 	 	 	 	"title": {
- 	 	 	 	 	 	"trans": "Destruir.",
+ 	 	 	 	 	 	"trans": "破壊する。",
  	 	 	 	 	 	"eng": "Destruct."
  	 	 	 	 	}
  	 	 	 	}
@@ -2433,54 +2433,54 @@
  	 	},
  	 	"backToPreviusLoc": {
  	 	 	"longPressBackToCity": {
- 	 	 	 	"trans": "Larga presiona para volver a la ciudad",
+ 	 	 	 	"trans": "都市に戻るための長いプレス",
  	 	 	 	"eng": "Long press to go back to city"
  	 	 	}
  	 	},
  	 	"dungeon": {
  	 	 	"public": {
- 	 	 	 	"trans": "Mazmorra pública",
+ 	 	 	 	"trans": "公共ダンジョン",
  	 	 	 	"eng": "Public dungeon"
  	 	 	},
  	 	 	"password": {
- 	 	 	 	"trans": "Dungeon protegido por contraseña",
+ 	 	 	 	"trans": "パスワードで保護されたダンジョン",
  	 	 	 	"eng": "Password protected dungeon"
  	 	 	},
  	 	 	"enterDungeon": {
- 	 	 	 	"trans": "Entrar en mazmorra",
+ 	 	 	 	"trans": "ダンジョンに入る",
  	 	 	 	"eng": "Enter Dungeon"
  	 	 	},
  	 	 	"listButton": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "Mazmorras",
+ 	 	 	 	 	"trans": "ダンジョン",
  	 	 	 	 	"eng": "Dungeons"
  	 	 	 	},
  	 	 	 	"des": {
- 	 	 	 	 	"trans": "En las mazmorras, no sanarás después de cada pelea, y los enemigos son más fuertes, pero hay más exp y botes",
+ 	 	 	 	 	"trans": "ダンジョンでは、あなたはそれぞれの戦いの後に癒されません、そして敵はより強いですが、より多くのExpと戦利品があります",
  	 	 	 	 	"eng": "In dungeons, you will not heal after each fight, and enemies are stronger, but there are more exp and loots"
  	 	 	 	}
  	 	 	}
  	 	},
  	 	"combat": {
  	 	 	"enemyIsDeadTitle": {
- 	 	 	 	"trans": "No encontraste nada aquí",
+ 	 	 	 	"trans": "あなたはここに何も見つかりませんでした",
  	 	 	 	"eng": "You found nothing here"
  	 	 	}
  	 	},
  	 	"dungeonLobby": {
  	 	 	"noDungeon": {
- 	 	 	 	"trans": "Actualmente no hay mazmorra pública",
+ 	 	 	 	"trans": "現在公のダンジョンはありません",
  	 	 	 	"eng": "There is currently no public dungeon"
  	 	 	}
  	 	},
  	 	"localCombat": {
  	 	 	"nearByEnemiesButton": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "Enemigos cercanos",
+ 	 	 	 	 	"trans": "近くの敵",
  	 	 	 	 	"eng": "Nearby Enemies"
  	 	 	 	},
  	 	 	 	"desc": {
- 	 	 	 	 	"trans": "Scanse para los enemigos cercanos en la calle, los enemigos fuera de las mazmorras son más débiles y más fáciles de derrotar. Sin embargo, también caen menos exp",
+ 	 	 	 	 	"trans": "路上で近くの敵をスキャンし、ダンジョンの外の敵は弱く、敗北が簡単です。 しかし、彼らはまた低寿命を落とします",
  	 	 	 	 	"eng": "Scans for nearby enemies on the street, enemies outside dungeons are weaker and easier to defeat. However they also drop less exp"
  	 	 	 	}
  	 	 	}
@@ -2488,328 +2488,328 @@
  	},
  	"misc": {
  	 	"missing": {
- 	 	 	"trans": "Faltan",
+ 	 	 	"trans": "不明",
  	 	 	"eng": "missing"
  	 	},
  	 	"name": {
- 	 	 	"trans": "Nombre",
+ 	 	 	"trans": "名前",
  	 	 	"eng": "Name"
  	 	},
  	 	"tag": {
- 	 	 	"trans": "Etiqueta",
+ 	 	 	"trans": "タグ",
  	 	 	"eng": "Tag"
  	 	},
  	 	"donate": {
- 	 	 	"trans": "Donar",
+ 	 	 	"trans": "寄付",
  	 	 	"eng": "Donate"
  	 	},
  	 	"noSecretKey": {
- 	 	 	"trans": "Sin llave secreta",
+ 	 	 	"trans": " シークレットキー無し",
  	 	 	"eng": " No secret key"
  	 	},
  	 	"globalEffects": {
- 	 	 	"trans": "Efectos Globales",
+ 	 	 	"trans": "グローバルエフェクト",
  	 	 	"eng": "Global Effects"
  	 	},
  	 	"confirm": {
- 	 	 	"trans": "Confirmar",
+ 	 	 	"trans": "確定",
  	 	 	"eng": "Confirm"
  	 	},
  	 	"requires": {
- 	 	 	"trans": "Requiere",
+ 	 	 	"trans": "必要",
  	 	 	"eng": "Requires"
  	 	},
  	 	"receives": {
- 	 	 	"trans": "Recive",
+ 	 	 	"trans": "受信",
  	 	 	"eng": "Receives"
  	 	},
  	 	"amount": {
- 	 	 	"trans": "Cantidad",
+ 	 	 	"trans": "総量",
  	 	 	"eng": "Amount"
  	 	},
  	 	"shield": {
- 	 	 	"trans": "Escudo",
+ 	 	 	"trans": "シールド",
  	 	 	"eng": "Shield"
  	 	},
  	 	"health": {
- 	 	 	"trans": "Vida",
+ 	 	 	"trans": "HP",
  	 	 	"eng": "Health"
  	 	},
  	 	"statusEffect": {
- 	 	 	"trans": "Efectos de estado",
+ 	 	 	"trans": "ステータスエフェクト",
  	 	 	"eng": "Status Effects"
  	 	},
  	 	"notTradable": {
- 	 	 	"trans": "No Intercambiable",
+ 	 	 	"trans": "取引不可",
  	 	 	"eng": "not tradable"
  	 	},
  	 	"itemUpgradeCapacity": {
- 	 	 	"trans": "Capacidad de colaboración",
+ 	 	 	"trans": "アップグレード上限",
  	 	 	"eng": "Collaboration Capacity"
  	 	},
  	 	"systemStandby": {
- 	 	 	"trans": "Sistema en espera",
+ 	 	 	"trans": "システム待機",
  	 	 	"eng": "System standby"
  	 	},
  	 	"send": {
- 	 	 	"trans": "enviar",
+ 	 	 	"trans": "送信",
  	 	 	"eng": "send"
  	 	},
  	 	"password": {
- 	 	 	"trans": "Clave",
+ 	 	 	"trans": "パスワード",
  	 	 	"eng": "Password"
  	 	},
  	 	"close": {
- 	 	 	"trans": "cerrar",
+ 	 	 	"trans": "閉じる",
  	 	 	"eng": "close"
  	 	},
  	 	"back": {
- 	 	 	"trans": "espalda",
+ 	 	 	"trans": "戻る",
  	 	 	"eng": "back"
  	 	},
  	 	"dungeons": {
- 	 	 	"trans": "mazmorras",
+ 	 	 	"trans": "ダンジョン",
  	 	 	"eng": "dungeons"
  	 	},
  	 	"enemies": {
- 	 	 	"trans": "Enemigas",
+ 	 	 	"trans": "敵",
  	 	 	"eng": "Enemies"
  	 	}
  	},
  	"statsType": {
  	 	"health": {
  	 	 	"name": {
- 	 	 	 	"trans": "Vida",
+ 	 	 	 	"trans": "HP",
  	 	 	 	"eng": "Health"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Aumenta la vida máxima",
+ 	 	 	 	"trans": "最大HPを上昇させます",
  	 	 	 	"eng": "Increases maximum health"
  	 	 	}
  	 	},
  	 	"armor": {
  	 	 	"name": {
- 	 	 	 	"trans": "Armadura",
+ 	 	 	 	"trans": "アーマー",
  	 	 	 	"eng": "Armor"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Disminuye el daño que recibes de los enemigos",
+ 	 	 	 	"trans": "敵からのダメージを軽減",
  	 	 	 	"eng": "Decreases damage taken from enemies"
  	 	 	}
  	 	},
  	 	"healthRegen": {
  	 	 	"name": {
- 	 	 	 	"trans": "Regenerar vida",
+ 	 	 	 	"trans": "自動回復",
  	 	 	 	"eng": "Health regen"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Cantidad de vida regenerada al acabar un combate",
+ 	 	 	 	"trans": "戦闘終了後に回復するHPの量",
  	 	 	 	"eng": "Amount of health regenerated after the end of combat"
  	 	 	}
  	 	},
  	 	"damage": {
  	 	 	"name": {
- 	 	 	 	"trans": "Daño",
+ 	 	 	 	"trans": "ダメージ",
  	 	 	 	"eng": "Damage"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Influye directamente en el daño que infliges",
+ 	 	 	 	"trans": "与えるダメージ量",
  	 	 	 	"eng": "Directly influences the amount of damage dealt by you"
  	 	 	}
  	 	},
  	 	"critChance": {
  	 	 	"name": {
- 	 	 	 	"trans": "Posibilidad de ataque crítico",
+ 	 	 	 	"trans": "クリティカル率",
  	 	 	 	"eng": "Crit chance"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Posibilidad de realizar un ataque crítico",
+ 	 	 	 	"trans": "クリティカル攻撃を繰り出す確率",
  	 	 	 	"eng": "Chance of you executing a critical attack"
  	 	 	}
  	 	},
  	 	"critDamage": {
  	 	 	"name": {
- 	 	 	 	"trans": "Daño crítico",
+ 	 	 	 	"trans": "クリティカルダメージ",
  	 	 	 	"eng": "Crit damage"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Influye en la cantidad de daño hecho al realizar un ataque crítico",
+ 	 	 	 	"trans": "敵に与えるクリティカル攻撃のダメージ",
  	 	 	 	"eng": "Influence the critical attack damage you deal to the enemy"
  	 	 	}
  	 	},
  	 	"maxShield": {
  	 	 	"name": {
- 	 	 	 	"trans": "Escudo Máximo",
+ 	 	 	 	"trans": "シールド最大値",
  	 	 	 	"eng": "MaxShield"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Aumenta la capacidad de tu escudo",
+ 	 	 	 	"trans": "シールド量を増やす",
  	 	 	 	"eng": "Increases your shield capacity"
  	 	 	}
  	 	},
  	 	"description": {
  	 	 	"name": {
- 	 	 	 	"trans": "Aumenta la capacidad del inventario",
+ 	 	 	 	"trans": "シールド量を増やす",
  	 	 	 	"eng": "Increases inventory capacity"
  	 	 	}
  	 	},
  	 	"escape": {
  	 	 	"name": {
- 	 	 	 	"trans": "Escapar",
+ 	 	 	 	"trans": "エスケープ",
  	 	 	 	"eng": "Escape"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Chance de poder escapar de una mazmorra enemiga",
+ 	 	 	 	"trans": "ダンジョン内の敵から逃げる",
  	 	 	 	"eng": "Chances of you escaping from a dungeon enemy"
  	 	 	}
  	 	},
  	 	"stunChance": {
  	 	 	"name": {
- 	 	 	 	"trans": "Posibilidad de aturdir",
+ 	 	 	 	"trans": "スタン率",
  	 	 	 	"eng": "Stun chance"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Posibilidad de aturdir al enemigo cuando le haces daño, \r\n    causando que no puedan responder a tu ataque",
+ 	 	 	 	"trans": "ダメージを与える際に敵をスタンさせる確率 \r\n     敵が攻撃に対応できなくなる",
  	 	 	 	"eng": "Chance of you stunning your enemy when dealing damage, \r\n    causing them not able to respond to your attack"
  	 	 	}
  	 	},
  	 	"evade": {
  	 	 	"name": {
- 	 	 	 	"trans": "Evasión",
+ 	 	 	 	"trans": "回避率",
  	 	 	 	"eng": "Evade"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Posibilidad de evadir un ataque enemigo",
+ 	 	 	 	"trans": "敵の攻撃を回避できる確率",
  	 	 	 	"eng": "Chance of you dodging an enemies attack"
  	 	 	}
  	 	},
  	 	"bargain": {
  	 	 	"name": {
- 	 	 	 	"trans": "Negociación",
+ 	 	 	 	"trans": "バーゲン",
  	 	 	 	"eng": "Bargain"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Influye en el precio cuando compras o vendes a npc's o tiendas.",
+ 	 	 	 	"trans": "NPCや店で売買する際の価格に影響を与えます。",
  	 	 	 	"eng": "Influences the price when buying and selling from npc's or stores."
  	 	 	}
  	 	},
  	 	"pocket": {
  	 	 	"name": {
- 	 	 	 	"trans": "Bolsillo",
+ 	 	 	 	"trans": "ポケット",
  	 	 	 	"eng": "Pocket"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Aumenta la capacidad del inventario",
+ 	 	 	 	"trans": "インベントリサイズを増やす",
  	 	 	 	"eng": "Increases inventory capacity"
  	 	 	}
  	 	},
  	 	"damageMultiplier": {
  	 	 	"name": {
- 	 	 	 	"trans": "Multiplicador de daño",
+ 	 	 	 	"trans": "ダメージ倍率",
  	 	 	 	"eng": "Damage multiplier"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Aumenta porcentualmente el daño",
+ 	 	 	 	"trans": "与ダメージを一定の割合で増加させる",
  	 	 	 	"eng": "Increases damage by percentage"
  	 	 	}
  	 	},
  	 	"defenceMultiplier": {
  	 	 	"name": {
- 	 	 	 	"trans": "Multiplicador defensivo",
+ 	 	 	 	"trans": "防御倍率",
  	 	 	 	"eng": "Defence multiplier"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Disminuye porcentualmente el daño recibido",
+ 	 	 	 	"trans": "被ダメージを一定の割合で軽減させる",
  	 	 	 	"eng": "Decreases damage received by percentage"
  	 	 	}
  	 	},
  	 	"stunEvade": {
  	 	 	"name": {
- 	 	 	 	"trans": "Evasión de aturdimiento",
+ 	 	 	 	"trans": "スタン回避",
  	 	 	 	"eng": "Stun evade"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Disminuye la posibilidad de ser aturdido",
+ 	 	 	 	"trans": "スタン状態になる確率を減少させる",
  	 	 	 	"eng": "Decreases chance of getting stunned"
  	 	 	}
  	 	},
  	 	"shieldMultiplier": {
  	 	 	"name": {
- 	 	 	 	"trans": "Multiplicador de escudo",
+ 	 	 	 	"trans": "シールド倍率",
  	 	 	 	"eng": "Shield multiplier"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Aumenta porcentualmente la fuerza del escudo",
+ 	 	 	 	"trans": "シールド量を一定の割合で増加させる",
  	 	 	 	"eng": "Increase strength of shield by percentage"
  	 	 	}
  	 	},
  	 	"healMultiplier": {
  	 	 	"name": {
- 	 	 	 	"trans": "Multiplicador de curación",
+ 	 	 	 	"trans": "回復倍率",
  	 	 	 	"eng": "Healing multiplier"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Aumenta la efectividad de tus curaciones",
+ 	 	 	 	"trans": "回復効果を増加させる",
  	 	 	 	"eng": "Increases the potency of your heals"
  	 	 	}
  	 	},
  	 	"timeReduction": {
  	 	 	"name": {
- 	 	 	 	"trans": "Reducción de tiempo",
+ 	 	 	 	"trans": "時間短縮",
  	 	 	 	"eng": "Time reduction"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Reduce el tiempo requerido en tareas AFK",
+ 	 	 	 	"trans": "AFKタスクの所要時間を短縮",
  	 	 	 	"eng": "Reduce AFK task required time"
  	 	 	}
  	 	},
  	 	"expMultiplier": {
  	 	 	"name": {
- 	 	 	 	"trans": "Multiplicador de Exp",
+ 	 	 	 	"trans": "経験値倍率",
  	 	 	 	"eng": "Exp multiplier"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Incrementa la EXP recibida",
+ 	 	 	 	"trans": "獲得経験値を増やす",
  	 	 	 	"eng": "Increase EXP you receive"
  	 	 	}
  	 	},
  	 	"btcMultiplier": {
  	 	 	"name": {
- 	 	 	 	"trans": "Multiplicador de BTC",
+ 	 	 	 	"trans": "BTC倍率",
  	 	 	 	"eng": "BTC multiplier"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Incrementa los Bitcoins recibidos",
+ 	 	 	 	"trans": "受け取るビットコインを増やす",
  	 	 	 	"eng": "Increase Bitcoins you receive"
  	 	 	}
  	 	},
  	 	"maxHealth": {
  	 	 	"name": {
- 	 	 	 	"trans": "Vida Máxima",
+ 	 	 	 	"trans": "最大HP",
  	 	 	 	"eng": "Max Health"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Capacidad máxima de vida",
+ 	 	 	 	"trans": "体力の最大値",
  	 	 	 	"eng": "Maximum health capacity"
  	 	 	}
  	 	},
  	 	"upgradeChance": {
  	 	 	"name": {
- 	 	 	 	"trans": "Posibilidad de Calibrar",
+ 	 	 	 	"trans": "キャリブレーション率",
  	 	 	 	"eng": "Calibration Chance"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Reduce la posibilidad de tener un fallo destructivo al calibrar objetos",
+ 	 	 	 	"trans": "キャリブレーション時の破壊的に失敗する確率を下げます",
  	 	 	 	"eng": "Reduces chance of destructive failure when calibrating items"
  	 	 	}
  	 	},
  	 	"upgradeNoBreak": {
  	 	 	"name": {
- 	 	 	 	"trans": "Seguridad de Calibración",
+ 	 	 	 	"trans": "セイフティキャリブレーション",
  	 	 	 	"eng": "Calibration Safety"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Fallar la Calibración no destruirá el objeto",
+ 	 	 	 	"trans": "キャリブレーションに失敗してもアイテムが破壊されません",
  	 	 	 	"eng": "Calibration fails will not destroy the item"
  	 	 	}
  	 	}
@@ -2820,7 +2820,7 @@
  	 	 	 	"verb",
  	 	 	 	"amount"
  	 	 	],
- 	 	 	"trans": "Puedes ${verb} ${amount} veces",
+ 	 	 	"trans": "${amount}回${verb}できます",
  	 	 	"eng": "You can ${verb} ${amount} times"
  	 	},
  	 	"timeRequiredText": {
@@ -2828,64 +2828,64 @@
  	 	 	 	"verb",
  	 	 	 	"timeStr"
  	 	 	],
- 	 	 	"trans": "Tiempo requerido para ${verb}: ${timeStr}",
+ 	 	 	"trans": "${verb}に必要な時間：${timeStr}",
  	 	 	"eng": "Time required to ${verb}: ${timeStr}"
  	 	}
  	},
  	"recipe": {
  	 	"unlockLootBox1": {
  	 	 	"name": {
- 	 	 	 	"trans": "Desbloquear contenedor",
+ 	 	 	 	"trans": "コンテナを開ける",
  	 	 	 	"eng": "Unlock Container"
  	 	 	}
  	 	},
  	 	"unlock": {
- 	 	 	"trans": "Desbloquear",
+ 	 	 	"trans": "アンロック",
  	 	 	"eng": "Unlock"
  	 	},
  	 	"unlockLootBox2": {
  	 	 	"name": {
- 	 	 	 	"trans": "Desbloquear contenedor raro",
+ 	 	 	 	"trans": "珍しいコンテナを開ける",
  	 	 	 	"eng": "Unlock Rare Container"
  	 	 	}
  	 	},
  	 	"unlockLootBox3": {
  	 	 	"name": {
- 	 	 	 	"trans": "Deslobquear contenedor legendario",
+ 	 	 	 	"trans": "伝説のコンテナを開ける",
  	 	 	 	"eng": "Unlock Legendary Container"
  	 	 	}
  	 	},
  	 	"backpack1": {
  	 	 	"name": {
- 	 	 	 	"trans": "Bolsa Vieja",
+ 	 	 	 	"trans": "忘れ去られたポーチ",
  	 	 	 	"eng": "Old Pouch"
  	 	 	}
  	 	},
  	 	"trade": {
- 	 	 	"trans": "Intercambio",
+ 	 	 	"trans": "トレード",
  	 	 	"eng": "Trade"
  	 	},
  	 	"backpack2": {
  	 	 	"name": {
- 	 	 	 	"trans": "Riñonera",
+ 	 	 	 	"trans": "おもしろバッグ",
  	 	 	 	"eng": "Fanny Pack"
  	 	 	}
  	 	},
  	 	"backpack3": {
  	 	 	"name": {
- 	 	 	 	"trans": "Mochila del Explorador",
+ 	 	 	 	"trans": "冒険者のバックパック",
  	 	 	 	"eng": "Explorer's Backpack"
  	 	 	}
  	 	},
  	 	"backpack4": {
  	 	 	"name": {
- 	 	 	 	"trans": "Maletín de empleado de oficina",
+ 	 	 	 	"trans": "サラリーマンのビジネスバッグ",
  	 	 	 	"eng": "Employee Office Case"
  	 	 	}
  	 	},
  	 	"backpack5": {
  	 	 	"name": {
- 	 	 	 	"trans": "Unidad de almacenamiento autónomo",
+ 	 	 	 	"trans": "自律式ストレージユニット",
  	 	 	 	"eng": "Autonomous Storage Unit"
  	 	 	}
  	 	}
@@ -2897,32 +2897,32 @@
  	 	 	 	"priceStr",
  	 	 	 	"itemName"
  	 	 	],
- 	 	 	"trans": "Estas vendiendo ${amountStr} ${itemName} (s), al precio de ${priceStr} por artículo",
+ 	 	 	"trans": "${priceStr}の価格で${amountStr} ${itemName}を販売中",
  	 	 	"eng": "You are selling ${amountStr} ${itemName}(s), at the price of ${priceStr} Per Item"
  	 	},
  	 	"totalConfirm": {
  	 	 	"vars": [
  	 	 	 	"total"
  	 	 	],
- 	 	 	"trans": "Si todos los objetos se venden, vas a ganar ${total} BitCoins",
+ 	 	 	"trans": "すべて売却した場合、${total}BTCを獲得可能",
  	 	 	"eng": "If all items are sold, you will earn ${total} BitCoins"
  	 	},
  	 	"sellAmountModalTitle": {
- 	 	 	"trans": "Cuantos te gustaría vender?",
+ 	 	 	"trans": "いくつ売却しますか？",
  	 	 	"eng": "How many would you like to sell?"
  	 	}
  	},
  	"modal": {
  	 	"levelUp": {
  	 	 	"title": {
- 	 	 	 	"trans": "Subida de Nivel",
+ 	 	 	 	"trans": "レベルアップ",
  	 	 	 	"eng": "LEVEL UP"
  	 	 	},
  	 	 	"subTitle": {
  	 	 	 	"vars": [
  	 	 	 	 	"levelName"
  	 	 	 	],
- 	 	 	 	"trans": "Felicitaciones, acabas de subir al nivel ${levelName}!",
+ 	 	 	 	"trans": "おめでとうございます！${levelName}がレベルアップしました！",
  	 	 	 	"eng": "Congratulation, you have leveled up your ${levelName}!"
  	 	 	},
  	 	 	"fromTo": {
@@ -2930,41 +2930,41 @@
  	 	 	 	 	"from",
  	 	 	 	 	"to"
  	 	 	 	],
- 	 	 	 	"trans": "${de} => ${a}",
+ 	 	 	 	"trans": "${from} => ${to}",
  	 	 	 	"eng": "${from} => ${to}"
  	 	 	}
  	 	},
  	 	"review": {
  	 	 	"title1": {
- 	 	 	 	"trans": "Soy Dexter, el desarrollador de este juego, y estoy deseoso por saber tu experiencia hasta ahora.",
+ 	 	 	 	"trans": "私はこのゲームの開発者であるDexterです、そして私はこれまでの経験を知ることを望んでいます。",
  	 	 	 	"eng": "I'm Dexter, the developer of this game, and I hope to know your experience so far."
  	 	 	},
  	 	 	"title2": {
- 	 	 	 	"trans": "¿Cuántas estrellas le darías?",
+ 	 	 	 	"trans": "あなたは何星を与えますか？",
  	 	 	 	"eng": "How many stars would you give?"
  	 	 	},
  	 	 	"badReview": {
  	 	 	 	"title": {
- 	 	 	 	 	"trans": "Lo siento mucho, por favor hazme saber que puedo mejorar",
+ 	 	 	 	 	"trans": "私はとても残念です、私が改善できる場所を私に知らせてください",
  	 	 	 	 	"eng": "I am so sorry, please let me know where I can improve"
  	 	 	 	}
  	 	 	},
  	 	 	"goodReview": {
  	 	 	 	"title1": {
- 	 	 	 	 	"trans": "Wow muchas gracias! Estoy honrado, por favor, hazlo oficial dejándo tu opinion en la pagina de la tienda :)",
+ 	 	 	 	 	"trans": "うわーありがとうございます！ 私は尊敬されています、私たちの店のページに任せて、公式にしてください:)",
  	 	 	 	 	"eng": "Wow, thanks so much! I'm honored, please make it official by leaving them on our store page :)"
  	 	 	 	},
  	 	 	 	"title2": {
- 	 	 	 	 	"trans": "¡Tu buena opinion me va a ayudar mucho y traerá más jugadores a nuestra comunidad!",
+ 	 	 	 	 	"trans": "あなたの良いレビューは私をとても助けて、私たちのコミュニティにもっと多くのプレイヤーを連れて行きます！",
  	 	 	 	 	"eng": "Your good review is going to help me much and bring more players into our community!"
  	 	 	 	}
  	 	 	},
  	 	 	"dontAskMeAgain": {
- 	 	 	 	"trans": "No me preguntes de nuevo",
+ 	 	 	 	"trans": "二度と私に尋ねないでください",
  	 	 	 	"eng": "Don't ask me again"
  	 	 	},
  	 	 	"reviewLater": {
- 	 	 	 	"trans": "Opinar más tarde",
+ 	 	 	 	"trans": "後でレビュー",
  	 	 	 	"eng": "review later"
  	 	 	}
  	 	}
@@ -2974,7 +2974,7 @@
  	 	 	"vars": [
  	 	 	 	"tierName"
  	 	 	],
- 	 	 	"trans": "Este es un ejemplo de cuadro de chat de rango ${tierName} ",
+ 	 	 	"trans": "${tierName} Tierのチャットフレーム",
  	 	 	"eng": "example chat frame of ${tierName} Tier"
  	 	}
  	},
@@ -2983,71 +2983,71 @@
  	 	 	"vars": [
  	 	 	 	"clanResource"
  	 	 	],
- 	 	 	"trans": "${clanResource} recursos de la banda",
+ 	 	 	"trans": "${clanResource}ギャングリソース",
  	 	 	"eng": "${clanResource} gang resource"
  	 	},
  	 	"gangExp": {
  	 	 	"vars": [
  	 	 	 	"clanExp"
  	 	 	],
- 	 	 	"trans": "${clanExp}  experencia de la banda",
+ 	 	 	"trans": "${clanExp}ギャングEXP",
  	 	 	"eng": "${clanExp} gang exp"
  	 	},
  	 	"gangFunding": {
  	 	 	"vars": [
  	 	 	 	"clanMoney"
  	 	 	],
- 	 	 	"trans": "${clanMoney} fondos de la banda",
+ 	 	 	"trans": "${clanMoney}ギャングの資金",
  	 	 	"eng": "${clanMoney} gang funding"
  	 	},
  	 	"unknown": {
- 	 	 	"trans": "Artículos desconocidos",
+ 	 	 	"trans": "未知のアイテム",
  	 	 	"eng": "Unknown Items"
  	 	},
  	 	"gangOccupationPoint": {
  	 	 	"vars": [
  	 	 	 	"clanOccupationPoint"
  	 	 	],
- 	 	 	"trans": "${clanOccupationPoint} Control de ocupación",
+ 	 	 	"trans": "${clanOccupationPoint}領地管理",
  	 	 	"eng": "${clanOccupationPoint} Occupation Control"
  	 	},
  	 	"globalQuestPoint": {
  	 	 	"vars": [
  	 	 	 	"globalQuestPoint"
  	 	 	],
- 	 	 	"trans": "${globalQuestPoint} Progreso de infiltracion a la SL Data Fortress",
+ 	 	 	"trans": "${globalQuestPoint} SLデータ要塞侵害の進捗状況",
  	 	 	"eng": "${globalQuestPoint} SL Data Fortress breach progress"
  	 	}
  	},
  	"cost": {
  	 	"requireGang": {
- 	 	 	"trans": "Requiere estar en una banda",
+ 	 	 	"trans": "ギャングに所属している必要があります",
  	 	 	"eng": "Requires you to be in a gang"
  	 	},
  	 	"requireTopGang": {
- 	 	 	"trans": "Requiere estar en la banda top",
+ 	 	 	"trans": "トップギャングに所属している必要があります",
  	 	 	"eng": "Requires you to be in the top gang"
  	 	}
  	},
  	"statusEffect": {
  	 	"pirate": {
- 	 	 	"trans": "Hack de chat [Pirate]",
+ 	 	 	"trans": "チャットエクスプロイト[PIRATE]",
  	 	 	"eng": "Chat Exploit [PIRATE]"
  	 	},
  	 	"leet": {
- 	 	 	"trans": "Hack de chat [1337]",
+ 	 	 	"trans": "チャットエクスプロイト[1337]",
  	 	 	"eng": "Chat Exploit [1337]"
  	 	},
  	 	"UwU": {
- 	 	 	"trans": "Hack de chat [uwu]",
+ 	 	 	"trans": "チャットエクスプロイト[uwu]",
  	 	 	"eng": "Chat Exploit [UwU]"
  	 	},
  	 	"love": {
- 	 	 	"trans": "Hack de chat [amor]",
+ 	 	 	"trans": "チャットの悪用[愛]",
  	 	 	"eng": "Chat Exploit [LOVE]"
  	 	},
  	 	"chatExploitProtect": {
- 	 	 	"trans": "Cifrado de chat",
+ 	 	 	"trans": "チャット暗号化",
  	 	 	"eng": "Chat Encryption"
  	 	}
  	},
@@ -3055,7 +3055,7 @@
  	 	"ui": {
  	 	 	"autoScrap": {
  	 	 	 	"noItem": {
- 	 	 	 	 	"trans": "No hay artículos para auto-desechar",
+ 	 	 	 	 	"trans": "自動スクラップするアイテムはありません",
  	 	 	 	 	"eng": "No item to auto scrap"
  	 	 	 	}
  	 	 	}
@@ -3063,7 +3063,7 @@
  	},
  	"tutorial": {
  	 	"localCombatButton": {
- 	 	 	"trans": "Haga clic aquí para escanear para los enemigos de la calle",
+ 	 	 	"trans": "ストリート敵をスキャンするにはここをクリックしてください",
  	 	 	"eng": "Click here to scan for street enemies"
  	 	}
  	}
