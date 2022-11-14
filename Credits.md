@@ -207,6 +207,7 @@ Negative
 Nyoon
 [polybomb](https://github.com/dotgerph)
 PoopBalloon
+Radewa
 Punxi8__
 RedDragon_TM
 Rejid
@@ -217,6 +218,7 @@ SitiSchu
 SKIFFI
 [skullbuns](https://github.com/Skullbuns)
 [Tripplehelix](https://github.com/tripplehelix)
+UVPs
 Vega_Efsunborn
 [Veyrin](https://github.com/darkrevelations)
 [Visper22](https://github.com/Visper22)
